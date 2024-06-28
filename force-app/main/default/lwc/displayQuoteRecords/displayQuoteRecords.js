@@ -56,6 +56,7 @@ export default class DisplayQuoteRecords extends NavigationMixin(LightningElemen
     }
 
 
+    //To handle view quote button - 
     handleViewCode(event) {
         const quoteId = event.target.dataset.quoteId;
         const quoteName = event.target.dataset.quoteName; // Retrieve quote name dynamically
