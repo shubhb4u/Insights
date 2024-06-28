@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    gap: 1rem; /* Space between buttons */
+    margin-left: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.btn-blue {
+    background-color: #2d2e5e;
+    color: white;
+    border: none;
+}
+
+.btn-outline-green {
+    background-color: white;
+    color: #4caf50;
+    border: 2px solid #4caf50;
+}
+
+.btn-green:hover {
+    background-color: #45a049;
+}
+
+.btn-outline-green:hover {
+    background-color: #4caf50;
+    color: white;
+}

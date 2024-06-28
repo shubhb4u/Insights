@@ -1,0 +1,168 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Oracle ERP Cloud",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              },
+              "padding" : {
+                "bottom" : "1px",
+                "left" : "1px",
+                "right" : "1px",
+                "top" : "1px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6cf6e57b-9785-4f2b-8c75-c28d9cea9b8e\",\"columns\":[{\"UUID\":\"de43758e-feb3-4fe3-8654-3dd27a202954\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2rem",
+                    "left" : "2rem",
+                    "right" : "2rem",
+                    "top" : "2rem"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"050039bf-104a-4cf7-96f9-f4cfea8bdfe9\",\"columns\":[{\"UUID\":\"9511d247-9b5f-4989-bd2f-3c1cd140287f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"ed581421-db89-46c6-b140-76cf32de8315\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "ORACLE ERP CLOUD REPORTING SOLUTION",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "5d913cb0-8f78-4f07-be66-6efd81347c7f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Fast, Flexible Financial Reporting for Oracle ERP Cloud",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c34c0a0c-8cd9-4327-89a0-47fc7c361951",
+                  "type" : "component"
+                } ],
+                "id" : "9511d247-9b5f-4989-bd2f-3c1cd140287f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCIMVD4EPUV5A3LBDL5RMW6BVE5M?lastModifiedDate=Wed Jun 19 10:23:32 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCIMVD4EPUV5A3LBDL5RMW6BVE5M\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 73
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "7aa1615d-c2b3-4209-a024-d082334fa45e",
+                  "type" : "component"
+                } ],
+                "id" : "ed581421-db89-46c6-b140-76cf32de8315",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "050039bf-104a-4cf7-96f9-f4cfea8bdfe9",
+              "type" : "component"
+            } ],
+            "id" : "de43758e-feb3-4fe3-8654-3dd27a202954",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6cf6e57b-9785-4f2b-8c75-c28d9cea9b8e",
+          "type" : "component"
+        } ],
+        "id" : "f4a67559-46bd-4bf2-bdc6-4f76b83eb0d5",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Oracle ERP Cloud",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e3886ff4-6fcd-4e02-ab40-ea722b35cea8",
+          "type" : "component"
+        } ],
+        "id" : "2ce5bc3e-f8d6-4dc8-8d65-8037956c9e8d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "109fbd81-36c7-416c-a278-ad89b4ba729a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-oracle-erp-cloud"
+  }
+}

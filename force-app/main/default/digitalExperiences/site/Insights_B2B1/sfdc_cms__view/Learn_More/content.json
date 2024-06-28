@@ -1,0 +1,675 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Learn More",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fba8e87a-6136-42c0-835f-cf320957cdbc\",\"columns\":[{\"UUID\":\"5239b410-4f47-4856-adc5-37553cf05d19\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"1172ea5f-2183-420e-abc9-8c53a0730ba2\",\"columns\":[{\"UUID\":\"bfec567d-7ede-4072-8abc-c8323b8674b4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"13c7b8ff-9e2a-4612-9578-a9a6b9c8aa8e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<img src='https://insightsoftware.com/wp-content/uploads/2024/03/ISW-Icon-PlatformLive-RGB.png' style=\"width: 50%; height: auto;\">\n<br>\n<h2 style=\"font-size: 40px; font-weight: bold; margin-bottom: 20px;\">insightsoftware Platform:<br>Unlock the Potential<br>of Your Financial Data</h2><br>\n<p>Access the breadth and depth of capabilities you need to maintain a<br> competitive edge</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "deb305e1-a55d-403d-ae8e-79a545aa7011",
+                  "type" : "component"
+                } ],
+                "id" : "bfec567d-7ede-4072-8abc-c8323b8674b4",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC7W7ADOV7XBCLJM754VSDXWKWS4\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "9a2537bb-a141-4289-b290-00df14f2a154",
+                  "type" : "component"
+                } ],
+                "id" : "13c7b8ff-9e2a-4612-9578-a9a6b9c8aa8e",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "1172ea5f-2183-420e-abc9-8c53a0730ba2",
+              "type" : "component"
+            } ],
+            "id" : "5239b410-4f47-4856-adc5-37553cf05d19",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fba8e87a-6136-42c0-835f-cf320957cdbc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a5e3a7e7-05a4-414c-b664-1c268dbcc591\",\"columns\":[{\"UUID\":\"ad37abbe-30b2-4682-acb1-b6aaf5731ea3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<center><h2 style=\"font-size: 40px; font-weight: bold; margin-bottom: 20px;\">Break Down Silos and Gain a Unified View<br> of Your Entire Organization</h2><br></center>\n<center><p>The insightsoftware Platform is your one-stop shop for all your reporting,<br> analytics, and performance management needs. Built on an open business data<br> fabric that integrates more than 200 data sources, it seamlessly connects<br> finance, accounting, and operations applications. It eliminates data silos and<br> gives you the agility to make data-driven decisions from a single source of truth.</p></center>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5ad54c3c-116d-4677-9f98-a8e24a3fc06a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Learn More >",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://insightsoftware.com/blog/insightsoftware-introduces-comprehensive-cloud-platform/\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "e50e5b70-ca06-4781-94d7-f825bb04a277",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"04435f64-8fd1-4600-a0f9-7c2192d38828\",\"columns\":[{\"UUID\":\"9a422896-1e1f-40f4-8db2-79c11cc0cab0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0bfd8a47-2694-4696-b609-80e91185b94f\",\"columnName\":\"Column 2\",\"columnKey\":\"122ea\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Solutions",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7f3778d4-260a-4c8a-9d8e-3573574580ac",
+                  "type" : "component"
+                } ],
+                "id" : "9a422896-1e1f-40f4-8db2-79c11cc0cab0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "activeTabBorderHighlightWeight" : "2px",
+                    "activeTabTextEmphasis" : "{\"bold\":true}",
+                    "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                    "borderColor" : "",
+                    "borderRadius" : "0px",
+                    "borderWeight" : "0px",
+                    "enableOverflowMenu" : false,
+                    "imageFit" : "cover",
+                    "imagePosition" : "center center",
+                    "overflowIconColor" : "rgb(116,116,116)",
+                    "overflowIconStyle" : "down-arrow",
+                    "overflowMenuLabel" : "More",
+                    "tabAlignment" : "center",
+                    "tabBorderColor" : "",
+                    "tabBorderRadius" : "0px",
+                    "tabBorderWeight" : "0px",
+                    "tabHoverBorderHighlightWeight" : "1px",
+                    "tabLayout" : "horizontal",
+                    "tabPadding" : "12px",
+                    "tabTextAlignment" : "center",
+                    "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                    "tabsetConfig" : "{\"UUID\":\"3520027a-ee5a-4803-b2e9-ea79932ce801\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"9dc46a77-2f20-4857-8cc0-6123bfbbdccd\",\"tabName\":\"Business Users\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"9d2436d5-b149-4da3-806d-a8dd057d94de\",\"tabName\":\"Administrators\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"469fbb1a-5bed-4ba5-bb61-27356928b47b\",\"tabName\":\"Partners\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false}]}",
+                    "width" : "100%"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"663aed9d-b2a3-40bd-97be-9d58dbb9d398\",\"columns\":[{\"UUID\":\"bf86bc69-a57d-4d54-9f3f-da97dc045fe2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b0e9d3e0-643c-4849-87e3-3cae453d7b4f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">See More, Do More, Know More</h2><br><p>The insightsoftware Platform empowers business users across your<br> organization to access and analyze financial and operational data in real-<br>time. This improves decision-making at every level and eliminates<br> discrepancies and confusion.</p><br>\n<p><span style=\" font-weight: bold;\">Connected applications:</span> Data seamlessly flows between finance,<br> accounting, and operations applications to provide a single, consistent<br> view of your entire organization.</p><br>\n<p><span style=\" font-weight: bold;\">Common experience:</span> Effortlessly navigate between applications with a<br> consistent user experience.</p><br>\n<p><span style=\" font-weight: bold;\">Faster insights:</span>We understand your data, its intricacies, and how to unlock<br> its true value. Leverage pre-built templates and reports for immediate<br> insights and confident decisions.</p><br>\n<p><span style=\" font-weight: bold;\">Easy onboarding:</span> Utilize role-based, in-app guidance for a<br> smooth learning curve.</p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "7912b041-e5af-47db-bb4a-e1889bbbad79",
+                          "type" : "component"
+                        } ],
+                        "id" : "bf86bc69-a57d-4d54-9f3f-da97dc045fe2",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCCKYGLIDEDVGD5OQLXDLSSOLBOY\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "a3faeb54-79b0-407c-99c8-e09fa6bc8ebb",
+                          "type" : "component"
+                        } ],
+                        "id" : "b0e9d3e0-643c-4849-87e3-3cae453d7b4f",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "663aed9d-b2a3-40bd-97be-9d58dbb9d398",
+                      "type" : "component"
+                    } ],
+                    "id" : "9dc46a77-2f20-4857-8cc0-6123bfbbdccd",
+                    "name" : "tab1",
+                    "title" : "Business Users",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"31ff9d70-cda4-44ba-a2e3-8baa31981119\",\"columns\":[{\"UUID\":\"32a9af6a-f864-49ef-af52-e36eceef0653\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"6f0ddb15-9510-4d04-9fa7-1ab799e1de51\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">Simplify Management, Maximize <br>Efficiency</h2><br><p>The insightsoftware Platform gives administrators centralized control over user management, security, and data connections for all applications.</p><br>\n<p><span style=\" font-weight: bold;\">Shared connectivity:</span> Seamlessly share data connectivity and business<br> logic across applications. Eliminate silos and streamline workflows.</p><br>\n<p><span style=\" font-weight: bold;\">Centralized security:</span> Effortlessly provision users, manage security settings,<br> and control access from a single location.</p><br>\n<p><span style=\" font-weight: bold;\">Simplified deployments:</span> Get up and running quickly with pre-built, ERP-<br>specific templates and business logic.</p><br>\n<p><span style=\" font-weight: bold;\">Reduced IT burden:</span> Free up IT resources from managing multiple point<br> solutions.</p>\n<p><span style=\" font-weight: bold;\">Scalability for future growth:</span>  The modular Platform scales with your<br> business needs, so you’re always ready for what’s next.</p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "de68de70-173e-486b-bee9-b31f683274c8",
+                          "type" : "component"
+                        } ],
+                        "id" : "32a9af6a-f864-49ef-af52-e36eceef0653",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCJBXLW42LRNDBTC34OV4VWAMLDM\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "b5956f65-30a6-4d89-91f1-fc3e744ab47b",
+                          "type" : "component"
+                        } ],
+                        "id" : "6f0ddb15-9510-4d04-9fa7-1ab799e1de51",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "31ff9d70-cda4-44ba-a2e3-8baa31981119",
+                      "type" : "component"
+                    } ],
+                    "id" : "9d2436d5-b149-4da3-806d-a8dd057d94de",
+                    "name" : "tab2",
+                    "title" : "Administrators",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"c2765d44-c8f7-4a67-9e1e-80ea87a07b2d\",\"columns\":[{\"UUID\":\"4a4ba0c6-5eaa-43b5-8f66-b406939ea84f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"43f2cf7b-034a-4c2b-a940-c301aad2c65e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">Deliver Exceptional Value,<br>Strengthen Client Relationships</h2><br><p>Provide exceptional service to your customers with a one-stop shop for managing all insightsoftware applications.</p><br>\n<p><span style=\" font-weight: bold;\">Simplified customer management:</span> Allocate licenses, track usage, and<br> identify training needs with ease.</p><br>\n<p><span style=\" font-weight: bold;\">Streamlined support:</span>Seamlessly switch between customer accounts to<br>provide efficient support.</p><br>\n<p><span style=\" font-weight: bold;\">Deepen client relationships:</span> Empower your customers to achieve success<br>faster with the power of the Platform. Enhance your relationships and<br>solidify your position as a trusted advisor.</p><br>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "728a133a-b0d0-4662-82f0-6a78f48da509",
+                          "type" : "component"
+                        } ],
+                        "id" : "4a4ba0c6-5eaa-43b5-8f66-b406939ea84f",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCNDC5AHPOSVDKHDFVNHLTOVGGXI\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "f462f35e-61ed-4e6e-b328-cd617803698a",
+                          "type" : "component"
+                        } ],
+                        "id" : "43f2cf7b-034a-4c2b-a940-c301aad2c65e",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "c2765d44-c8f7-4a67-9e1e-80ea87a07b2d",
+                      "type" : "component"
+                    } ],
+                    "id" : "469fbb1a-5bed-4ba5-bb61-27356928b47b",
+                    "name" : "tab3",
+                    "title" : "Partners",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:tabs",
+                  "id" : "3520027a-ee5a-4803-b2e9-ea79932ce801",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"cd5b1ac8-1de9-4a70-9495-4763186f6124\",\"columns\":[{\"UUID\":\"8874b43a-6001-4e96-96c2-175bd060dee9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3cf4d9b2-f00d-429a-a2a6-e1f822395242\",\"columnName\":\"Column 2\",\"columnKey\":\"97c02\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "Unmatched Capabilities to Power Your Finance Transformation",
+                        "textAlign" : "center",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "99c0c3e7-8e81-4ff5-886b-068de54d1f0c",
+                      "type" : "component"
+                    } ],
+                    "id" : "8874b43a-6001-4e96-96c2-175bd060dee9",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "activeTabBorderHighlightWeight" : "2px",
+                        "activeTabTextEmphasis" : "{\"bold\":true}",
+                        "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                        "borderColor" : "",
+                        "borderRadius" : "0px",
+                        "borderWeight" : "0px",
+                        "enableOverflowMenu" : false,
+                        "imageFit" : "cover",
+                        "imagePosition" : "center center",
+                        "overflowIconColor" : "rgb(116,116,116)",
+                        "overflowIconStyle" : "down-arrow",
+                        "overflowMenuLabel" : "More",
+                        "tabAlignment" : "center",
+                        "tabBorderColor" : "",
+                        "tabBorderRadius" : "0px",
+                        "tabBorderWeight" : "0px",
+                        "tabHoverBorderHighlightWeight" : "1px",
+                        "tabLayout" : "horizontal",
+                        "tabPadding" : "12px",
+                        "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                        "tabsetConfig" : "{\"UUID\":\"6bfacd8a-946b-4c1e-9cce-6af1aba4b1b0\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"a030ef53-714a-44eb-8bee-0603c33ecb20\",\"tabName\":\"Data Integration\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"32dfd720-b367-4536-88a0-27b6c7197973\",\"tabName\":\"Modular Application\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"f919f55b-198e-48d2-a1d5-756309a54758\",\"tabName\":\"Contextual AI for Finance\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false}]}",
+                        "width" : "100%"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"4dff5f86-65d8-4ecb-9e6a-9a0c499f0382\",\"columns\":[{\"UUID\":\"4831ac4c-ab5d-469f-a7c9-e099ad87327d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b78ce087-d432-432d-a52f-9efad7f493e6\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">Effortless Data Integration and Access <br></h2>\n<p><span style=\" font-weight:\">insightsoftware’s open business data fabric is the foundation of our<br> Platform. It provides a single source of truth, built on top of business<br> context and logic for all your financial and operational data needs:</p><br>\n<p><span style=\" font-weight:\">Connect to more than 200 environments from leading ERPs, data<br> warehouses, modern data stacks, and cloud vendors. Bring together<br> real-time information into a holistic view.</p><br>\n<p><span style=\" font-weight:\">Forget deciphering complex schemas. We’ve spent years building the industry’s deepest understanding of business data structures, seamlessly translating their language for effortless data access, regardless of the source.</p><br>\n<p><span style=\" font-weight:\"> Choose from more than 1,000 pre-built business views designed with financial concepts and workflows in mind. By not needing to build and maintain them yourself, you save countless hours and resources.</p>\n<p><span style=\" font-weight:\"> When your source data structure changes, nothing breaks. Our views are designed to adapt automatically, saving you time and frustration</p>"
+                              },
+                              "definition" : "community_builder:htmlEditor",
+                              "id" : "19818c8f-0d53-4875-8f55-08f2d959b038",
+                              "type" : "component"
+                            } ],
+                            "id" : "4831ac4c-ab5d-469f-a7c9-e099ad87327d",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "alignment" : "center",
+                                "fit" : "contain",
+                                "height" : 350,
+                                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC6UA4FHX3OFFLBKAOHDPX4K7N6M\",\"contentType\":null}}",
+                                "overlayColor" : "",
+                                "position" : "center center",
+                                "width" : 100
+                              },
+                              "definition" : "dxp_base:image",
+                              "id" : "10363948-5283-460e-b27f-317087229194",
+                              "type" : "component"
+                            } ],
+                            "id" : "b78ce087-d432-432d-a52f-9efad7f493e6",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "4dff5f86-65d8-4ecb-9e6a-9a0c499f0382",
+                          "type" : "component"
+                        } ],
+                        "id" : "a030ef53-714a-44eb-8bee-0603c33ecb20",
+                        "name" : "tab1",
+                        "title" : "Data Integration",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"299a0eae-bd73-4d6f-8105-567d3229894a\",\"columns\":[{\"UUID\":\"6f5ca350-973f-412c-ae0e-8195a9c15a05\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"19e979e3-111b-40ff-b6e9-2a5ff40ba0a0\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">Unmatched Breadth and Depth of<br> Capabilities <br></h2>\n<p><span style=\" font-weight:\">Many finance teams struggle with a patchwork of systems from<br> different vendors, which hinders efficiency and makes it hard to glean<br> insights. The insightsoftware Platform addresses this with a modular<br> approach that eliminates data silos and<br> delivers both the breadth and depth of capabilities required by the Office of the CFO:</p><br>\n<p><span style=\" font-weight:\">A comprehensive portfolio of applications integrates seamlessly<br> within the Platform, providing solutions for budgeting and planning,<br> consolidation, reporting, tax, compliance, data visualization, and<br> more. Eliminate the need for multiple vendors and integrations.</p><br>\n<p><span style=\" font-weight:\">Each application offers a rich feature set designed to address<br> specific finance, business, and operational challenges. Dive deep into<br> granular details or consolidate for a high-level view.</p><br>\n<p><span style=\" font-weight:\"> Choose the applications you need today and easily add more as<br> your organization grows. The Platform scales with your business, so it<br> is always right-sized for your current needs.</p>"
+                              },
+                              "definition" : "community_builder:htmlEditor",
+                              "id" : "31e593d2-2216-4edb-b3dd-ce569f06f8a1",
+                              "type" : "component"
+                            } ],
+                            "id" : "6f5ca350-973f-412c-ae0e-8195a9c15a05",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "alignment" : "center",
+                                "fit" : "contain",
+                                "height" : 350,
+                                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCDAEXEPNULFDZNLZWIG4ALMTHII\",\"contentType\":null}}",
+                                "overlayColor" : "",
+                                "position" : "center center",
+                                "width" : 100
+                              },
+                              "definition" : "dxp_base:image",
+                              "id" : "98a9586d-01ed-41aa-b63f-b6635f87868f",
+                              "type" : "component"
+                            } ],
+                            "id" : "19e979e3-111b-40ff-b6e9-2a5ff40ba0a0",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "299a0eae-bd73-4d6f-8105-567d3229894a",
+                          "type" : "component"
+                        } ],
+                        "id" : "32dfd720-b367-4536-88a0-27b6c7197973",
+                        "name" : "tab2",
+                        "title" : "Modular Application",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"05ef9074-20e3-43a2-b1d2-8004aa1d3b62\",\"columns\":[{\"UUID\":\"60a8d080-a53c-49f6-9ecf-8a320dd34849\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"4cf64ada-262a-4157-9cce-973117c71a96\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">AI-Powered Insights for Faster, Smarter<br> Decisions  <br></h2>\n<p><span style=\" font-weight:\">Unleash the full potential of Generative AI in finance and operations.<br> Boosting productivity, uncovering hidden opportunities, and<br> compensating for skills shortages goes beyond algorithms and<br> processing power. Meaningful insights require context.</p><br>\n<p><span style=\" font-weight:\">insightsoftware’s open business data fabric standardizes financial,<br> business, and operational data, creating a consistent understanding<br> across your organization. This empowers AI to generate insights<br> directly relevant to your business needs, like analyzing cash flow<br> patterns and uncovering hidden liquidity opportunities.</p><br>\n<p><span style=\" font-weight:\">Our AI services are implemented and accessible through the<br> insightsoftware Platform. These services can be quickly rolled out to<br> any relevant application as needed, so you get consistent, contextual<br> insights faster, driving superior results across all your insightsoftware<br> solutions.</p><"
+                              },
+                              "definition" : "community_builder:htmlEditor",
+                              "id" : "72a6d0f5-43cf-4742-b4f6-d0370e8aa8bf",
+                              "type" : "component"
+                            } ],
+                            "id" : "60a8d080-a53c-49f6-9ecf-8a320dd34849",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "alignment" : "center",
+                                "fit" : "contain",
+                                "height" : 350,
+                                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCE42UFIIXDZHLVLC56TNH5LNXCE\",\"contentType\":null}}",
+                                "overlayColor" : "",
+                                "position" : "center center",
+                                "width" : 100
+                              },
+                              "definition" : "dxp_base:image",
+                              "id" : "cebc29e0-dd42-401a-9b44-2c01c6f63b4e",
+                              "type" : "component"
+                            } ],
+                            "id" : "4cf64ada-262a-4157-9cce-973117c71a96",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "05ef9074-20e3-43a2-b1d2-8004aa1d3b62",
+                          "type" : "component"
+                        } ],
+                        "id" : "f919f55b-198e-48d2-a1d5-756309a54758",
+                        "name" : "tab3",
+                        "title" : "Contextual AI for Finance",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:tabs",
+                      "id" : "6bfacd8a-946b-4c1e-9cce-6af1aba4b1b0",
+                      "type" : "component"
+                    } ],
+                    "id" : "3cf4d9b2-f00d-429a-a2a6-e1f822395242",
+                    "name" : "97c02",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "cd5b1ac8-1de9-4a70-9495-4763186f6124",
+                  "type" : "component"
+                } ],
+                "id" : "0bfd8a47-2694-4696-b609-80e91185b94f",
+                "name" : "122ea",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "04435f64-8fd1-4600-a0f9-7c2192d38828",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"69945d67-ae2c-44e0-ae6b-10a1cbd7cad2\",\"columns\":[{\"UUID\":\"a4cd25f5-209b-4b35-896b-988f0d6ce863\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<center><h2 style=\"font-size: 25px; font-weight: bold; margin-bottom: 20px;\">Get Connected with <br> the insightsoftware Platform</h2></center>\n<center><p style=\"font-size: 16px;\">Get more done by bringing all your insightsoftware applications together in one place.</p></center>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "4abba1f8-ec7e-4049-b64f-7fedb66c7f24",
+                  "type" : "component"
+                } ],
+                "id" : "a4cd25f5-209b-4b35-896b-988f0d6ce863",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "69945d67-ae2c-44e0-ae6b-10a1cbd7cad2",
+              "type" : "component"
+            } ],
+            "id" : "ad37abbe-30b2-4682-acb1-b6aaf5731ea3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a5e3a7e7-05a4-414c-b664-1c268dbcc591",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"451845bb-aa63-4d93-ae9c-bf27db7b10fc\",\"columns\":[{\"UUID\":\"e1f0665f-8bc6-4dfe-aaba-af9e4b1ea1dd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCUQUWWFEGP5ERNJEW6Y6RPXDJYM\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "d9fe40ea-3d6b-4d66-80de-ba8c6581a49e",
+              "type" : "component"
+            } ],
+            "id" : "e1f0665f-8bc6-4dfe-aaba-af9e4b1ea1dd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "451845bb-aa63-4d93-ae9c-bf27db7b10fc",
+          "type" : "component"
+        } ],
+        "id" : "20cf7431-f5fb-4f6b-92f8-03f3bf3b275f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Learn More",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c3ccbb0c-dffd-4549-b8d3-88d42f4d37e3",
+          "type" : "component"
+        } ],
+        "id" : "7e3d2e88-2395-4217-8a38-fc5b8f6e2e10",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8880c2ea-3fd5-4a36-a826-08e0bb6c7157",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-learn-more"
+  }
+}

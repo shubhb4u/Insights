@@ -1,0 +1,5 @@
+{
+  "apiName" : "Jet_Reports__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

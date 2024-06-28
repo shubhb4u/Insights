@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "DataAnalytics",
+  "contentBody" : {
+    "activeViewId" : "DataAnalytics",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-dataanalytics",
+    "urlPrefix" : "dataanalytics"
+  }
+}

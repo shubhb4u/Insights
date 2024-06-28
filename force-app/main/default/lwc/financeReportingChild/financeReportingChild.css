@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Adjust as needed */
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  .financeReporting {
+    background-color: #f5f7fa;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Adjust as needed */
+    margin: 0 auto; /* Center the element horizontally */
+  }
+  
+  /* Headings */
+  .financeReporting-h3 {
+    font-size: 20px; /* Adjust as needed */
+    color: #188ff0;
+    margin-bottom: 15px;
+  }
+
+  .closeConsolidation-h3{
+    font-size: 20px; /* Adjust as needed */
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 28px; /* Adjust as needed */
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Bullet points (assuming you want to style them differently) */
+  .bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .bubbles li {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .bubbles li.close{
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Assuming you want primary color to be blue based on the image */
+  .bubbles li.bg-primary {
+    background-color: #007bff;
+  }
+  
+  /* Paragraph */
+  p {
+    margin-top: 25px;
+    color: #666;
+    line-height: 1.5;
+  }

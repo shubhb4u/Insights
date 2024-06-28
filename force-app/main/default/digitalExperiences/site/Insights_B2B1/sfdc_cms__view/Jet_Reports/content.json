@@ -1,0 +1,1378 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Jet Reports",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "120px",
+                "right" : "120px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7c1d7658-4afd-4e2b-8c2b-248a1ce37a89\",\"columns\":[{\"UUID\":\"8ef7b737-b7a8-40fe-8ccf-30bd1c38da7f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"43a678af-073f-4717-aa1e-36d2ba1f6350\",\"columnName\":\"Column 2\",\"columnKey\":\"a40be\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hubblecategory",
+              "id" : "1e39562d-be33-4304-a644-884560a3ce16",
+              "type" : "component"
+            } ],
+            "id" : "8ef7b737-b7a8-40fe-8ccf-30bd1c38da7f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "80px"
+                  }
+                },
+                "richTextValue" : "<div class=\"flyover-image-box position-relative z-1 overflow-hidden\">\n    <img width=\"1375\" height=\"764\" src=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero.png\"\n        class=\"img-fluid entered lazyloaded\" alt=\"Img Jet Reports Hero\"\n        data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero.png 1375w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-300x167.png 300w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-1024x569.png 1024w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-768x427.png 768w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-125x69.png 125w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-270x150.png 270w\"\n        data-lazy-sizes=\"(max-width: 1375px) 100vw, 1375px\"\n        data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero.png\"\n        data-ll-status=\"loaded\" \n        srcset=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero.png 1375w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-300x167.png 300w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-1024x569.png 1024w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-768x427.png 768w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-125x69.png 125w, https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_hero-270x150.png 270w\"><div></div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "f15307c7-1d8e-4a65-b228-0b41357404f2",
+              "type" : "component"
+            } ],
+            "id" : "43a678af-073f-4717-aa1e-36d2ba1f6350",
+            "name" : "a40be",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7c1d7658-4afd-4e2b-8c2b-248a1ce37a89",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "100px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"88692537-3a54-409d-938d-65983dcf05ea\",\"columns\":[{\"UUID\":\"e3090c6b-93fe-4f11-af2e-82009fc26b98\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style = \"font-size: 24px; text-align: center; color: #1e2556;\">See for yourself why over <span style = \"font-weight: bold; color: #31ab46;  \">500K+</span> users are using insightsoftware</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1e6fdc87-8bff-4311-8391-536665ef2c11",
+              "type" : "component"
+            } ],
+            "id" : "e3090c6b-93fe-4f11-af2e-82009fc26b98",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "88692537-3a54-409d-938d-65983dcf05ea",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bceeefa4-896a-452f-9023-ada2f65d2600\",\"columns\":[{\"UUID\":\"67aca94e-8772-45b5-8b15-9063746e3248\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div class=\"container pt-4\">\n  <ul class=\"logos list-unstyled d-flex flex-wrap justify-content-center align-items-center\">\n    <li class=\"mx-3 bg-white px-2 shadow rounded-2 mb-4\" style=\"max-width:170px;  \">\n      <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110.png\" class=\"product-logo img-fluid entered lazyloaded\" alt=\"Hermadix 200x110\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110-125x69.png 125w\" data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/hermadix_200x110-125x69.png 125w\">\n    </li>\n    <li class=\"mx-3 bg-white px-2 shadow rounded-2 mb-4\" style=\"max-width:170px;\">\n      <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110.png\" class=\"product-logo img-fluid entered lazyloaded\" alt=\"Wecare Holding 200x110\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110-125x69.png 125w\" data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/wecare-holding_200x110-125x69.png 125w\">\n    </li>\n    <li class=\"mx-3 bg-white px-2 shadow rounded-2 mb-4\" style=\"max-width:170px;\">\n      <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110.png\" class=\"product-logo img-fluid entered lazyloaded\" alt=\"Quint 200x110\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110-125x69.png 125w\" data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/quint_200x110-125x69.png 125w\">\n    </li>\n    <li class=\"mx-3 bg-white px-2 shadow rounded-2 mb-4\" style=\"max-width:170px;\">\n      <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110.png\" class=\"product-logo img-fluid entered lazyloaded\" alt=\"Beef Lamb New Zealand 200x110\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110-125x69.png 125w\" data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/beef-lamb-new-zealand_200x110-125x69.png 125w\">\n    </li>\n    <li class=\"mx-3 bg-white px-2 shadow rounded-2 mb-4\" style=\"max-width:170px;\">\n      <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110.png\" class=\"product-logo img-fluid entered lazyloaded\" alt=\"Amnesty International 200x110\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110-125x69.png 125w\" data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110.png 200w, https://insightsoftware.com/wp-content/uploads/2022/04/amnesty-international_200x110-125x69.png 125w\">\n    </li>\n  </ul>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9a3c56ee-9b12-44c9-84ed-b27de7eb3965",
+              "type" : "component"
+            } ],
+            "id" : "67aca94e-8772-45b5-8b15-9063746e3248",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bceeefa4-896a-452f-9023-ada2f65d2600",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e004d332-62f9-45c4-be8a-196e082c38f4\",\"columns\":[{\"UUID\":\"1c4a152a-b9a5-4f3d-a85d-652bd05e93fc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<div>\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\"> Struggling to Access Timely and Accurate Data for <br> Financial Reporting?</h1>\n</div>\n<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264\">\n    <div class=\"container pt-4\">\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n            \n            <div class=\"animated\">\n                \n            </div>\n            \n        </h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Dynamic-Visualization_green-1.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Dynamics Data Structures<br> are Exceedingly Complex</h3>\n                    <p>The complexity of Dynamics ERP data<br> structures not only impedes the agility and<br> efficiency of financial reporting, leading to<br> delays in closing the books, but also<br> creates a barrier for finance and business<br> users seeking to access critical data<br> independently.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Reporting-Process_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Slow Reporting Cycles with<br> Limited Analysis</h3>\n                    <p>Monthly reporting and other financial<br> reporting processes are tedious, take too<br> long, and are at risk from outdated and<br> inaccurate data. Accounting teams often<br> lack the automation and data<br> management capabilities necessary to<br> address these challenges.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Operational-Reporting-Analytics_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Reporting is Too Dependent<br> on Technical Experts</h3><br>\n                    <p>Relying on IT or technical experts for<br> financial reporting leads to bottlenecks<br> and delays in accessing critical financial<br> information, hindering timely decision-<br>making, and limiting the ability to leverage<br> financial data for strategic insights.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "af554522-c0c1-420c-8be6-3cee16f47aa0",
+              "type" : "component"
+            } ],
+            "id" : "1c4a152a-b9a5-4f3d-a85d-652bd05e93fc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e004d332-62f9-45c4-be8a-196e082c38f4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0cb1eb56-57f0-477e-bce3-7dc092f73805\",\"columns\":[{\"UUID\":\"12e2afdc-fd1b-4d51-b052-acc37c3a748a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Get Instant Demo",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "58b30acd-3c80-4d24-9835-fd71c3d3dab0",
+              "type" : "component"
+            } ],
+            "id" : "12e2afdc-fd1b-4d51-b052-acc37c3a748a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0cb1eb56-57f0-477e-bce3-7dc092f73805",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"11949002-27e3-4542-8afa-248e4c12c8c3\",\"columns\":[{\"UUID\":\"58cd0ebe-95a4-4c68-8ab1-2e3702ffb00b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextColor" : "rgb(49, 171, 70)",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextColor" : "rgba(0, 0, 0, 0.76)",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"a96fe9ee-936d-4d17-8a7d-e45eabceabd2\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"98fe9b4d-83f5-4095-9f62-03e5530cdba9\",\"tabName\":\"Remove IT Dependency \",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"b562e4e4-8a68-4249-b71b-78b79e975738\",\"tabName\":\"Full Excel Integration \",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"163fefa5-457e-4b88-b276-398f6182cef6\",\"tabName\":\"Cloud Collaboration \",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"dc7d8f4b-eea5-4bf9-bcb4-cefeb46de519\",\"tabName\":\"Drill Down on Data \",\"tabKey\":\"f0d6b\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "50px",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"6a62366f-4448-449f-8b34-480bdce29145\",\"columns\":[{\"UUID\":\"3ea8b734-f36d-4944-a821-52eed50af4b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c5f98a8d-01da-4700-b829-1567996f709a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"db1b685e-72e7-4a3c-a1e8-458a68c41d2d\",\"columns\":[{\"UUID\":\"25bf4df1-ecaf-4c52-982b-bc69bf3b979a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"bb80afd6-8438-4ae8-ad41-bebdf763c518\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"35fb0733-ab77-4e5e-9d59-b734a81a0318\",\"columnName\":\"Column 3\",\"columnKey\":\"0aacc\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Cut Reporting Time and <span style = \"font-weight:bold; color: #31ab46\">  Enable Self-<br>Service Reporting</span> </h1>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "87b0e2fc-8c42-44b4-b298-8af2f43b84b0",
+                          "type" : "component"
+                        } ],
+                        "id" : "25bf4df1-ecaf-4c52-982b-bc69bf3b979a",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "20px"
+                              }
+                            },
+                            "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Jet Reports is designed to work with Microsoft Dynamic 365 Business Central, NAV, and GP,<br> allowing non-technical users to build reports and dashboards without IT involvement. No<br> more waiting on consultants or resource-strapped IT departments to get you<br> the reports you need. With Jet Reports, there are no hard-coding or programming skills required, allowing<br> finance teams to explore data and create reports on their own. An extensive library of pre-<br>built reports kickstart reporting, and the drag-and-drop editor makes editing reports easy<br> and efficient.</p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "0a5d2f32-d5ee-426f-9189-9cd8ea39ea1f",
+                          "type" : "component"
+                        } ],
+                        "id" : "bb80afd6-8438-4ae8-ad41-bebdf763c518",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "b906304b-3785-491d-87d8-c2bbd8861c96",
+                          "type" : "component"
+                        } ],
+                        "id" : "35fb0733-ab77-4e5e-9d59-b734a81a0318",
+                        "name" : "0aacc",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "db1b685e-72e7-4a3c-a1e8-458a68c41d2d",
+                      "type" : "component"
+                    } ],
+                    "id" : "3ea8b734-f36d-4944-a821-52eed50af4b5",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_sq1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "0085e6cc-2a7f-4c27-9fcd-b9a73c19c231",
+                      "type" : "component"
+                    } ],
+                    "id" : "c5f98a8d-01da-4700-b829-1567996f709a",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "6a62366f-4448-449f-8b34-480bdce29145",
+                  "type" : "component"
+                } ],
+                "id" : "98fe9b4d-83f5-4095-9f62-03e5530cdba9",
+                "name" : "tab1",
+                "title" : "Remove IT Dependency ",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "50px",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"3265362c-7f77-47dc-8c50-13ae492c540f\",\"columns\":[{\"UUID\":\"a4f0c3ba-bc85-4c0e-8c58-df58f5d2ffb4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"316b92e3-50fc-4851-add4-24162933285b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"87053e01-249f-470f-8a47-396219ef9514\",\"columns\":[{\"UUID\":\"35146f19-6822-4c05-831c-eee4f7504c40\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b3d7350c-bc72-451f-a374-7577ceaf7638\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"718da4eb-208a-4e4b-84c5-bb21cd6c5ba5\",\"columnName\":\"Column 3\",\"columnKey\":\"dd939\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Financial Reporting in a  <span style = \"font-weight:bold; color: #31ab46\">  Familiar and Flexible Environment</span> </h1>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "e441cd9e-a482-4db9-8013-10a49399c6ce",
+                          "type" : "component"
+                        } ],
+                        "id" : "35146f19-6822-4c05-831c-eee4f7504c40",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "20px"
+                              }
+                            },
+                            "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Quickly and easily generate timely, accurate financial reports in the format that works for<br> you, using the same fields and calculations you’re used to, right inside Excel. The Jet Reports<br> Excel add-in empowers accounting teams to create everything from advanced business<br> reports to sophisticated financial statements, directly in Excel with no exporting, no copying<br> and pasting, and no programming required. Just the real-time data you need, directly from<br> your Microsoft Dynamics database, exactly the way you want it, directly in Excel. </p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "911c9ffb-05be-40a4-b20a-b6a5c2faddf1",
+                          "type" : "component"
+                        } ],
+                        "id" : "b3d7350c-bc72-451f-a374-7577ceaf7638",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "20px"
+                              }
+                            },
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "7b64c1f0-e942-4ec6-9a5a-dbe8db189591",
+                          "type" : "component"
+                        } ],
+                        "id" : "718da4eb-208a-4e4b-84c5-bb21cd6c5ba5",
+                        "name" : "dd939",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "87053e01-249f-470f-8a47-396219ef9514",
+                      "type" : "component"
+                    } ],
+                    "id" : "a4f0c3ba-bc85-4c0e-8c58-df58f5d2ffb4",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_sq2.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "8d2c182d-e2c1-4572-98f8-7f1f9c0a25d3",
+                      "type" : "component"
+                    } ],
+                    "id" : "316b92e3-50fc-4851-add4-24162933285b",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "3265362c-7f77-47dc-8c50-13ae492c540f",
+                  "type" : "component"
+                } ],
+                "id" : "b562e4e4-8a68-4249-b71b-78b79e975738",
+                "name" : "tab2",
+                "title" : "Full Excel Integration ",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "5px",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"3177bdc7-d03b-43b6-8413-63fa42b06b40\",\"columns\":[{\"UUID\":\"ecb0eb83-dcfc-4c3e-9a25-3992285c3a64\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c36bbf15-9dda-4a42-9e0a-223162bcc4e2\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"0dd333d4-0507-4988-9f06-7d550bb84ec1\",\"columns\":[{\"UUID\":\"1154777d-0282-46de-a575-a3beaec3503f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e95a9a90-bff3-40b1-af4c-1883b811a275\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4f5667db-f337-4e22-9fec-c23bb61944b1\",\"columnName\":\"Column 3\",\"columnKey\":\"30d3c\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Access Reports Anywhere, Anytime  <span style = \"font-weight:bold; color: #31ab46\">   on the Web or Mobile Device </span> </h1>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "8bf73e52-b22c-4617-a429-5b48727b9d0c",
+                          "type" : "component"
+                        } ],
+                        "id" : "1154777d-0282-46de-a575-a3beaec3503f",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "20px"
+                              }
+                            },
+                            "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Easily manage and share reports from anywhere at any time with Jet Hub, a secure web<br> portal that gives your employees access to the reports and financial information they need,<br> when and where they need it. With complete report management, report automation, and a<br> collaboration and publishing platform, you never have to second guess if you or your team<br> are looking at the right information. Gain instant access to your reports on the web or from a<br> mobile device, so you never doubt a decision, no matter where you are. </p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "17c37512-96b8-4107-be84-0d119c47bbb8",
+                          "type" : "component"
+                        } ],
+                        "id" : "e95a9a90-bff3-40b1-af4c-1883b811a275",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "416a323b-9976-4b35-b60a-24eb985bf04a",
+                          "type" : "component"
+                        } ],
+                        "id" : "4f5667db-f337-4e22-9fec-c23bb61944b1",
+                        "name" : "30d3c",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "0dd333d4-0507-4988-9f06-7d550bb84ec1",
+                      "type" : "component"
+                    } ],
+                    "id" : "ecb0eb83-dcfc-4c3e-9a25-3992285c3a64",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_sq3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "c227e80e-2624-4486-a6bc-283a406fb517",
+                      "type" : "component"
+                    } ],
+                    "id" : "c36bbf15-9dda-4a42-9e0a-223162bcc4e2",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "3177bdc7-d03b-43b6-8413-63fa42b06b40",
+                  "type" : "component"
+                } ],
+                "id" : "163fefa5-457e-4b88-b276-398f6182cef6",
+                "name" : "tab3",
+                "title" : "Cloud Collaboration ",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "50px",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"d70bb0b8-df64-40f4-a762-2263abffe79e\",\"columns\":[{\"UUID\":\"9df4a0f6-4dcb-417c-8d33-0229e56e21eb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"73d8a0e7-a6a2-4479-adf5-c85ddfa00e0b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"b9c298a5-2ea0-4d5b-b406-0d6d622e9139\",\"columns\":[{\"UUID\":\"14e4f80c-1ab2-4787-8f2a-694ceda4421c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"74a09f45-16e9-4469-b527-d59c440ce6b1\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b0964036-c373-474f-87e4-c3ea1b1f7ba0\",\"columnName\":\"Column 3\",\"columnKey\":\"89e21\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Financial Transparency: <span style = \"font-weight:bold; color: #31ab46\">   Get Transaction Data Without Leaving Excel  </span> </h1>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "2ab4fbd0-a755-46f9-8a36-0930cb44697c",
+                          "type" : "component"
+                        } ],
+                        "id" : "14e4f80c-1ab2-4787-8f2a-694ceda4421c",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "20px"
+                              }
+                            },
+                            "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Say goodbye to tedious manual analysis and hello to instant clarity. Jet Reports empowers<br> you to drill down into any line item in your financial statements directly from Excel. Effortlessly<br> uncover the granular details hidden behind financial numbers and transaction-level data, all<br> within your familiar spreadsheet environment. Drill into balances, journals, and subledgers<br> from within Excel to answer follow-up questions and to find and fix errors fast. Explore data<br> outside your initial query without switching to another report. </p>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "1eacea8b-ef5b-47a8-b278-33d8ca3f530e",
+                          "type" : "component"
+                        } ],
+                        "id" : "74a09f45-16e9-4469-b527-d59c440ce6b1",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "c53aab90-5941-4150-8fd2-c98bba8d6d5f",
+                          "type" : "component"
+                        } ],
+                        "id" : "b0964036-c373-474f-87e4-c3ea1b1f7ba0",
+                        "name" : "89e21",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "b9c298a5-2ea0-4d5b-b406-0d6d622e9139",
+                      "type" : "component"
+                    } ],
+                    "id" : "9df4a0f6-4dcb-417c-8d33-0229e56e21eb",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Jet_Reports_sq4.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "045c32e2-172d-464f-b1cb-a2428a27407c",
+                      "type" : "component"
+                    } ],
+                    "id" : "73d8a0e7-a6a2-4479-adf5-c85ddfa00e0b",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "d70bb0b8-df64-40f4-a762-2263abffe79e",
+                  "type" : "component"
+                } ],
+                "id" : "dc7d8f4b-eea5-4bf9-bcb4-cefeb46de519",
+                "name" : "f0d6b",
+                "title" : "Drill Down on Data ",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "a96fe9ee-936d-4d17-8a7d-e45eabceabd2",
+              "type" : "component"
+            } ],
+            "id" : "58cd0ebe-95a4-4c68-8ab1-2e3702ffb00b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "11949002-27e3-4542-8afa-248e4c12c8c3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b8a16c9f-3d22-4fcf-8be0-ed111848220f\",\"columns\":[{\"UUID\":\"e433ab84-9182-414a-8405-66dce2e9eb99\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\"> Seamless integration with your ERM/EPM, realtime data <br> feed & IT-free export features</h1>\n</div>\n<br>\n<p style= \"font-size: 16px; color: #1E2556; text-align: center;\">Connect to <span style= \"font-size: 16px; color: #00A8E8; text-decoration: underline\"> 140+ ERPs and EPMs</span> export and view render data without an IT expertise</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6fdeaf7e-4d3e-4306-9b4e-9174067f9866",
+              "type" : "component"
+            } ],
+            "id" : "e433ab84-9182-414a-8405-66dce2e9eb99",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b8a16c9f-3d22-4fcf-8be0-ed111848220f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b6774190-b972-486b-ae98-ca8e96fa335b\",\"columns\":[{\"UUID\":\"08f57594-6a18-49ab-9e84-dc020c6ae39e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "0rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "100px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"70c62afa-7d04-4d11-be70-8210dc70b517\",\"columns\":[{\"UUID\":\"379238ff-8d2c-42c2-a9c4-2b8a9ad1752b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"f552781b-9bb8-4a3d-9d3e-875bb3c5fcb4\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"dc71fc3e-0198-4485-9ea5-91c63c05ee8e\",\"columnName\":\"Column 3\",\"columnKey\":\"585bb\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"0932908a-1223-4aa0-a9ce-cffc5508ab2a\",\"columnName\":\"Column 4\",\"columnKey\":\"8dd0d\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"3b5d0478-08be-45e0-b63c-9044092718e3\",\"columnName\":\"Column 5\",\"columnKey\":\"37d8f\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"eec01663-4cbe-4418-be86-66f92666eda1\",\"columnName\":\"Column 6\",\"columnKey\":\"c29f6\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/Infor.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 69
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "c3ee1e1a-7e5a-497f-8503-3f5c1f5d04e3",
+                  "type" : "component"
+                } ],
+                "id" : "379238ff-8d2c-42c2-a9c4-2b8a9ad1752b",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/MRI.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "dca60789-9a89-47d2-bbc8-e58db6a4da6e",
+                  "type" : "component"
+                } ],
+                "id" : "f552781b-9bb8-4a3d-9d3e-875bb3c5fcb4",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/Oracle.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "b57c0ceb-df25-491e-8741-74be4863cfea",
+                  "type" : "component"
+                } ],
+                "id" : "dc71fc3e-0198-4485-9ea5-91c63c05ee8e",
+                "name" : "585bb",
+                "title" : "Column 3",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/Sage.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "f37b41af-7cd5-4b6f-9beb-d56f42de773d",
+                  "type" : "component"
+                } ],
+                "id" : "0932908a-1223-4aa0-a9ce-cffc5508ab2a",
+                "name" : "8dd0d",
+                "title" : "Column 4",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/Aptean.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "9200f4a7-3ac8-4dc4-b919-b7504c2016ff",
+                  "type" : "component"
+                } ],
+                "id" : "3b5d0478-08be-45e0-b63c-9044092718e3",
+                "name" : "37d8f",
+                "title" : "Column 5",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/erp-slider/Dynamics.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "66e4ceae-99f3-4c52-9b78-c391d3a97286",
+                  "type" : "component"
+                } ],
+                "id" : "eec01663-4cbe-4418-be86-66f92666eda1",
+                "name" : "c29f6",
+                "title" : "Column 6",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "70c62afa-7d04-4d11-be70-8210dc70b517",
+              "type" : "component"
+            } ],
+            "id" : "08f57594-6a18-49ab-9e84-dc020c6ae39e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b6774190-b972-486b-ae98-ca8e96fa335b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5bd4694a-7f0b-4cb6-9a9d-2e3e523abc33\",\"columns\":[{\"UUID\":\"0160df53-3e5f-49fc-9b2f-918f8c31f626\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<div>\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\"> Easy Self-Service Financial Reporting Inside of Excel and <br> On the Web</h1>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "759cb20b-d6e6-427e-8fed-8ce40fdfb462",
+              "type" : "component"
+            } ],
+            "id" : "0160df53-3e5f-49fc-9b2f-918f8c31f626",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5bd4694a-7f0b-4cb6-9a9d-2e3e523abc33",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"573257ba-07cc-4e05-bc41-2fa96fd489ea\",\"columns\":[{\"UUID\":\"fad28b4d-3235-4dca-83ef-b4f3c1b537b4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264\">\n    <div class=\"container pt-4\">\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n            \n            <div class=\"animated\">\n                \n            </div>\n            \n        </h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"30\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Reporting-Process_green-4.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Fast Financials for<br> immediate Reports</h3>\n                    <p>Access an extensive library of pre-built<br> reports and templates with Jet Reports<br> Fast Financials to generate standard<br> financial reports, such as income<br> statements, balance sheets, cash flow<br> statements, and more, without the need to<br> create them from scratch.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Data-Access_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Drill Down on Numbers <br> Directly in Excel</h3> <br>\n                    <p>Powerful drill-down capabilities enable<br> users to explore and analyze data in <br> greater detail, allowing users to click on <br> specific data points, such as totals or <br> subtotals, to access underlying data and <br> view a breakdown of the numbers.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"30\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Financial-Reporting_green-1.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Drag & Drop Report Wizard</h3><br>\n                    <p>Easily build or amend reports by dragging<br> and dropping elements such as data<br> fields, filters, and calculations and<br> eliminate the need for complex coding.<br> Quickly customize reports by rearranging <br> elements, adding new data fields, or<br> adjusting formatting.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n\n\n<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264 row2\">\n    <div class=\"container pt-4\">\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n            \n            <div class=\"animated\">\n                \n            </div>\n            \n        </h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"50\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Automation-Data-Management_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Real-time Dynamics ERP <br> data connection</h3>\n                    <p>Jet Reports real-time connection to<br> Dynamics NAV/GP/D365 Business Central<br> enables users to access and analyze data<br> directly from these systems in real-time,<br> ensuring users have access to the most <br> current and accurate information for<br> reporting and analysis.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Dynamic-Visualization_green-3.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Dashboard Builder for<br> compelling visuals</h3> <br>\n                    <p>Empower users to create customized <br> dashboards utilizing a variety of <br>visualization options, such as charts,<br> graphs, tables, and gauges to facilitate<br> data-driven decision-making, streamline<br> reporting processes, and drive business<br> performance.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"30\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Operational-Reporting-Analytics_green-1.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Financial Reporting<br> Automation and Scheduling</h3><br>\n                    <p>Streamline financial reporting processes<br> by leveraging robust automation<br> capabilities, including scheduled report<br> generation, data refreshes, and report<br> distribution to save time, and ensure the<br> accuracy and timeliness of reporting<br> processes.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "3e60a94f-d116-4c7f-8c38-112d047ce7ab",
+              "type" : "component"
+            } ],
+            "id" : "fad28b4d-3235-4dca-83ef-b4f3c1b537b4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "573257ba-07cc-4e05-bc41-2fa96fd489ea",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"47eadadb-dd67-4ef8-9361-4ea08665450a\",\"columns\":[{\"UUID\":\"37b32579-8452-4582-bf0c-5d3ca654dd2d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style = \"font-size: 40px; text-align: center; color: #1e2556;\">The insightsoftware  <span style = \"font-weight: bold; color: #31ab46;  \">Platform</span></p>\n<center>\n<p style = \"font-size: 16px;\">Your data, connected. When and where you need it. From every major ERP, data warehouse, modern data stack, and<br> cloud vendor, we connect to 200+ environments with pre-built content and logic for your business. Our platform is an Al-<br>enabled integrated solution for the Office of the CFO built on an advanced data virtualization layer.</p>\n</center>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "a5993f4d-eb7e-4057-90c8-fdaa1099139d",
+              "type" : "component"
+            } ],
+            "id" : "37b32579-8452-4582-bf0c-5d3ca654dd2d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "47eadadb-dd67-4ef8-9361-4ea08665450a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"42f5c3d0-df5e-4f1c-a877-37e63db40545\",\"columns\":[{\"UUID\":\"36d0d963-e94d-4485-9c96-07a18428a32a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCO5C2UCAW4ZAXTBHDUDTFBE2ZFU?lastModifiedDate=Wed Jun 26 05:57:46 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCO5C2UCAW4ZAXTBHDUDTFBE2ZFU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "92956366-001d-4b60-9648-a036ca82c7d8",
+              "type" : "component"
+            } ],
+            "id" : "36d0d963-e94d-4485-9c96-07a18428a32a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "42f5c3d0-df5e-4f1c-a877-37e63db40545",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"94e05b3d-5374-4d0e-8a3f-59db2bb9da4e\",\"columns\":[{\"UUID\":\"f5850a31-88f3-4284-ad9c-e7d4703e72ce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f9b8d1df-17e6-43ea-bcd2-5a45e0c31879\",\"columnName\":\"Column 2\",\"columnKey\":\"1f337\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "right",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Get Instant Demo",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "a5b4d15a-40dd-4264-b12c-2d276315cb47",
+              "type" : "component"
+            } ],
+            "id" : "f5850a31-88f3-4284-ad9c-e7d4703e72ce",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "7a164075-ec75-4a0c-a700-252c2b761d9b",
+              "type" : "component"
+            } ],
+            "id" : "f9b8d1df-17e6-43ea-bcd2-5a45e0c31879",
+            "name" : "1f337",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "94e05b3d-5374-4d0e-8a3f-59db2bb9da4e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"577d242e-d893-4f8d-9048-98749aad7f32\",\"columns\":[{\"UUID\":\"b0effe46-2ab0-46d2-9e7b-7f4b82c1eba9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style = \"font-size: 40px; text-align: center; color: #1e2556;\">All of Your Financials Inside Excel with the  <span style = \"font-weight: bold; color: #31ab46;  \">Click of a Button</span></p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "4c727835-87aa-4293-8b58-1ead507ac1ef",
+              "type" : "component"
+            } ],
+            "id" : "b0effe46-2ab0-46d2-9e7b-7f4b82c1eba9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "577d242e-d893-4f8d-9048-98749aad7f32",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2bb12a54-6d69-4e7a-af29-1152ce7e208d\",\"columns\":[{\"UUID\":\"93eede84-29ce-461f-a473-b835f7feaf7a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/Jet-Reports-Flyover_Still-Image.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 70
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0df88eb4-fbad-4fd4-809b-f62828f0c0d5",
+              "type" : "component"
+            } ],
+            "id" : "93eede84-29ce-461f-a473-b835f7feaf7a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2bb12a54-6d69-4e7a-af29-1152ce7e208d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"12b5ebf9-8208-447f-8b91-ac1fb9483817\",\"columns\":[{\"UUID\":\"9f35e673-5333-428f-a4a0-f5bfaa62b905\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Get Pricing & Promos",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "9e26e3bf-f5ee-4d9d-a09e-ef6bb3f2e296",
+              "type" : "component"
+            } ],
+            "id" : "9f35e673-5333-428f-a4a0-f5bfaa62b905",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "12b5ebf9-8208-447f-8b91-ac1fb9483817",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2e317cd5-445f-481c-b2ae-73fcbf3bbfa0\",\"columns\":[{\"UUID\":\"f10603bb-d28e-44c7-bd38-59f65ae60ca8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"36106637-666c-4f73-995d-69617029ffce\",\"columnName\":\"Column 2\",\"columnKey\":\"1667f\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "right",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/capterra-badge.svg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "7cb7a69e-86be-408d-84c3-5c5ec29e2445",
+              "type" : "component"
+            } ],
+            "id" : "f10603bb-d28e-44c7-bd38-59f65ae60ca8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/get-app-badge.svg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "da4effef-10da-4061-93c3-81460399df1f",
+              "type" : "component"
+            } ],
+            "id" : "36106637-666c-4f73-995d-69617029ffce",
+            "name" : "1667f",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2e317cd5-445f-481c-b2ae-73fcbf3bbfa0",
+          "type" : "component"
+        } ],
+        "id" : "ffae2ee6-b14d-4985-bd83-7a3fca1081cb",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Jet Reports",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8f75ada4-2921-4595-958a-6ef19b59623b",
+          "type" : "component"
+        } ],
+        "id" : "b9d62134-81f6-4262-82d0-6b382356c6e8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "36b448c9-9551-4bf7-8e34-5438c10f597a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-jet-reports"
+  }
+}

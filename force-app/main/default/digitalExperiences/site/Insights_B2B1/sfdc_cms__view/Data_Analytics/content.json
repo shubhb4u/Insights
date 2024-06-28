@@ -1,0 +1,1479 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Data Analytics",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f6bb3668-182f-42e1-9b05-818c62974444\",\"columns\":[{\"UUID\":\"32e68c27-ae77-41b2-8f29-d5e0aa837b85\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2rem",
+                    "left" : "2rem",
+                    "right" : "2rem",
+                    "top" : "2rem"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"5a97ee20-d5b2-49ba-8422-d38f1ceb0b23\",\"columns\":[{\"UUID\":\"df939595-14bb-422e-a501-d86d96824f3c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a73271c7-ad20-4214-9b6c-208b011065cb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "1rem",
+                        "left" : "1rem",
+                        "right" : "1rem",
+                        "top" : "1rem"
+                      }
+                    }
+                  },
+                  "definition" : "c:financeCategory",
+                  "id" : "483e4e69-b957-4946-bbf4-f788d89c5a5d",
+                  "type" : "component"
+                } ],
+                "id" : "df939595-14bb-422e-a501-d86d96824f3c",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "1rem",
+                        "left" : "1rem",
+                        "right" : "1rem",
+                        "top" : "0rem"
+                      },
+                      "padding" : {
+                        "bottom" : "1rem",
+                        "left" : "1rem",
+                        "right" : "1rem",
+                        "top" : "0rem"
+                      }
+                    },
+                    "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_hero-1.png\" alt=\"Image 2\">\n</div>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "dfd4b685-4123-49a2-9ef4-5cfc9a824d4b",
+                  "type" : "component"
+                } ],
+                "id" : "a73271c7-ad20-4214-9b6c-208b011065cb",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "5a97ee20-d5b2-49ba-8422-d38f1ceb0b23",
+              "type" : "component"
+            } ],
+            "id" : "32e68c27-ae77-41b2-8f29-d5e0aa837b85",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f6bb3668-182f-42e1-9b05-818c62974444",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9e4c9dac-3897-4031-85be-c492d01fc72b\",\"columns\":[{\"UUID\":\"a1e10673-a31c-4e0b-9cc5-d90f3bf55e8d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "large",
+                "paddingVertical" : "x-large",
+                "text" : "Overcome your challenges connecting, managing, and actioning your data",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a2251be9-377b-4248-818f-7d61a73a5b27",
+              "type" : "component"
+            } ],
+            "id" : "a1e10673-a31c-4e0b-9cc5-d90f3bf55e8d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9e4c9dac-3897-4031-85be-c492d01fc72b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ced9d4a3-3800-4ae9-bcf2-295557eb4591\",\"columns\":[{\"UUID\":\"1676cea0-b754-43ad-b208-6b348c5271e7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e80d3ee8-e9f0-44c1-8431-9ae2cbd812b9\",\"columnName\":\"Column 2\",\"columnKey\":\"087cd\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"fdcd425c-c7dc-4e51-be6a-4afeaeae5682\",\"columnName\":\"Column 3\",\"columnKey\":\"a6c7d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   \n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/Hubble-U-Icon-85x85.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "654b3969-2a9d-4552-aa10-6e0927ed8295",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Embedding Value-Building Analytics",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e5c0b13d-2301-4508-bc38-7b07c432e9f9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Easily embed a powerful analytical & reporting engine in your application or software product. Accelerate your roadmap and deliver more value for your customers, while using fewer development resources, utilizing a platform that scales with you.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f9cb0e36-7be6-4191-84be-0afe098b3798",
+              "type" : "component"
+            } ],
+            "id" : "1676cea0-b754-43ad-b208-6b348c5271e7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/Dashboard-Design-Icon-85x85.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "f211672e-e5dc-46c4-9f28-d0e123b74637",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Unlocking Value from Disparate Data Systems",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "0494c4a1-89d0-49eb-9c54-bf231de2c025",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Securely access any data source with the industry standard high-performance ODBC/JDBC drivers and transformation tools. Enable your users to reliably access, extract and action their data – increasing their time to value and decision making.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "2f9592c4-8d67-4f9a-abec-df1b7d2933d7",
+              "type" : "component"
+            } ],
+            "id" : "e80d3ee8-e9f0-44c1-8431-9ae2cbd812b9",
+            "name" : "087cd",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/ERP-Migration-icon-85x85.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "aa4ce605-e727-46fe-9329-ffb72978a207",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Data Visualization and Writeback Integrity",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "32bbf850-688d-483a-97bd-efdb7a36c640",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Unlock extra value from your BI investments, including Qlik, PowerBI or your own BI solution. Unlock extra value from your BI investments, including Qlik, Power BI or your own BI solution. Seamlessly integrate insightsoftware solutions to allow your enterprise to build powerful workflows through industry leading write-back, augmented analytics and visualizations.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "47d996c4-1a78-4d2f-9072-4b54561f9a5e",
+              "type" : "component"
+            } ],
+            "id" : "fdcd425c-c7dc-4e51-be6a-4afeaeae5682",
+            "name" : "a6c7d",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ced9d4a3-3800-4ae9-bcf2-295557eb4591",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"95a1456d-7b62-4bb0-9a79-0bb012aa3ac9\",\"columns\":[{\"UUID\":\"18f9f717-a030-4fc7-b30f-c4eea35c2da3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "large",
+                "text" : "Flexible, Scalable Analytics for Better, Faster Decision Making",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c48a6c39-9bad-49cc-92b1-21e0dfedf3af",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "insightsoftware's data and analytics solutions support every stage of your data journey, uniting diverse data sources through adaptable BI tools for informed decision-making.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c5a7d858-b995-41af-a6d1-a6e9f07031d6",
+              "type" : "component"
+            } ],
+            "id" : "18f9f717-a030-4fc7-b30f-c4eea35c2da3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "95a1456d-7b62-4bb0-9a79-0bb012aa3ac9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5eb68c3c-c970-4146-b97d-dd83c82c94fb\",\"columns\":[{\"UUID\":\"96612b15-7eed-48dd-827c-8eab7a4bd0ad\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"429bd57b-ea4c-4353-8638-c120695ec265\",\"columnName\":\"Column 2\",\"columnKey\":\"48074\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"91eba512-f910-47a8-837b-641773a37456\",\"columnName\":\"Column 3\",\"columnKey\":\"848f0\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   \n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_bizint.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1082aacd-90e0-4d6d-9ece-a952292693f1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h5 style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Accelerating Your Business Intelligence</strong></h5><p style=\"text-align: center;\"><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">Deliver the business intelligence value your stakeholders </span></p><p style=\"text-align: center;\"><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">﻿crave</span></p><p style=\"text-align: center;\"><br></p><ul><li>Supercharge Power BI with planning and write-back</li><li>Unleash the full power of Qlik Sense and Qlik Cloud</li><li>Enhance Your Data-Driven Application Experiences</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "99514eeb-50f1-4409-84ba-eed90bbe5e46",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "11rem",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                }
+              },
+              "definition" : "c:learnMoreButton_Insights",
+              "id" : "b33566ba-fac2-4261-8cd8-48ce525b0f1e",
+              "type" : "component"
+            } ],
+            "id" : "96612b15-7eed-48dd-827c-8eab7a4bd0ad",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   \n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_dataint.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "f198fa7b-757d-4471-9bbf-f3c0e8e6810d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h5 style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Data Integration</strong></h5><p style=\"text-align: center;\"><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">Your data integrated, connected and available.</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><ul><li>Seamlessly bridge applications to any data source for optimal access</li><li>Leverage universal SQL querying for comprehensive data analysis</li><li>Build your own enterprise-grade ODBC/JDBC drivers</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "71c3207f-ce87-4d76-a1a0-b74e645ad36e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "1rem",
+                    "left" : "11rem",
+                    "right" : "1rem",
+                    "top" : "1rem"
+                  }
+                }
+              },
+              "definition" : "c:learnMoreButton_Insights",
+              "id" : "c5bb6ee6-4967-42e1-9989-20b06dc5ae91",
+              "type" : "component"
+            } ],
+            "id" : "429bd57b-ea4c-4353-8638-c120695ec265",
+            "name" : "48074",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   \n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_dataman.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "b9bae1ac-8bb0-4011-81f9-c3fbf879510c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h5 style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Data Management</strong></h5><p style=\"text-align: center;\"><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">Accelerate time to value with product catalogs and master data mgmt.</span></p><p style=\"text-align: center;\"><br></p><ul><li>Adapt to evolving legal demands for sustained compliance</li><li>Centralized product data for consistent multichannel publishing</li><li>Cut redundancy, rework; ditch error-prone spreadsheets</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9bd864f2-1206-4497-9b6b-a596490b9537",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "1rem",
+                    "left" : "11rem",
+                    "right" : "1rem",
+                    "top" : "1rem"
+                  }
+                }
+              },
+              "definition" : "c:learnMoreButton_Insights",
+              "id" : "4fb97d32-4efa-4faf-b348-8a1b1f29f094",
+              "type" : "component"
+            } ],
+            "id" : "91eba512-f910-47a8-837b-641773a37456",
+            "name" : "848f0",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5eb68c3c-c970-4146-b97d-dd83c82c94fb",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c7dd5174-4b16-4c62-9599-4f5e17d96fe6\",\"columns\":[{\"UUID\":\"5cf166cf-e68e-400d-bdaa-0e970de026f0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "4rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:financeCategoryChild",
+              "id" : "ba96b714-667d-4d78-8d29-51cdf8163e99",
+              "type" : "component"
+            } ],
+            "id" : "5cf166cf-e68e-400d-bdaa-0e970de026f0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c7dd5174-4b16-4c62-9599-4f5e17d96fe6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"21f5ea1b-bf5f-42f7-914e-3463a8a2b776\",\"columns\":[{\"UUID\":\"6ce834d6-b660-425c-a8fc-df4a4613ea47\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"color: rgb(102, 163, 224); font-size: 18px;\">CASE STUDY</strong></p><p style=\"text-align: center;\"><br></p><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">insightsoftware’s Data and Analytics Solutions Solve Real Problems for Real Customers.</span></h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware empowers customers with data solutions, enhancing value delivery, saving monthly hours on workflows, and seamlessly connecting crucial data sources.</span></p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3af3154a-dd86-48d5-8053-997e4c8b1257",
+              "type" : "component"
+            } ],
+            "id" : "6ce834d6-b660-425c-a8fc-df4a4613ea47",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "21f5ea1b-bf5f-42f7-914e-3463a8a2b776",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"23649562-1f0f-4627-88a4-6207b7007917\",\"columns\":[{\"UUID\":\"00cc61db-a8f1-473f-823c-d0b8f64aa168\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7916118b-bf30-412e-833d-212b00dbcabf\",\"columnName\":\"Column 2\",\"columnKey\":\"f3784\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Taylor Forge: Logi Symphony Case Study",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "e1ea650d-b71d-483a-883c-147829db6ce3",
+                  "type" : "component"
+                } ],
+                "id" : "54b35c62-9ca3-46fb-8ded-59e7969470a0",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">Taylor Forge, a manufacturer of custom-fabricated steel products, used Logi Symphony to improve its project visibility and delivery performance. Logi Symphony enabled the company to access real-time data, identify inefficiencies, and reengineer its processes.</span></p><p><br></p><h3><span style=\"font-size: 26px;\">10%</span></h3><h3><span style=\"font-size: 26px;\">Improvement in on-time delivery</span></h3>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "533903bf-505c-40eb-a214-37efe3b2cb02",
+                  "type" : "component"
+                } ],
+                "id" : "bb043977-a845-40f9-97c8-b96710823388",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "41fef73c-3cd3-456f-853e-901f5e9015ed",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : false,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Children’s Hospital: Simba Case Study",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "32b6c84c-4cff-46ef-b4a6-b8a7b483cc3f",
+                  "type" : "component"
+                } ],
+                "id" : "e106078a-9e98-45ae-afee-404c071b0b3e",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">The Children’s Hospital Oncology Division utilized Simba Netezza ODBC Data Connector for Mac to access Netezza lab data, facilitating seamless, reliable, and real-time analysis. The connector empowered the medical and research team with quick, real-time access to trusted data, enhancing cancer research efforts.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "ce07f7d5-88f5-4ad6-b16d-c75e3df945fa",
+                  "type" : "component"
+                } ],
+                "id" : "ac0b947a-163f-483a-8c75-b8575a6c4ee3",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "f0d5fb9d-4792-4883-a3fb-3f9e70e24f57",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : false,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "First Quartile Consulting: Vizlib Case Study",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "451f4108-c592-419c-9d75-4adfc46fa2b9",
+                  "type" : "component"
+                } ],
+                "id" : "13b50d7c-ebff-4053-9970-08a4b66510a4",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">First Quartile Consulting, a utility consulting firm, transitioned to Qlik Sense and Vizlib from custom software, optimizing their annual benchmarking report for 40 US utility companies. This switch streamlined production, saved 200 resource hours, and improved data visualization in the report.</span></p><p><br></p><h3><span style=\"font-size: 26px;\">200</span></h3><h3><span style=\"font-size: 26px;\">Hours Saved</span></h3><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5d529e73-4d9d-4722-8164-0b789bb5c9b5",
+                  "type" : "component"
+                } ],
+                "id" : "f4f1223e-df5d-4fc1-a84b-3df0fe0ce456",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "b1d0f705-4f89-492e-9c3a-19f0f4b77517",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : false,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "BuyIn: Power ON Case Study",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "28832e42-e311-4302-9de8-8e94c9e76e2f",
+                  "type" : "component"
+                } ],
+                "id" : "9ac191dc-06f7-4318-8fc4-1be0dfcda9b2",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">BuyIn, a procurement alliance in the telecommunications industry, used Power ON, a Power BI write-back solution, to streamline and speed up its monthly reporting process. By eliminating Excel and manual data uploads, BuyIn reduced its monthly close time by 87% and gained more time for value</span></p><p><br></p><h3><span style=\"font-size: 26px;\">87%</span></h3><h3><span style=\"font-size: 26px;\">Reduction in close time</span></h3>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "4e7159b6-5b5e-4625-84ab-a4ad3ecef2df",
+                  "type" : "component"
+                } ],
+                "id" : "4a42b8a2-2c66-4f43-ba26-e3134e88bb46",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "54b3500c-629a-43bc-bda2-80e49fab6cd6",
+              "type" : "component"
+            } ],
+            "id" : "00cc61db-a8f1-473f-823c-d0b8f64aa168",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n   <center> <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_use.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "658cbf2e-0470-482d-9326-531cd7c25a43",
+              "type" : "component"
+            } ],
+            "id" : "7916118b-bf30-412e-833d-212b00dbcabf",
+            "name" : "f3784",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "23649562-1f0f-4627-88a4-6207b7007917",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f36d7060-8e79-4a6e-9ba0-0113547ce6ad\",\"columns\":[{\"UUID\":\"364136d7-3360-4f34-a95a-fafe68844e32\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Featured Blogs",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "bbd42e44-b0c0-4032-8cc5-6b73b6346df0",
+              "type" : "component"
+            } ],
+            "id" : "364136d7-3360-4f34-a95a-fafe68844e32",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f36d7060-8e79-4a6e-9ba0-0113547ce6ad",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b3adf69d-2c99-4eb0-a20c-79011d4baf5a\",\"columns\":[{\"UUID\":\"5c32a282-a7ff-476a-8792-f0d758ee85d0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:financeCategoryChild2",
+              "id" : "67d38280-a09f-46e7-ad2d-a62239af337e",
+              "type" : "component"
+            } ],
+            "id" : "5c32a282-a7ff-476a-8792-f0d758ee85d0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b3adf69d-2c99-4eb0-a20c-79011d4baf5a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c5cb6266-bacc-429e-bba7-3b33db608958\",\"columns\":[{\"UUID\":\"35e43373-1cc6-4cc7-bfe4-b7986d20addd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "36rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:financeButton",
+              "id" : "bb4d12ac-9c3b-4226-9f98-89cf0193b8af",
+              "type" : "component"
+            } ],
+            "id" : "35e43373-1cc6-4cc7-bfe4-b7986d20addd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c5cb6266-bacc-429e-bba7-3b33db608958",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ca60ce01-232d-49a4-9d05-642a24849458\",\"columns\":[{\"UUID\":\"c289115e-2bb2-4e98-b421-53e599f93cca\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "FAQs",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f0ecc3c7-760a-4905-a929-52145578ac28",
+              "type" : "component"
+            } ],
+            "id" : "c289115e-2bb2-4e98-b421-53e599f93cca",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ca60ce01-232d-49a4-9d05-642a24849458",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "4rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e5f168b1-b579-40a3-925c-2250512d36ed\",\"columns\":[{\"UUID\":\"6a480774-80e6-4065-a535-b6b0cd1148ee\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What do insightsoftware’s data and analytics solutions offer?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "e50976e8-bc24-413c-bc5f-bf4990094d2d",
+                  "type" : "component"
+                } ],
+                "id" : "a9b0829c-e957-4f1d-bca3-c9cf7aba6bf7",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "insightsoftware’s data and analytics solutions provide powerful and intuitive BI tools, connecting data sources from within and outside enterprises. They help manage and surface large amounts of data to empower users with valuable insights. ",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "3dbdefd9-6ce7-4aff-a85a-bc273e34d64d",
+                  "type" : "component"
+                } ],
+                "id" : "b92f606a-5849-44f7-b804-c901475b3578",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "fbf11c07-bd91-41ee-85c4-493da5eff2db",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "How do data and analytics tools serve as an organization’s data backbone?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "e0e95b5a-38b1-42b9-a278-58e0d2ccb5be",
+                  "type" : "component"
+                } ],
+                "id" : "c75d6c77-664d-4093-a720-50fcbfe6286a",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "By bringing together data signals from beyond the CFO function, it enables the office of the CFO to make informed business decisions using both financial and operational data. ",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "dec55c1a-e8a0-458d-ad2b-2a7b8c60199c",
+                  "type" : "component"
+                } ],
+                "id" : "115a4e67-012c-4a2a-a2b6-6373fbdf0b3c",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "2abd6168-f866-4514-b6dc-3087e589fc82",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What challenges do BI Developers and application teams face, and how do you address them?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "07563896-7b71-4e44-ade6-6c4faa5ef6fe",
+                  "type" : "component"
+                } ],
+                "id" : "0d93442e-8952-4c8e-83b2-b3495c38e181",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "BI Developers and application teams often encounter data integration delays, inconsistent data quality, and limited reporting flexibility. Insightsoftware provides data and analytics solutions to mitigate these challenges. ",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "85f084d1-c8a6-46d2-aec9-fb0850dd52b2",
+                  "type" : "component"
+                } ],
+                "id" : "704f844d-95ea-4ede-a747-1950cb7beca7",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "5e51ddbf-27f8-4f6a-b06c-3d734300500e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What specific hurdles do Product Managers and Product Owners encounter, and how can you help?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "3a49b4f7-2bb4-4157-a816-c9417b8014ee",
+                  "type" : "component"
+                } ],
+                "id" : "04c59218-19ea-4a2c-9f05-0a8a8c455905",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Product Managers and Product Owners deal with customer experience hurdles, resource allocation struggles, and delayed market response. insightsoftware offers tools and insights to address these issues. ",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "30b8deaf-807f-4a3f-b1cc-5077e7cd7ee6",
+                  "type" : "component"
+                } ],
+                "id" : "b8b622dd-6712-428e-b0fd-7c405ab0fe53",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "5ac158f7-6cae-4e35-aa74-12de5c82fed0",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "How do you tackle IT-related problems?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "8954bd94-8298-469c-9568-2b065803fd5f",
+                  "type" : "component"
+                } ],
+                "id" : "8e03226b-cd29-4070-8563-0dcc6548bba9",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "insightsoftware addresses system incompatibility, high maintenance costs, and end-user support issues faced by IT teams.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "2970c0bf-56b1-4d5f-b3e1-2860a224e097",
+                  "type" : "component"
+                } ],
+                "id" : "bf8fe891-e43b-4e55-bc8b-a726c0385724",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "cfc8e481-e0c2-4057-9178-21ed8c46930f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What role does data profiling play in preparing data for analysis?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "9fe93078-3d37-4d29-8b95-3553ab8034b7",
+                  "type" : "component"
+                } ],
+                "id" : "1befc7e1-d66a-4113-a5bd-f1a04eda816b",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Data profiling ensures data quality and consistency before analysis. It empowers organizations with clear systems that can be converted into actionable insights.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "5cdd5e2b-5b7a-4b5a-b959-96a96b9e1372",
+                  "type" : "component"
+                } ],
+                "id" : "7a6a1954-8e23-4ee6-b48d-50d5f8da05e4",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "138051e2-86a8-44fc-813f-e97a064c2cea",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Why is cross-departmental communication important for effective data analysis?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "4bf32bbe-7c40-4f7b-84dc-af2e071ec764",
+                  "type" : "component"
+                } ],
+                "id" : "13b991fa-72bd-45b6-b355-80fbe9b73a0d",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Cross-departmental communication enhances data analysis effectiveness, reduces decision-making time, and provides cost-effective solutions.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "1ed8d322-9c25-4d09-a359-090ca8b2809e",
+                  "type" : "component"
+                } ],
+                "id" : "77f3313f-e8a6-466b-9409-1584d8f0d209",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "1b1411af-05e6-4d2b-bfc6-1784d4840bfc",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What steps can organizations take to extract valuable insights from their data?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6496e622-3b8b-447b-a6a7-694659f90a04",
+                  "type" : "component"
+                } ],
+                "id" : "fd0b9f3c-6e4f-4435-a56b-c4079e740fc1",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Organizations should start by asking specific questions regarding data analysis based on their strategy, goals, budget, and target customers. Clear questions lead to relevant insights.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "33bbea07-2c72-4705-bb5e-4736b3f8499e",
+                  "type" : "component"
+                } ],
+                "id" : "5b22bcee-fa39-4ff4-ad29-93936c2272e5",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "a2cfbe28-48b9-41fe-adc8-9f48dd08bad3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "How can you help address ineffective data strategy at the C-Suite level?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "d6441cfd-6c57-4a95-9ef9-e65628bf74f3",
+                  "type" : "component"
+                } ],
+                "id" : "3ba8098e-11ed-4dc5-9ad5-da7a1af59199",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "insightsoftware data and analytics assists the C-Suite by providing effective data strategies, aligning tech stacks, and promoting innovation.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c9375bea-07af-4a57-9db9-44d76df1862b",
+                  "type" : "component"
+                } ],
+                "id" : "a550001f-996d-41e5-b83b-08922177ccf5",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "8b404895-9fe9-4118-84f0-fef354504423",
+              "type" : "component"
+            } ],
+            "id" : "6a480774-80e6-4065-a535-b6b0cd1148ee",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e5f168b1-b579-40a3-925c-2250512d36ed",
+          "type" : "component"
+        } ],
+        "id" : "1a0f129f-6e57-461d-83a8-d7511b3e4f2c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Data Analytics",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b193dcd1-4875-4249-b709-da2a5f4e70b3",
+          "type" : "component"
+        } ],
+        "id" : "6ed49800-26e9-4772-90f1-d3e61e6f5bb3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a716dbe1-4fda-4e4a-a963-12cb6c2c5123",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-data-analytics"
+  }
+}

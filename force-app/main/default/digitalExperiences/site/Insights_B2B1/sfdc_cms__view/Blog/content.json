@@ -1,0 +1,103 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Blog",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"90d5aab3-8de4-444e-83c6-2a99d8cb5497\",\"columns\":[{\"UUID\":\"3e9451f6-09dd-49f4-9e44-f777a334a4fa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Blog",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "353e80d5-deb6-4c3f-b74c-37f774aba46b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"36f6631d-dc1a-40fe-ad0e-fe7aa3a3875d\",\"columns\":[{\"UUID\":\"19963dd0-e08d-4c10-a05f-6b849eb5a89c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<form id=\"archive-search\" action=\"https://insightsoftware.com/blog/\" data-cb-wrapper=\"true\">\n    <input type=\"search\" name=\"s\" placeholder=\"Enter Keyword\">\n</form>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "b2f8a606-78f7-4eea-b043-85dc40131997",
+                  "type" : "component"
+                } ],
+                "id" : "19963dd0-e08d-4c10-a05f-6b849eb5a89c",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "36f6631d-dc1a-40fe-ad0e-fe7aa3a3875d",
+              "type" : "component"
+            } ],
+            "id" : "3e9451f6-09dd-49f4-9e44-f777a334a4fa",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "90d5aab3-8de4-444e-83c6-2a99d8cb5497",
+          "type" : "component"
+        } ],
+        "id" : "61869fdb-ef99-437a-a02d-7b39e0b50582",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Blog",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "f18cc64e-7cf2-4aa1-b626-abeef0265103",
+          "type" : "component"
+        } ],
+        "id" : "8c7b6c30-7e55-4556-91f3-d4ed1bbd19cc",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "258bd921-c5e4-47d9-a7d4-34f2f6107b9d",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-blog"
+  }
+}

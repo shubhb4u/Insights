@@ -1,0 +1,138 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"111d0694-c08f-444e-8797-1c9419b08a67\",\"columns\":[{\"UUID\":\"df4d3fc6-246c-4edc-a3ba-bf59456a0654\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "small",
+                "text" : "My Profile & Password",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\": true}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "108ba3ed-434c-4de9-b6f4-8cb92e6426dc",
+              "type" : "component"
+            } ],
+            "id" : "df4d3fc6-246c-4edc-a3ba-bf59456a0654",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "111d0694-c08f-444e-8797-1c9419b08a67",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1f128725-1ad8-4176-8007-525585261ba1\",\"columns\":[{\"UUID\":\"bca70ac6-b7d8-489b-8f1a-0c6ab8cdc78e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bd5f1b4e-0a9f-47c7-badd-1bd93ac06af7\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "emailLabel" : "Email",
+                "firstNameLabel" : "First Name",
+                "lastNameLabel" : "Last Name",
+                "phoneNumberLabel" : "Phone Number",
+                "requiredPhoneNumber" : true,
+                "showPhoneNumber" : true
+              },
+              "definition" : "commerce_builder:myAccountProfile",
+              "id" : "ca5133bd-29ed-4bfc-bb6c-d2bdbad0326e",
+              "type" : "component"
+            } ],
+            "id" : "bca70ac6-b7d8-489b-8f1a-0c6ab8cdc78e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "commerce_builder:myAccountPassword",
+              "id" : "c1c474f4-7075-4c5c-aa09-cc0525433f08",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "accountId" : "",
+                "dxpStyle" : { },
+                "noOrderMessageText" : "After you place an order, it appears here.",
+                "noResultsText" : "To view orders, adjust your filters.",
+                "numberOfMonthsForFilter" : 12,
+                "orderSummaryFieldMapping" : "[{\"entity\":\"OrderSummary\",\"name\":\"OrderNumber\",\"label\":\"Order Summary Number\",\"type\":\"Text(255)\"},{\"entity\":\"OrderSummary\",\"name\":\"OrderedDate\",\"label\":\"Ordered Date\",\"type\":\"Date/Time\"},{\"entity\":\"OrderSummary\",\"name\":\"Status\",\"label\":\"Status\",\"type\":\"Picklist\"},{\"entity\":\"OrderSummary\",\"name\":\"GrandTotalAmount\",\"label\":\"Total\",\"type\":\"Formula (Currency)\"}]",
+                "ordersListCount" : 25,
+                "reorderLabel" : "Start Reorder",
+                "showMoreLabel" : "Show More",
+                "showOrdersListFilter" : true,
+                "showOrdersListSortBy" : true,
+                "showReorder" : true,
+                "showViewDetailsLink" : true,
+                "viewDetailsLinkLabel" : "View Details",
+                "viewMoreOrderBehaviour" : "SHOW_MORE"
+              },
+              "definition" : "commerce_builder:orders",
+              "id" : "93f69848-e006-44b5-9427-b23e5c500323",
+              "type" : "component"
+            } ],
+            "id" : "bd5f1b4e-0a9f-47c7-badd-1bd93ac06af7",
+            "name" : "col2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1f128725-1ad8-4176-8007-525585261ba1",
+          "type" : "component"
+        } ],
+        "id" : "5a6a8783-240d-46a7-8f7c-ec46996e53fe",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "f828f44e-ebaf-4ca3-8337-05a1a1a40af6",
+          "type" : "component"
+        } ],
+        "id" : "7ad8e7b3-74f5-4778-800a-b5167740c0af",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "6b98404a-3093-46aa-91e0-b74919ffe94c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "my-profile"
+  }
+}

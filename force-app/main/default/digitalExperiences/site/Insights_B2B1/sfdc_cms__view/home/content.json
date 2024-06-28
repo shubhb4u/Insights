@@ -1,0 +1,1050 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bf8a2f55-6cc5-4901-8dde-e28289cecbab\",\"columns\":[{\"UUID\":\"910a0965-ccd0-4351-a942-59aa38600163\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"dc5d0849-559e-4196-ac50-2b89a8f5ff8d\",\"columnName\":\"Column 2\",\"columnKey\":\"9d688\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "30px",
+                    "left" : "100px",
+                    "right" : "",
+                    "top" : "100px"
+                  }
+                },
+                "richTextValue" : "<div class=\"col-lg-6 pe-lg-5\">\n<h1 class=\"mb-4 h1\">Connected Solutions for <br>\n    the <span class=\"headinggreen\">Office of the CFO</span></h1>\n<p class= \"homepageparagraph\">insightsoftware is the most comprehensive provider of solutions for <br> finance, accounting, and operations. We turn information into insights, <br> empowering business leaders to strategically drive their organization.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "fbf5975d-dfc5-4611-a373-2b25bad8b457",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "60px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"0711eb04-9e94-4222-accf-1d58bbc6c13b\",\"columns\":[{\"UUID\":\"fbd4af03-00dd-46d9-ab11-64a7a124ce3e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c65142a5-0146-4220-9683-ef638ac52b6c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Instant Demo >",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_Instant_Demo__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "e21b56aa-70ee-41d2-8c1f-6150bcbea508",
+                  "type" : "component"
+                } ],
+                "id" : "fbd4af03-00dd-46d9-ab11-64a7a124ce3e",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "30px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Pricing & Promos >",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_pricing_and_Promos__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "0bfd0f7d-23e9-426a-8822-a335663daaf4",
+                  "type" : "component"
+                } ],
+                "id" : "c65142a5-0146-4220-9683-ef638ac52b6c",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "0711eb04-9e94-4222-accf-1d58bbc6c13b",
+              "type" : "component"
+            } ],
+            "id" : "910a0965-ccd0-4351-a942-59aa38600163",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCDZNI5CDEWFDU3LKV5ZPTYX35PQ\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 80
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0a089942-5ea3-43e9-a057-1b4dea8d90b8",
+              "type" : "component"
+            } ],
+            "id" : "dc5d0849-559e-4196-ac50-2b89a8f5ff8d",
+            "name" : "9d688",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "fixed",
+          "definition" : "community_layout:section",
+          "id" : "bf8a2f55-6cc5-4901-8dde-e28289cecbab",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"48bec7d5-d3f2-44b9-b465-0253065f167f\",\"columns\":[{\"UUID\":\"60578b2f-37e2-40fc-aaae-9d09e7e8f8b4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "60578b2f-37e2-40fc-aaae-9d09e7e8f8b4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "48bec7d5-d3f2-44b9-b465-0253065f167f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : "200px"
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8cea2ead-faa6-4044-a7a3-827d458d330c\",\"columns\":[{\"UUID\":\"3d7c60b3-9e0e-4495-aa16-5bea4137eb3b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div class =\"homepagesection2\">\n    <h2 class=\"mb-4\">The insightsoftware <span class =\"headinggreen\">Platform</span></h2>\n<div class=\"content-container w-75 m-auto\">\n<p>Your data, connected. When and where you need it. From every major ERP, data warehouse, modern data stack, and <br> cloud vendor, we connect to 200+ environments with pre-built content and logic for your business. Our platform is an AI- <br>enabled integrated solution for the Office of the CFO built on an advanced data virtualization layer.</p>\n</div>\n    </div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "cd1e475e-87e4-4848-90aa-31516b9a3c9c",
+              "type" : "component"
+            } ],
+            "id" : "3d7c60b3-9e0e-4495-aa16-5bea4137eb3b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8cea2ead-faa6-4044-a7a3-827d458d330c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1ad1e033-3320-4d9d-b6e4-ae1db4126d08\",\"columns\":[{\"UUID\":\"ce309b2b-b2e6-43d2-b099-25807e3aa9b7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCO5C2UCAW4ZAXTBHDUDTFBE2ZFU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "941c1ead-5113-40a6-9335-8f830fb16875",
+              "type" : "component"
+            } ],
+            "id" : "ce309b2b-b2e6-43d2-b099-25807e3aa9b7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1ad1e033-3320-4d9d-b6e4-ae1db4126d08",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"59e7a476-0441-4f22-9417-10ebe19c18da\",\"columns\":[{\"UUID\":\"80d583f9-acc4-4354-8f03-97dd5a629e91\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"2833d862-5551-416d-815d-550ed256bea2\",\"columns\":[{\"UUID\":\"4cbb371c-2193-4c73-bc8d-869342b0033d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"18ece913-f761-46a5-bbd5-df8908cd626d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Instant Demo >",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_Instant_Demo__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "776b74f9-90e2-47bb-ba68-8235a533e536",
+                  "type" : "component"
+                } ],
+                "id" : "4cbb371c-2193-4c73-bc8d-869342b0033d",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "70px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Learn More>",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Learn_More__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "19788394-f5bf-436a-9e60-e8ede46442e8",
+                  "type" : "component"
+                } ],
+                "id" : "18ece913-f761-46a5-bbd5-df8908cd626d",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "2833d862-5551-416d-815d-550ed256bea2",
+              "type" : "component"
+            } ],
+            "id" : "80d583f9-acc4-4354-8f03-97dd5a629e91",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "59e7a476-0441-4f22-9417-10ebe19c18da",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f997c4e3-3d5e-48fc-9c35-a4372bb90b18\",\"columns\":[{\"UUID\":\"212a895f-e85c-4a69-a0ac-d856a2d03bd8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "70px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:financeComponent",
+              "id" : "5086ba12-3eab-4467-980f-149f26e16e00",
+              "type" : "component"
+            } ],
+            "id" : "212a895f-e85c-4a69-a0ac-d856a2d03bd8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f997c4e3-3d5e-48fc-9c35-a4372bb90b18",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e0249b79-f61e-48c1-9369-69a1096794f5\",\"columns\":[{\"UUID\":\"16e27471-15da-40c6-8ed9-f501a1cd05cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264\">\n    <div class=\"container pt-4\">\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n            Actionable Business Strategy Begins &amp; Ends With Accessible\n            <div class=\"animated\">\n                <span>Financial</span>\n                <span>Business</span>\n                <span>Operational</span>\n            </div>\n            Data\n        </h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Automated Workflows</h3>\n                    <p>Free up time and minimize errors by automating routine data workflows. Focus on strategic\n                        analysis and insights, not manual data entry.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Pre-Built Templates</h3>\n                    <p>Accelerate reporting and analysis templates designed for common ERP use cases. Ensure consistency\n                        across reports and dashboards.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Real-Time Data</h3>\n                    <p>Access real-time data within applications. Eliminate static reports and gain immediate visibility\n                        into performance to drive decision-making.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "e2ace521-5fdf-4c5a-a758-de15aba28c25",
+              "type" : "component"
+            } ],
+            "id" : "16e27471-15da-40c6-8ed9-f501a1cd05cc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e0249b79-f61e-48c1-9369-69a1096794f5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              },
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "120px",
+                "right" : "120px",
+                "top" : ""
+              }
+            },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fe6fb9c6-6933-4a32-be44-81ae79104cf0\",\"columns\":[{\"UUID\":\"2c21c035-33ac-4b84-b895-3bec6a201f32\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div class =\"homepagesection2\">\n<div class=\"content-container w-75 m-auto\">\n<p>See for yourself why <span class =\"headinggreen\">500K+</span> are using insightsoftware to draw instant data insights, react swiftly to market changes, and outpace their competition</p>\n</div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5fc2dfd0-5860-4bab-9e12-ad65ea74116d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"c3a4f2f9-fd24-42f7-8991-fade7f77497e\",\"columns\":[{\"UUID\":\"c961bd0d-d5d6-4105-b59f-8d716418e69f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"2631b271-914c-4d97-b53d-f74ef9406251\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"cc6bd3e9-e6f9-4de3-b2f0-ec53d1c7108e\",\"columnName\":\"Column 3\",\"columnKey\":\"42ee6\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"92840ded-ec35-4f12-abde-499d57f48df8\",\"columnName\":\"Column 4\",\"columnKey\":\"46070\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"daf7afad-1800-453d-8750-4f6406fe7028\",\"columnName\":\"Column 5\",\"columnKey\":\"7ba0c\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"1be9c52a-78a9-4519-a5fd-9b812b46eb27\",\"columnName\":\"Column 6\",\"columnKey\":\"6ec8b\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC44MS7IBJRJANZKDQALXOJJX2VA?lastModifiedDate=Wed Jun 19 04:59:09 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC44MS7IBJRJANZKDQALXOJJX2VA\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "68cc3c57-744d-4f7b-9293-04a16be0e9dd",
+                  "type" : "component"
+                } ],
+                "id" : "c961bd0d-d5d6-4105-b59f-8d716418e69f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCHN4KTMM3INH67GM4BPMS4LVPLM?lastModifiedDate=Wed Jun 19 05:02:09 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCHN4KTMM3INH67GM4BPMS4LVPLM\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "fc033eb6-235e-419b-a276-364b745a5c86",
+                  "type" : "component"
+                } ],
+                "id" : "2631b271-914c-4d97-b53d-f74ef9406251",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC3OU2XKUPO5HQ3D5DESOAVFYHM4?lastModifiedDate=Wed Jun 19 05:03:29 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC3OU2XKUPO5HQ3D5DESOAVFYHM4\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "d29aaa7d-77ab-4f5b-af9b-9f9d6f4388b4",
+                  "type" : "component"
+                } ],
+                "id" : "cc6bd3e9-e6f9-4de3-b2f0-ec53d1c7108e",
+                "name" : "42ee6",
+                "title" : "Column 3",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCSPBLDAJ62NDCZGPIYTDACTGMYE?lastModifiedDate=Wed Jun 19 05:04:22 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCSPBLDAJ62NDCZGPIYTDACTGMYE\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "257ce6fd-1b7b-40de-a669-19e54ea35b19",
+                  "type" : "component"
+                } ],
+                "id" : "92840ded-ec35-4f12-abde-499d57f48df8",
+                "name" : "46070",
+                "title" : "Column 4",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCAJOLPPKCMFB65BH4EQ7HEMLOSM?lastModifiedDate=Wed Jun 19 05:05:14 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCAJOLPPKCMFB65BH4EQ7HEMLOSM\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "aba11ac1-f51c-4c29-9877-e514a6d35cfc",
+                  "type" : "component"
+                } ],
+                "id" : "daf7afad-1800-453d-8750-4f6406fe7028",
+                "name" : "7ba0c",
+                "title" : "Column 5",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCXAPVCPHPZRFF5LJNZCNMZE6LMQ?lastModifiedDate=Wed Jun 19 05:20:10 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCXAPVCPHPZRFF5LJNZCNMZE6LMQ\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "75787ab4-c6ae-4164-9e1f-4b33deb6e66b",
+                  "type" : "component"
+                } ],
+                "id" : "1be9c52a-78a9-4519-a5fd-9b812b46eb27",
+                "name" : "6ec8b",
+                "title" : "Column 6",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "c3a4f2f9-fd24-42f7-8991-fade7f77497e",
+              "type" : "component"
+            } ],
+            "id" : "2c21c035-33ac-4b84-b895-3bec6a201f32",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fe6fb9c6-6933-4a32-be44-81ae79104cf0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "120px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"40a6220b-d555-4738-8e62-e52e69d587ab\",\"columns\":[{\"UUID\":\"bd6187f3-12d7-4df3-adfa-b371e9577de0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7897dfe4-1fcf-4350-aec5-b6644c3934e9\",\"columnName\":\"Column 2\",\"columnKey\":\"8a837\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<div>\n    <h1 class =\"mb-4\">Unlock Insights Faster</h1>\n</div>\n<div>\n    <p class =\"\">Focus on what matters. Our open business data fabric unlocks insights quickly with pre-built views for popular ERPs. T\n        ranslate complex ERP data into clear reports and dashboards. Share insights from your finance, accounting, and operations applications. \n        Analyze data faster and make smarter decisions. Free your IT team. Unlock new possibilities.</p>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "4f5a2caf-f7da-4fdb-af21-70db23bb458d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Get Instant Demo >",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_Instant_Demo__c\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "b379c043-6da0-45e1-b6e0-2406524da62a",
+              "type" : "component"
+            } ],
+            "id" : "bd6187f3-12d7-4df3-adfa-b371e9577de0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "cover",
+                "height" : 298,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCUKZ6BBYTCZEAFCO3E5IMKCZSMA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "3a7cc766-eb7e-4ce2-b685-da4770716b7e",
+              "type" : "component"
+            } ],
+            "id" : "7897dfe4-1fcf-4350-aec5-b6644c3934e9",
+            "name" : "8a837",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "40a6220b-d555-4738-8e62-e52e69d587ab",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"83e13bcd-9302-405d-b55e-8ad6db27d7b6\",\"columns\":[{\"UUID\":\"3b6f0349-e8f6-4739-9549-1673fd1a51f7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n    <h1 class =\"mb-4\">Resources To Help You Drive an Actionable <br> Business Strategy</h1>\n</div>"
+              },
+              "customCssClasses" : "resourcestext",
+              "definition" : "community_builder:htmlEditor",
+              "id" : "fad03f20-28a7-4056-bce4-f2d0c17a861d",
+              "type" : "component"
+            } ],
+            "id" : "3b6f0349-e8f6-4739-9549-1673fd1a51f7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "83e13bcd-9302-405d-b55e-8ad6db27d7b6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ca923704-6705-46a6-913b-05e237143a77\",\"columns\":[{\"UUID\":\"35dfe24d-2765-4b75-9fea-e9183073fc0a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(255, 255, 255)",
+                "activeTabBorderHighlightColor" : "rgba(255, 255, 255, 0)",
+                "activeTabBorderHighlightWeight" : "0px",
+                "activeTabTextColor" : "rgb(0, 168, 232)",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "rgba(255, 0, 0, 0)",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "100px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "rgba(49, 171, 70, 0)",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightColor" : "rgba(40, 139, 57, 0)",
+                "tabHoverBorderHighlightWeight" : "0px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "15px",
+                "tabTextColor" : "rgba(0, 0, 0, 0.5)",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"3d00935c-4137-49f7-9371-f29ce98521ac\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"fe2e7ae1-f340-422f-bdec-267ad7c1f476\",\"tabName\":\"Finance\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"64420e04-d7ab-49b5-aa05-53fdcb43bd0d\",\"tabName\":\"Accounting\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"98acca23-e020-48ea-9e8f-b7995efb29d8\",\"tabName\":\"Data & Analytics\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "120px",
+                        "right" : "120px",
+                        "top" : "50px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"f33cccc3-fb92-4711-b5b2-c650c6431361\",\"columns\":[{\"UUID\":\"62c18375-f6c8-4711-8ed8-ce7e695551e7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"09ab64ec-bf19-4531-84ff-93ecfc70b3a1\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"cc5ae383-8350-4ea6-b1a8-346723899932\",\"columnName\":\"Column 3\",\"columnKey\":\"50309\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n        <img src=\"https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-678x334.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"23 04 Wp Hanoveroperationalreporting Website\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website.png 750w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-730x360.png 730w\" data-lazy-sizes=\"(max-width: 678px) 100vw, 678px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-678x334.png\" data-ll-status=\"loaded\" \n             srcset=\"https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website.png 750w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2023/04/23-04-WP-HanoverOperationalReporting-Website-730x360.png 730w\">\n    </div>\n    <p class = \"webinar\"> Research Report </p>\n    <br>\n    <h3 class = \"paragraphhome\"> The State Of Operational Reporting in <br> 2023 </h3>\n    \n    <h4 class = \"paragraphhome2\"> \n Demand for operational reporting is rising.<br>\n        Over the past year, IT decision-makers <br>\n        experienced an increase in operational<br>\n        reporting… </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "a926decc-74eb-4ba4-bbdb-1903ce825fe2",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Download Research Report",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "44719c71-f566-4132-a402-ef265bad907c",
+                      "type" : "component"
+                    } ],
+                    "id" : "62c18375-f6c8-4711-8ed8-ce7e695551e7",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n        <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-358x177.jpg\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" \n             alt=\"Top 10=best Practices 2\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2.jpg 750w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-730x360.jpg 730w\" data-lazy-sizes=\"(max-width: 358px) 100vw, 358px\" \n             data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-358x177.jpg\" data-ll-status=\"loaded\"\n             srcset=\"https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2.jpg 750w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2019/09/top-10best-practices-2-730x360.jpg 730w\">\n    </div>\n    <p class = \"webinar\"> White Paper  </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Top 10 Best Practices for Financial <br> Reporting in Excel</h3>\n    \n    <h4 class = \"paragraphhome2\"> \n \nFrom financial statements to annual <br> reports, accurate reporting is essential to<br> the livelihood of your business. Microsoft<br>Excel is one…  </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "02dc34d9-d1dd-491f-b208-cab762b0ac92",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Download White Paper",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "40db374d-4062-49b7-9ef0-d71e64c6a136",
+                      "type" : "component"
+                    } ],
+                    "id" : "09ab64ec-bf19-4531-84ff-93ecfc70b3a1",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "23px",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n       <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-358x177.jpg\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"Wp Compare Reporting And Bi Solutions Rsc\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1.jpg 750w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-730x360.jpg 730w\" data-lazy-sizes=\"(max-width: 358px) 100vw, 358px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-358x177.jpg\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1.jpg 750w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2019/09/WP-Compare-Reporting-and-BI-Solutions-Rsc-1-730x360.jpg 730w\">\n    </div>\n    <p class = \"webinar\"> White Paper  </p>\n    <br>\n    <h3 class = \"paragraphhome\"> How to Compare Reporting & BI <br> Solutions</h3>\n    \n    <h4 class = \"paragraphhome2\"> \n \n\nReporting and Business Intelligence (BI) <br> solutions begin and end with data—not just <br> how the data are collected, but also how…  </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "caf973bc-0764-4f5c-bd8e-81dcc680c16c",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Download White Paper",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "f9fce0bf-fb87-49b1-9d25-7b7b00da487e",
+                      "type" : "component"
+                    } ],
+                    "id" : "cc5ae383-8350-4ea6-b1a8-346723899932",
+                    "name" : "50309",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "f33cccc3-fb92-4711-b5b2-c650c6431361",
+                  "type" : "component"
+                } ],
+                "id" : "fe2e7ae1-f340-422f-bdec-267ad7c1f476",
+                "name" : "tab1",
+                "title" : "Finance",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "120px",
+                        "right" : "120px",
+                        "top" : "50px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"2510491f-5eb8-4a04-9828-83a31ece33bc\",\"columns\":[{\"UUID\":\"7b2536a8-afa1-4630-84e4-fd65bccac50d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a98d9c92-7550-4040-be35-cc76c57c57c9\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"bea70527-e282-43a2-ac0a-db326dfc0b8c\",\"columnName\":\"Column 3\",\"columnKey\":\"e5e69\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n       <img width=\"678\" height=\"334\" src=\"https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-678x334.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"22 11 Wbr Financialreportingtrends2023 Website\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website.png 750w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-730x360.png 730w\" data-lazy-sizes=\"(max-width: 678px) 100vw, 678px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-678x334.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website.png 750w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2022/11/22-11-WBR-FinancialReportingTrends2023-Website-730x360.png 730w\">\n    </div>\n    <p class = \"webinar\"> Webinar  </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Financial Reporting, Budgeting, and <br> Planning Trends for 2023</h3>\n    \n    <h4 class = \"paragraphhome2\"> \n \n\nEconomic challenges like rising inflation<br> and interest rates make it harder for<br> businesses to make long-term decisions. <br>To address this,… </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "b2ddea00-ecfa-40fb-96ed-0736665406e7",
+                      "type" : "component"
+                    } ],
+                    "id" : "7b2536a8-afa1-4630-84e4-fd65bccac50d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n       <img  src=\"https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-358x177.jpg\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"Is Bizview Webinar Jet Resource Header Image 750x370\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-730x361.jpg 730w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1.jpg 751w\" data-lazy-sizes=\"(max-width: 358px) 100vw, 358px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-358x177.jpg\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-358x177.jpg 358w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-300x148.jpg 300w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-260x128.jpg 260w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-270x133.jpg 270w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1-730x361.jpg 730w, https://insightsoftware.com/wp-content/uploads/2020/06/IS-Bizview-Webinar-jet-resource-Header-Image-750x370-1.jpg 751w\">\n    </div>\n    <p class = \"webinar\"> Webinar  </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Embrace Continuous Planning To <br> Adapt To Continuous Change</h3>\n    \n    <h4 class = \"paragraphhome2\"> \n \n\n\nThe world is undergoing rapid and<br> continual change. Now more than ever,<br> finance teams need to stay agile to help… </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "fa0d7f46-eb88-4d62-b627-9fea2bba3a5a",
+                      "type" : "component"
+                    } ],
+                    "id" : "a98d9c92-7550-4040-be35-cc76c57c57c9",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n<img src=\"https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-358x177.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"Is Samplereports Strategicplanning Kpi\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-358x177.png 358w, https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-750x370.png 750w, https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-260x128.png 260w\" data-lazy-sizes=\"(max-width: 358px) 100vw, 358px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-358x177.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-358x177.png 358w, https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-750x370.png 750w, https://insightsoftware.com/wp-content/uploads/2021/04/IS-SampleReports_StrategicPlanning_KPI-1-260x128.png 260w\">    </div>\n    <p class = \"webinar\"> Dashboard  </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Strategic Planning KPI Dashboard</h3>\n    <br>\n    <h4 class = \"paragraphhome2\"> \n \n\n\n\nAfter strategic planning comes execution,<br> and that’s where things get tricky. The best<br> laid plans can quickly go off the… </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "328d0f66-2528-4e91-b161-9d7b7a10041f",
+                      "type" : "component"
+                    } ],
+                    "id" : "bea70527-e282-43a2-ac0a-db326dfc0b8c",
+                    "name" : "e5e69",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "2510491f-5eb8-4a04-9828-83a31ece33bc",
+                  "type" : "component"
+                } ],
+                "id" : "64420e04-d7ab-49b5-aa05-53fdcb43bd0d",
+                "name" : "tab2",
+                "title" : "Accounting",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "120px",
+                        "right" : "120px",
+                        "top" : "50px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"68608d92-a1f9-4b83-846a-3bccba2f5eb6\",\"columns\":[{\"UUID\":\"8b49ee6c-8019-4797-a33b-5d452749b7f9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"70ca170e-f9df-41d9-8958-3bbc0ead5dc8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7581468e-66bc-4e2c-97da-9a17380cfbc6\",\"columnName\":\"Column 3\",\"columnKey\":\"992e6\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n        <img src=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-678x334.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"24 03 Wbn Navigatingfutureai Analyticsdata Website\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website.png 750w\" data-lazy-sizes=\"(max-width: 678px) 100vw, 678px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-678x334.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-NavigatingFutureAI-AnalyticsData-Website.png 750w\">\n    </div>\n    <p class = \"webinar\"> Webinar </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Navigating the Future: Generative AI,<br> Application Analytics, and Data </h3>\n    \n    <h4 class = \"paragraphhome2\"> \n\nGenerative AI is upending the way that<br> product developers and end-users alike<br> are interacting with their data insights.<br> Despite the…  </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "415f6ad0-319c-4d69-b5f1-99582c66dc9e",
+                      "type" : "component"
+                    } ],
+                    "id" : "8b49ee6c-8019-4797-a33b-5d452749b7f9",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n<img width=\"678\" height=\"334\" src=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-678x334.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"24 03 Wbn Vizlibcollaboration Ep3 Website\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website.png 750w\" data-lazy-sizes=\"(max-width: 678px) 100vw, 678px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-678x334.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2024/03/24-03-WBN-VizlibCollaboration-Ep3-Website.png 750w\">    </div>\n    <p class = \"webinar\"> Webinar </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Vizlib Collaboration Ep.3 – Unleash<br> Business Value </h3>\n    \n    <h4 class = \"paragraphhome2\"> \n\nSave April 17th in your calendar for Episode<br> 3 in our Vizlib Collaboration series. In<br> episodes 1 and 2 we… </div></h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "3d801315-ee20-49d3-960e-64b57775c1d7",
+                      "type" : "component"
+                    } ],
+                    "id" : "70ca170e-f9df-41d9-8958-3bbc0ead5dc8",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<div class = \"mainclass\">\n    <div class = \"childclass\">\n<img width=\"678\" height=\"334\" src=\"https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-678x334.png\" class=\"img-fluid w-100 mb-3 entered lazyloaded\" alt=\"23 01 Rpt Negotiateeffectiveanalytics Website0\" data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0.png 750w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-730x360.png 730w\" data-lazy-sizes=\"(max-width: 678px) 100vw, 678px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-678x334.png\" data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-678x334.png 678w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-300x148.png 300w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0.png 750w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-260x128.png 260w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-270x133.png 270w, https://insightsoftware.com/wp-content/uploads/2023/03/23-01-RPT-NegotiateEffectiveAnalytics-Website0-730x360.png 730w\">    </div>\n    <p class = \"webinar\"> Reasearch Report </p>\n    <br>\n    <h3 class = \"paragraphhome\"> Hype Cycle™ for Analytics and<br> Business Intelligence, 2022 – A<br> Gartner® Report </h3>\n    \n    <h4 class = \"paragraphhome2\"> \n\n\nAs per Gartner®, “Transitioning from static<br> analytics outputs to more dynamic<br> contextualized insights, embedded or<br> automated, means analytics can be… </h4>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "8d86f3b3-2a8d-4d24-9f6b-b6eae64fa90b",
+                      "type" : "component"
+                    } ],
+                    "id" : "7581468e-66bc-4e2c-97da-9a17380cfbc6",
+                    "name" : "992e6",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "68608d92-a1f9-4b83-846a-3bccba2f5eb6",
+                  "type" : "component"
+                } ],
+                "id" : "98acca23-e020-48ea-9e8f-b7995efb29d8",
+                "name" : "tab3",
+                "title" : "Data & Analytics",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "3d00935c-4137-49f7-9371-f29ce98521ac",
+              "type" : "component"
+            } ],
+            "id" : "35dfe24d-2765-4b75-9fea-e9183073fc0a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ca923704-6705-46a6-913b-05e237143a77",
+          "type" : "component"
+        } ],
+        "id" : "790caf76-b8c0-4f05-a398-bf5caf9ffc5c",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ab098914-e7f1-4282-b2ed-0d6e163830cc",
+          "type" : "component"
+        } ],
+        "id" : "1fe0d31d-8cf4-4951-aa05-7841063a5544",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "e0f39f95-1720-4594-a44b-967b74383c52",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}

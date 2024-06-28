@@ -1,0 +1,31 @@
+/* Card Header: Center the header content */
+.slds-card__header {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Body: Center the body content and align items vertically */
+.slds-card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Medium Padding: Apply padding around elements */
+.slds-p-around_medium {
+    padding: 1rem;
+}
+.slds-card{
+    background-color: rgb(19, 17, 14) !important;
+}
+/* Paragraph Styling: Customize the paragraph text */
+p {
+    font-size: 1.25rem;
+    color: #00AF60; /* Green color */
+    margin-top: 1rem; /* Space above the paragraph */
+}
+
+/* Form Container: Set background color to black */
+.form-container {
+    background-color: black;
+}

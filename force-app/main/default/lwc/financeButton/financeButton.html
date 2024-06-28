@@ -1,0 +1,28 @@
+<template>
+
+    <template lwc:if={isFinanceReporting}>
+        <button class="btn btn-outline-green">Get Instant Demo</button>
+    </template>
+    <template lwc:elseif={isBusinessIntelligence}>
+        <div class="button-container">
+            <button class="btn btn-blue">Speak to an Expert</button>
+        </div>
+    </template>
+    <template lwc:elseif={isCloseConsolidation}>
+        <div class="button-container">
+            <button class="btn btn-blue" onclick={handleClick}>Speak to an Expert</button>
+        </div>
+    </template>
+    <template lwc:elseif={isFinanceReportingGetInstantDemo}>
+        <div class="button-container">
+            <button class="btn btn-blue">Speak to an Expert</button>
+        </div>
+    </template>
+    <template lwc:else>
+        <div class="button-container">
+            <button class="btn btn-green">Explore Webinars</button>
+            <button class="btn btn-outline-green">Explore Resources</button>
+        </div>
+    </template>
+    
+</template>

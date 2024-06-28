@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Hubble",
+  "contentBody" : {
+    "activeViewId" : "Hubble",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-hubble",
+    "urlPrefix" : "hubble"
+  }
+}

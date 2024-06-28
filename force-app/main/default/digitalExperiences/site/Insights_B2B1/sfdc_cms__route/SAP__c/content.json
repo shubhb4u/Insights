@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "SAP",
+  "contentBody" : {
+    "activeViewId" : "SAP",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-sap",
+    "urlPrefix" : "sap"
+  }
+}

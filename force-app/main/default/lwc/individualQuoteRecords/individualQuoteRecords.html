@@ -1,0 +1,85 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 04-08-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title="Quote Record" icon-name="standard:quotes">
+        <div class="slds-p-around_medium" style="background-color: #f0f0f0;">
+            <template if:true={quote}>
+                <lightning-layout multiple-rows>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Quote Number:</p>
+                        <p>{quote.QuoteNumber}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Name:</p>
+                        <p>{quote.Name}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Expiration Date:</p>
+                        <p>{quote.ExpirationDate}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Status:</p>
+                        <p>{quote.Status}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Subtotal:</p>
+                        <p>{quote.Subtotal}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Discount:</p>
+                        <p>{quote.Discount}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Total Price:</p>
+                        <p>{quote.TotalPrice}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="slds-text-title_bold">Description:</p>
+                        <p>{quote.Description}</p>
+                    </lightning-layout-item>
+                    <!-- Add more fields as needed -->
+                    <lightning-layout-item size="12" padding="around-small">
+                        <button class="slds-button slds-button_brand" onclick={acceptQuote} disabled={statusAccepted} style="align-items: center;">Accept Quote</button>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </div>
+    </lightning-card>
+
+    <template if:true={showSuccessMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_success">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:success" size="small"></lightning-icon>
+                    Quote accepted successfully!
+                    Thanks for accepting the quote, Please proceed to cart and complete checkout!!
+                </p>
+            </div>
+        </div>
+    </template>
+    <template if:true={showExpiredErrorMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_error">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:error" size="small"></lightning-icon>
+                    Sorry, the quote has expired and cannot be accepted.
+                </p>
+            </div>
+        </div>
+    </template>
+    <template if:true={ShowApprovedErrorMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_error">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:error" size="small"></lightning-icon>
+                    Sorry, Only approved quotes can be accepted.
+                </p>
+            </div>
+        </div>
+    </template>
+</template>

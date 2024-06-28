@@ -1,0 +1,137 @@
+<template>
+    <template lwc:if={isHubble}>
+        <div class="container">
+            <div class="hubble">
+                <h4 class="hubble-h4">HUBBLE</h4>
+                    <div class="hubble-h2">
+                        <h2>Speed Up Finance <br>Processes:
+                             <span class="headinggreen" style ="font-weight: bold;">Real-Time <br> Reporting & Analytics</span></h2>
+                    </div>
+                    <div class="input-wrapper-atlas">
+                        <div>
+                            <input type="email" placeholder="Business Email*"></input>
+                        </div>
+                        <div>
+                            <button class="finance-button">Get a Demo ></button>
+                            <button class="finance-button">Get pricing ></button>
+                        </div>
+                        
+                    </div>
+            </div>
+        </div>
+    </template>
+    <template lwc:elseif={isJetReports}>
+        <div class="container">
+            <div class="hubble">
+                <h4 class="jet-h4">Jet Reports</h4>
+                <!-- <h1 class="finance-h1">Empowering Accounting,<br>Tax, and Equity<br> Compensation <br> Professionals </h1> -->
+                <div>
+                    <h1 style = "font-size: 48px; color: #1e2556;"><span style = "font-weight:bold; color: #31ab46">  Fast, Flexible Financial <br> Reporting</span> for Microsoft <br> Dynamics Inside of Excel - <br>On-Prem or In The Cloud</h1>
+                </div>
+                <div class="input-wrapper-atlas">
+                    <div>
+                        <input type="email" placeholder="Business Email*"></input>
+                    </div>
+                    <div>
+                        <button class="finance-button">Get a Demo ></button>
+                        <button class="finance-button">Get pricing ></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </template>
+    <!-- <template lwc:elseif={isFinancialReporting}>
+        <div class="container">
+            <div class="finance">
+                <h4 class="finance-h4">SOLUTIONS</h4>
+                <h1 class="finance-h1">Financial Reporting<br>Solutions for 140+ ERPs</h1>
+                <p>Eliminate manual downloads and easily export real-time data from your<br>ERP into Excel. Combine business data within a unified platform to
+                    <br> seamlessly create custom reports that drive real value.</p>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Business Email*"></input>
+                    <button class="finance-button">Get Free Demo ></button>
+                </div>
+            </div>
+        </div>
+    </template> -->
+    <!-- <template lwc:elseif={isCloseandConsolidation}>
+        <div class="container">
+            <div class="finance">
+                <h4 class="close-h4">SOLUTIONS</h4>
+                <h1 class="finance-h1">End-to-End Financial Close<br> and Consolidation<br> Solutions</h1>
+                <p>Enhance your financial performance with an automated, streamlined close and consolidation process. Ensure accuracy, compliance, and transparency for confident reporting.</p>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Business Email*"></input>
+                    <button class="close-button">Get Free Demo ></button>
+                </div>
+            </div>
+        </div>
+    </template> -->
+    <!-- <template lwc:elseif={isBusinessIntelligence}>
+        <div class="container">
+            <div class="finance">
+                <h4 class="close-h4">SOLUTIONS</h4>
+                <h1 class="finance-h1">Enhancing Business<br> Intelligence: Strategic<br>Accelerators for Analytics</h1>
+                <p>Unfortunately, 85% of BI projects fail and it is wise to heed analyst warnings against complacency. Adopt agile BI solutions for decisive and tangible outcomes that push your business towards transformative success.</p>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Business Email*"></input>
+                    <button class="close-button">Get Free Demo ></button>
+                </div>
+            </div>
+        </div>
+    </template> -->
+    <!-- <template lwc:elseif={isAtlas}>
+        <div class="container">
+            <div class="finance">
+                
+                <h1 class="finance-h1">Fast, Flexible Financial and<br> Operational Reporting for<br>Microsoft Dynamics AX and<br>D365 F&SCM Inside of Excel</h1>
+                <p>Real-time Data | No IT Required | Dynamic Library of Pre-built Reports & Dashboards</p>
+                <div class="input-wrapper-atlas">
+                    <div>
+                        <input type="email" placeholder="Business Email*"></input>
+                    </div>
+                    <div>
+                        <button class="finance-button">Get a Demo ></button>
+                        <button class="finance-button">Get pricing ></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </template> -->
+    <!-- <template lwc:elseif={isClausionConsolidation}>
+        <div class="container">
+            <div class="finance">
+                <h4 class="close-h4">CLAUSION CONSOLIDATION</h4>
+                <h1 class="finance-h1">Automate Financial<br>Consolidation & Simplify<br>Business Processes With<br>One Intuitive Solution</h1>
+
+                <div class="input-wrapper-atlas">
+                    <div>
+                        <input type="email" placeholder="Business Email*"></input>
+                    </div>
+                    <div>
+                        <button class="close-button">Get a Demo ></button>
+                        <button class="close-button">Get pricing ></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </template> -->
+    <!-- <template lwc:elseif={isAnalytics}>
+        <div class="container">
+            <div class="finance">
+                <h4 class="dataanalytics-h4">DATA & ANALYTICS</h4>
+                <h1 class="dataanalytics-h1"><span>Insights Re-Imagined:</span><br> Embedded, Distributed,<br> Monetized</h1>
+                <p>Accelerate your analytics journey from data to insight, while eliminating slow
+                    <br> and costly data prep. Focus on use cases that drive real-world value for your
+                    <br> customers and your enterprise.</p>
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Business Email*"></input>
+                    <button class="dataanalytics-button">Get Free Demo ></button>
+                </div>
+            </div>
+        </div>
+    </template> -->
+</template>

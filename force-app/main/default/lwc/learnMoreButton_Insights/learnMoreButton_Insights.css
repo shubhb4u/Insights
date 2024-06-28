@@ -1,0 +1,44 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-green {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+
+
+.btn-green:hover {
+    background-color: #45a049;
+}
+
+.btn-blue {
+    background-color: #68cdf5;
+    color: white;
+    border: none;
+}
+
+
+
+.btn-blue:hover {
+    background-color: #4872a3;
+}
+
+.btn-violet {
+    background-color: #242b80;
+    color: white;
+    border: none;
+}
+
+
+
+.btn-violet:hover {
+    background-color: #211b6b;
+}

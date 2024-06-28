@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Finance",
+  "contentBody" : {
+    "activeViewId" : "Finance",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-finance",
+    "urlPrefix" : "finance"
+  }
+}

@@ -1,0 +1,44 @@
+<!--
+  @description       : Display quote records of a particular user in their profile page
+  @author            : Shubham Mazumdar
+  @group             : 
+  @last modified on  : 06-28-2024
+  @last modified by  : Shubham Mazumdar
+-->
+<template>
+    <div class="slds-box slds-theme_default">
+        <div class="slds-grid slds-wrap">
+            <template for:each={Quotes} for:item="quote">
+                <div key={quote.Id} class="slds-col slds-size_1-of-3">
+                    <div class="slds-box slds-p-around_small">
+                        <p>Quote Number: {quote.QuoteNumber}</p>
+                        <p>Name: {quote.Name}</p>
+                        <p>Status: {quote.Status}</p>
+                        <p>Expiration Date: {quote.ExpirationDate}</p>
+                        <p>Total Price: {quote.TotalPrice}</p>
+                        <button class="slds-button slds-button_brand" onclick={handleViewCode} data-quote-id={quote.Id}
+                        data-quote-name={quote.Name}>View Quote</button>
+
+                        <!-- Disable the button if Quote status is not "Approved" -->
+                       
+                        <template if:true={quote.showButton}>
+                            <button class="slds-button slds-button_brand" 
+                                onclick={handleDownloadQuotePdf} 
+                                data-quote-downid={quote.Id}>Download Quote
+                            </button>
+                        </template>
+                        <template if:false={quote.showButton}>
+                            <button class="slds-button slds-button_brand" 
+                                disabled
+                                data-quote-downid={quote.Id}>Download Quote
+                            </button>
+                            <p class="slds-p-horizontal_small" style="color: red; font-size:small;">
+                                Only approved quotes can be downloaded.
+                            </p>
+                        </template>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>
