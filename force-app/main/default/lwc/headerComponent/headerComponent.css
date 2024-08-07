@@ -1,0 +1,143 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    background-color: black;
+    height: 2.5rem;
+    
+    padding-right: 16rem;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    transition: border-color 0.5s ease, width 0.5s ease;
+    overflow: hidden;
+    width: 40px; /* Initial width to fit the search icon */
+}
+
+.search-wrapper.visible {
+    width: 260px;/* Adjust the width to accommodate padding */
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-input {
+    display: none;
+    padding: 5px 0px 5px 5px; /* Add padding to the right */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+.search-input.visible {
+    display: inline-block;
+}
+
+.cancel-icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 6px;
+    display: none;
+    margin-right: 10px; /* Add some space to the right */
+    color:white;
+}
+
+.cancel-icon.visible {
+    display: inline-block;
+}
+ /* Multinavigation Menu */
+ .dropdown-content{
+    color: #fff !important;
+    background-color: black !important;
+}
+.category{
+    color: #fff !important;
+}
+.dropbtn:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.navbar {
+overflow: hidden;
+   float: left;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    }
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 12px;
+text-decoration: none;
+
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.lwc-4f6emnj8oa5{
+    background-color: #fff !important;
+}
+
+.my-icon {
+    --slds-c-icon-color-foreground-default: rgb(255, 255, 255);
+}
+
+
+
+.search-input::placeholder {
+    color: white;
+}

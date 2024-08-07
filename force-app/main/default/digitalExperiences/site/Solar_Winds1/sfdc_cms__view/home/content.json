@@ -1,0 +1,2072 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8efd3409-a83d-41c1-85cc-3a86f6912428\",\"columns\":[{\"UUID\":\"a376b368-4d83-48da-af29-8c7ec9b20f6e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7117d26b-9444-4516-bf95-b369d2edf863\",\"columnName\":\"Column 2\",\"columnKey\":\"658e9\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "a376b368-4d83-48da-af29-8c7ec9b20f6e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "7117d26b-9444-4516-bf95-b369d2edf863",
+            "name" : "658e9",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8efd3409-a83d-41c1-85cc-3a86f6912428",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9f01eaa0-d088-4a7c-9a1a-d6c73cf45a25\",\"columns\":[{\"UUID\":\"8d67df2a-c2ca-44de-a19f-88b795a4d2cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"7\",\"seedComponents\":[]},{\"UUID\":\"16e21161-a36f-4bbc-bd0e-6c92b92edb14\",\"columnName\":\"Column 2\",\"columnKey\":\"38918\",\"columnWidth\":\"5\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "172px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:productRedirectComponent",
+              "id" : "96eb91f1-06bb-42e1-8826-12117fa83bff",
+              "type" : "component"
+            } ],
+            "id" : "8d67df2a-c2ca-44de-a19f-88b795a4d2cc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "30px",
+                    "right" : "",
+                    "top" : "5px"
+                  }
+                },
+                "fit" : "cover",
+                "height" : 313,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC3VYG35PN4NHCTCTAPCQID5DYG4?lastModifiedDate=Mon Jul 01 07:36:13 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC3VYG35PN4NHCTCTAPCQID5DYG4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 70
+              },
+              "definition" : "dxp_base:image",
+              "id" : "e49d0c84-3d47-4210-ba18-e3c6d8b7aa09",
+              "type" : "component"
+            } ],
+            "id" : "16e21161-a36f-4bbc-bd0e-6c92b92edb14",
+            "name" : "38918",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9f01eaa0-d088-4a7c-9a1a-d6c73cf45a25",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "100px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a83e59db-7584-477a-90db-a227a8c307c3\",\"columns\":[{\"UUID\":\"c46a482d-cf03-453c-8387-1b62b9f859a4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:featuredProducts",
+              "id" : "57c5039a-e1c9-4324-8987-9fa46733779b",
+              "type" : "component"
+            } ],
+            "id" : "c46a482d-cf03-453c-8387-1b62b9f859a4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a83e59db-7584-477a-90db-a227a8c307c3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"79db4dd9-d3de-4bb5-beb4-cff7d40004f5\",\"columns\":[{\"UUID\":\"b67667b9-d21b-455d-9088-6c61cf785cdd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "90px",
+                    "right" : "40px",
+                    "top" : ""
+                  }
+                }
+              },
+              "definition" : "c:displayProductRecords",
+              "id" : "c185ea8e-ae72-4ef7-a165-99d307cda093",
+              "type" : "component"
+            } ],
+            "id" : "b67667b9-d21b-455d-9088-6c61cf785cdd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "banner-image-content",
+          "definition" : "community_layout:section",
+          "id" : "79db4dd9-d3de-4bb5-beb4-cff7d40004f5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "50px",
+                "left" : "50px",
+                "right" : "50px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bbdf812b-f395-4847-b18d-5f551e2aa5d2\",\"columns\":[{\"UUID\":\"2233fcec-bab9-46e7-acb0-b4440d096f99\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "0rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "70px",
+                    "right" : "70px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"6abdf0f7-776c-4977-ad5f-402d1f462652\",\"columns\":[{\"UUID\":\"b8795e1b-aff3-40a3-a008-4736cbb459d0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"7\",\"seedComponents\":[]},{\"UUID\":\"a1f5a906-5e64-4872-8f94-c4a78520849e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"5\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "55px",
+                        "right" : "",
+                        "top" : "100px"
+                      }
+                    },
+                    "richTextValue" : "<h1><strong style=\"font-size: 72px;\">Observe everything</strong></h1><h1><strong style=\"font-size: 72px;\">from anywhere.</strong></h1>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "b12b535a-c469-4d8d-8e19-b3742b351534",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "55px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"background-color: rgba(255, 255, 255, 0.7); font-size: 28px; font-family: &quot;Roboto Slab&quot;, serif; color: rgb(102, 102, 102);\">Trusted observability, database,</span></p><p><span style=\"background-color: rgba(255, 255, 255, 0.7); font-size: 28px; font-family: &quot;Roboto Slab&quot;, serif; color: rgb(102, 102, 102);\">and service management solutions</span></p><p><span style=\"background-color: rgba(255, 255, 255, 0.7); font-size: 28px; font-family: &quot;Roboto Slab&quot;, serif; color: rgb(102, 102, 102);\">- ready for every transformation.</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "34316370-3743-47cf-8f4d-8aac5f6576a3",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "55px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<button style = \"border: none; font-family: Red Hat Display, sans-serif; font-weight: 700; background-color: rgb(170 220 51); width: 253px; height: 43px; border-radius: 2.3rem;\">Explore the Platform → </button>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "18edab29-7e4b-4e21-a8f9-1edc6973a1cc",
+                  "type" : "component"
+                } ],
+                "id" : "b8795e1b-aff3-40a3-a008-4736cbb459d0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCU3TA7BSXCJBQJASJWFK5PMUM3Q?lastModifiedDate=Fri Jun 28 05:32:36 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCU3TA7BSXCJBQJASJWFK5PMUM3Q\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "311c3261-be7a-4e07-b161-94ae7f41852e",
+                  "type" : "component"
+                } ],
+                "id" : "a1f5a906-5e64-4872-8f94-c4a78520849e",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "6abdf0f7-776c-4977-ad5f-402d1f462652",
+              "type" : "component"
+            } ],
+            "id" : "2233fcec-bab9-46e7-acb0-b4440d096f99",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bbdf812b-f395-4847-b18d-5f551e2aa5d2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024&height=144&width=192\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgb(235, 239, 239)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"86519919-fcff-48eb-ab8f-0026d377f0df\",\"columns\":[{\"UUID\":\"486da17c-dc9d-4f5a-a3c0-d96424a8247d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "150px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h2><strong style=\"font-size: 48px;\">Solve your biggest challenges, faster.</strong></h2><p><br></p><p><span style=\"font-family: &quot;Roboto Slab&quot;, serif; font-size: 24px;\">Full-stack hybrid. Multi-cloud. Small business or enterprise. We deliver value—and reduce complexity—</span></p><p><span style=\"font-family: &quot;Roboto Slab&quot;, serif; font-size: 24px;\">﻿wherever you are on your digital agility journey.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6bbafdd9-da7c-4a8b-b384-850ff16515bf",
+              "type" : "component"
+            } ],
+            "id" : "486da17c-dc9d-4f5a-a3c0-d96424a8247d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "86519919-fcff-48eb-ab8f-0026d377f0df",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024&height=144&width=192\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgb(235, 239, 239)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ac36672f-e997-43c1-b7a5-d868525ce47e\",\"columns\":[{\"UUID\":\"5555914a-3429-4e6e-9df5-eb29d899d359\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(235, 239, 239)",
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextColor" : "rgb(0, 100, 130)",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "backgroundColor" : "rgb(235, 239, 239)",
+                "borderColor" : "rgba(255, 255, 255, 0)",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "150px",
+                    "right" : "100px",
+                    "top" : ""
+                  }
+                },
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "left",
+                "tabBorderColor" : "rgba(0, 95, 178, 0)",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBackgroundColor" : "rgb(235, 239, 239)",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "vertical",
+                "tabPadding" : "12px",
+                "tabTextBackgroundColor" : "rgb(235, 239, 239)",
+                "tabTextColor" : "rgb(68, 68, 68)",
+                "tabTextStyle" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"0f91a647-d8ac-409a-91e7-24461e48465b\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"a1d9b08b-035a-4421-bfb3-f867d901be0b\",\"tabName\":\"The SolarWinds Platform\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"79c53a33-a4fc-4b65-a2fe-e8bdb58f0fae\",\"tabName\":\"IT Service Management\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"2cf6394d-2dc6-4797-824e-c29ef86cd882\",\"tabName\":\"Database Performance\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"bbb52afa-ea42-4b2e-a885-6b1d1ab8cd6a\",\"tabName\":\"Network Management\",\"tabKey\":\"8984c\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"3f278d4d-2f24-43cb-b3c5-4e00a5a80edd\",\"tabName\":\"Systems Management\",\"tabKey\":\"1e109\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"68b647cb-35a0-4ee1-907b-d3a6dfe94992\",\"columns\":[{\"UUID\":\"cbb84a72-a7ba-40e4-810b-da181f4c9a1a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"33dda480-9d57-4b96-9906-d1b3d9a7e87e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCVT6JHOITLFACBO3FIPDMQNBEOA?lastModifiedDate=Fri Jun 28 09:21:26 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCVT6JHOITLFACBO3FIPDMQNBEOA\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 90
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "49140dec-3fce-4803-be7f-18b46dd1ad10",
+                      "type" : "component"
+                    } ],
+                    "id" : "cbb84a72-a7ba-40e4-810b-da181f4c9a1a",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3><strong style=\"font-size: 22px;\">The SolarWinds Platform</strong></h3><p><br></p><p>Full-stack hybrid and multi-cloud observability, IT service management, and database performance management—all in one platform.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "ab03251c-df4a-4acd-807c-983e6fb5d09c",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Explore our platform →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "f91e31ac-7214-4147-b6b0-f30d6568c970",
+                      "type" : "component"
+                    } ],
+                    "id" : "33dda480-9d57-4b96-9906-d1b3d9a7e87e",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "68b647cb-35a0-4ee1-907b-d3a6dfe94992",
+                  "type" : "component"
+                } ],
+                "id" : "a1d9b08b-035a-4421-bfb3-f867d901be0b",
+                "name" : "tab1",
+                "title" : "The SolarWinds Platform",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"5f986293-38fc-4b54-a7c7-0d657e0415ab\",\"columns\":[{\"UUID\":\"5c205e7e-23ad-41e9-ba90-b2ef06930a83\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"cad57051-9e84-458a-80cd-06eb698e1eb5\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCXW7WZFI2GRD6HI6UEKJZ6G5I2U?lastModifiedDate=Fri Jun 28 09:24:44 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCXW7WZFI2GRD6HI6UEKJZ6G5I2U\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 90
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "b43f853f-2e65-42b8-9e30-873112aaa35e",
+                      "type" : "component"
+                    } ],
+                    "id" : "5c205e7e-23ad-41e9-ba90-b2ef06930a83",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3><strong style=\"font-size: 22px;\">IT Service Management</strong></h3><p><br></p><p>Move forward with powerful IT service management built to drive efficiency for your organization’s growth.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "345e0975-708d-434b-949d-e73c6370ff5e",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Explore IT Service Management →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "55ddfb8f-c218-4c6b-bec2-298224b219d5",
+                      "type" : "component"
+                    } ],
+                    "id" : "cad57051-9e84-458a-80cd-06eb698e1eb5",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "5f986293-38fc-4b54-a7c7-0d657e0415ab",
+                  "type" : "component"
+                } ],
+                "id" : "79c53a33-a4fc-4b65-a2fe-e8bdb58f0fae",
+                "name" : "tab2",
+                "title" : "IT Service Management",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"e29fb686-a2b6-4cda-a371-2f5b1f6ce41f\",\"columns\":[{\"UUID\":\"443ddb5f-8684-42fc-9c2c-21cbe4eaac30\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f24c1931-bef5-4667-b3c5-642a10b9bcc1\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCHR4THHTKKRD7XOCRHD4QBRFONU?lastModifiedDate=Fri Jun 28 09:42:09 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCHR4THHTKKRD7XOCRHD4QBRFONU\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 90
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "d1635078-1112-43a3-918f-e55b18f2415e",
+                      "type" : "component"
+                    } ],
+                    "id" : "443ddb5f-8684-42fc-9c2c-21cbe4eaac30",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3><strong style=\"font-size: 22px;\">Database Performance</strong></h3><p><br></p><p>Database performance drives organizational success. Gain deeper insights into database health and pinpoint performance issues.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "6fc597cd-7e00-4030-90d1-f213081b8aea",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Explore Database Performance →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "197ded9c-5b4e-4fe3-93ec-6d4ad8338bdf",
+                      "type" : "component"
+                    } ],
+                    "id" : "f24c1931-bef5-4667-b3c5-642a10b9bcc1",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "e29fb686-a2b6-4cda-a371-2f5b1f6ce41f",
+                  "type" : "component"
+                } ],
+                "id" : "2cf6394d-2dc6-4797-824e-c29ef86cd882",
+                "name" : "tab3",
+                "title" : "Database Performance",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"c1dbbd52-3590-46a6-8100-7bd90fe02014\",\"columns\":[{\"UUID\":\"fdb65e1d-a0d8-450e-ae79-47cca6cdf55d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"48906211-329d-4d6f-ac59-a79c8816fd14\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC7DWCCU2MP5DWJD2NBDQESYGBKI?lastModifiedDate=Fri Jun 28 09:56:15 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC7DWCCU2MP5DWJD2NBDQESYGBKI\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 90
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "b0befc9e-a65a-451c-9bd9-80c94b0289ac",
+                      "type" : "component"
+                    } ],
+                    "id" : "fdb65e1d-a0d8-450e-ae79-47cca6cdf55d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3><strong style=\"font-size: 22px;\">Network Management</strong></h3><p><br></p><p>Simple, powerful, and secure monitoring for hybrid networks—highly scalable and built to reduce outages and deliver performance.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "f2c6e386-a7b4-442c-8561-5d6fa7ecbeeb",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Explore Network Management →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "212927d4-946d-42bb-9b67-56d85888d867",
+                      "type" : "component"
+                    } ],
+                    "id" : "48906211-329d-4d6f-ac59-a79c8816fd14",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "c1dbbd52-3590-46a6-8100-7bd90fe02014",
+                  "type" : "component"
+                } ],
+                "id" : "bbb52afa-ea42-4b2e-a885-6b1d1ab8cd6a",
+                "name" : "8984c",
+                "title" : "Network Management",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"a465dd35-0098-4f07-a53d-d810a0613393\",\"columns\":[{\"UUID\":\"36add2a8-b611-4b94-af9e-a44ccb2c497c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"140d3d80-e511-4d72-83b8-39e84c30e822\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCCPEGK5E4XNH5PP3JTOMLXNKDBM?lastModifiedDate=Fri Jun 28 10:26:19 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCCPEGK5E4XNH5PP3JTOMLXNKDBM\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 90
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "1510aea8-dbf9-4090-afd5-50e83451e581",
+                      "type" : "component"
+                    } ],
+                    "id" : "36add2a8-b611-4b94-af9e-a44ccb2c497c",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3><strong style=\"font-size: 22px;\">Systems Management</strong></h3><p><br></p><p>Hybrid IT visibility, and fast, accurate troubleshooting and tools to optimize today's IT investment—and help you plan for tomorrow.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "38ae02c4-7748-4e95-9bb1-fcc149d4a401",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Explore System Management →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "e74e0e52-e36d-4aa7-aca0-62f2bbbe51f6",
+                      "type" : "component"
+                    } ],
+                    "id" : "140d3d80-e511-4d72-83b8-39e84c30e822",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "a465dd35-0098-4f07-a53d-d810a0613393",
+                  "type" : "component"
+                } ],
+                "id" : "3f278d4d-2f24-43cb-b3c5-4e00a5a80edd",
+                "name" : "1e109",
+                "title" : "Systems Management",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "0f91a647-d8ac-409a-91e7-24461e48465b",
+              "type" : "component"
+            } ],
+            "id" : "5555914a-3429-4e6e-9df5-eb29d899d359",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ac36672f-e997-43c1-b7a5-d868525ce47e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "80px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6d7313d5-3474-410f-8cda-e28e4010eb93\",\"columns\":[{\"UUID\":\"463074cd-9c92-456f-8a27-48cf18cef467\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "150px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h2><strong style=\"font-size: 36px;\">SolarWinds AI: Your Service Desk Sidekick</strong></h2><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f3841941-7989-4592-b814-2f0d323a5040",
+              "type" : "component"
+            } ],
+            "id" : "463074cd-9c92-456f-8a27-48cf18cef467",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6d7313d5-3474-410f-8cda-e28e4010eb93",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "160px",
+                "right" : "50px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ae46e736-52bd-404a-b93f-24cddbbf4acf\",\"columns\":[{\"UUID\":\"cda761eb-032c-4c29-bff6-d8b074145391\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"29e92c53-2da3-47ee-a97b-d3214520b56b\",\"columnName\":\"Column 2\",\"columnKey\":\"d1c66\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"c2aeee80-ae8b-404d-8cc5-f9b396ab4b1a\",\"columnName\":\"Column 3\",\"columnKey\":\"a6bab\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "1f63642b-242b-4002-a6c9-9757c32d2658",
+              "type" : "component"
+            } ],
+            "id" : "cda761eb-032c-4c29-bff6-d8b074145391",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "68b13a20-022b-413f-a210-a2adf16056dc",
+              "type" : "component"
+            } ],
+            "id" : "29e92c53-2da3-47ee-a97b-d3214520b56b",
+            "name" : "d1c66",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "d979eed9-6a88-47af-8372-45dcb8eabd42",
+              "type" : "component"
+            } ],
+            "id" : "c2aeee80-ae8b-404d-8cc5-f9b396ab4b1a",
+            "name" : "a6bab",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ae46e736-52bd-404a-b93f-24cddbbf4acf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e83fe7a9-944d-4faa-840b-97cbd27b4202\",\"columns\":[{\"UUID\":\"6a910957-2a9d-436c-9393-6da0ced17663\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "150px",
+                    "right" : "100px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"d4c5a540-2e51-40c7-b08a-1dd82f308dd9\",\"columns\":[{\"UUID\":\"7d96283b-3798-4ecc-ad33-48304b8c6f72\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2185f664-26b1-45c4-adeb-2cf4621e3f0f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"30853d44-3fc0-4a37-86aa-c00aabb37490\",\"columnName\":\"Column 3\",\"columnKey\":\"4af76\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"1bdc79c1-3e45-46ae-ad87-edbdff26c567\",\"columns\":[{\"UUID\":\"afc1903b-9019-4ac8-9a69-cef390a08db9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "8px",
+                            "left" : "8px",
+                            "right" : "8px",
+                            "top" : "8px"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"color: rgb(17, 17, 17); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 24px;\">Modernize your ITSM while prioritizing employee experience and user happiness</strong></p><p><br></p><p><span style=\"color: rgb(102, 102, 102); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 18px;\">SolarWinds AI gives teams the tools they need to do more with the people they have, even as ticket volumes increase.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "01d765b9-e919-41b8-aa8a-e3b259a948cf",
+                      "type" : "component"
+                    } ],
+                    "id" : "afc1903b-9019-4ac8-9a69-cef390a08db9",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "1bdc79c1-3e45-46ae-ad87-edbdff26c567",
+                  "type" : "component"
+                } ],
+                "id" : "7d96283b-3798-4ecc-ad33-48304b8c6f72",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"de4ac540-8950-4e2f-9281-733b556c16d0\",\"columns\":[{\"UUID\":\"3448ef1f-fa98-4096-9aaf-e6e6f8386852\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "8px",
+                            "left" : "8px",
+                            "right" : "8px",
+                            "top" : "8px"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"color: rgb(17, 17, 17); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 24px;\">Supercharge your ITSM team and start smashing SLAs with SolarWinds AI</strong></p><p><br></p><p><span style=\"color: rgb(102, 102, 102); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 18px;\">Automate repetitive or time-consuming tasks, help agents resolve tickets faster and more accurately, and enable greater alignment of team processes.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "40f0a207-03a1-4687-b2cf-7fd0cf78debc",
+                      "type" : "component"
+                    } ],
+                    "id" : "3448ef1f-fa98-4096-9aaf-e6e6f8386852",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "de4ac540-8950-4e2f-9281-733b556c16d0",
+                  "type" : "component"
+                } ],
+                "id" : "2185f664-26b1-45c4-adeb-2cf4621e3f0f",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"f6db885f-c0b4-424c-b742-dc5f09a98e7e\",\"columns\":[{\"UUID\":\"5a993b1d-f6e6-4d59-addf-8307f8b54e3b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "8px",
+                            "left" : "35px",
+                            "right" : "8px",
+                            "top" : "15px"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"color: rgb(17, 17, 17); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 24px;\">We’re setting the new standard with AI by Design</strong></p><p><br></p><p><br></p><p><span style=\"color: rgb(102, 102, 102); font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 18px;\">AI by Design is crafted to ensure customers can leverage the best AI has to offer while minimizing potential downsides. </span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "621d7076-15c4-4677-a58c-8bde97a9f46a",
+                      "type" : "component"
+                    } ],
+                    "id" : "5a993b1d-f6e6-4d59-addf-8307f8b54e3b",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "f6db885f-c0b4-424c-b742-dc5f09a98e7e",
+                  "type" : "component"
+                } ],
+                "id" : "30853d44-3fc0-4a37-86aa-c00aabb37490",
+                "name" : "4af76",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d4c5a540-2e51-40c7-b08a-1dd82f308dd9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "150px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"1fb12a7b-71e9-4c70-b506-771517551dc7\",\"columns\":[{\"UUID\":\"55341e27-8eb4-458d-9990-9efe7a360c8a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e6904912-58dd-477c-8ad1-92754ab71016\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"eb3034d0-0c43-41e3-aabe-98cf75798be1\",\"columnName\":\"Column 3\",\"columnKey\":\"2127c\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "20px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More →",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "site-button",
+                  "definition" : "dxp_base:button",
+                  "id" : "d0877aae-8b95-4fe9-9099-986e64459d8c",
+                  "type" : "component"
+                } ],
+                "id" : "55341e27-8eb4-458d-9990-9efe7a360c8a",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "40px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More →",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "site-button",
+                  "definition" : "dxp_base:button",
+                  "id" : "d715c336-f249-4f19-8036-170dc4f7a908",
+                  "type" : "component"
+                } ],
+                "id" : "e6904912-58dd-477c-8ad1-92754ab71016",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "15px",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Discover Our Approach →",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "site-button",
+                  "definition" : "dxp_base:button",
+                  "id" : "9cdd1a17-ec7d-470d-a8fc-6688972721a2",
+                  "type" : "component"
+                } ],
+                "id" : "eb3034d0-0c43-41e3-aabe-98cf75798be1",
+                "name" : "2127c",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "1fb12a7b-71e9-4c70-b506-771517551dc7",
+              "type" : "component"
+            } ],
+            "id" : "6a910957-2a9d-436c-9393-6da0ced17663",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e83fe7a9-944d-4faa-840b-97cbd27b4202",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024&height=144&width=192\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgb(0, 0, 0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "120px",
+                "right" : "120px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"caca752f-dfd3-4a23-987c-04470a7f8ab3\",\"columns\":[{\"UUID\":\"d746ce2b-2119-41d2-8af1-e04cbd82b5f5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "50px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"423ca58e-8a96-4cf7-9592-21b4af62b405\",\"columns\":[{\"UUID\":\"130dfb46-2796-4029-831f-14eb3fff7630\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"9837823b-4785-4135-97f6-253709e9a7cb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "100px",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"bc85923c-ce7e-4c56-af0c-ffbb95506d08\",\"columns\":[{\"UUID\":\"c74c9b5c-7f91-49d3-88ec-a44be6d8526f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"c885b517-cc53-4410-9e31-ee57e3522702\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"60ba3f19-acf7-4d38-924a-6de237b01a36\",\"columnName\":\"Column 3\",\"columnKey\":\"65664\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"f6654c20-c3c7-4d98-9fff-b6e64c963289\",\"columnName\":\"Column 4\",\"columnKey\":\"82696\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "CASE STUDY",
+                        "textAlign" : "left",
+                        "textColor" : "rgb(255, 98, 0)",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "ad4c0d93-9c53-462e-b57d-78b41ef56fbf",
+                      "type" : "component"
+                    } ],
+                    "id" : "c74c9b5c-7f91-49d3-88ec-a44be6d8526f",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h2><strong style=\"font-size: 36px; color: rgb(255, 255, 255);\">Saber Healthcare guarantees 99.9% SLA with SolarWinds </strong></h2><h2><strong style=\"font-size: 36px; color: rgb(255, 255, 255);\">﻿Service Desk</strong></h2>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "e2540b8b-3ff9-4ee4-a87b-7177351ff4dc",
+                      "type" : "component"
+                    } ],
+                    "id" : "c885b517-cc53-4410-9e31-ee57e3522702",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<p><span style=\"background-color: rgb(17, 17, 17); font-size: 18px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(204, 204, 204);\">Assisted living org reduces software spend by expanding</span></p><p><span style=\"background-color: rgb(17, 17, 17); font-size: 18px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(204, 204, 204);\">SolarWinds Service Desk company-wide.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "87d7dfd2-4ef3-4f15-bbe8-8f4171165fda",
+                      "type" : "component"
+                    } ],
+                    "id" : "60ba3f19-acf7-4d38-924a-6de237b01a36",
+                    "name" : "65664",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "25px"
+                          }
+                        },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Read Case Study →",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "site-button",
+                      "definition" : "dxp_base:button",
+                      "id" : "911da9b5-ac67-4d00-b022-484e09f54928",
+                      "type" : "component"
+                    } ],
+                    "id" : "f6654c20-c3c7-4d98-9fff-b6e64c963289",
+                    "name" : "82696",
+                    "title" : "Column 4",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "bc85923c-ce7e-4c56-af0c-ffbb95506d08",
+                  "type" : "component"
+                } ],
+                "id" : "130dfb46-2796-4029-831f-14eb3fff7630",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "",
+                        "top" : "100px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC3VYG35PN4NHCTCTAPCQID5DYG4\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "a9260b82-4404-49e9-a35a-86c171050437",
+                  "type" : "component"
+                } ],
+                "id" : "9837823b-4785-4135-97f6-253709e9a7cb",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "423ca58e-8a96-4cf7-9592-21b4af62b405",
+              "type" : "component"
+            } ],
+            "id" : "d746ce2b-2119-41d2-8af1-e04cbd82b5f5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "caca752f-dfd3-4a23-987c-04470a7f8ab3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "200px",
+                "right" : "50px",
+                "top" : "50px"
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"be5af74d-a08d-4822-86bd-d92b021df09c\",\"columns\":[{\"UUID\":\"78de3334-da6f-45f3-9d58-18f140fc50a0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"32a6bb19-b8aa-4cc1-a9f6-6a80abf79a78\",\"columnName\":\"Column 2\",\"columnKey\":\"4a9fb\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"2e31459d-0cfa-4e03-b475-e919e62f6a49\",\"columns\":[{\"UUID\":\"e93c0667-9b39-4a86-a345-4c33d01ec2b9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2a888e34-f44a-404f-9895-3fd000ee072f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e07b5a19-ec5d-41a0-bf09-d3962f8cecae\",\"columnName\":\"Column 3\",\"columnKey\":\"e0d67\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 38px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(17, 17, 17);\">The highest compliment</strong></p><p><strong style=\"font-size: 22px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(17, 17, 17);\">is our customers’ trust.</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "71586589-abaa-4af7-afb6-65bfb85a790d",
+                  "type" : "component"
+                } ],
+                "id" : "e93c0667-9b39-4a86-a345-4c33d01ec2b9",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><span style=\"font-size: 18px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(102, 102, 102);\">“We felt the competitors were both more expensive and more difficult to configure and deploy. We selected SolarWinds… because it provided better value both in terms of cost and user experience.”</span></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "edb6c867-ed34-4d9f-9c54-9df899455d76",
+                  "type" : "component"
+                } ],
+                "id" : "2a888e34-f44a-404f-9895-3fd000ee072f",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 18px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(17, 17, 17);\">Dave Constantino, CTO, Datarista</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "60d77ef2-8acd-4921-ac8c-76200567f6db",
+                  "type" : "component"
+                } ],
+                "id" : "e07b5a19-ec5d-41a0-bf09-d3962f8cecae",
+                "name" : "e0d67",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "2e31459d-0cfa-4e03-b475-e919e62f6a49",
+              "type" : "component"
+            } ],
+            "id" : "78de3334-da6f-45f3-9d58-18f140fc50a0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"2b5f0719-3a62-4141-b8ee-90774c1a3263\",\"columns\":[{\"UUID\":\"2be98576-d807-40f2-b812-11fb46910571\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b1641c2b-23b9-4197-829b-30f1f4a96a02\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<div class =\"maindiv\"style = \"display: flex; align-items: center\">\n    <h1 style =\"font-size: 104px; font-weight:bold; padding-right: 20px;\">96%</h1>\n    <div class=\"vertical-line\"></div>\n    <p style =\" font-size: 22px; color: rgb(102 102 102);\">of the Fortune®<br> 500</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "84ddd540-1b6d-4e6c-956e-641ba5a24608",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 2,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "feff84bd-e65c-4812-bd15-fe11c893df79",
+                  "type" : "component"
+                } ],
+                "id" : "2be98576-d807-40f2-b812-11fb46910571",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<div class =\"maindiv\"style = \"display: flex; align-items: center; padding-left: 20px;\">\n    <h1 style =\"font-size: 56px; font-weight:bold; padding-right: 20px;\">31</h1>\n    <div class=\"vertical-line2\"></div>\n    <p style =\" font-size: 16px; color: #666666;\">Awards in<br> 2022</p>\n    <h1 style =\"font-size: 56px; font-weight:bold; padding-right: 20px; padding-left: 30px;\">300k+</h1>\n    <div class=\"vertical-line2\"></div>\n    <p style =\" font-size: 16px; color: #666666;\">customers <br> worldwide</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "b3c83067-5d0a-476c-ab08-cbb5ce15d4c2",
+                  "type" : "component"
+                } ],
+                "id" : "b1641c2b-23b9-4197-829b-30f1f4a96a02",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "2b5f0719-3a62-4141-b8ee-90774c1a3263",
+              "type" : "component"
+            } ],
+            "id" : "32a6bb19-b8aa-4cc1-a9f6-6a80abf79a78",
+            "name" : "4a9fb",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "be5af74d-a08d-4822-86bd-d92b021df09c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "100px",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"398a56fd-913e-402a-8aa8-851608c3d16b\",\"columns\":[{\"UUID\":\"ffa48c2f-d56f-43ec-a852-f30bf25d5890\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "0rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "150px",
+                    "right" : "100px",
+                    "top" : "50px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"caad9ec2-fffd-4358-8ea9-5c345051b043\",\"columns\":[{\"UUID\":\"87996c13-eaa7-4d66-8c71-82c0f1349416\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"3741231f-3c39-41b5-9ad3-27a011a8a199\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"28f8d4aa-5d3a-4230-a085-d3b9d1c2ffc0\",\"columnName\":\"Column 3\",\"columnKey\":\"1e372\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"5632456a-1183-4800-9077-9b92faafde91\",\"columnName\":\"Column 4\",\"columnKey\":\"e76da\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "15px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCJO7L4LJQ3NHKLON2ABCFVYDIUM\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "a47ddf0a-498b-4d5b-88f5-aca92e9fb677",
+                  "type" : "component"
+                } ],
+                "id" : "87996c13-eaa7-4d66-8c71-82c0f1349416",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "12px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCMFFU3W4GA5HIZLFGW4AMT2XN3U\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "be14c471-ef3e-453b-8863-a8b4c55bdf9f",
+                  "type" : "component"
+                } ],
+                "id" : "3741231f-3c39-41b5-9ad3-27a011a8a199",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCEAYCIY7IPBCBHAT27NIES6SCOA\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 25
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "5382d1fb-f380-464d-9047-dd340790df46",
+                  "type" : "component"
+                } ],
+                "id" : "28f8d4aa-5d3a-4230-a085-d3b9d1c2ffc0",
+                "name" : "1e372",
+                "title" : "Column 3",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "15px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC7BBWPGNTFRDRTCNIX4TFDBRJHU\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "84714f49-2774-4e5d-b9ae-14f6ff09f56d",
+                  "type" : "component"
+                } ],
+                "id" : "5632456a-1183-4800-9077-9b92faafde91",
+                "name" : "e76da",
+                "title" : "Column 4",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "caad9ec2-fffd-4358-8ea9-5c345051b043",
+              "type" : "component"
+            } ],
+            "id" : "ffa48c2f-d56f-43ec-a852-f30bf25d5890",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "398a56fd-913e-402a-8aa8-851608c3d16b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MC6EYIAKKUSVAOBOEEXIXXFVWI2A?lastModifiedDate=Mon Jul 01 06:30:07 GMT 2024&height=144&width=192\",\"contentKey\":\"MC6EYIAKKUSVAOBOEEXIXXFVWI2A\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"/cover\"}",
+            "backgroundImageOverlay" : "rgb(17, 17, 17)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "100px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"04fd418c-37cf-4afc-9fbd-72fe3bdb3160\",\"columns\":[{\"UUID\":\"2b0f076a-e399-4cbe-8a89-2ab8e532ea56\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"background-color: rgb(17, 17, 17); font-size: 38px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(255, 255, 255);\">Experience yields Insights.&nbsp;</strong><span style=\"background-color: rgb(17, 17, 17); font-size: 38px; font-family: Roboto, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(255, 255, 255);\">Here’s some of what we’ve learned.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "cdf8c5f4-f700-4736-ad01-ee2d0235b9ba",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "4rem",
+                    "left" : "6rem",
+                    "right" : "6rem",
+                    "top" : "2rem"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"131a7b31-a596-426e-a72d-039b2e3010e5\",\"columns\":[{\"UUID\":\"e12dcdea-1ebd-4154-9b7b-c736f83d3891\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"677211b5-b0e5-4062-83b1-aba739523ca1\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"ec621f48-a93f-445b-a6a5-d6886de4f73d\",\"columnName\":\"Column 3\",\"columnKey\":\"c4cbb\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"00f2934d-7405-447b-8585-383e67c6d4e9\",\"columns\":[{\"UUID\":\"f26c6ad1-fe24-4a53-93dc-e754c50b2269\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"f31ae339-88f0-403f-b03c-7aa59f871fdf\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4f7fc011-bcbe-4308-b383-910d3cc0bd43\",\"columnName\":\"Column 3\",\"columnKey\":\"48dde\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "fit" : "cover",
+                        "height" : 357,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCD6724FZZJZDDFLNHTWOMTPWVWM?lastModifiedDate=Tue Jul 09 17:06:05 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCD6724FZZJZDDFLNHTWOMTPWVWM\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "e56d02c6-ed5e-4f38-bca5-e87747e1881b",
+                      "type" : "component"
+                    } ],
+                    "id" : "f26c6ad1-fe24-4a53-93dc-e754c50b2269",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "1.5rem",
+                            "left" : "1.5rem",
+                            "right" : "2rem",
+                            "top" : "2rem"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">IT Trends Report 2024: AI – </strong></p><p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">Friend or Foe?</strong></p><p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">﻿</strong></p><p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">﻿</strong></p><p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">﻿</strong><span style=\"font-size: 18px; color: rgb(187, 187, 187);\">This report gauges the IT industry’s perception of AI today. Is AI a friend or a foe?</span></p><p><span style=\"font-size: 18px; color: rgb(187, 187, 187);\"><span class=\"ql-cursor\">﻿</span></span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "f79e0d34-3bb8-48c9-982e-362c1330b82b",
+                      "type" : "component"
+                    } ],
+                    "id" : "f31ae339-88f0-403f-b03c-7aa59f871fdf",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "1.5rem",
+                            "right" : "",
+                            "top" : "1.5rem"
+                          },
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<a href=\"https://it-trends.solarwinds.com/\" data-linktype=\"Resources\" data-linkdetail=\"Read the Report Button IT Trends Report 2024\" \n   class=\"text-swdc-green-300 before:bg-swdc-gray-400 active:text-swdc-black-600 relative isolate inline-flex h-11 \n          items-center px-6 font-red-hat-display text-lg font-bold before:absolute before:left-0 before:top-0 before:z-[-1] \n          before:h-full before:w-11 before:rounded-full before:transition-[width] before:duration-[400ms] before:ease-in-out before:content-[''] \n          hover:before:w-full active:before:border-[3px] active:before:border-solid active:before:border-swdc-green-600 active:before:bg-swdc-green-300 \" style =\" color: rgb(170 220 51);\n   font-weight: 700; font-size: 18px;\"\n   >Read the Report → <span class=\"ml-2 fill-current\">\n    \n    </span></a>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "de4e74b2-6b48-4130-bf17-09b6252b1433",
+                      "type" : "component"
+                    } ],
+                    "id" : "4f7fc011-bcbe-4308-b383-910d3cc0bd43",
+                    "name" : "48dde",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "00f2934d-7405-447b-8585-383e67c6d4e9",
+                  "type" : "component"
+                } ],
+                "id" : "e12dcdea-1ebd-4154-9b7b-c736f83d3891",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"ae65d0dd-1638-40f4-959b-16865b96f735\",\"columns\":[{\"UUID\":\"33243ae1-fb89-4fc0-b9e6-21d006cf0a43\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6a6aedb4-33d5-4851-8946-55b7b931326d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a75c5d07-8278-4580-8893-ac32cd6595f9\",\"columnName\":\"Column 3\",\"columnKey\":\"71ffe\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCKLZRLOOGMJD2LD42GDZFGH62DM?lastModifiedDate=Tue Jul 09 17:06:45 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCKLZRLOOGMJD2LD42GDZFGH62DM\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "d6f453bc-012b-4843-a48b-96ccc105eb64",
+                      "type" : "component"
+                    } ],
+                    "id" : "33243ae1-fb89-4fc0-b9e6-21d006cf0a43",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "2rem",
+                            "left" : "2rem",
+                            "right" : "2rem",
+                            "top" : "2rem"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">Enterprise Cloud Operations Team Gains 5x ROI Over Three </strong></p><p><strong style=\"font-size: 22px; color: rgb(255, 255, 255);\">﻿Years</strong></p><p><br></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">This popular retailer achieved these </span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">﻿savings by retiring an array of open-</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">source tools and problematic SaaS-</span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">﻿based IT monitoring tools.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "697e301f-9cdd-4854-8059-3c74c9036d04",
+                      "type" : "component"
+                    } ],
+                    "id" : "6a6aedb4-33d5-4851-8946-55b7b931326d",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "2rem",
+                            "right" : "",
+                            "top" : ".9rem"
+                          }
+                        },
+                        "richTextValue" : "<a href=\"https://www.solarwinds.com/resources/case-study/enterprise-cloud-operations-team-gains-5x-roi-over-three-years\" data-linktype=\"Resources\" data-linkdetail=\"Read the Report Button IT Trends Report 2024\" \n   class=\"text-swdc-green-300 before:bg-swdc-gray-400 active:text-swdc-black-600 relative isolate inline-flex h-11 \n          items-center px-6 font-red-hat-display text-lg font-bold before:absolute before:left-0 before:top-0 before:z-[-1] \n          before:h-full before:w-11 before:rounded-full before:transition-[width] before:duration-[400ms] before:ease-in-out before:content-[''] \n          hover:before:w-full active:before:border-[3px] active:before:border-solid active:before:border-swdc-green-600 active:before:bg-swdc-green-300 \" style =\" color: rgb(170 220 51);\n   font-weight: 700; font-size: 18px;\" \n   >Read the Report → <span class=\"ml-2 fill-current\">\n    \n    </span></a>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "93cae39c-e94d-4b96-b9ae-8a096f2451f0",
+                      "type" : "component"
+                    } ],
+                    "id" : "a75c5d07-8278-4580-8893-ac32cd6595f9",
+                    "name" : "71ffe",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "ae65d0dd-1638-40f4-959b-16865b96f735",
+                  "type" : "component"
+                } ],
+                "id" : "677211b5-b0e5-4062-83b1-aba739523ca1",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"3917550d-52c5-4d52-b7aa-740e9835a1f9\",\"columns\":[{\"UUID\":\"c9cad573-e5b6-466e-9df2-49679b83da83\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"03d2c8b8-9c45-44b0-8131-ab7a8f6bb150\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"95430d69-b1df-425b-ac38-4653c56a837d\",\"columnName\":\"Column 3\",\"columnKey\":\"5d6a0\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCYRNJMBVLT5BTLD5FRJWCFYEFI4?lastModifiedDate=Tue Jul 09 17:07:25 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCYRNJMBVLT5BTLD5FRJWCFYEFI4\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "0fea06b7-d512-4c56-b6c4-0d7e26426235",
+                      "type" : "component"
+                    } ],
+                    "id" : "c9cad573-e5b6-466e-9df2-49679b83da83",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "2rem",
+                            "right" : "2rem",
+                            "top" : "2rem"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"color: rgb(255, 255, 255); font-size: 22px;\">SolarWinds is a trusted leader,</strong></p><p><strong style=\"color: rgb(255, 255, 255); font-size: 22px;\">year after year</strong></p><p><strong style=\"color: rgb(255, 255, 255); font-size: 22px;\"><span class=\"ql-cursor\">﻿</span></strong></p><p><br></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">SolarWinds Recognized in GigaOm Radar Reports as a Leader in Network and </span></p><p><span style=\"color: rgb(187, 187, 187); font-size: 18px;\">﻿Cloud Observability</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "36f73c76-2b21-47a2-8f43-5a2c84e0d130",
+                      "type" : "component"
+                    } ],
+                    "id" : "03d2c8b8-9c45-44b0-8131-ab7a8f6bb150",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "20px"
+                          },
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "2rem",
+                            "right" : "",
+                            "top" : "1.2rem"
+                          }
+                        },
+                        "richTextValue" : "<a href=\"https://investors.solarwinds.com/news/news-details/2022/SolarWinds-Recognized-in-GigaOm-Radar-Reports-as-a-Leader-in-Network-and-Cloud-Observability/default.aspx\" data-linktype=\"Resources\" data-linkdetail=\"Read the Report Button IT Trends Report 2024\" \n   class=\"text-swdc-green-300 before:bg-swdc-gray-400 active:text-swdc-black-600 relative isolate inline-flex h-11 \n          items-center px-6 font-red-hat-display text-lg font-bold before:absolute before:left-0 before:top-0 before:z-[-1] \n          before:h-full before:w-11 before:rounded-full before:transition-[width] before:duration-[400ms] before:ease-in-out before:content-[''] \n          hover:before:w-full active:before:border-[3px] active:before:border-solid active:before:border-swdc-green-600 active:before:bg-swdc-green-300 \" style =\" color: rgb(170 220 51);\n   font-weight: 700; font-size: 18px;\"\n   >Read the Report → <span class=\"ml-2 fill-current\">\n    \n    </span></a>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "c02b5e31-8b73-47a1-a246-babaff1fc1f3",
+                      "type" : "component"
+                    } ],
+                    "id" : "95430d69-b1df-425b-ac38-4653c56a837d",
+                    "name" : "5d6a0",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "3917550d-52c5-4d52-b7aa-740e9835a1f9",
+                  "type" : "component"
+                } ],
+                "id" : "ec621f48-a93f-445b-a6a5-d6886de4f73d",
+                "name" : "c4cbb",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "131a7b31-a596-426e-a72d-039b2e3010e5",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "isVisible" : false,
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : "2rem"
+                  }
+                },
+                "richTextValue" : "<ul><li><span style=\"background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 12px;\">1&nbsp;https://www.solarwinds.com/company/home</span></li><li><span style=\"background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 12px;\">2&nbsp;https://investors.solarwinds.com/news/news-details/2022/SolarWinds-Awarded-for-Product-and-Industry-Excellence-in-First-Half-of-2022/default.aspx</span></li><li><span style=\"background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 12px;\"><span class=\"ql-cursor\">﻿</span>3&nbsp;https://investors.solarwinds.com/financials/sec-filings/sec-filings-details/default.aspx?FilingId=15606846</span></li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3a3c05ee-0ddd-411c-a0b6-c98552745ba1",
+              "type" : "component"
+            } ],
+            "id" : "2b0f076a-e399-4cbe-8a89-2ab8e532ea56",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "04fd418c-37cf-4afc-9fbd-72fe3bdb3160",
+          "type" : "component"
+        } ],
+        "id" : "9e86b1e1-91a7-47a8-bb04-7a3f34383595",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e1ce1927-ff64-47d8-a324-c9cb79bb84bf",
+          "type" : "component"
+        } ],
+        "id" : "2dacca2d-af64-4be2-99d6-d9e9408eab1a",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "31bd12a5-bcac-4f44-bb93-7b083fb108e6",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  }
+}

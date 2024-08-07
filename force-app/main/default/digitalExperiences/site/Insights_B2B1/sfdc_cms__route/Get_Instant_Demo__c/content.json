@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Get Instant Demo",
+  "contentBody" : {
+    "activeViewId" : "Get_Instant_Demo",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-get-instant-demo",
+    "urlPrefix" : "get-instant-demo"
+  }
+}

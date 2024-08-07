@@ -1,0 +1,1588 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "CXO",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "5rem",
+                "right" : "",
+                "top" : "2rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"565fbcb3-df36-4cd9-9259-913ef0440936\",\"columns\":[{\"UUID\":\"9ac2a6b8-122c-4bdd-b20b-59b77435500e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-end"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"d168b224-8680-4548-b259-a21331e3eeac\",\"columns\":[{\"UUID\":\"20450b85-88cd-4eb6-b8d1-26f9d0d07fbd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b23d1c2f-d80b-4a02-a116-c37b5f48eb6f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "3rem",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<h2 style=\"font-size: 30px; font-weight: bold; margin-bottom: 20px;\">\n            Transform Lackluster EPM Reporting into Dynamic\n            C-Level Insights\n        </h2>\n\n    <!-- Centered and styled label and input -->\n\n        <label for=\"name\" style=\"font-size: 18px; display: inline-block; margin-bottom: 10px;\">\n        </label><br>\n        <input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Business Email*\" \n               style=\"padding: 10px; font-size: 16px; width: 300px; border: 1px solid #ccc; border-radius: 4px;\">"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "94222447-ce07-470d-b631-46d26163acd2",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "3rem",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"db34f76f-c38b-4289-bbce-9cdfbe686bf9\",\"columns\":[{\"UUID\":\"7b7fccb5-18b0-41fc-bc59-3de240e112d2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"7fc965c2-33ee-4352-836e-0a2c9bdebfa8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Get a demo >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "852d32e2-05d2-4e05-b69d-ab47eb0b8844",
+                      "type" : "component"
+                    } ],
+                    "id" : "7b7fccb5-18b0-41fc-bc59-3de240e112d2",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Get Pricing >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "aefcea2a-eb6e-433d-a2ed-4be5e81a671f",
+                      "type" : "component"
+                    } ],
+                    "id" : "7fc965c2-33ee-4352-836e-0a2c9bdebfa8",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "db34f76f-c38b-4289-bbce-9cdfbe686bf9",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"bf7bfeb9-abc1-4f63-96c0-022ff0ad112f\",\"columns\":[{\"UUID\":\"bfc243a2-911c-4c89-8521-c1b4a82660af\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "3rem",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCW3JWCQ3ZHRGX5CHZ7X3QX5SPJ4\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "82da71b3-f562-4bf3-886a-90baa00acd9d",
+                      "type" : "component"
+                    } ],
+                    "id" : "bfc243a2-911c-4c89-8521-c1b4a82660af",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "bf7bfeb9-abc1-4f63-96c0-022ff0ad112f",
+                  "type" : "component"
+                } ],
+                "id" : "20450b85-88cd-4eb6-b8d1-26f9d0d07fbd",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "cover",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCGUFZK6I2UVCNZMAAOEZJ7ZR7BU\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "22aaffa9-e75f-418f-91e3-570db8447cab",
+                  "type" : "component"
+                } ],
+                "id" : "b23d1c2f-d80b-4a02-a116-c37b5f48eb6f",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d168b224-8680-4548-b259-a21331e3eeac",
+              "type" : "component"
+            } ],
+            "id" : "9ac2a6b8-122c-4bdd-b20b-59b77435500e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "565fbcb3-df36-4cd9-9259-913ef0440936",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"eea4160c-6bab-4e4c-a505-47be0f3eb946\",\"columns\":[{\"UUID\":\"00812e4a-f4d0-4a1a-90c8-e5c1db30e8d2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<div class=\"homepagesection2\">\n    <div class=\"content-container w-75 m-auto\">\n        <h2 style=\"font-size: 1.5em;\">See for yourself why <span style=\"font-size: 1.5em;\">500K+</span> are using insightsoftware </h2>\n    </div>\n    <img src=\"https://insightsoftware.com/wp-content/uploads/2022/04/symrise_200x110.png\" alt=\"Image1\">\n    <img src=\"https://insightsoftware.com/wp-content/uploads/2022/04/randstad_200x110.png\" alt=\"Image1\">\n    <img src=\"https://insightsoftware.com/wp-content/uploads/2022/04/orsted_200x110.png\" alt=\"Image1\">\n    <img src=\"https://insightsoftware.com/wp-content/uploads/2022/04/wessanen_200x110.png\" alt=\"Image1\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "b089bd5c-b625-4d71-830a-ff2779598dc6",
+              "type" : "component"
+            } ],
+            "id" : "00812e4a-f4d0-4a1a-90c8-e5c1db30e8d2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "eea4160c-6bab-4e4c-a505-47be0f3eb946",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "3rem",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0a0cd35a-0213-4a73-bf2e-a50c201b5e17\",\"columns\":[{\"UUID\":\"a36d9548-deac-410c-97bc-a7cf4da6ee7c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"6d7db827-38c0-474c-95bb-f0fc644a9253\",\"columnName\":\"Column 2\",\"columnKey\":\"8173d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Is Your EPM Reporting Purpose-Built for Finance?",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a6e19bae-5887-40c6-a963-31c5b40dea0b",
+              "type" : "component"
+            } ],
+            "id" : "a36d9548-deac-410c-97bc-a7cf4da6ee7c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"0b187aa9-cdb9-4b35-941e-f7d996914902\",\"columns\":[{\"UUID\":\"91368b71-99ce-4cce-be4f-749c60d18db0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2497c73f-9577-49ed-8dfd-068895150ffa\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"253870a7-ced5-4f70-9e0f-3e4651b940ae\",\"columnName\":\"Column 3\",\"columnKey\":\"15740\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<center><img src='https://insightsoftware.com/wp-content/uploads/2019/09/CXO-Icon-QuickAccess-85x85.png' style=\"width: 20%; height: auto;\"><center>\n<br>\n<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">EPM is Designed for Input and<br> Processing, Not Reporting</h2><br>\n<p>Most EPM solutions were built to capture and<br> aggregate data, not report on them. Built-in<br> reporting is often too limited and inflexible to<br> respond to fast-changing business needs. As a<br> result, finance teams don’t have quick access to the<br> data they need to do their jobs effectively.</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "e0c14dd6-9118-4794-b866-ea971fde8418",
+                  "type" : "component"
+                } ],
+                "id" : "91368b71-99ce-4cce-be4f-749c60d18db0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<center><img src='https://insightsoftware.com/wp-content/uploads/2019/09/CXO-Icon-NoErrors-85x85.png' style=\"width: 20%; height: auto;\"><center>\n<br>\n<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Other Reporting Tools Aren’t<br> Purpose-Built for Finance\n</h2><br>\n<p>Turning to BI tools doesn’t help. BI tools weren’t<br> designed to work with multi-dimensional EPM data,<br> leaving you dependent on technical expertise. This<br> can cause bottlenecks and result in unacceptable<br> delays.</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "7e80024b-e8b2-4249-863f-83a70c8b0a45",
+                  "type" : "component"
+                } ],
+                "id" : "2497c73f-9577-49ed-8dfd-068895150ffa",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<center><img src='https://insightsoftware.com/wp-content/uploads/2019/09/CXO-Icon-NoIT-85x85.png' style=\"width: 20%; height: auto;\"><center>\n<br>\n<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">You’re Stuck in a Cycle of Static<br> Reporting\n</h2><br>\n<p>Most EPM customers resort to dumping data into<br> spreadsheets to satisfy their reporting needs—a<br> slow, error-prone process that results in non-<br>standardized reports. This leaves decision-makers<br> working with rudimentary, static data presentations<br> that lack context and add little value.</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "9ef9b595-bc23-47eb-be0b-85187c37ef32",
+                  "type" : "component"
+                } ],
+                "id" : "253870a7-ced5-4f70-9e0f-3e4651b940ae",
+                "name" : "15740",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "0b187aa9-cdb9-4b35-941e-f7d996914902",
+              "type" : "component"
+            } ],
+            "id" : "6d7db827-38c0-474c-95bb-f0fc644a9253",
+            "name" : "8173d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0a0cd35a-0213-4a73-bf2e-a50c201b5e17",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "50px",
+                "left" : "",
+                "right" : "",
+                "top" : "20px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7bc739d7-a02b-4a3f-8607-30ec5afc19c0\",\"columns\":[{\"UUID\":\"38a1f2e7-efd9-487a-b8f8-2be4374e8476\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a6f57847-ead9-4b80-a8e8-5edb6549c962\",\"columnName\":\"Column 2\",\"columnKey\":\"791e2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Built for Strategic Financial Reporting</h2>\n<p>CXO is a purpose-built, web based, EPM reporting solution for finance teams. With out-of-the-box connectivity to all market leading EPM solutions, CXO enables users to deliver high quality digital reports and dashboard and speed up reporting cycles to meet the needs of C-level executives. It allows finance teams to tell the full story behind the numbers with built-in<br> commentary. CXO instantly understands financial data and hierarchies with built-in EPM Smarts and puts Finance in control with easy report creation. This ensures organizations get up and<br> running fast without relying on IT, allowing the finance team to spend more time on analysis.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6f82a737-d162-43a4-b7d9-3b269889cfac",
+              "type" : "component"
+            } ],
+            "id" : "38a1f2e7-efd9-487a-b8f8-2be4374e8476",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCEEWODYX3IZAG7CZ6ZOKSRWYUDA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 42
+              },
+              "definition" : "dxp_base:image",
+              "id" : "5b6db39f-e289-4a04-bda9-ad32221d8395",
+              "type" : "component"
+            } ],
+            "id" : "a6f57847-ead9-4b80-a8e8-5edb6549c962",
+            "name" : "791e2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7bc739d7-a02b-4a3f-8607-30ec5afc19c0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "50px",
+                "left" : "",
+                "right" : "",
+                "top" : "30px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"30c505f8-6659-4be3-b0e7-2311a69a55b2\",\"columns\":[{\"UUID\":\"e07dfe57-95fe-41f7-b986-c38e309bfb8b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7a074857-7c1f-45b2-8b26-7b144ac88f4e\",\"columnName\":\"Column 2\",\"columnKey\":\"77b2e\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC24F4SHM2OZCWNMFZHVYMJE4WCA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 45
+              },
+              "definition" : "dxp_base:image",
+              "id" : "37c1d426-47ae-4042-bd95-566a0c8ad0fc",
+              "type" : "component"
+            } ],
+            "id" : "e07dfe57-95fe-41f7-b986-c38e309bfb8b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Generate Real Business Value with Better<br> EPM Reporting</h2>\n<p>Dynamic reports and dashboards, with controls optimized to display financial data, provide instant insight into overall company performance and help to highlight key data points and bring your financial story to life. Enable your finance team members to create and manage reports. With highly flexible best practice reporting templates, along with a free-format template, you can get up and running fast and easily create the dashboards you need to meet<br> all your reporting requirements.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "ae405f65-20a1-4506-85a0-d1d9141260c7",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Access CXO Dashboard Templates",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "cbb14563-fd84-4697-94d9-d9a979b37167",
+              "type" : "component"
+            } ],
+            "id" : "7a074857-7c1f-45b2-8b26-7b144ac88f4e",
+            "name" : "77b2e",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "30c505f8-6659-4be3-b0e7-2311a69a55b2",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "50px",
+                "left" : "",
+                "right" : "",
+                "top" : "30px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"69efa9e1-541a-40ff-a07e-245b8dd6446a\",\"columns\":[{\"UUID\":\"34f13674-64a8-4eb7-8930-ca2252e1c744\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d1cad0eb-e55b-47fa-ba94-abd3e6cc3a2f\",\"columnName\":\"Column 2\",\"columnKey\":\"a1d65\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "30px"
+                  }
+                },
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Access One or More EPM Sources</h2>\n<p>Connect to one or more EPM systems for analysis of live figures. Incorporate non-EPM data together with your financial data using the CXO Data Warehouse. Visualize and analyze consolidated financial data straight from your EPM, with built-in EPM Smarts that understand your financial data, including hierarchies and definitions.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9da0bf45-00df-4800-a1dd-0bb28dae901f",
+              "type" : "component"
+            } ],
+            "id" : "34f13674-64a8-4eb7-8930-ca2252e1c744",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCHT53BLYXQVHLZI72DEPMCN54EM\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 46
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a22b236a-7f4c-4037-82fd-541d3d96aa49",
+              "type" : "component"
+            } ],
+            "id" : "d1cad0eb-e55b-47fa-ba94-abd3e6cc3a2f",
+            "name" : "a1d65",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "69efa9e1-541a-40ff-a07e-245b8dd6446a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "20px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d445349e-7d29-494d-982c-bf67a51ef6d4\",\"columns\":[{\"UUID\":\"6f339e7b-935f-418d-8589-200010d264e3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"31af1984-2dfd-4316-849b-49c69b38b2a6\",\"columnName\":\"Column 2\",\"columnKey\":\"27df0\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCB4QMDBDQOJDDHJVAXDQ6C2XS4Q\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 54
+              },
+              "definition" : "dxp_base:image",
+              "id" : "2c48949b-a9fa-4e40-9a3c-62a4fc1f2ec1",
+              "type" : "component"
+            } ],
+            "id" : "6f339e7b-935f-418d-8589-200010d264e3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Communicate the Story Behind Your<br> Numbers</h2>\n<p>Stimulate collaboration and engagement with commentary and live chat to capture insights from all stakeholders to tell the story behind your numbers. Consolidate report commentaries quickly and easily, and track them with an audit trail to support your governance and compliance needs. Then share vivid analysis and in-depth insights securely with other users.</p>\n<br>\n<p style=\"color: green;\">Learn More</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9fe78d68-d078-489b-b716-a528afaa205a",
+              "type" : "component"
+            } ],
+            "id" : "31af1984-2dfd-4316-849b-49c69b38b2a6",
+            "name" : "27df0",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d445349e-7d29-494d-982c-bf67a51ef6d4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "20px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a0c3523a-2b20-445a-a5a3-3a1772e43ad1\",\"columns\":[{\"UUID\":\"e4987063-4eee-47ca-8b6c-4d16962c35b8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0ddfdbe2-9d81-4f87-8bf8-987ea690aae6\",\"columnName\":\"Column 2\",\"columnKey\":\"5a20a\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "30px"
+                  }
+                },
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Deliver Richer Reports for In-Depthbr> Analysis</h2>\n<p>Report packs include rich, dynamic dashboards that are available on both desktop and mobile devices, and update automatically. This eliminates manual effort and enables report users to find the information they need fast, by filtering their point of view and drilling into lower levels of detail.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "ebd3b007-f4f9-41eb-84e8-188f324a1c50",
+              "type" : "component"
+            } ],
+            "id" : "e4987063-4eee-47ca-8b6c-4d16962c35b8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCDARKOMV7SREP3A2G3NZJDIM4KA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 46
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a30cd422-8a83-4aae-a08a-72d3494222eb",
+              "type" : "component"
+            } ],
+            "id" : "0ddfdbe2-9d81-4f87-8bf8-987ea690aae6",
+            "name" : "5a20a",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a0c3523a-2b20-445a-a5a3-3a1772e43ad1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3ef4d231-bad0-46e9-b7ad-62aeb5926fab\",\"columns\":[{\"UUID\":\"dea6f05f-d514-4ac6-946e-e214fe80aad1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<center><h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Ready to go beyond Financial Reporting?</h2>\n<p><span>CXO is one of insightsoftware's unified, modular applications. Select the capabilities you need across<br> budgeting & planning, controllership, and reporting to get more done with less risk by bringing all your<br> insightsoftware applications together in one place.</span></p><center>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "07bc50fb-8cd0-4bc3-8c0e-11089c8ce026",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"b0234e50-fad8-4fb6-b8fd-4b6b868ca567\",\"columns\":[{\"UUID\":\"b20cfcac-87b8-494a-9ad1-bd51bef53d09\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0e38f667-d197-4196-b681-27a07fb642e8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "4c9a6d82-8e42-4a72-9a6e-5785b9322b85",
+                  "type" : "component"
+                } ],
+                "id" : "b20cfcac-87b8-494a-9ad1-bd51bef53d09",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Buy Now",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__recordPage\",\"attributes\":{\"actionName\":\"view\",\"objectApiName\":\"Product2\",\"recordId\":\"01tak000005QmkUAAS\"},\"state\":{\"recordName\":\"CXO\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "91b9e48b-96d0-45be-a957-065415dd617f",
+                  "type" : "component"
+                } ],
+                "id" : "0e38f667-d197-4196-b681-27a07fb642e8",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "b0234e50-fad8-4fb6-b8fd-4b6b868ca567",
+              "type" : "component"
+            } ],
+            "id" : "dea6f05f-d514-4ac6-946e-e214fe80aad1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3ef4d231-bad0-46e9-b7ad-62aeb5926fab",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e24c3d90-4ae4-40f2-8d5c-e3e6f504a2a0\",\"columns\":[{\"UUID\":\"c7cfd476-cd5e-4e8f-9613-d9bfefac89a3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCIFZZR4OH4FANBFFOUHMVR5434Q?lastModifiedDate=Thu Jun 27 06:32:25 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCIFZZR4OH4FANBFFOUHMVR5434Q\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "5c421943-4581-4bff-a0f2-fb1103022f1b",
+              "type" : "component"
+            } ],
+            "id" : "c7cfd476-cd5e-4e8f-9613-d9bfefac89a3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e24c3d90-4ae4-40f2-8d5c-e3e6f504a2a0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "4rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5f47cfbf-27d0-4ce9-9bc6-bb34f5879d78\",\"columns\":[{\"UUID\":\"3dbc086e-9f91-4cbf-9cec-fddf6363403b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d2d35a4c-04cc-427d-b9fa-ac3d416b3ff9\",\"columnName\":\"Column 2\",\"columnKey\":\"b6edd\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Integrates with:\n\n",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "4c23cfd6-b920-4288-aba1-b276e7362f6f",
+              "type" : "component"
+            } ],
+            "id" : "3dbc086e-9f91-4cbf-9cec-fddf6363403b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "left",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"ce12cb31-fc2b-4cab-af57-58e5ebc2cb33\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"ba1631cf-08bd-4795-b482-6f57246979ea\",\"tabName\":\"Oracle\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"25fc7141-32ac-48e2-9259-58b923143ccd\",\"tabName\":\"Microsoft\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"780035f8-0aae-45ac-9481-1ccc069d909b\",\"tabName\":\"SAP\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"ec451998-cc98-4b1e-9409-ba6a2ac21f94\",\"tabName\":\"Other\",\"tabKey\":\"8f885\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"e5fb6926-998b-4f56-bbc7-860b82be2f92\",\"columns\":[{\"UUID\":\"7b70f63b-c073-4947-af5d-466c0537f29c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"93a3d5d6-352e-4f3d-a736-755b95fb96f0\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"0cae42b9-335a-4758-a4b8-0dd701edce6e\",\"columnName\":\"Column 3\",\"columnKey\":\"79275\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCIJ4PQPWSTRCEDHX65BHMXZXZTQ?lastModifiedDate=Thu Jun 27 06:40:07 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCIJ4PQPWSTRCEDHX65BHMXZXZTQ\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "38a5ea62-f897-47fa-b0a9-13a0b3c14c86",
+                      "type" : "component"
+                    } ],
+                    "id" : "7b70f63b-c073-4947-af5d-466c0537f29c",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Oracle</h3>\n\n<h2 style=\"color: #00A8E8;\">Oracle EPM Cloud</h2>\n<h2 style=\"color: #00A8E8;\">Oracle Essbase</h2>\n<h2>Oracle Financial Consolidation and Close (FCCS)</h2>\n<h2>Oracle Hyperion Enterprise</h2>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "4925fe92-5cd4-452a-a402-bea7e1d987e5",
+                      "type" : "component"
+                    } ],
+                    "id" : "93a3d5d6-352e-4f3d-a736-755b95fb96f0",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\"></h3>\n\n<h2 style=\"color: #00A8E8;\">Oracle Hyperion Financial Management (HFM)</h2>\n<h2>Oracle Hyperion Planning</h2>\n<h2>Oracle Planning and Budgeting Cloud Service</h2>\n<h2>(PBCS)</h2>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "a221a40e-ebe4-41f1-90bb-74add1e44140",
+                      "type" : "component"
+                    } ],
+                    "id" : "0cae42b9-335a-4758-a4b8-0dd701edce6e",
+                    "name" : "79275",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "e5fb6926-998b-4f56-bbc7-860b82be2f92",
+                  "type" : "component"
+                } ],
+                "id" : "ba1631cf-08bd-4795-b482-6f57246979ea",
+                "name" : "tab1",
+                "title" : "Oracle",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"5c2a919d-d604-46cb-bf57-179958cfd289\",\"columns\":[{\"UUID\":\"f0749c74-abd4-4ca9-a1bb-4de242e8a537\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"68ee3bc8-6b57-4656-afaa-86deea4b0d00\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7cf78100-8568-44e3-83b7-f3a35ac44c0d\",\"columnName\":\"Column 3\",\"columnKey\":\"6182c\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCYGRGFN6I6RCYZC55WO2MTUNIWQ\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "e3dfffab-b97e-4709-ad48-094ec256f568",
+                      "type" : "component"
+                    } ],
+                    "id" : "f0749c74-abd4-4ca9-a1bb-4de242e8a537",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Microsoft</h3>\n\n<h2 style=\"color: #00A8E8;\">SQL Server Analysis Services (SSAS)</h2>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "38ec0377-3a00-49d7-8bea-8f62e9b905f0",
+                      "type" : "component"
+                    } ],
+                    "id" : "68ee3bc8-6b57-4656-afaa-86deea4b0d00",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "id" : "7cf78100-8568-44e3-83b7-f3a35ac44c0d",
+                    "name" : "6182c",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "5c2a919d-d604-46cb-bf57-179958cfd289",
+                  "type" : "component"
+                } ],
+                "id" : "25fc7141-32ac-48e2-9259-58b923143ccd",
+                "name" : "tab2",
+                "title" : "Microsoft",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"d90cd39c-ea3f-4e6c-9101-c776145252f8\",\"columns\":[{\"UUID\":\"87c80dd4-6703-4730-b3b2-5430aeaaacfd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"aa8a5a63-b644-4af6-bb27-19dbdd5dc420\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"743d0a27-5254-441d-8bbc-ff0c6385fd33\",\"columnName\":\"Column 3\",\"columnKey\":\"bc9e6\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MC4ZMMA34PGRAXTOCIDHABCENM7Q\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "f1730de4-098b-487e-87d4-78892e735fdd",
+                      "type" : "component"
+                    } ],
+                    "id" : "87c80dd4-6703-4730-b3b2-5430aeaaacfd",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nSAP</h3>\n\n<h2 style=\"color: #00A8E8;\">SAP BPC (HANA, MS or Netweaver)</h2>\n<h2 style=\"color: #00A8E8;\">SAP Business Warehouse (BW)</h2>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "245fcabe-553a-471c-8077-c64633c7486f",
+                      "type" : "component"
+                    } ],
+                    "id" : "aa8a5a63-b644-4af6-bb27-19dbdd5dc420",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "id" : "743d0a27-5254-441d-8bbc-ff0c6385fd33",
+                    "name" : "bc9e6",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "d90cd39c-ea3f-4e6c-9101-c776145252f8",
+                  "type" : "component"
+                } ],
+                "id" : "780035f8-0aae-45ac-9481-1ccc069d909b",
+                "name" : "tab3",
+                "title" : "SAP",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"1da6dec8-1fb4-41d4-bfd9-a6bc5b5784c9\",\"columns\":[{\"UUID\":\"db077787-6386-49fd-b05a-d7ed5bb1331b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"cda4807b-0867-4d12-9316-a70643c7499a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a2a4022f-370a-41e0-a8ee-2aaec75ea89c\",\"columnName\":\"Column 3\",\"columnKey\":\"4aa29\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCA2WIKJJJB5BSFF4YVI2UUSJXDQ\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "9c68c9ab-b76e-41fd-a6ac-8281b1c16a39",
+                      "type" : "component"
+                    } ],
+                    "id" : "db077787-6386-49fd-b05a-d7ed5bb1331b",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h3 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nOther</h3>\n\n<h2>AARO</h2>\n<h2>IBM Cognos TM1</h2>\n<h2 style=\"color: #00A8E8;\">Onestream XF</h2>\n<h2 style=\"color: #00A8E8;\">Wolters Kluwer CCH Tagetik</h2>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "153be0db-c08f-4d56-9943-31ef2a6cc10c",
+                      "type" : "component"
+                    } ],
+                    "id" : "cda4807b-0867-4d12-9316-a70643c7499a",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "id" : "a2a4022f-370a-41e0-a8ee-2aaec75ea89c",
+                    "name" : "4aa29",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "1da6dec8-1fb4-41d4-bfd9-a6bc5b5784c9",
+                  "type" : "component"
+                } ],
+                "id" : "ec451998-cc98-4b1e-9409-ba6a2ac21f94",
+                "name" : "8f885",
+                "title" : "Other",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "ce12cb31-fc2b-4cab-af57-58e5ebc2cb33",
+              "type" : "component"
+            } ],
+            "id" : "d2d35a4c-04cc-427d-b9fa-ac3d416b3ff9",
+            "name" : "b6edd",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "5f47cfbf-27d0-4ce9-9bc6-bb34f5879d78",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b56bd03f-9594-40db-b1ed-dce7ec1abc67\",\"columns\":[{\"UUID\":\"e6f72976-f415-4f01-b9ee-9f1e747583b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"e21d055e-b720-461b-b184-b3cd67dd9a7b\",\"columnName\":\"Column 2\",\"columnKey\":\"a4b36\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCCU5KO22MHJGUDDBIG4JKLBLDEI\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b9545ed0-b405-437f-8b10-240d69da852b",
+              "type" : "component"
+            } ],
+            "id" : "e6f72976-f415-4f01-b9ee-9f1e747583b5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Download CXO Brochure</h2>\n<p>Discover how CXO Software can help replace your static EPM reporting with rich, actionable<br> insights.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "85f9e03b-4d28-43e5-a491-27a9294ef4ec",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "View brochure Now",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "c4ce9148-7b9c-4f2b-a48b-78269d31287b",
+              "type" : "component"
+            } ],
+            "id" : "e21d055e-b720-461b-b184-b3cd67dd9a7b",
+            "name" : "a4b36",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b56bd03f-9594-40db-b1ed-dce7ec1abc67",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b35564f9-1ef3-4f26-afab-48faa7fae05f\",\"columns\":[{\"UUID\":\"e4acd1fa-4041-49dc-8dac-7299432ad296\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Work with the #1 Financial Intelligence Vendor for EPM Reporting",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "8408912d-1841-48ea-9418-615a517ef2d4",
+              "type" : "component"
+            } ],
+            "id" : "e4acd1fa-4041-49dc-8dac-7299432ad296",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b35564f9-1ef3-4f26-afab-48faa7fae05f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"845f1caa-53ca-4192-b0a1-1ff75f68ce74\",\"columns\":[{\"UUID\":\"c99bcafb-ad4a-40d3-a785-f367598ad814\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"47c33bf2-9184-4024-b0e1-a2ded96f5aac\",\"columnName\":\"Column 2\",\"columnKey\":\"78d91\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCIYBKABREUVCXDCLNGNGPN26OE4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "9d79c73d-2685-46b0-8848-435a98a0ed30",
+              "type" : "component"
+            } ],
+            "id" : "c99bcafb-ad4a-40d3-a785-f367598ad814",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p>With CXO, the commentary is an integral part of the data model. So, we can go back a year<br> and see the discussion we had last year and refresh everyone’s memory. And it’s all there,<br> and it’s all available at the click of button.</p><br>\n<h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">Gunnar Wiedenfels</h2>\n<span>Chief Financial Officer at Discovery, Inc.</span>\n\n<br>\n<p style=\"color: #00A8E8;\">View Customer Story</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "0b5bff0e-67ff-4538-a41e-56df407579ef",
+              "type" : "component"
+            } ],
+            "id" : "47c33bf2-9184-4024-b0e1-a2ded96f5aac",
+            "name" : "78d91",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "845f1caa-53ca-4192-b0a1-1ff75f68ce74",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"12ae3237-a849-4061-a78b-1bea13cc08ae\",\"columns\":[{\"UUID\":\"4db76487-a4e0-41d8-8873-026029ffddf8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "100px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Related Resources",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "5b596f27-15d3-4289-ba72-9c451fa6b378",
+              "type" : "component"
+            } ],
+            "id" : "4db76487-a4e0-41d8-8873-026029ffddf8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "12ae3237-a849-4061-a78b-1bea13cc08ae",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "150px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1172e423-6e28-4147-ade5-8d80fc5d0550\",\"columns\":[{\"UUID\":\"51c043f8-6839-4834-9b2f-b8effdeadadf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"4f5a0582-b0dd-4209-8f0c-0f21b757ace3\",\"columns\":[{\"UUID\":\"2e83a47f-20d5-4e43-9e59-ea97622198c7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"ffa568ba-e2e9-47e0-9d71-4147bd58077b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"68a67b66-70c5-49d0-89ce-045a94b43085\",\"columnName\":\"Column 3\",\"columnKey\":\"aeb30\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<img src=https://insightsoftware.com/wp-content/uploads/2022/12/HanoverReport_Header_750x3701-678x334.jpg\n             style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Research Report</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\n            State of Analytics 2022: The<br> Quest for Data Literacy\n        </h2>\n            </div>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "4927bd53-0468-40b9-ba97-abbf3a40d72a",
+                  "type" : "component"
+                } ],
+                "id" : "2e83a47f-20d5-4e43-9e59-ea97622198c7",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<img src=\"https://insightsoftware.com/wp-content/uploads/2022/10/22-09-WP-InsightfulAnalyticsWithCXOandLongview-web-358x177.jpg\" \n             style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Research Report</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\n            State of Analytics 2022: The<br> Quest for Data Literacy\n        </h2>\n            </div>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "148939ce-6de0-4c1f-9171-1360c6889e40",
+                  "type" : "component"
+                } ],
+                "id" : "ffa568ba-e2e9-47e0-9d71-4147bd58077b",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<img src=\"https://insightsoftware.com/wp-content/uploads/2024/04/24-04-BRO_Jet-FinancialReportingBuyers-Guide_750x370-678x334.png\" \n             style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Brochure</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nFinancial Reporting Buyer's<br> Guide\n        </h2>\n            </div>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "7a584d91-c4ca-4091-80d9-083eb41667f9",
+                  "type" : "component"
+                } ],
+                "id" : "68a67b66-70c5-49d0-89ce-045a94b43085",
+                "name" : "aeb30",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "4f5a0582-b0dd-4209-8f0c-0f21b757ace3",
+              "type" : "component"
+            } ],
+            "id" : "51c043f8-6839-4834-9b2f-b8effdeadadf",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1172e423-6e28-4147-ade5-8d80fc5d0550",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "150px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"10ad8e5f-ad20-4b99-a50d-988d3e5beab4\",\"columns\":[{\"UUID\":\"3578eb1e-7ccd-455f-831a-c6a45337878a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6defed84-09ea-402c-8898-215d5307169e\",\"columnName\":\"Column 2\",\"columnKey\":\"20035\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d22349f4-93fd-4160-930d-3e57bbb236f2\",\"columnName\":\"Column 3\",\"columnKey\":\"264b1\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<img src=https://insightsoftware.com/wp-content/uploads/2024/04/24-04-WBN_CXO-Key-Roadmap-Updates_Website_750x370-678x334.png\n             style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Webinar</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\n            Streamline Your Month-End<br> Close Process Within Your EPM<br> Reporting Solution\n        </h2>\n            </div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "dbaa27d6-4ee1-486f-bf22-103fd796f3ba",
+              "type" : "component"
+            } ],
+            "id" : "3578eb1e-7ccd-455f-831a-c6a45337878a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<img src=https://insightsoftware.com/wp-content/uploads/2024/03/24-03-BLOG-BuildingAFunctionalEcosystem-Website-678x334.png\n     style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Article</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nBuilding a Functional<br> Ecosystem: Nine Ways to Boost<br> Your Finance-Tax Synergy\n        </h2>\n            </div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "8eb32ff5-b2ae-48cf-83a1-9cb157ec3e84",
+              "type" : "component"
+            } ],
+            "id" : "6defed84-09ea-402c-8898-215d5307169e",
+            "name" : "20035",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<img src=https://insightsoftware.com/wp-content/uploads/2020/01/daily-3d-report-comparing-store-sales-example-dashboard-358x207.png\n     style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Sample Report</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nDaily 3D Report Comparing<br> Store Sales\n        </h2>\n            </div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "2c93b5e7-4945-486d-ae8d-433fe245b79f",
+              "type" : "component"
+            } ],
+            "id" : "d22349f4-93fd-4160-930d-3e57bbb236f2",
+            "name" : "264b1",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "10ad8e5f-ad20-4b99-a50d-988d3e5beab4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "150px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c6e19302-e15a-428e-bd55-773852dfe852\",\"columns\":[{\"UUID\":\"369d822d-7c5c-4228-86e4-483c03aec541\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b83804b6-b581-4341-830b-0d7c1004d0b6\",\"columnName\":\"Column 2\",\"columnKey\":\"62732\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"043ed0a5-b132-45ea-9fb5-276f48042251\",\"columnName\":\"Column 3\",\"columnKey\":\"74b80\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<img src=https://insightsoftware.com/wp-content/uploads/2022/07/22-06-CS-VanHessen-Website-358x177.png\n     style=\"width: 60%; height: auto;\">\n    <br>\n    <!-- Left-aligned text content -->\n    <div style=\" width: 60%;\">\n        <p>Customer Story</p>\n        <h2 style=\"font-size: 20px; font-weight: bold; margin-bottom: 20px;\">\nVan Hessen Saves Valuable IT<br> Resources with Hubble and<br> CXO\n        </h2>\n            </div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "28440015-da85-4ee4-ba0f-e216414fa205",
+              "type" : "component"
+            } ],
+            "id" : "369d822d-7c5c-4228-86e4-483c03aec541",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "b83804b6-b581-4341-830b-0d7c1004d0b6",
+            "name" : "62732",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "043ed0a5-b132-45ea-9fb5-276f48042251",
+            "name" : "74b80",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c6e19302-e15a-428e-bd55-773852dfe852",
+          "type" : "component"
+        } ],
+        "id" : "7f3caac7-4ffc-4cc7-9fe2-ec96911cc84a",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "CXO",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "994e8d14-136f-4347-902d-88c7d164758e",
+          "type" : "component"
+        } ],
+        "id" : "501845d5-c7f7-4afb-b4f5-7a158a9b813e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c13a7c06-4886-4494-ac78-bf4d95a7337f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-cxo"
+  }
+}

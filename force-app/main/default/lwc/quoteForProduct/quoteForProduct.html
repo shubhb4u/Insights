@@ -1,0 +1,20 @@
+<template>
+    <lightning-input type="date" label="Request a Quote By" value={requestQuoteBy} onchange={handleRequestQuoteByChange} required></lightning-input>
+    <div class="error" style="font-weight: 400;color: #CC0F08;">{requestQuoteByError}</div>
+    <lightning-input type="text" label="Reason for Quote" value={reasonForQuote} onchange={handleReasonForQuoteChange} required></lightning-input>
+    <div class="error" style="font-weight: 400;color: #CC0F08;">{reasonForQuoteError}</div>
+    <lightning-input type="Number" label="Quantity" value={reasonForQuote} onchange={handleQuantityForQuoteChange} required></lightning-input>
+    <div class="error" style="font-weight: 400;color: #CC0F08;">{reasonForQuoteError}</div>
+    <lightning-button label="Request new Quote" onclick={handleCreateQuote}></lightning-button>
+    <template if:true={showSuccessMessage}>
+      <div class="slds-p-around_medium">
+          <div class="slds-box slds-theme_success">
+              <p class="slds-p-horizontal_small" style="color: white;">
+                  <lightning-icon icon-name="utility:success" size="small"></lightning-icon>
+                  Quote has been requested.
+                  Our representative will get in touch with you soon!!
+              </p>
+          </div>
+      </div>
+  </template>
+  </template>

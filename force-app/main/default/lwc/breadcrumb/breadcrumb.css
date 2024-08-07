@@ -1,0 +1,36 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: flex-end;
+    padding-right: 65px;
+}
+
+.breadcrumb span {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.breadcrumb .separator {
+    margin: 0 5px;
+}
+
+.breadcrumb .active {
+    color:  #0070d2;
+    font-weight: bold;
+    
+}
+
+
+.breadcrumb span:not(.active) {
+    width: 58px;
+    display: flex;
+    border-top: 4px dotted #0070d2;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.breadcrumb span[aria-disabled="true"] {
+    cursor: default;
+    color: #d1d1d1;
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Explore the Platform",
+  "contentBody" : {
+    "activeViewId" : "Explore_the_Platform",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-explore-the-platform",
+    "urlPrefix" : "explore-the-platform"
+  }
+}

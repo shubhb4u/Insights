@@ -1,0 +1,1 @@
+{"propertySheet":{"propertyRenderers":{"$":{"definition":"ccnavmenus/cpeMenuCacheProperty"}},"view":{"definition":"lightning/accordionLayout","children":[{"definition":"lightning/accordionSectionLayout","attributes":{"label":"Manage Cache"},"children":[{"definition":"lightning/propertyLayout","attributes":{"property":"$"}}]}]}}}

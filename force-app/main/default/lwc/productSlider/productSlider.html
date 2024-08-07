@@ -1,0 +1,32 @@
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>Explore Products</h2>
+            <a href="#" class="q-link-arrow q-arrow-orange">See All Products</a>
+            <div class="splide" id="product-carousel">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <template for:each={products} for:item="product">
+                            <li key={product.id} class="splide__slide">
+                                <div class="product-card">
+                                    <h3>{product.name}</h3>
+                                    <p>{product.description}</p>
+                                    <span class="q-start-at">STARTS AT</span>
+                                    <span class="q-price">US${product.price}</span>
+                                    <template if:true={product.discount}>
+                                        <span class="q-sales-price">
+                                            <span class="q-price-crosses">US${product.originalPrice}</span>
+                                            <span class="q-save">(Save {product.discount}%)</span>
+                                        </span>
+                                    </template>
+                                    <span class={product.wishListClass}></span>
+                                    <a class="q-cta q-cta-orange" href="#">Buy</a>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

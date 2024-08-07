@@ -1,0 +1,80 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote Page",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a7b06e5f-a09a-46c1-9851-f8ed7d7c4990\",\"columns\":[{\"UUID\":\"bd783d42-a32b-4481-a5ed-9e0c2b845816\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7e04e396-2c3a-4fbe-afe9-9180a5618751\",\"columnName\":\"Column 2\",\"columnKey\":\"8d4bf\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">My Quotes</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "c3a526f7-2965-4988-800d-f77209c4a794",
+              "type" : "component"
+            } ],
+            "id" : "bd783d42-a32b-4481-a5ed-9e0c2b845816",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : { },
+              "customCssClasses" : "quotePage shipping",
+              "definition" : "c:displayQuoteRecords",
+              "id" : "7cb11521-9125-4d84-81c2-426cb0989ccc",
+              "type" : "component"
+            } ],
+            "id" : "7e04e396-2c3a-4fbe-afe9-9180a5618751",
+            "name" : "8d4bf",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a7b06e5f-a09a-46c1-9851-f8ed7d7c4990",
+          "type" : "component"
+        } ],
+        "id" : "9af0d505-4c7a-442a-a3e6-8f867085fd01",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Quote Page",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1dae0746-54bf-4f07-af4b-9c76f108fe87",
+          "type" : "component"
+        } ],
+        "id" : "e0e14378-ab6a-4040-ab0c-efe866ac0498",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d83162d6-adc8-444a-a78f-ec6eed6d0b92",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-quote-page"
+  }
+}

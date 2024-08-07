@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Clausion Consolidation",
+  "contentBody" : {
+    "activeViewId" : "Clausion_Consolidation",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-clausion-consolidation",
+    "urlPrefix" : "clausion-consolidation"
+  }
+}

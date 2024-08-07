@@ -1,0 +1,51 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 07-11-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>Explore Products</h2>
+            <a href="#" class="q-link-arrow q-arrow-orange">See All Products</a>
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div key={product.Id} class="splide__slide">
+                                    <div class="productInfo">
+                                        <h3>{product.Name}</h3>
+                                        <p class = "productDescription">{product.Description}</p>
+                                        <span class="q-start-at">STARTS AT</span>
+                                        <span class="q-price">US$500{product.Price__c}</span>
+                                        <template if:true={product.Discount__c}>
+                                            <span class="q-sales-price">
+                                                <span class="q-price-crosses">US500${product.Original_Price__c}</span>
+                                                <span class="q-save">(Save {product.Discount__c}%)</span>
+                                            </span>
+                                        </template>
+                                        <a class="q-cta q-cta-orange" data-id={product.Id} data-name={product.Name} onclick={handleBuy}>Buy</a>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="splide__arrows icomoon-container">
+                        <button class="splide__arrow splide__arrow--prev sn-prev icomoon-icon icon-arrow_back" aria-label="Previous slide" onclick={handlePrevious}>Previous</button>
+                        <ul class="splide__pagination">
+                            <template for:each={carouselIndicators} for:item="indicator">
+                                <li key={indicator.index}>
+                                    <button class={indicator.class} type="button" data-index={indicator.index} aria-controls="splide01-slide" onclick={handleIndicatorClick}></button>
+                                </li>
+                            </template>
+                        </ul>
+                        <button class="splide__arrow splide__arrow--next sn-next icomoon-icon icon-arrow_forward" aria-label="Next slide" onclick={handleNext}>Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

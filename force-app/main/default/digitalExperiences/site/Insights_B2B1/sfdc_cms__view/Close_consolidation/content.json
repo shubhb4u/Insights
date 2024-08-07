@@ -1,0 +1,1131 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Close consolidation",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "5rem",
+                "right" : "5rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9b2a9659-089c-454b-9f39-75f1a66295cb\",\"columns\":[{\"UUID\":\"7af71f97-2686-4b84-8e96-88e5fa1f1d7b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"33ec60be-7702-471b-8cdd-5ec16d74acce\",\"columnName\":\"Column 2\",\"columnKey\":\"46c6b\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "3rem",
+                    "left" : "3rem",
+                    "right" : "3rem",
+                    "top" : "3rem"
+                  }
+                }
+              },
+              "definition" : "c:financeCategory",
+              "id" : "2bc7ea54-cf4e-4e6c-b6c6-d629a4eebd3f",
+              "type" : "component"
+            } ],
+            "id" : "7af71f97-2686-4b84-8e96-88e5fa1f1d7b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "cover",
+                "height" : 500,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-header.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "37348493-cf6a-43d5-a99d-5b9761a4937b",
+              "type" : "component"
+            } ],
+            "id" : "33ec60be-7702-471b-8cdd-5ec16d74acce",
+            "name" : "46c6b",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9b2a9659-089c-454b-9f39-75f1a66295cb",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "2rem",
+                "left" : "5rem",
+                "right" : "5rem",
+                "top" : "2rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d3cb1141-cab2-4b90-90e7-305a9ef24bac\",\"columns\":[{\"UUID\":\"3f6231d8-14a2-4858-b1c2-f564a2775734\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"087731f7-743f-4ee6-a3b7-867733adf49d\",\"columnName\":\"Column 2\",\"columnKey\":\"8beea\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"a1543168-5ad0-4148-ad73-530dc2d2c650\",\"columns\":[{\"UUID\":\"5480f3a4-bd5f-4924-882f-ffe4955cb6ea\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "2rem",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    }
+                  },
+                  "definition" : "c:financeReportingChild",
+                  "id" : "faf08140-9985-4e28-9573-06b326d08034",
+                  "type" : "component"
+                } ],
+                "id" : "5480f3a4-bd5f-4924-882f-ffe4955cb6ea",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "a1543168-5ad0-4148-ad73-530dc2d2c650",
+              "type" : "component"
+            } ],
+            "id" : "3f6231d8-14a2-4858-b1c2-f564a2775734",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "4rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<img width=\"500\" height=\"200\" src=\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities.png\" class=\"img-fluid entered lazyloaded\" \n     alt=\"Close And Consolidation Capabilities\"  data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities.png 1000w, \n                                                                   https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-219x300.png 219w, \n                                                                   https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-748x1024.png 748w, \n                                                                   https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-768x1051.png 768w,\n                                                                   https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-197x270.png 197w, \n                                                                   https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-730x999.png 730w\"\n     data-lazy-sizes=\"(max-width: 1000px) 100vw, 1000px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities.png\" \n     data-ll-status=\"loaded\" \n     srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities.png 1000w, https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-219x300.png 219w, https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-748x1024.png 748w, https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-768x1051.png 768w, https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-197x270.png 197w, https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-capabilities-730x999.png 730w\">"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "989918f9-4662-4d15-9217-0f081e00fdc3",
+              "type" : "component"
+            } ],
+            "id" : "087731f7-743f-4ee6-a3b7-867733adf49d",
+            "name" : "8beea",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d3cb1141-cab2-4b90-90e7-305a9ef24bac",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "5rem",
+                "right" : "5rem",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"163b5724-2fa5-4635-b574-659281914e39\",\"columns\":[{\"UUID\":\"b7fd0d3b-c5df-4544-bf99-6f0f1e0ed0de\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ee3efe80-1f46-410e-99ce-b7f61ed19116\",\"columnName\":\"Column 2\",\"columnKey\":\"5b03d\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"633c2555-03c6-4701-8679-802d857ce48a\",\"columnName\":\"Column 3\",\"columnKey\":\"fcaec\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"5cba63c8-b34c-48b6-90ef-b7e1ba795b06\",\"columnName\":\"Column 4\",\"columnKey\":\"b1c93\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"color: rgb(102, 163, 224); font-size: 20px;\">USE CASES</strong></p><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Automate Compliance for a Simplified, Trusted Financial Close</span></h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">Adaptable close and consolidation software that scales with your business. Navigate evolving accounting standards with </p><p style=\"text-align: center;\">ease, and expedite your financial close for faster decision-making.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9dc569bd-c472-4bce-8745-0eaa6fc734f3",
+              "type" : "component"
+            } ],
+            "id" : "b7fd0d3b-c5df-4544-bf99-6f0f1e0ed0de",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "4rem",
+                    "right" : "",
+                    "top" : "2rem"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"248b6a09-7a0f-4526-9297-30b633ba0804\",\"columns\":[{\"UUID\":\"4bb2b365-ee5d-40f1-9021-9fb9913d63f1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a7066350-9cae-42f4-bf1b-89de5453e814\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "5rem"
+                      }
+                    },
+                    "expandByDefault" : true,
+                    "icon" : "arrow",
+                    "iconAlignment" : "right"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "none",
+                        "text" : "Accelerated Financial Close",
+                        "textAlign" : "left",
+                        "textDecoration" : "{\"bold\": true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "252218c6-0760-4944-ae93-ca5a85f67375",
+                      "type" : "component"
+                    } ],
+                    "id" : "152a84de-5fec-4c57-b470-74e8e056ea6b",
+                    "name" : "title",
+                    "title" : "title",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "large",
+                        "text" : "insightsoftware’s close and consolidation solutions automate and streamline your data collection, consolidation, reconciliation, and reporting processes, eliminating manual tasks, errors and bottlenecks. Enjoy real-time visibility into your financial performance for enhanced business intelligence.",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "7a91b125-3f3a-48df-847f-a878c370ad00",
+                      "type" : "component"
+                    } ],
+                    "id" : "fdff95b8-0569-4e6f-a7c7-2630a616bdab",
+                    "name" : "content",
+                    "title" : "content",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:expandableSection",
+                  "id" : "e730715f-b5fc-4c90-8a1c-f438a70700ac",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "expandByDefault" : false,
+                    "icon" : "arrow",
+                    "iconAlignment" : "right"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "none",
+                        "text" : "Simplify Complex Consolidation",
+                        "textAlign" : "left",
+                        "textDecoration" : "{\"bold\": true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "1f4572cb-570e-4aeb-aec9-c4723e2173c8",
+                      "type" : "component"
+                    } ],
+                    "id" : "939a97a8-ac7a-4a7b-8442-5c256808bf12",
+                    "name" : "title",
+                    "title" : "title",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "large",
+                        "text" : "Overcome complex consolidation challenges involving multiple entities, currencies, and changing compliance regulations with one flexible, agile solution. insightsoftware’s solutions can handle any type of consolidation logic and configuration and deliver consistent, reliable financial statements.",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "f4dfa42b-726e-4ea6-a8af-362a1e442f16",
+                      "type" : "component"
+                    } ],
+                    "id" : "e270bd23-1652-4036-8ea3-b8d35c28e29a",
+                    "name" : "content",
+                    "title" : "content",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:expandableSection",
+                  "id" : "ca52cf87-005c-43a4-8e08-06229c0b622c",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "expandByDefault" : false,
+                    "icon" : "arrow",
+                    "iconAlignment" : "right"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "none",
+                        "text" : "Unlock Key Financial insights",
+                        "textAlign" : "left",
+                        "textDecoration" : "{\"bold\": true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "affbeb74-eba8-439c-91e7-3342209e4cca",
+                      "type" : "component"
+                    } ],
+                    "id" : "ff142d0b-7a67-4911-9561-50ed29c3bd72",
+                    "name" : "title",
+                    "title" : "title",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "medium",
+                        "paddingVertical" : "large",
+                        "text" : "Gain a deep understanding of your financial performance across entities, products, and markets. Identify key drivers of profitability, growth, and risk with insightsoftware’s comprehensive and flexible reporting and analysis tools. Uncover valuable insights to empower strategic decision-making.",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "1bac62e7-1879-4068-a79f-03daa1c6fc2c",
+                      "type" : "component"
+                    } ],
+                    "id" : "c2d54247-4f14-4f79-83f9-375244b7a6fc",
+                    "name" : "content",
+                    "title" : "content",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:expandableSection",
+                  "id" : "a4d5ea1b-b37a-4d2b-b5f5-88fd6477f806",
+                  "type" : "component"
+                } ],
+                "id" : "4bb2b365-ee5d-40f1-9021-9fb9913d63f1",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "cover",
+                    "height" : 639,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/06/close-and-consolidation-use-cases.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "292313c0-bce5-46fe-96e3-e6f0b6714bfd",
+                  "type" : "component"
+                } ],
+                "id" : "a7066350-9cae-42f4-bf1b-89de5453e814",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "248b6a09-7a0f-4526-9297-30b633ba0804",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"5bf9b794-36b6-4a90-830c-a58ac21077a1\",\"columns\":[{\"UUID\":\"d442592a-9402-4ea8-96af-f38ac41ff5e6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"ec6d75bd-f5ca-4c35-af15-934753712730\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 22px; color: rgb(0, 138, 0);\">PRODUCTS</strong></p><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Drive Accuracy and Efficiency and Eliminate </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Error-Prone Processes</span></h2><p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tStreamline workflows and automate data collection for consistent and reliable results. Enable your team to make data-</p><p>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbacked decisions and meet all compliance requirements.</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "2d1d52e7-aa8a-4095-9bc4-54f17590521e",
+                  "type" : "component"
+                } ],
+                "id" : "d442592a-9402-4ea8-96af-f38ac41ff5e6",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "c:customSlider",
+                  "id" : "1a0264cb-e5f3-4e4f-a499-2267e462abc5",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px; color: rgb(0, 138, 0);\">ROLES &amp; INDUSTRIES</span></p><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Use Cases for Specialist Financial Close &amp; Consolidation Software</span></h2><p style=\"text-align: center;\">Financial close and consolidation software empowers diverse roles across finance, group, and subsidiary functions in </p><p style=\"text-align: center;\">various industries to streamline financial processes.</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "139e756f-0247-4e52-8f0e-606ee5ceb93e",
+                  "type" : "component"
+                } ],
+                "id" : "ec6d75bd-f5ca-4c35-af15-934753712730",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "5bf9b794-36b6-4a90-830c-a58ac21077a1",
+              "type" : "component"
+            } ],
+            "id" : "ee3efe80-1f46-410e-99ce-b7f61ed19116",
+            "name" : "5b03d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "backgroundColor" : "",
+                "borderColor" : "",
+                "borderRadius" : "10px",
+                "borderWeight" : "0px",
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "25px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextAlignment" : "center",
+                "tabTextBackgroundColor" : "rgb(11, 161, 30)",
+                "tabTextColor" : "rgb(255, 255, 255)",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"c2e5bb98-b1ef-46ef-8309-1e67954e5bd6\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"99893e34-12df-4206-81ad-3eee79be4dee\",\"tabName\":\"Roles\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"1ad86abe-eac7-4800-b892-9863f4ca1802\",\"tabName\":\"Industry\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"cffa14f1-26f1-42eb-aaaf-0ac5811439f9\",\"columns\":[{\"UUID\":\"024d5cf5-fd50-4aad-b295-2b78e570387a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"924e75a9-5e46-410c-9de7-cec0d082b66a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"fa113ecf-4358-483e-8bf5-8c5a35ceb3a7\",\"columnName\":\"Column 3\",\"columnKey\":\"bb67e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "5rem",
+                            "right" : "2rem",
+                            "top" : "0rem"
+                          }
+                        },
+                        "richTextValue" : "<div class=\"col-md-4 mb-3 px-3 slick-slide slick-current slick-active\" style=\"width: 360px;\" tabindex=\"0\"  id=\"slick-slide10\"  data-slick-index=\"0\" >\n<img width=\"793\" height=\"1120\" src=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1.png\" class=\"img-fluid entered lazyloaded\" alt=\"Role Financial Controller\" \n      data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1.png 793w, \n                                        https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-212x300.png 212w, \n                                        https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-725x1024.png 725w,\n                                        https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-768x1085.png 768w, \n                                        https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-191x270.png 191w,\n                                        https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-730x1031.png 730w\"\n     data-lazy-sizes=\"(max-width: 793px) 100vw, 793px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1.png\" \n     data-ll-status=\"loaded\" \n     srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1.png 793w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-212x300.png 212w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-725x1024.png 725w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-768x1085.png 768w, \n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-191x270.png 191w, \n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-controller-1-730x1031.png 730w\">\n    \n<h4 class=\"text-center mt-3\">Financial Controller</h4>\n<p>Financial close professionals wear many hats, overseeing the entire process from data collection to analysis. Close &amp; consolidation software empowers them by automating and streamlining tasks, ensuring accuracy, efficiency, and valuable insights.</p>\n<div class=\"d-flex justify-content-center\"></div>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "679a8d3b-5801-4216-ae21-3e7b603a04e9",
+                      "type" : "component"
+                    } ],
+                    "id" : "024d5cf5-fd50-4aad-b295-2b78e570387a",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "5rem",
+                            "right" : "2rem",
+                            "top" : "0rem"
+                          }
+                        },
+                        "richTextValue" : "<div class=\"col-md-4 mb-3 px-3 slick-slide slick-active\" style=\"width: 360px;\" tabindex=\"0\" id=\"slick-slide11\"  data-slick-index=\"1\" >\n<img width=\"794\" height=\"1121\" src=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst.png\" \n     class=\"img-fluid entered lazyloaded\" alt=\"Role Financial Analyst\" \n     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst.png 794w,\n                       https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-212x300.png 212w,\n                       https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-725x1024.png 725w, \n                       https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-768x1084.png 768w, https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-191x270.png 191w, https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-730x1031.png 730w\" data-lazy-sizes=\"(max-width: 794px) 100vw, 794px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst.png\" \n     data-ll-status=\"loaded\" \n     srcset=\"https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst.png 794w, \n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-212x300.png 212w,\n            https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-725x1024.png 725w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-768x1084.png 768w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-191x270.png 191w,\n             https://insightsoftware.com/wp-content/uploads/2023/06/role-financial-analyst-730x1031.png 730w\">\n    \n<h4 class=\"text-center mt-3\">Financial Analyst</h4>\n<p>Financial analysts empower management teams with data-driven insights for informed decision-making. Close and consolidation software equips them with reliable, real-time data and customizable reports and dashboards.</p>\n<div class=\"d-flex justify-content-center\"></div>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "1e12b8c2-b3b7-4104-a5a1-ade3bfa7b3bb",
+                      "type" : "component"
+                    } ],
+                    "id" : "924e75a9-5e46-410c-9de7-cec0d082b66a",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "5rem",
+                            "right" : "2rem",
+                            "top" : "0rem"
+                          }
+                        },
+                        "richTextValue" : "<div class=\"col-md-4 mb-3 px-3 slick-slide slick-active\" style=\"width: 360px;\" tabindex=\"0\" id=\"slick-slide12\" data-slick-index=\"2\" >\n<img width=\"595\" height=\"840\" src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png\" \n     class=\"img-fluid entered lazyloaded\" alt=\"Role Accountant\" \n     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png 595w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-213x300.png 213w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-191x270.png 191w\"\n     data-lazy-sizes=\"(max-width: 595px) 100vw, 595px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png\"\n     data-ll-status=\"loaded\" srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png 595w, \n                                     https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-213x300.png 213w,\n                                     https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-191x270.png 191w\">\n<h4 class=\"text-center mt-3\">Accountant</h4>\n<p>With close and consolidation software, accountants streamline tasks like recording transactions, reconciling accounts, and preparing financial statements. This automation frees up their time to focus on complex analysis and strategic contributions.</p>\n<div class=\"d-flex justify-content-center\"></div>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "a7feca31-5f9b-45ae-a11b-712415a2e235",
+                      "type" : "component"
+                    } ],
+                    "id" : "fa113ecf-4358-483e-8bf5-8c5a35ceb3a7",
+                    "name" : "bb67e",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "cffa14f1-26f1-42eb-aaaf-0ac5811439f9",
+                  "type" : "component"
+                } ],
+                "id" : "99893e34-12df-4206-81ad-3eee79be4dee",
+                "name" : "tab1",
+                "title" : "Roles",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"962eac84-26b8-478c-aacd-07d18a7c6363\",\"columns\":[{\"UUID\":\"98b7a999-2622-47f4-a569-f42f940b6137\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b263664e-450c-4c0f-a46d-552d12625276\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"32dfef04-3c38-442e-9b46-4c8b6ca5df03\",\"columnName\":\"Column 3\",\"columnKey\":\"be228\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "5rem",
+                            "right" : "2rem",
+                            "top" : "0rem"
+                          }
+                        },
+                        "richTextValue" : "<div class=\"col-md-4 mb-3 px-3 slick-slide slick-active\" style=\"width: 360px;\" tabindex=\"0\" id=\"slick-slide12\" data-slick-index=\"2\" >\n<img width=\"595\" height=\"840\" src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png\" \n     class=\"img-fluid entered lazyloaded\" alt=\"Role Accountant\"\n     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png 595w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-213x300.png 213w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-191x270.png 191w\" \n     data-lazy-sizes=\"(max-width: 595px) 100vw, 595px\" \n     data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png\" \n     data-ll-status=\"loaded\" \n     srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant.png 595w,\n             https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-213x300.png 213w, \n             https://insightsoftware.com/wp-content/uploads/2024/03/role_accountant-191x270.png 191w\">\n   \n    \n<h4 class=\"text-center mt-3\">Accountant</h4>\n<p>With close and consolidation software, accountants streamline tasks like recording transactions, reconciling accounts, and preparing financial statements. This automation frees up their time to focus on complex analysis and strategic contributions.</p>\n<div class=\"d-flex justify-content-center\"></div>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "0d26bc65-043a-4449-b5d7-27d52a943028",
+                      "type" : "component"
+                    } ],
+                    "id" : "98b7a999-2622-47f4-a569-f42f940b6137",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "5rem",
+                            "right" : "2rem",
+                            "top" : "0rem"
+                          }
+                        },
+                        "richTextValue" : "<div class=\"col-md-4 mb-3 px-3 slick-slide slick-active\" style=\"width: 360px;\" tabindex=\"0\"  id=\"slick-slide13\"  data-slick-index=\"3\" >\n<img width=\"595\" height=\"840\" src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor.png\"\n     class=\"img-fluid entered lazyloaded\" alt=\"Role Auditor\" \n     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor.png 595w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor-213x300.png 213w,\n                       https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor-191x270.png 191w\"\n     data-lazy-sizes=\"(max-width: 595px) 100vw, 595px\" \n     data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor.png\" data-ll-status=\"loaded\" \n      srcset=\"https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor.png 595w, \n              https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor-213x300.png 213w,\n              https://insightsoftware.com/wp-content/uploads/2024/03/role_auditor-191x270.png 191w\">\n<h4 class=\"text-center mt-3\">Auditor</h4>\n<p>Auditors play a critical role in safeguarding financial integrity by meticulously reviewing statements for accuracy and compliance. Close and consolidation software empowers them with easier data access, streamlining the audit process.</p>\n<div class=\"d-flex justify-content-center\"></div>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "59490f2c-0b70-421c-b184-bd57e6e8fd60",
+                      "type" : "component"
+                    } ],
+                    "id" : "b263664e-450c-4c0f-a46d-552d12625276",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "id" : "32dfef04-3c38-442e-9b46-4c8b6ca5df03",
+                    "name" : "be228",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "962eac84-26b8-478c-aacd-07d18a7c6363",
+                  "type" : "component"
+                } ],
+                "id" : "1ad86abe-eac7-4800-b892-9863f4ca1802",
+                "name" : "tab2",
+                "title" : "Industry",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "c2e5bb98-b1ef-46ef-8309-1e67954e5bd6",
+              "type" : "component"
+            } ],
+            "id" : "633c2555-03c6-4701-8679-802d857ce48a",
+            "name" : "fcaec",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"a0a1c40a-a38e-44ce-9263-009183b2ab5b\",\"columns\":[{\"UUID\":\"6ef9b637-f6e3-4221-9614-46be4ed79500\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b3164b5d-cc3a-4bae-b2c1-a8e52cfe1a47\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0rem",
+                        "left" : "0rem",
+                        "right" : "0rem",
+                        "top" : "3rem"
+                      },
+                      "padding" : {
+                        "bottom" : "2rem",
+                        "left" : "2rem",
+                        "right" : "2rem",
+                        "top" : "2rem"
+                      }
+                    },
+                    "richTextValue" : "<h3><strong style=\"font-size: 36px;\">Webinars &amp; Resources</strong></h3><p>Take a look at our upcoming and on-demand webinars packed with handy tips, best practices, and insights, brought to you by insightsoftware’s product and </p><p>solutions experts.</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "902f869b-6fb4-47df-b541-05082e4a439a",
+                  "type" : "component"
+                } ],
+                "id" : "6ef9b637-f6e3-4221-9614-46be4ed79500",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"04373acc-c047-4fb7-a29e-ffdcd82dba72\",\"columns\":[{\"UUID\":\"44331f90-2eab-4a4c-b889-d6681b390645\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2fe371fc-9d40-4a0f-9ba0-9fb8275ab755\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"544f5093-8bc7-46bd-bb8f-7c7ea0194f5e\",\"columnName\":\"Column 3\",\"columnKey\":\"72669\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"872978ca-d49b-4517-91e4-5e18498e8daf\",\"columns\":[{\"UUID\":\"3f5b5faf-e2c8-43fa-8dae-d062334f2f7d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"65853cf9-f292-46e1-a042-164e68230f6b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 194,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/02/23-02-WP-IDL-Konsis-AccelerateCloseCycles-web-678x334.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "1ed4d16b-c3f9-4abe-8738-d73491eb6ca5",
+                          "type" : "component"
+                        } ],
+                        "id" : "3f5b5faf-e2c8-43fa-8dae-d062334f2f7d",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<div class=\"card-body\">\n<span class=\"brochure fw-bold\">Brochure</span>\n<h4 class=\"card-title mt-2 h5\"><a class=\"text-decoration-none link-dark\" href=\"https://insightsoftware.com/resources/accelerate-close-cycles/\" title=\"Accelerate Close Cycles\">Accelerate Close Cycles</a></h4>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "bcad67d7-0bae-48f4-9973-5818d52824c7",
+                          "type" : "component"
+                        } ],
+                        "id" : "65853cf9-f292-46e1-a042-164e68230f6b",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "872978ca-d49b-4517-91e4-5e18498e8daf",
+                      "type" : "component"
+                    } ],
+                    "id" : "44331f90-2eab-4a4c-b889-d6681b390645",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"8e4802b7-1498-4282-a1c1-7fc30a1de06f\",\"columns\":[{\"UUID\":\"d75744d6-b8cf-4c02-915e-019f33f87d48\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"4706209e-4e33-4352-a681-9087435f4428\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/01/22-12-WBN-KonzernkonsolidierungUndKonzernreporting-Website-678x334.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "efb02897-179a-4983-a325-815b334cd8cf",
+                          "type" : "component"
+                        } ],
+                        "id" : "d75744d6-b8cf-4c02-915e-019f33f87d48",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<div class=\"card-body\">\n<span>On-Demand Webinar</span>\n<h4 class=\"card-title mt-2 h5\"><a class=\"text-decoration-none link-dark\" href=\"https://insightsoftware.com/resources/consolidation-and-group-reporting-with-idl-konsis/\" title=\"Consolidation and Group Reporting With IDL Konsis\">Consolidation and Group Reporting With IDL Konsis</a></h4>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "3397fcca-c586-49ff-916d-bdeb5538adcd",
+                          "type" : "component"
+                        } ],
+                        "id" : "4706209e-4e33-4352-a681-9087435f4428",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "8e4802b7-1498-4282-a1c1-7fc30a1de06f",
+                      "type" : "component"
+                    } ],
+                    "id" : "2fe371fc-9d40-4a0f-9ba0-9fb8275ab755",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"ee711f50-c2be-4fd3-95f9-446ca49cd017\",\"columns\":[{\"UUID\":\"7c461db1-9f78-4572-8840-5f56780b026d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d1247cf1-7c50-4e0a-a5df-3be9cce4207c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "cover",
+                            "height" : 216,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/08/22-08-ResourceImage-358x177.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "fae7de32-655e-46ea-98c9-bdb2c969a6db",
+                          "type" : "component"
+                        } ],
+                        "id" : "7c461db1-9f78-4572-8840-5f56780b026d",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<div class=\"card-body\">\n<span class=\"brochure fw-bold\">Brochure</span>\n<h4 class=\"card-title mt-2 h5\"><a class=\"text-decoration-none link-dark\" href=\"https://insightsoftware.com/resources/consolidation-checklist-the-most-important-criteria-when-choosing-consolidation-software/\" title=\"Consolidation Checklist: The Most Important Criteria When Choosing Consolidation Software\">Consolidation Checklist: The Most Important Criteria When Choosing Consolidation Software</a></h4>\n</div>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "667c186a-c474-4d9c-9e35-632f0b4f101c",
+                          "type" : "component"
+                        } ],
+                        "id" : "d1247cf1-7c50-4e0a-a5df-3be9cce4207c",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "ee711f50-c2be-4fd3-95f9-446ca49cd017",
+                      "type" : "component"
+                    } ],
+                    "id" : "544f5093-8bc7-46bd-bb8f-7c7ea0194f5e",
+                    "name" : "72669",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "04373acc-c047-4fb7-a29e-ffdcd82dba72",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"22593e7f-e3c0-494d-8961-77b7707939a7\",\"columns\":[{\"UUID\":\"0819fae0-cd2e-4b2b-83b3-ccf35c8b6098\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bf084575-6a69-4e0c-8193-4b81f805f2b1\",\"columnName\":\"Column 2\",\"columnKey\":\"91df5\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "medium",
+                        "text" : "FAQs",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":false}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "94ea33b0-a580-45fd-8929-002ba3f8360e",
+                      "type" : "component"
+                    } ],
+                    "id" : "0819fae0-cd2e-4b2b-83b3-ccf35c8b6098",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "expandByDefault" : true,
+                        "icon" : "arrow",
+                        "iconAlignment" : "right"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "medium",
+                            "paddingVertical" : "none",
+                            "text" : "What are the benefits of using cloud based solution and consolidation?",
+                            "textAlign" : "left",
+                            "textDecoration" : "{\"bold\": true}",
+                            "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "e2aaec4b-b02e-45ef-84ce-1fac7da6a82b",
+                          "type" : "component"
+                        } ],
+                        "id" : "8c316721-6d91-4265-ae97-d7ea24c99101",
+                        "name" : "title",
+                        "title" : "title",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "medium",
+                            "paddingVertical" : "none",
+                            "text" : "A cloud-based solution can offer several benefits, such as lower upfront costs, faster implementation, scalability, security, accessibility, and automatic updates.",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "bfcd37fb-de4f-4461-8abf-a054b76d587f",
+                          "type" : "component"
+                        } ],
+                        "id" : "795706ba-9d87-485a-9abd-d560133233ae",
+                        "name" : "content",
+                        "title" : "content",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_content_layout:expandableSection",
+                      "id" : "a19da2f8-9cc4-45dc-bb44-3285488f1e16",
+                      "type" : "component"
+                    } ],
+                    "id" : "bf084575-6a69-4e0c-8193-4b81f805f2b1",
+                    "name" : "91df5",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "22593e7f-e3c0-494d-8961-77b7707939a7",
+                  "type" : "component"
+                } ],
+                "id" : "b3164b5d-cc3a-4bae-b2c1-a8e52cfe1a47",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "a0a1c40a-a38e-44ce-9263-009183b2ab5b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : false,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "medium",
+                    "paddingVertical" : "none",
+                    "text" : "How can I ensure the security of my financial data in the cloud?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "07b73b12-273c-4eed-97e4-841b3b34bcb1",
+                  "type" : "component"
+                } ],
+                "id" : "f5865d61-ca05-4343-bee5-e45e0c406376",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "medium",
+                    "paddingVertical" : "none",
+                    "text" : "You can ensure the security of your financial data in the cloud by choosing a reputable vendor that follows industry best practices and standards for data encryption, backup, recovery, authentication, authorization, and monitoring.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "ec9d0092-10d9-44ea-bcc2-0d3eff86ec5c",
+                  "type" : "component"
+                } ],
+                "id" : "5fd589f1-1ee6-41d2-b6fe-d7420fcec412",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "5e7b45e9-f528-4059-9a61-5c660311db78",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : false,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "medium",
+                    "paddingVertical" : "none",
+                    "text" : "How can I integrate my existing data sources with the close and consolidation software?",
+                    "textAlign" : "left",
+                    "textDecoration" : "{\"bold\": true}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "1dd4d0af-d36b-492d-9868-967591e288de",
+                  "type" : "component"
+                } ],
+                "id" : "84b31fdd-f072-436b-894a-88be10b37478",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "medium",
+                    "paddingVertical" : "none",
+                    "text" : "Ensure the vendor you choose to work with offers seamless integration that can easily connect to your primary data sources, such as ERP systems, spreadsheets, databases, or cloud applications, and that they are able to extract, transform and load this data into their software platform.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "d00d1339-de3f-4bb5-ab09-60cd85fc9434",
+                  "type" : "component"
+                } ],
+                "id" : "f10b0131-97c9-4af7-a443-3334b4e4c465",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "b28cf14c-0d37-43d0-96b1-26224795f24c",
+              "type" : "component"
+            } ],
+            "id" : "5cba63c8-b34c-48b6-90ef-b7e1ba795b06",
+            "name" : "b1c93",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "163b5724-2fa5-4635-b574-659281914e39",
+          "type" : "component"
+        } ],
+        "id" : "b3cef954-ed37-47fa-ab25-a3d6b38b6e24",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Close consolidation",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d46fddd3-658e-4b33-9f81-c1d650ce34c9",
+          "type" : "component"
+        } ],
+        "id" : "55e7ceb0-66d4-4e4a-92cb-46712cd381af",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "bb944d11-8455-47f5-9fda-36713b7691ae",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-close-consolidation"
+  }
+}

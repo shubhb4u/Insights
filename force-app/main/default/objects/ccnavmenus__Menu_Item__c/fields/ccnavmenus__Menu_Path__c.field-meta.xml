@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ccnavmenus__Menu_Path__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>ccnavmenus__Menu__r.Name + &quot; - &quot; +
+RPAD(
+
+LPAD(
+IF(NOT(ISBLANK( TEXT(
+ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c))),
+TEXT(ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;) +
+
+LPAD(
+IF(NOT(ISBLANK( TEXT(
+ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c))),
+TEXT(ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;) +
+
+LPAD(
+IF(NOT(ISBLANK( TEXT(
+ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c))),
+TEXT(ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;) +
+
+LPAD(
+IF(NOT(ISBLANK( TEXT(
+ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c))),
+TEXT(ccnavmenus__Menu_Item__r.ccnavmenus__Menu_Item__r.ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;) +
+
+LPAD(
+IF( NOT(ISBLANK( TEXT(
+ccnavmenus__Menu_Item__r.ccnavmenus__Position__c ))),
+TEXT(ccnavmenus__Menu_Item__r.ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;) +
+
+LPAD(
+IF( NOT(ISBLANK( TEXT(
+ccnavmenus__Position__c ))),
+TEXT(ccnavmenus__Position__c),&quot;&quot;),3,&quot;0&quot;)
+,
+18,
+&quot;0&quot;)</formula>
+    <label>Menu Path</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

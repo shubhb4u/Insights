@@ -1,0 +1,5 @@
+{
+  "apiName" : "Close_consolidation__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

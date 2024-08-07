@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Quote Page",
+  "contentBody" : {
+    "activeViewId" : "Quote_Page",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-quote-page",
+    "urlPrefix" : "quote-page"
+  }
+}

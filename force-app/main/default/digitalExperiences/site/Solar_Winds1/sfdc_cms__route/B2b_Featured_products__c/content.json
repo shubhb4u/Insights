@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "B2b Featured products",
+  "contentBody" : {
+    "activeViewId" : "B2b_Featured_products",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-b2b-featured-products",
+    "urlPrefix" : "b2b-featured-products"
+  }
+}

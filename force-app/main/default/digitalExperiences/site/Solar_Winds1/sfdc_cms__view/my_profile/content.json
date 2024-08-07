@@ -1,0 +1,128 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"514bd55e-3db5-40b1-8394-b3304e91c0fc\",\"columns\":[{\"UUID\":\"541a053f-1205-43d9-8c56-63e0ac9bd52c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "My Profile",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\": false}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "03975f03-c184-4745-9813-e2b0a330a2ad",
+              "type" : "component"
+            } ],
+            "id" : "541a053f-1205-43d9-8c56-63e0ac9bd52c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "514bd55e-3db5-40b1-8394-b3304e91c0fc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0df1ae59-ec9c-4875-bc5f-2f9f107c2d88\",\"columns\":[{\"UUID\":\"a7ea8214-f072-48b7-ab0a-7769a1ed41e9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"e3bb2cdf-2bf8-45bf-8e1b-aff2b2485222\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "navItemSpacing" : "small",
+                "navigationLinkSetDevName" : "Default_My_Account_Menu1"
+              },
+              "definition" : "commerce_my_account:navigationMenuItemList",
+              "id" : "ff013d50-10d7-4f50-9de6-be9cd6da7d74",
+              "type" : "component"
+            } ],
+            "id" : "a7ea8214-f072-48b7-ab0a-7769a1ed41e9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "emailLabel" : "Email",
+                "firstNameLabel" : "First Name",
+                "lastNameLabel" : "Last Name",
+                "phoneNumberLabel" : "Phone Number",
+                "requiredPhoneNumber" : true,
+                "showPhoneNumber" : true
+              },
+              "definition" : "commerce_builder:myAccountProfile",
+              "id" : "b4fb1f16-440c-47b8-8a75-e448ccb7cccf",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "commerce_builder:myAccountPassword",
+              "id" : "b5889db8-7a78-42e5-abb9-c4d64bd0f440",
+              "type" : "component"
+            } ],
+            "id" : "e3bb2cdf-2bf8-45bf-8e1b-aff2b2485222",
+            "name" : "col2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0df1ae59-ec9c-4875-bc5f-2f9f107c2d88",
+          "type" : "component"
+        } ],
+        "id" : "cabd9611-d044-4618-abae-2cab3a6c6230",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ce7d5770-73a2-48fc-9c44-d1cf8b9c997d",
+          "type" : "component"
+        } ],
+        "id" : "eb509877-22cf-4191-bc6d-bb2db888d303",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "355cbc00-5877-4106-96ec-ddfc556b200f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "my-profile"
+  }
+}

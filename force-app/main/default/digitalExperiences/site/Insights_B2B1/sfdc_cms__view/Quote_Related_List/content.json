@@ -1,0 +1,57 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote Related List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"045b6505-65fa-4a72-b469-95f02a2de336\",\"columns\":[{\"UUID\":\"3e8121af-9d14-46ad-a987-eaf089e07402\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "3e8121af-9d14-46ad-a987-eaf089e07402",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "045b6505-65fa-4a72-b469-95f02a2de336",
+          "type" : "component"
+        } ],
+        "id" : "dc7b8516-ef85-4d93-a945-a344c87fd4b8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0990dabf-ccde-4837-936e-7a6b3b8f0140",
+          "type" : "component"
+        } ],
+        "id" : "ee7551e7-007f-4673-baaa-ad0fd478369b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "53d0a164-f907-4c48-ba39-0d8ef62c84ac",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "relatedlist-0Q0"
+  }
+}

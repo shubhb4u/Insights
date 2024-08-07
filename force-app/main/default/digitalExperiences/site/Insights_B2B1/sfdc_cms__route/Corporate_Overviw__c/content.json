@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Corporate Overviw",
+  "contentBody" : {
+    "activeViewId" : "Corporate_Overviw",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-corporate-overviw",
+    "urlPrefix" : "corporate-overviw"
+  }
+}

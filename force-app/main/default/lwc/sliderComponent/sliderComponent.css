@@ -1,0 +1,5 @@
+.custom-carousel-image {
+    max-width: 570px; /* Set the desired width */
+    height: 500px; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the set dimensions */
+}

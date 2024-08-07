@@ -1,0 +1,53 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.current-price {
+    color: green;
+}
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 10px;
+}
+.discount {
+    color: red;
+    margin-left: 10px;
+}
+.product-options {
+    display: flex;
+    align-items: center;
+}
+.product-options label {
+    margin-right: 10px; /* Space between label and select box */
+}
+.product-options select {
+    margin-right: 20px; /* Space after the select box */}
+.actions {
+    margin-top: 20px;
+}
+.add-to-cart {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-us {
+    margin-left: 20px;
+    color: #ff6600;
+    text-decoration: none;
+}
+.contact-us:hover {
+    text-decoration: underline;
+}
+.info-icon {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}

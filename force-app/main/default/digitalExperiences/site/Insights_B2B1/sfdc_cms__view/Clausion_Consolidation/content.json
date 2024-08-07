@@ -1,0 +1,736 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Clausion Consolidation",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5e91407b-5978-43ab-accb-05e88f023b3d\",\"columns\":[{\"UUID\":\"e16a463e-73bd-4af7-b1da-748fa4ec4b8d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"352a6ed7-c55d-4bc1-bc0e-0cd9ca7db222\",\"columnName\":\"Column 2\",\"columnKey\":\"51854\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d71c404d-0eef-437e-8c9d-d5d9ebba4e5a\",\"columnName\":\"Column 3\",\"columnKey\":\"aefeb\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"6775560b-4715-4302-a464-570a3f0a4256\",\"columnName\":\"Column 4\",\"columnKey\":\"bc0a7\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"2a66bed7-e564-44ed-9f45-8024d5f7534e\",\"columns\":[{\"UUID\":\"59eb1193-ad8b-4b20-98f9-47c91a7056f2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d374a243-10fc-46e7-abf9-0aa5fef21515\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "c:financeCategory",
+                  "id" : "6fa07774-b0de-47e3-82ae-6abe2f9cead8",
+                  "type" : "component"
+                } ],
+                "id" : "59eb1193-ad8b-4b20-98f9-47c91a7056f2",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "4rem"
+                      }
+                    },
+                    "richTextValue" : "<img width=\"1333\" height=\"766\" src=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero.png\" class=\"img-fluid entered lazyloaded\" alt=\"Img Clausion Consolidation Hero\"  \n     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero.png 1333w, \n                       https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-300x172.png 300w, \n                       https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-1024x588.png 1024w,\n                       https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-768x441.png 768w, \n                       https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-270x155.png 270w\" \n     data-lazy-sizes=\"(max-width: 1333px) 100vw, 1333px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero.png\" \n     data-ll-status=\"loaded\" \n     srcset=\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero.png 1333w, \n             https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-300x172.png 300w, \n             https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-1024x588.png 1024w,\n             https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-768x441.png 768w, \n             https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_hero-270x155.png 270w\">"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "8c90bdfc-cf31-4877-9b57-badda0fba2a3",
+                  "type" : "component"
+                } ],
+                "id" : "d374a243-10fc-46e7-abf9-0aa5fef21515",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "2a66bed7-e564-44ed-9f45-8024d5f7534e",
+              "type" : "component"
+            } ],
+            "id" : "e16a463e-73bd-4af7-b1da-748fa4ec4b8d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"9013cf64-2f73-4fe8-95a0-8bb1ee95387f\",\"columns\":[{\"UUID\":\"348bef69-d49e-43ff-9370-e3b91ef3d527\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"515c74ad-c166-4a3a-842f-ef766a3d4feb\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6d9dde02-4998-443f-97d3-8141ad51d144\",\"columnName\":\"Column 3\",\"columnKey\":\"0e125\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "2rem"
+                      }
+                    },
+                    "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Speed and Accuracy: Is Your Financial Software Slowing </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">You Down?</span></h2><p style=\"text-align: center;\"><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "79dc49b3-4d23-4f42-ad36-d77312126149",
+                  "type" : "component"
+                } ],
+                "id" : "348bef69-d49e-43ff-9370-e3b91ef3d527",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "2rem",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "0rem"
+                      },
+                      "padding" : {
+                        "bottom" : "4rem",
+                        "left" : "4rem",
+                        "right" : "4rem",
+                        "top" : "2rem"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"e5d2a67c-b028-4f81-bd26-bdf5c80359c0\",\"columns\":[{\"UUID\":\"cb806351-264f-4239-87fc-63ba8383bb1d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7f9a7b35-ccf6-426e-8f65-3ba51ec4323d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e9e6f0cb-57ce-4361-8db7-9509d02e43af\",\"columnName\":\"Column 3\",\"columnKey\":\"52e3d\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"72eed309-6712-4261-a072-00608ae7f05f\",\"columns\":[{\"UUID\":\"e699800b-c464-4c03-8fc7-76ce9cb0d7a6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3b79405b-3c3c-4594-b39b-371ee60a7c94\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "fit" : "cover",
+                            "height" : 63,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/Scalability_blue-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "af0e17d4-2953-45bf-b1c3-58090b7a9c71",
+                          "type" : "component"
+                        } ],
+                        "id" : "e699800b-c464-4c03-8fc7-76ce9cb0d7a6",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 20px;\">Quickly Outgrowing Your </span></h3><h3><span style=\"font-size: 20px;\">Existing Solution</span></h3><p><br></p><p>Your current consolidation software is inflexible and inadequate for your growing business. You now need comprehensive automation to mitigate the increased complexity associated with having more subsidiaries and legal entities.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "309dd4ea-8ef1-4036-9743-eabc5047e217",
+                          "type" : "component"
+                        } ],
+                        "id" : "3b79405b-3c3c-4594-b39b-371ee60a7c94",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "72eed309-6712-4261-a072-00608ae7f05f",
+                      "type" : "component"
+                    } ],
+                    "id" : "cb806351-264f-4239-87fc-63ba8383bb1d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"f59f79a3-97e5-4bc8-a210-86bc6b4bec7a\",\"columns\":[{\"UUID\":\"828d9995-80d6-427e-9d3c-19ace9513f8b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"fe401146-0dea-4565-9344-5dfa8200747d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "fit" : "cover",
+                            "height" : 63,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/Errors_blue-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "f86b06bc-eba6-4542-bc50-9cd6aa8e048a",
+                          "type" : "component"
+                        } ],
+                        "id" : "828d9995-80d6-427e-9d3c-19ace9513f8b",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 20px;\">Wasting Time on Error-Prone</span></h3><h3><span style=\"font-size: 20px;\">Manual Processes</span></h3><p><br></p><p>With financial data saved in multiple spreadsheets across various devices being shared back-and-forth over email, errors are going to happen. To meet monthly and quarterly requirements efficiently, you need a more streamlined, reliable solution.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "bc0d3120-110c-4b5e-b0bc-5b855520ee68",
+                          "type" : "component"
+                        } ],
+                        "id" : "fe401146-0dea-4565-9344-5dfa8200747d",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "f59f79a3-97e5-4bc8-a210-86bc6b4bec7a",
+                      "type" : "component"
+                    } ],
+                    "id" : "7f9a7b35-ccf6-426e-8f65-3ba51ec4323d",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"6c675ea6-5ae8-4f56-989c-d3f4f95d5076\",\"columns\":[{\"UUID\":\"f9c09a8c-2321-417f-bad7-e55c6b3b7afb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"70f3e321-21c0-46f6-8188-53908877cbde\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "fit" : "cover",
+                            "height" : 63,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/Compliance_blue.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "3861c942-0ca2-4313-b46a-cf8a1e0fca61",
+                          "type" : "component"
+                        } ],
+                        "id" : "f9c09a8c-2321-417f-bad7-e55c6b3b7afb",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 20px;\">Compliance is Increasingly </span></h3><h3><span style=\"font-size: 20px;\">Hard to Manage</span></h3><p><br></p><p>Your existing solution is no longer able to support your team in managing fast-changing regional and international accounting standards. Ensuring compliance effectively requires a system with the latest IFRS and GAAP accounting standards built in.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "955ad080-a386-4ab1-bc15-dfeb9e3abe0b",
+                          "type" : "component"
+                        } ],
+                        "id" : "70f3e321-21c0-46f6-8188-53908877cbde",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "6c675ea6-5ae8-4f56-989c-d3f4f95d5076",
+                      "type" : "component"
+                    } ],
+                    "id" : "e9e6f0cb-57ce-4361-8db7-9509d02e43af",
+                    "name" : "52e3d",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "e5d2a67c-b028-4f81-bd26-bdf5c80359c0",
+                  "type" : "component"
+                } ],
+                "id" : "515c74ad-c166-4a3a-842f-ef766a3d4feb",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "2rem",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Instant Demo >",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "592ece22-684c-4ea2-8803-28a181a278cb",
+                  "type" : "component"
+                } ],
+                "id" : "6d9dde02-4998-443f-97d3-8141ad51d144",
+                "name" : "0e125",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "9013cf64-2f73-4fe8-95a0-8bb1ee95387f",
+              "type" : "component"
+            } ],
+            "id" : "352a6ed7-c55d-4bc1-bc0e-0cd9ca7db222",
+            "name" : "51854",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "enableOverflowMenu" : false,
+                "imageFit" : "contain",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "10px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextAlignment" : "center",
+                "tabTextBackgroundColor" : "rgb(255, 255, 255)",
+                "tabTextColor" : "rgb(19, 165, 220)",
+                "tabTextStyle" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"h2\"}",
+                "tabWidth" : "",
+                "tabsetConfig" : "{\"UUID\":\"95aacf42-496c-4039-8d61-4859ed4b2657\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"e1e29678-7123-4c5d-9e58-b9367086f48e\",\"tabName\":\"Comprehensive\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"fbd0276e-4332-48e2-8c22-6199a8aa9b82\",\"tabName\":\"Efficient\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"64712b42-1560-4902-9045-19eb162f61bc\",\"tabName\":\"Trusted\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"53bd3f3d-ce7b-4da7-b3c3-a56e8a96a05e\",\"columns\":[{\"UUID\":\"5492e0a5-adc9-4786-8dc8-47cf4eda0171\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"193f5566-16d1-487b-9f73-50234e2d09e5\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"c1768c5b-a299-4f1c-937f-6301ca32ac2d\",\"columns\":[{\"UUID\":\"e3443dfc-274c-4eb6-800b-58598ccdbdc8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3ba93689-9d85-4bfc-b7bf-58f320f44c3c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "2rem",
+                                "left" : "2rem",
+                                "right" : "2rem",
+                                "top" : "2rem"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-size: 28px;\">The Accessible Tool for&nbsp;Close &amp; Consolidation</span></p><p><br></p><p>Clausion Consolidation is an intuitive, Cloud-based financial </p><p>consolidation solution that enables you to streamline day-to-day </p><p>business processes.</p><p><br></p><p>Expand your financial consolidation to include an all-in-one system and create effective planning reports, including targets, budgeting, and forecasts.</p><p><br></p><p>Conduct comprehensive operational planning and analysis for investments and personnel – all in one purpose-built solution.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "ed40405a-39ac-4848-8435-5b5c9deda4fd",
+                          "type" : "component"
+                        } ],
+                        "id" : "e3443dfc-274c-4eb6-800b-58598ccdbdc8",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo >",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "9310dde6-a3d1-4621-a81e-f29c0183c57e",
+                          "type" : "component"
+                        } ],
+                        "id" : "3ba93689-9d85-4bfc-b7bf-58f320f44c3c",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "c1768c5b-a299-4f1c-937f-6301ca32ac2d",
+                      "type" : "component"
+                    } ],
+                    "id" : "5492e0a5-adc9-4786-8dc8-47cf4eda0171",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 445,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_sq1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "cd87cc91-5415-4b7c-8820-60ef9aec7f9c",
+                      "type" : "component"
+                    } ],
+                    "id" : "193f5566-16d1-487b-9f73-50234e2d09e5",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "53bd3f3d-ce7b-4da7-b3c3-a56e8a96a05e",
+                  "type" : "component"
+                } ],
+                "id" : "e1e29678-7123-4c5d-9e58-b9367086f48e",
+                "name" : "tab1",
+                "title" : "Comprehensive",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"124f1816-49f0-4174-8cb5-66b50a9bb706\",\"columns\":[{\"UUID\":\"7c342432-4529-457c-83d5-b4ce6aa28121\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3e52e6cd-8f49-4856-a7b5-ba23757da542\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"dd64b33e-3946-428e-b1c4-9c23473f20fd\",\"columns\":[{\"UUID\":\"3e1a37d3-6d7e-4832-a650-361be5195414\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f0412bb0-637e-49f5-b92c-7dd7026e6b33\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "2rem",
+                                "left" : "2rem",
+                                "right" : "2rem",
+                                "top" : "2rem"
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-size: 28px;\">Save Time&nbsp;with Tried-and-</span></p><p><span style=\"font-size: 28px;\">tested Automated Processes&nbsp;</span></p><p><br></p><p>Switch tedious, error-prone manual data processing for automated best-practice templates that will drive your team’s productivity.</p><p><br></p><p>Reimagine close and consolidation with ready-made reporting software for multi-entity IFRS and local GAAP consolidation.</p><p><br></p><p>With clear, ready-to-go tools designed to accelerate productivity and scale alongside your organization, your team will start benefiting right away.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "a9901dad-55b6-4687-9d31-42701430c2c2",
+                          "type" : "component"
+                        } ],
+                        "id" : "3e1a37d3-6d7e-4832-a650-361be5195414",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get Instant Demo",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "d8848c56-252a-454a-92b5-e1ac347241db",
+                          "type" : "component"
+                        } ],
+                        "id" : "f0412bb0-637e-49f5-b92c-7dd7026e6b33",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "dd64b33e-3946-428e-b1c4-9c23473f20fd",
+                      "type" : "component"
+                    } ],
+                    "id" : "7c342432-4529-457c-83d5-b4ce6aa28121",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 463,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_sq2.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "8dd75664-2c8a-4ffb-898a-d31ada917a1a",
+                      "type" : "component"
+                    } ],
+                    "id" : "3e52e6cd-8f49-4856-a7b5-ba23757da542",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "124f1816-49f0-4174-8cb5-66b50a9bb706",
+                  "type" : "component"
+                } ],
+                "id" : "fbd0276e-4332-48e2-8c22-6199a8aa9b82",
+                "name" : "tab2",
+                "title" : "Efficient",
+                "type" : "region"
+              }, {
+                "id" : "64712b42-1560-4902-9045-19eb162f61bc",
+                "name" : "tab3",
+                "title" : "Trusted",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "95aacf42-496c-4039-8d61-4859ed4b2657",
+              "type" : "component"
+            } ],
+            "id" : "d71c404d-0eef-437e-8c9d-d5d9ebba4e5a",
+            "name" : "aefeb",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"0a62aa26-145a-48d2-9bff-22212facd17c\",\"columns\":[{\"UUID\":\"dc61c832-aa0d-4d8f-9778-cffebf2beae9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"028463f3-46ae-4e51-807a-1385387531ce\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "1rem",
+                        "left" : "1rem",
+                        "right" : "1rem",
+                        "top" : "1rem"
+                      }
+                    },
+                    "richTextValue" : "<h2 style=\"text-align: center;\"><strong style=\"color: rgb(49, 171, 70); font-size: 36px;\">Business Transformation is a Click Away.</strong><span style=\"font-size: 36px;\">&nbsp;Get Started with a </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Tailored Estimate!</span></h2><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "9cf4fa39-6601-48dd-a133-ce237ad633db",
+                  "type" : "component"
+                } ],
+                "id" : "dc61c832-aa0d-4d8f-9778-cffebf2beae9",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "cover",
+                    "height" : 639,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Clausion_Consolidation_sq4.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "46ca6114-8a36-4905-8815-fb82d4a1796a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Pricing & Promos >",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "32074342-a29c-4845-8aa5-38f9a4e7e633",
+                  "type" : "component"
+                } ],
+                "id" : "028463f3-46ae-4e51-807a-1385387531ce",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "0a62aa26-145a-48d2-9bff-22212facd17c",
+              "type" : "component"
+            } ],
+            "id" : "6775560b-4715-4302-a464-570a3f0a4256",
+            "name" : "bc0a7",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5e91407b-5978-43ab-accb-05e88f023b3d",
+          "type" : "component"
+        } ],
+        "id" : "3888282d-a31a-48f1-8ca7-fc101119823b",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Clausion Consolidation",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "17d0d84d-61a6-4e4c-9f96-c6acad449459",
+          "type" : "component"
+        } ],
+        "id" : "b963e885-62a7-4610-aae5-94b79cac29da",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1a9e2561-0022-4916-90c2-e7aef216a69a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-clausion-consolidation"
+  }
+}

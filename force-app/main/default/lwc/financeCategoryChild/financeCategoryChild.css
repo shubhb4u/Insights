@@ -1,0 +1,125 @@
+.slds-theme_default {
+    background-color: #f3f2f2;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.button1 {
+    
+        border: none; /* Remove all borders */
+        outline: none; /* Remove focus outline */
+        background-color: transparent; /* Remove default background color */
+        padding: 0.5rem 1rem; /* Add some padding for better usability */
+        cursor: pointer; /* Indicate clickable behavior */
+        color: black; /* Set text color to black */
+        font-weight: bold; /* Make text bold */
+        font-size: 1rem;
+        /* transition: all 1s ease-in-out; */
+}
+
+.button1:hover{
+    color: #46a521;
+}
+
+/*  Set up the container styles */
+.container {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    transition: all 0.7s ease-in-out;
+    /* margin: 1rem 2rem; */
+  }
+
+  
+  /*  Set up the content row styles  */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  /*  Set up the content styles */
+  .content {
+    flex: 1;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /*  Set up the title styles  */
+  .content h4 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /*  Set up the paragraph styles  */
+  .content p {
+    line-height: 1.5rem;
+    color: #666;
+  }
+  
+  /*  Set up the list styles  */
+  .content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .content li {
+    display: inline-block;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  /*  Set up the badge styles  */
+  .content li a {
+    padding: 0.4rem 0.7rem;
+    color: #fff;
+    background-color: #46a521;
+    text-decoration: none;
+    font-size: 0.875rem;
+    border-radius: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .content li a:hover {
+    background-color: #077e21;
+    color: #fff;
+  }
+
+.accounting-a{
+  padding: 0.4rem 0.7rem;
+    color: #fff;
+    background-color: #0b93e2;
+    text-decoration: none;
+    font-size: 0.875rem;
+    border-radius: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .accounting-a:hover{
+    background-color: #065ab9;
+    color: #fff;
+  }
+  
+  /*  Set up the image styles  */
+  .img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-container img {
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+  }

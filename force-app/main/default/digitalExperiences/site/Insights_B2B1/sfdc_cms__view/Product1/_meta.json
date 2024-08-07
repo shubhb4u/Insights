@@ -1,0 +1,5 @@
+{
+  "apiName" : "Product1",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

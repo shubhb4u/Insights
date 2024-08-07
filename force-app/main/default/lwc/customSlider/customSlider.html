@@ -1,0 +1,122 @@
+<template>
+
+    <template lwc:if={isFinanceReporting}>
+        <div class="slds-carousel">
+            <div class="slds-box slds-box_x-small slds-align_center  slds-m-around_small">
+                <lightning-carousel scroll-duration="5">
+                    
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/atlas-screenshot.png"
+                            header="Atlas"
+                            description="Easy to use Excel based financial reporting solution."
+                            class="custom-carousel-image">
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/cxo-screenshot.png"
+                            header="CXO"
+                            description="Generate Real Business Value with Better EPM Reeporting"
+                            class="custom-carousel-image">
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/hubble-screenshot.png"
+                            header="Hubble"
+                            description="Close the books faster by Ensuring Access to Real-Time, Accurate Information"
+                            class="custom-carousel-image">
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/jet-reports-screenshot.png"
+                            header="Jet Reports"
+                            description="Flexible financial and business reporting solution running inside Excel and on the web."
+                            class="custom-carousel-image">
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/spreadsheet-server-macbook-screenshot.png"
+                            header="Spreadsheet Server"
+                            description="Real-Time Reporting that connects to 140+ ERPs Directly in Excel"
+                            class="custom-carousel-image">
+                        </lightning-carousel-image>
+                </lightning-carousel>
+                    
+            </div>
+        </div>
+    </template>
+    <template lwc:if={isCloseConsolidation}>
+        <div class="slds-carousel">
+            <div class="slds-box slds-box_x-small slds-align_center  slds-m-around_small">
+                <lightning-carousel scroll-duration="5">
+                    
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2024/04/MicrosoftTeams-image-6.png"
+                            header="Clausion Consolidation"
+                            description="Automate financial consolidation with One Intuitive Solution"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/fastpost-product.png"
+                            header="FastPost"
+                            description="Capture, classify, and record financial information associated with any transaction"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/06/idl-konsis-screenshot.png"
+                            header="IDL Konsis"
+                            description="Fast and reliable financial consolidation and reporting designed fir mid-sized to large enterprises"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/jet-reports-screenshot.png"
+                            header="Jet Reports"
+                            description="Flexible financial and business reporting solution running inside Excel and on the web."
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2023/07/spreadsheet-server-macbook-screenshot.png"
+                            header="Spreadsheet Server"
+                            description="Real-Time Reporting that connects to 140+ ERPs Directly in Excel"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                </lightning-carousel>
+                    
+            </div>
+        </div>
+    </template>
+    <template lwc:if={isBusinessintelligence}>
+        <div class="slds-carousel">
+            <div class="slds-box slds-box_x-small slds-align_center  slds-m-around_small">
+                <lightning-carousel scroll-duration="5">
+                    
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2024/03/prod_poweron.png"
+                            header="Power on"
+                            description="Automate financial consolidation with One Intuitive Solution"
+                            class="custom-carousel-image"
+                            href="https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/clausion-consolidation"
+                            >
+                            
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2024/03/prod_vizlib.png"
+                            header="Vizlib"
+                            description="Capture, classify, and record financial information associated with any transaction"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src="https://insightsoftware.com/wp-content/uploads/2024/03/prod_simba.png"
+                            header="Simba Drivers & SDK"
+                            description="Fast and reliable financial consolidation and reporting designed fir mid-sized to large enterprises"
+                            class="custom-carousel-image">
+                            <c-finance-button onclick={handleFinanceButtonClick}></c-finance-button>
+                        </lightning-carousel-image>
+                </lightning-carousel>
+                    
+            </div>
+        </div>
+    </template>
+    
+</template>

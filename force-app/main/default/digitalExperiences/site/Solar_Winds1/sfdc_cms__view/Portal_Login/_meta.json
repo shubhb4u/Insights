@@ -1,0 +1,5 @@
+{
+  "apiName" : "Portal_Login",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

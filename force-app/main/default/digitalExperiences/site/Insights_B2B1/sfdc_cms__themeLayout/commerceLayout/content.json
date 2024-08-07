@@ -1,0 +1,1328 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Commerce Layout",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "hidePromoBanner" : true,
+            "hideWishlistShortcut" : true
+          },
+          "children" : [ {
+            "id" : "9297f253-a190-473f-98ba-e24a4357af5c",
+            "name" : "promoBanner",
+            "title" : "Rich Text Editor (Promo Banner)",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ?lastModifiedDate=Tue Jun 18 06:04:12 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ\",\"contentType\":null}}",
+                "imageInfoMobile" : "",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "f6848a7b-f32b-40fe-9762-58bcdb6da110",
+              "type" : "component"
+            } ],
+            "id" : "4c1e4709-8426-4d56-957a-839e04e52339",
+            "name" : "storeLogo",
+            "title" : "Site Logo",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "allLabel" : "Go to",
+                "brandNavigationBackgroundColor" : "rgb(245, 249, 251)",
+                "brandNavigationBarBackgroundColor" : "rgb(255, 255, 255)",
+                "brandNavigationColorText" : "rgb(95, 95, 95)",
+                "debugMode" : false,
+                "drillDownBackButtonLabel" : "Back",
+                "fontFamily" : "Poppins, Helvetica, Arial, Sans-serif",
+                "hamburgerMenuMode" : "mobile-only",
+                "hideHamburgerMenuAnimation" : false,
+                "isVertical" : false,
+                "language" : "auto",
+                "menuAlignment" : "Left",
+                "menuId" : "a01ak00000MWLFxAAP",
+                "menuMode" : "Default",
+                "nameFilter" : "",
+                "navMenuClassNames" : "",
+                "overflowLabel" : "More",
+                "textTransform" : "inherit",
+                "topLevelItemSpacing" : 20,
+                "verticalMode" : "mobile-only"
+              },
+              "customCssClasses" : "navigation-style",
+              "definition" : "ccnavmenus:navMenu",
+              "id" : "a21aa3da-a1ae-4aa2-b4cf-0dd5fb0ee65f",
+              "type" : "component"
+            } ],
+            "id" : "f995466e-48ed-4ecc-ad55-d31c2eeeda13",
+            "name" : "navigation",
+            "title" : "Multilevel Navigation Menu",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "allLabel" : "Go to",
+                "brandNavigationBackgroundColor" : "rgb(255, 249, 249)",
+                "brandNavigationBarBackgroundColor" : "rgb(255, 255, 255)",
+                "brandNavigationColorText" : "rgba(41, 41, 41, 0.77)",
+                "debugMode" : false,
+                "drillDownBackButtonLabel" : "Back",
+                "hamburgerMenuMode" : "mobile-only",
+                "hideHamburgerMenuAnimation" : false,
+                "isVertical" : false,
+                "language" : "auto",
+                "menuAlignment" : "Right",
+                "menuId" : "a01ak00000MWxoHAAT",
+                "menuMode" : "Default",
+                "nameFilter" : "",
+                "navMenuClassNames" : "",
+                "overflowLabel" : "More",
+                "textTransform" : "inherit",
+                "topLevelItemSpacing" : 20,
+                "verticalMode" : "mobile-only"
+              },
+              "customCssClasses" : "navigation-style",
+              "definition" : "ccnavmenus:navMenu",
+              "id" : "2ed23474-e994-4bcd-871c-598fbb3ff328",
+              "type" : "component"
+            } ],
+            "id" : "7fe044a2-5c05-423f-939f-f33e8a45d8f3",
+            "name" : "searchInput",
+            "title" : "Search Bar",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "iconStyle" : "userIcon",
+                "includeCompanyName" : false,
+                "logOutLabel" : "Log Out",
+                "loginLinkText" : "Log In",
+                "loginLinkTextDecoration" : "{\"underline\":true}",
+                "loginLinkTextOrientation" : "rightOfIcon",
+                "menuStyle" : "iconAndName",
+                "userNameTextOrientation" : "leftOfIcon",
+                "userProfileMenuNavigationMenuEditor" : "Default_User_Profile_Menu"
+              },
+              "customCssClasses" : "user-info",
+              "definition" : "commerce_builder:userProfileMenu",
+              "id" : "d2d76bd1-ff2c-4b44-a827-803fa7316422",
+              "type" : "component"
+            } ],
+            "id" : "6b9b5c8d-89c0-40e3-9f2e-c761da746c2f",
+            "name" : "myAccount",
+            "title" : "Profile Menu",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "iconType" : "heart"
+              },
+              "definition" : "commerce_builder:wishlistShortcut",
+              "id" : "18196c67-4255-4b5c-9099-a1ebe5231ecc",
+              "type" : "component"
+            } ],
+            "id" : "3edcd75c-e050-4e16-b840-cb349574ce62",
+            "name" : "wishlist",
+            "title" : "List Badge",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "countType" : "TotalProductCount",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "showCount" : true
+              },
+              "customCssClasses" : "cart-icon",
+              "definition" : "commerce_builder:cartBadge",
+              "id" : "55d3f8a3-2591-49e3-922f-aacee702f404",
+              "type" : "component"
+            } ],
+            "id" : "93f2fa48-a903-4d5a-b5cc-82d9a157f661",
+            "name" : "cart",
+            "title" : "Cart Badge",
+            "type" : "region"
+          } ],
+          "definition" : "commerce_builder:layoutHeader",
+          "id" : "0931edfc-8158-40ca-bee5-1e5a1c3ce6a5",
+          "scopedBrandingSetId" : "Header",
+          "type" : "component"
+        } ],
+        "id" : "c2cfb1ed-4b30-45f3-8a8d-48957d6224b3",
+        "name" : "header",
+        "title" : "Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            }
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "rgb(255, 255, 255)",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundImageConfig" : "",
+                    "backgroundImageOverlay" : "rgba(0,0,0,0)",
+                    "componentSpacerSize" : "",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "60px",
+                        "right" : "50px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "maxContentWidth" : "",
+                    "sectionColumnGutterWidth" : "",
+                    "sectionConfig" : "{\"UUID\":\"4a818464-1d01-4a7c-a0d7-7dc131c3795f\",\"columns\":[{\"UUID\":\"15525c43-849d-4da6-b878-9a2fe1acefdf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+                    "sectionMinHeight" : "",
+                    "sectionVerticalAlign" : "flex-start"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "0.8rem",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"a86748d2-eec6-486e-886e-e3baddabe564\",\"columns\":[{\"UUID\":\"d0bc1922-f70b-4226-b1de-ac1194cf3675\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"4a839b0a-99a3-4981-b18b-d0d0e9d78a10\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"cb450e3b-5186-49cd-adc3-c62e6659074b\",\"columnName\":\"Column 3\",\"columnKey\":\"1d24c\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"0caf9ffa-3fbc-4587-af70-018ab2948fa6\",\"columnName\":\"Column 4\",\"columnKey\":\"1fc19\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"736ac216-05e5-4515-9c19-8001416fde65\",\"columnName\":\"Column 5\",\"columnKey\":\"6c455\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "column",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"8eec20f4-d696-4e53-b6a4-ba265c003a80\",\"columns\":[{\"UUID\":\"89d45099-b77b-4d91-8978-4a822e03f627\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"51dc8699-9b26-4c6c-95de-b268668fdbab\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"9d8579b8-a70f-46ac-a9b3-5e219b6a63eb\",\"columnName\":\"Column 3\",\"columnKey\":\"90398\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Finance",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{\"bold\":true}",
+                                "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Finance__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "06a884d9-790b-483a-9251-65d7e3e59f71",
+                              "type" : "component"
+                            } ],
+                            "id" : "89d45099-b77b-4d91-8978-4a822e03f627",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : ""
+                                  }
+                                },
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Budgeting & Planning",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "c2c865da-c674-44a4-9ae6-b1a2075d92ef",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Financial Reporting",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Financial_Reporting__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "cc9dc76b-5d9e-404a-a3ce-2108b379a333",
+                              "type" : "component"
+                            } ],
+                            "id" : "51dc8699-9b26-4c6c-95de-b268668fdbab",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Operational Reporting",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "37b6fae5-265c-4ae6-b4e4-e29b548dd098",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Data Automation",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "24f0db40-089c-4cfb-a6ae-740478e74f8a",
+                              "type" : "component"
+                            } ],
+                            "id" : "9d8579b8-a70f-46ac-a9b3-5e219b6a63eb",
+                            "name" : "90398",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "8eec20f4-d696-4e53-b6a4-ba265c003a80",
+                          "type" : "component"
+                        } ],
+                        "id" : "d0bc1922-f70b-4226-b1de-ac1194cf3675",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "25px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "layoutDirectionDesktop" : "column",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"f8870f7d-dc4a-4f70-be44-bf7db1488f2e\",\"columns\":[{\"UUID\":\"dd96dfbb-9592-4f68-85a4-a42d3537a9f5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"fbfb2612-5d88-41a7-88ca-49e186d0eeec\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"099dc15c-56e4-4ede-adf6-a3a525ea24eb\",\"columnName\":\"Column 3\",\"columnKey\":\"1ad32\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Accounting",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{\"bold\":true}",
+                                "textDisplayInfo" : "{}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Accounting__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "26910a77-a8fe-4cf8-9326-fcd944d4e2e0",
+                              "type" : "component"
+                            } ],
+                            "id" : "dd96dfbb-9592-4f68-85a4-a42d3537a9f5",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Close & Consolidation",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Close_consolidation__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "6a7e9c96-dae3-489c-ad51-7fc8be64d039",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Disclosure Management",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "252aa56f-8b49-4efe-b42c-91bd798f4f95",
+                              "type" : "component"
+                            } ],
+                            "id" : "fbfb2612-5d88-41a7-88ca-49e186d0eeec",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Equity Management",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "e74fed52-3797-4bcf-903d-1c334c568494",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Tax Reporting",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "30ca5089-51e2-4b6a-b258-e3b594631f92",
+                              "type" : "component"
+                            } ],
+                            "id" : "099dc15c-56e4-4ede-adf6-a3a525ea24eb",
+                            "name" : "1ad32",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "f8870f7d-dc4a-4f70-be44-bf7db1488f2e",
+                          "type" : "component"
+                        } ],
+                        "id" : "4a839b0a-99a3-4981-b18b-d0d0e9d78a10",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "50px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "layoutDirectionDesktop" : "column",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"fd60fa9e-078b-4391-b6c4-60a774ac57fb\",\"columns\":[{\"UUID\":\"7cc60d1a-ee56-49f2-9852-d8422b034087\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"f9ff5730-579f-4430-8f73-627c40dc53bd\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b150ad4d-298d-484e-9074-051bdcd0e75b\",\"columnName\":\"Column 3\",\"columnKey\":\"e8957\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Data & Analytics",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{\"bold\":true}",
+                                "textDisplayInfo" : "{}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Data_Analytics__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "1f918700-4724-462f-b8f4-99654aee9b78",
+                              "type" : "component"
+                            } ],
+                            "id" : "7cc60d1a-ee56-49f2-9852-d8422b034087",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Business Intelligence",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Business_Intelligence__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "8f2d23f8-7e83-453b-9b01-e4f94c098735",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Data Integrations",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "8370575b-1938-4af4-a0e7-2241a33275d6",
+                              "type" : "component"
+                            } ],
+                            "id" : "f9ff5730-579f-4430-8f73-627c40dc53bd",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Data Management",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "128298a1-7cbf-49fe-b92d-2205e48b9cfc",
+                              "type" : "component"
+                            } ],
+                            "id" : "b150ad4d-298d-484e-9074-051bdcd0e75b",
+                            "name" : "e8957",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "fd60fa9e-078b-4391-b6c4-60a774ac57fb",
+                          "type" : "component"
+                        } ],
+                        "id" : "cb450e3b-5186-49cd-adc3-c62e6659074b",
+                        "name" : "1d24c",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "100px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "layoutDirectionDesktop" : "column",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"987e5a09-1b54-4b11-a79b-2fb3528a7f43\",\"columns\":[{\"UUID\":\"9118e499-f68c-4c7f-a39d-55b6bff50af5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"77f9b1d5-d62c-4f92-b75e-f6e6ae512e4f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"a7964eed-8daa-47aa-96d9-e23caed982d1\",\"columnName\":\"Column 3\",\"columnKey\":\"35e05\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d55f6457-7b90-4792-9fd9-99f751878b46\",\"columnName\":\"Column 4\",\"columnKey\":\"9d3ac\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Data Sources",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{\"bold\":true}",
+                                "textDisplayInfo" : "{}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "40a00353-d289-4b28-90d8-d7395bd5a61e",
+                              "type" : "component"
+                            } ],
+                            "id" : "9118e499-f68c-4c7f-a39d-55b6bff50af5",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Oracle",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Oracle__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "874b6c30-b9b2-4893-b162-c26726287e44",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Microsoft",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Microsoft__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "73e6b8cd-8c06-4933-9673-4683be39a07b",
+                              "type" : "component"
+                            } ],
+                            "id" : "77f9b1d5-d62c-4f92-b75e-f6e6ae512e4f",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "SAP",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"SAP__c\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "7d15a2cf-2f0e-4574-b449-e4c39b452276",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Deltek",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "74845e17-3e9c-4d8f-903e-57361cd4490a",
+                              "type" : "component"
+                            } ],
+                            "id" : "a7964eed-8daa-47aa-96d9-e23caed982d1",
+                            "name" : "35e05",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "MRI Software",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "b120e67b-0005-4565-b2b6-75cec3eec4cd",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Over 140+ ERP & EPM Systems",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "d9b9663b-2327-42ad-81e3-719201e100c3",
+                              "type" : "component"
+                            } ],
+                            "id" : "d55f6457-7b90-4792-9fd9-99f751878b46",
+                            "name" : "9d3ac",
+                            "title" : "Column 4",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "987e5a09-1b54-4b11-a79b-2fb3528a7f43",
+                          "type" : "component"
+                        } ],
+                        "id" : "0caf9ffa-3fbc-4587-af70-018ab2948fa6",
+                        "name" : "1fc19",
+                        "title" : "Column 4",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "50px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "layoutDirectionDesktop" : "column",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"d0400428-c93a-41c0-889d-e4d49dacc3d8\",\"columns\":[{\"UUID\":\"472570a7-7726-4a03-8aa9-99ce6d26de5c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"eb3fc4d2-be8c-430f-94a8-368d733828b4\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"7904e90b-e0d5-4e07-b14e-1279c1616ff7\",\"columnName\":\"Column 3\",\"columnKey\":\"59475\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"8c25785b-d236-4203-8199-ae4d8fc8ac80\",\"columnName\":\"Column 4\",\"columnKey\":\"540bd\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"8552141b-ef23-4092-a563-269821e2a03c\",\"columnName\":\"Column 5\",\"columnKey\":\"57482\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "About",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{\"bold\":true}",
+                                "textDisplayInfo" : "{}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "b964af11-a4da-4280-8025-26b6b6dbc9c7",
+                              "type" : "component"
+                            } ],
+                            "id" : "472570a7-7726-4a03-8aa9-99ce6d26de5c",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "About Us",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "51815ea3-10e3-4405-b7e8-80e4c541a5a1",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Corporate Social Responsibility",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "661d4420-61f9-468e-b066-93b374876c7e",
+                              "type" : "component"
+                            } ],
+                            "id" : "eb3fc4d2-be8c-430f-94a8-368d733828b4",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Careers",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "60f01d12-5f21-41e1-b568-713e145e6000",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Encyclopedia",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "0daab631-7a08-4d00-affa-9bcc9cfae627",
+                              "type" : "component"
+                            } ],
+                            "id" : "7904e90b-e0d5-4e07-b14e-1279c1616ff7",
+                            "name" : "59475",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "User Community",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "5d4330b1-d252-4ad3-9ca2-61309f815ee8",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Become a Partner",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "5a69b952-b64a-4dc4-8393-5db810da8855",
+                              "type" : "component"
+                            } ],
+                            "id" : "8c25785b-d236-4203-8199-ae4d8fc8ac80",
+                            "name" : "540bd",
+                            "title" : "Column 4",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "dxpStyle" : {
+                                  "margin" : {
+                                    "bottom" : "",
+                                    "left" : "",
+                                    "right" : "",
+                                    "top" : "10px"
+                                  }
+                                },
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Contact",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "ae331499-642c-447a-8a70-2c02f36f7ccb",
+                              "type" : "component"
+                            }, {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : false,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Legal",
+                                "textAlign" : "left",
+                                "textColor" : "rgba(33, 37, 41, 0.75)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "56802dba-6dcf-4493-bea2-fc408bf3e59b",
+                              "type" : "component"
+                            } ],
+                            "id" : "8552141b-ef23-4092-a563-269821e2a03c",
+                            "name" : "57482",
+                            "title" : "Column 5",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "d0400428-c93a-41c0-889d-e4d49dacc3d8",
+                          "type" : "component"
+                        } ],
+                        "id" : "736ac216-05e5-4515-9c19-8001416fde65",
+                        "name" : "6c455",
+                        "title" : "Column 5",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "footer-column",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "a86748d2-eec6-486e-886e-e3baddabe564",
+                      "type" : "component"
+                    } ],
+                    "id" : "15525c43-849d-4da6-b878-9a2fe1acefdf",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "community_layout:section",
+                  "id" : "4a818464-1d01-4a7c-a0d7-7dc131c3795f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundImageConfig" : "",
+                    "backgroundImageOverlay" : "rgba(0,0,0,0)",
+                    "componentSpacerSize" : "",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "maxContentWidth" : "",
+                    "sectionColumnGutterWidth" : "",
+                    "sectionConfig" : "{\"UUID\":\"5c7140f9-7fc7-407e-a976-aa482a0095af\",\"columns\":[{\"UUID\":\"fff09844-f079-4fc4-94b9-08eed061a765\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"10419179-f497-4e89-9c69-c79efbe98c9c\",\"columnName\":\"Column 2\",\"columnKey\":\"ce450\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"514c437d-5d0a-4191-a523-7b49af724df8\",\"columnName\":\"Column 3\",\"columnKey\":\"39a94\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+                    "sectionMinHeight" : "",
+                    "sectionVerticalAlign" : "flex-start"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ?lastModifiedDate=Tue Jun 18 06:04:12 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ\",\"contentType\":null}}",
+                        "imageInfoMobile" : "",
+                        "logoWidth" : 250
+                      },
+                      "definition" : "dxp_content_layout:siteLogo",
+                      "id" : "7c056234-d1be-4179-927e-904db102fde6",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "© insightsoftware. All Rights Reserved.",
+                        "textAlign" : "left",
+                        "textDecoration" : "{\"bold\":false}",
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "aaff228f-3f8d-405b-959e-3e07f1d35907",
+                      "type" : "component"
+                    } ],
+                    "id" : "fff09844-f079-4fc4-94b9-08eed061a765",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "3rem"
+                          }
+                        },
+                        "menuName" : "Default_Social_Media_Menu2",
+                        "orientation" : "horizontal"
+                      },
+                      "definition" : "commerce_builder:socialLinks",
+                      "id" : "4d122fad-4f42-45eb-9a16-fef41fb95f07",
+                      "type" : "component"
+                    } ],
+                    "id" : "10419179-f497-4e89-9c69-c79efbe98c9c",
+                    "name" : "ce450",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"a821f572-88c3-4e0a-826f-a4bc453d04d0\",\"columns\":[{\"UUID\":\"defd29a8-3c9e-42ad-ac0d-63d07e87ecae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"44a60aa8-a8f5-430b-8803-c593749f4524\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "55%",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<button style = \"font-weight: bold;\" class=\"button button1\">Cookies Settings</button>"
+                          },
+                          "definition" : "community_builder:htmlEditor",
+                          "id" : "3a8e9ffd-1ae1-40c2-a136-e4b7825da8fc",
+                          "type" : "component"
+                        } ],
+                        "id" : "defd29a8-3c9e-42ad-ac0d-63d07e87ecae",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "0rem",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"4fc1b40a-5202-4fe0-ba32-2398b5915085\",\"columns\":[{\"UUID\":\"3d4f593d-9052-43bf-b184-2744eb66dfa2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"43b7bd94-ce74-41f5-98ab-e7a5bb676e1a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"bd0e8402-4e1a-4ecf-8b12-6f004586e574\",\"columnName\":\"Column 3\",\"columnKey\":\"43055\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Terms of Use",
+                                "textAlign" : "right",
+                                "textColor" : "rgb(110, 117, 125)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "76601069-573c-4a42-ac24-19902d93cc46",
+                              "type" : "component"
+                            } ],
+                            "id" : "3d4f593d-9052-43bf-b184-2744eb66dfa2",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Privacy Policy",
+                                "textAlign" : "center",
+                                "textColor" : "rgb(110, 117, 125)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "c9f34427-34ff-4b5a-afda-3625acaeea2f",
+                              "type" : "component"
+                            } ],
+                            "id" : "43b7bd94-ce74-41f5-98ab-e7a5bb676e1a",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "backgroundColor" : "",
+                                "isLinkable" : true,
+                                "linkAssistiveText" : "",
+                                "paddingHorizontal" : "none",
+                                "paddingVertical" : "none",
+                                "text" : "Trust & Security",
+                                "textAlign" : "left",
+                                "textColor" : "rgb(110, 117, 125)",
+                                "textDecoration" : "{}",
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://insightsoftware.com/legal/terms-of-use/\"}}}}"
+                              },
+                              "definition" : "dxp_base:textBlock",
+                              "id" : "401f1287-eb87-4584-864a-3c742d10f652",
+                              "type" : "component"
+                            } ],
+                            "id" : "bd0e8402-4e1a-4ecf-8b12-6f004586e574",
+                            "name" : "43055",
+                            "title" : "Column 3",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "4fc1b40a-5202-4fe0-ba32-2398b5915085",
+                          "type" : "component"
+                        } ],
+                        "id" : "44a60aa8-a8f5-430b-8803-c593749f4524",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "a821f572-88c3-4e0a-826f-a4bc453d04d0",
+                      "type" : "component"
+                    } ],
+                    "id" : "514c437d-5d0a-4191-a523-7b49af724df8",
+                    "name" : "39a94",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "community_layout:section",
+                  "id" : "5c7140f9-7fc7-407e-a976-aa482a0095af",
+                  "type" : "component"
+                } ],
+                "id" : "76e6eb04-b652-4519-b66f-b9739b9a2576",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "commerce_builder:layoutFooter",
+              "id" : "48e4ce5a-6950-4c9f-aa1f-b105c722d0bf",
+              "type" : "component"
+            } ],
+            "id" : "ecfeb414-efaa-4bfc-b603-6df3220a1032",
+            "name" : "content",
+            "title" : "Content",
+            "type" : "region"
+          } ],
+          "definition" : "commerce_builder:layoutFooter",
+          "id" : "cef954ec-c043-4f68-b61b-043165f9610a",
+          "type" : "component"
+        } ],
+        "id" : "fdc92e9f-3694-4d92-b1ec-bb3ee6d5c321",
+        "name" : "footer",
+        "title" : "Footer",
+        "type" : "region"
+      } ],
+      "definition" : "commerce:layoutSite",
+      "id" : "29640527-d588-49d1-9775-825743e1c477",
+      "type" : "component"
+    }
+  }
+}

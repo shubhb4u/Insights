@@ -1,0 +1,865 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "SAP",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ad8eb571-95ba-4cb1-83a3-46b963bde486\",\"columns\":[{\"UUID\":\"86a66e4a-f4e5-4057-a000-f0d337db01e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"8002d298-5ae4-4b73-8737-84dd27f476c2\",\"columnName\":\"Column 2\",\"columnKey\":\"9b550\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "5rem",
+                    "top" : "2rem"
+                  }
+                },
+                "richTextValue" : "<div class=\"sapheader\">SAP REPORTING, BI, AND ANALYTICS SOFTWARE SOLUTIONS</div>\n<div class=\"saptitle\">Protect Your Excel Reporting with a Direct Connection to Your SAP Data</div>\n<div class=\"sapbuttons\">\n    <a href=\"#\" class=\"sapbutton\">Get a Demo</a>\n    <a href=\"#\" class=\"sapbutton secondary\">Watch Overview</a>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "3dfcf841-a900-4fb5-b652-c0d14111104e",
+              "type" : "component"
+            } ],
+            "id" : "86a66e4a-f4e5-4057-a000-f0d337db01e1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/SAP_Header.png\" alt=\"Image 2\" width=\"400\" height=\"400\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "bfa479ec-531e-465a-b782-1eb34e90515f",
+              "type" : "component"
+            } ],
+            "id" : "8002d298-5ae4-4b73-8737-84dd27f476c2",
+            "name" : "9b550",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ad8eb571-95ba-4cb1-83a3-46b963bde486",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"904e7118-c76e-4219-b654-edec04bb9ea8\",\"columns\":[{\"UUID\":\"b1a35f61-1fd3-4dee-add9-8088126291eb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "large",
+                "text" : "Are You Struggling to Extract Meaningful Insights from Your SAP Data?",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "420bbf1b-e6f3-4a02-a8a8-cb8fc1f332fd",
+              "type" : "component"
+            } ],
+            "id" : "b1a35f61-1fd3-4dee-add9-8088126291eb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "904e7118-c76e-4219-b654-edec04bb9ea8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"63eb2d5a-995b-4ab2-afcd-a63c4ce222a7\",\"columns\":[{\"UUID\":\"091fe3f0-3198-4a57-8ef0-d29ec5433251\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7801cdb7-f70e-4648-ba32-869f27db85a3\",\"columnName\":\"Column 2\",\"columnKey\":\"846a2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d0430e54-bc99-4644-83d9-b9f54539f72d\",\"columnName\":\"Column 3\",\"columnKey\":\"788dd\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/05/empower-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "8b1dc0ff-b224-4d36-9bab-1f4e6c5f82fa",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Preparing Ad Hoc Reports is Difficult and Relies on IT Skills</span></h3><p style=\"text-align: center;\"><br></p><p>Finance teams frequently need to query SAP data to answer ad hoc questions. However, SAP data are complex, understanding them requires significant expertise, and native tools including SAP BusinessObjects and SAP Business Warehouse (BW) require technical knowledge to use them. This leaves finance teams dependent on scarce IT skills to create and modify reports, resulting in delays and frustration</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "43d34d33-a9d4-432b-aca2-a4f1955281e5",
+              "type" : "component"
+            } ],
+            "id" : "091fe3f0-3198-4a57-8ef0-d29ec5433251",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/05/budget-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "d1377197-0159-4876-9818-2aedeef53440",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Out-of-the-Box Reports are Too Inflexible for Finance</span></h3><p><br></p><p>Finance and accounting teams need to report and drill across multiple dimensions. You want to see the full picture of your business performance and need to access data from multiple systems, whether it’s other SAP modules or separate business systems. Such data groupings are difficult to create with the native SAP reporting tools.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ccee6dbc-578f-42fd-83dc-313153f6bc3f",
+              "type" : "component"
+            } ],
+            "id" : "7801cdb7-f70e-4648-ba32-869f27db85a3",
+            "name" : "846a2",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/itreliance-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "c5d24faa-9c9a-4702-9834-b242e04e4b04",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Manual Reporting Processes are a Time Drain</span></h3><p><br></p><p><br></p><p>When you’re looking to spend more time on value-added analysis, you need to find new ways to increase your productivity, replacing manual processes like exporting to spreadsheets, flipping between Excel and SAP to validate data, and formatting reports.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "452d6dd8-6e76-41b9-89de-4507f8fb05e7",
+              "type" : "component"
+            } ],
+            "id" : "d0430e54-bc99-4644-83d9-b9f54539f72d",
+            "name" : "788dd",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "63eb2d5a-995b-4ab2-afcd-a63c4ce222a7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bcb193e9-a38c-4d3a-a164-f08dfe692685\",\"columns\":[{\"UUID\":\"e0f8f017-acda-4174-87ab-fc4475bc3f72\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "See How Much Time You Can Save With Fast, Accurate SAP Reporting",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f0a7e3d4-81ad-47f5-9103-65c4b6f6e5cc",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Schedule a Personalized Demo",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "3492375c-7e45-4b56-9e26-eab7eba673fc",
+              "type" : "component"
+            } ],
+            "id" : "e0f8f017-acda-4174-87ab-fc4475bc3f72",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bcb193e9-a38c-4d3a-a164-f08dfe692685",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7f4c8188-ba66-4e4d-a710-22c8939a66f7\",\"columns\":[{\"UUID\":\"1c3292c4-f425-4272-82f1-80de10643cb5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"35666b92-dc79-43e6-99e3-6362ac58f6b9\",\"columnName\":\"Column 2\",\"columnKey\":\"0f31d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "0px",
+                    "right" : "0px",
+                    "top" : "0px"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Real-Time FICO Reporting and Analysis Solutions for SAP ECC and S/4HANA</span></h3><p>Access real-time data to support month-end closing needs and cost control. Create accurate, up-to-date, consolidated reports across multiple cost and profit centers. Refresh period-on-period analysis reports in seconds without relying on stale data exports. Format income statements, balance sheets, and other reports exactly how you want. Report against fields from different modules and drill into combined data for more insightful financial and cost center (FICO) reporting.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "919cb153-f505-43ee-b1d6-9610730f1f80",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn about our SAP ECC and S/4HANA Solutions",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "196e5ac0-fc94-4f70-94a9-ba654a4caeff",
+              "type" : "component"
+            } ],
+            "id" : "1c3292c4-f425-4272-82f1-80de10643cb5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/SAP-ECC_Datasource_TackleSAPReporting-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "19cc5d1d-7177-4954-8656-89e91fcd06d2",
+              "type" : "component"
+            } ],
+            "id" : "35666b92-dc79-43e6-99e3-6362ac58f6b9",
+            "name" : "0f31d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7f4c8188-ba66-4e4d-a710-22c8939a66f7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e59387c3-343b-4dc0-99ae-402e91bd112e\",\"columns\":[{\"UUID\":\"7ec7575f-2d3f-47a9-bd62-9e5f96797512\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c0c5c939-06f1-416c-9b5b-e361e1445124\",\"columnName\":\"Column 2\",\"columnKey\":\"280e6\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "10rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/SAPB1_DataSource_TackleFinancial-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6909593f-801e-4494-8f6c-b9e9915c8509",
+              "type" : "component"
+            } ],
+            "id" : "7ec7575f-2d3f-47a9-bd62-9e5f96797512",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "5rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Reduce the Effort Required to Analyze and Report on SAP Business One Data</span></h3><p>Shrink reporting cycles by enabling business users to build refreshable reports using easy-to-configure, pre-built templates, or by creating a custom report in minutes. Speed up analysis with live drilldowns from summary data to transaction level to identify and resolve reconciliation and data integrity issues.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4ce678fc-aa93-4a97-a029-ac03b14d5787",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn about our SAP Business One Solutions",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "b3da5eff-5383-4392-a897-ed82a42cfbf7",
+              "type" : "component"
+            } ],
+            "id" : "c0c5c939-06f1-416c-9b5b-e361e1445124",
+            "name" : "280e6",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e59387c3-343b-4dc0-99ae-402e91bd112e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3ba539d9-c558-49a9-96d2-29c575dbbcc0\",\"columns\":[{\"UUID\":\"a8d82210-6226-4b21-8c3d-ef4098e273b9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"9a7fa9a8-dfe1-4ac0-ba17-00c32d684620\",\"columnName\":\"Column 2\",\"columnKey\":\"b6f7d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Communicate the Story Behind Your SAP Business Planning and Consolidation Data</span></h3><p>Give executive decision-makers the information they need in the form of rich, dynamic report packs that update automatically, eliminate manual effort, and enable report users to find the information they need fast. Stimulate collaboration and engagement with commentary and live chat functionality to capture the story behind your numbers. Consolidate report commentaries quickly and easily and track them with an audit trail to support your governance and compliance needs.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6c9ff7c6-0f79-4b5b-bf51-f7ef9c77614d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our SAP Business Planning and Consolidation Solutions",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "ac4fe2a1-953d-41b4-b7b4-6b1a41232c49",
+              "type" : "component"
+            } ],
+            "id" : "a8d82210-6226-4b21-8c3d-ef4098e273b9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/CXO_DataSource_SAP-BPC_Communicate-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "d619cc33-663d-4cd9-ae51-ac612a19d3a9",
+              "type" : "component"
+            } ],
+            "id" : "9a7fa9a8-dfe1-4ac0-ba17-00c32d684620",
+            "name" : "b6f7d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3ba539d9-c558-49a9-96d2-29c575dbbcc0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"350ce1be-4c5e-499b-bcf2-c027bb773279\",\"columns\":[{\"UUID\":\"27e46da6-0d2f-4fbd-a9a5-c5758ef311c2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bf36b362-3244-4ccd-833a-d44eecfbdc56\",\"columnName\":\"Column 2\",\"columnKey\":\"c9c66\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/CXO_DataSource_SAP-BW_EnableSelf-Service-1-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5c2aeb1a-9e78-43b9-9d51-3ad48e0f8772",
+              "type" : "component"
+            } ],
+            "id" : "27e46da6-0d2f-4fbd-a9a5-c5758ef311c2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "4rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Improve Your Financial Reporting in SAP Business Warehouse</span></h3><p>While the storage and structure of your SAP BW data is under control, you need a reporting tool that can understand your financial data and their hierarchies. Instead of depending on the technical skills of your IT team, or an error-prone manual process, enable finance team members to create and manage both single reports and report packs. With highly flexible, best practice reporting templates along with a free-format template, you can get up and running fast, and easily create the dashboards you need to meet all your reporting requirements.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9bf3d6bb-6025-4402-86e8-198a2d11f55c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our SAP Business Warehouse Solutions",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "8503ad31-51bb-431d-aae3-a0bff89f5fac",
+              "type" : "component"
+            } ],
+            "id" : "bf36b362-3244-4ccd-833a-d44eecfbdc56",
+            "name" : "c9c66",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "350ce1be-4c5e-499b-bcf2-c027bb773279",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f3d4b5d4-f014-447e-bc1d-2622262f4a15\",\"columns\":[{\"UUID\":\"708ca927-178f-4ba8-a20d-765a37b1b41a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"21d0c725-26b1-4480-b023-9c456cca9122\",\"columnName\":\"Column 2\",\"columnKey\":\"be7e5\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6efe70d6-b3c6-4559-91ac-e948cd19bcf1\",\"columnName\":\"Column 3\",\"columnKey\":\"971f4\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h2><span style=\"font-size: 28px;\">Built for SAP</span></h2><ul><li>SAP BPC (HANA, MS or Netweaver)</li><li>SAP Business ByDesign</li><li>SAP Business One (B1)</li><li>SAP Business Warehouse (BW)</li><li>SAP ERP</li><li>SAP ERP Central Component (ECC)</li><li>SAP S/4HANA</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4b56adc2-1fc0-4322-8f59-21357ef3874f",
+              "type" : "component"
+            } ],
+            "id" : "708ca927-178f-4ba8-a20d-765a37b1b41a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/SAP.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "10561e74-03b6-4258-a597-d017821db0af",
+              "type" : "component"
+            } ],
+            "id" : "21d0c725-26b1-4480-b023-9c456cca9122",
+            "name" : "be7e5",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "6efe70d6-b3c6-4559-91ac-e948cd19bcf1",
+            "name" : "971f4",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f3d4b5d4-f014-447e-bc1d-2622262f4a15",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1323c38d-915c-48c9-8c8a-6aad6f8b57a4\",\"columns\":[{\"UUID\":\"c54a2cd9-ad40-4e43-aaaa-b312d1ce009c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"eca914f2-1125-4781-ac32-4913fe80e0df\",\"columnName\":\"Column 2\",\"columnKey\":\"fe627\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/how-to-compare-bi.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "69ea16c3-0265-4ee8-a4c4-606090ff366f",
+              "type" : "component"
+            } ],
+            "id" : "c54a2cd9-ad40-4e43-aaaa-b312d1ce009c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">How to Compare Reporting and BI Solutions</span></h3><p>Reporting and Business Intelligence (BI) solutions begin and end with data—not just how the data are collected, but also how they are stored, organized, and accessed. With a saturated market full of solutions to choose from, you need to have a clear understanding of your data needs before you start comparing your options.</p><p>In this white paper, you will learn:</p><ul><li>What to look for in reporting and/or BI software</li><li>The reasons why a reporting and BI solution is essential for growth</li><li>How to avoid reporting and BI solution implementation failure</li></ul><p>To assist with your software selection process and help you find a solution that fits your current ERP system and IT infrastructure, we have also created a framework for evaluating third party solutions.</p><p>You need to have a clear understanding of your data needs before you start comparing your options.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f6330f86-4c32-42d4-89f2-5604f4061781",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "View White Paper Now",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "3120ffd6-60d8-4ce6-abfe-6ffeb78ffe8e",
+              "type" : "component"
+            } ],
+            "id" : "eca914f2-1125-4781-ac32-4913fe80e0df",
+            "name" : "fe627",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1323c38d-915c-48c9-8c8a-6aad6f8b57a4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c3ee7a13-5c4c-4ea8-b171-5e0bdbd1bcb9\",\"columns\":[{\"UUID\":\"37d1b81f-f5d8-4593-944c-f181f4c6f903\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Related Resources",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "572e904b-9808-4e13-a467-2a08a476285c",
+              "type" : "component"
+            } ],
+            "id" : "37d1b81f-f5d8-4593-944c-f181f4c6f903",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c3ee7a13-5c4c-4ea8-b171-5e0bdbd1bcb9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3546d274-985c-4dd7-9236-fe822911648e\",\"columns\":[{\"UUID\":\"74d35d73-7f59-40a7-8ae0-870fcb6607d1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e54e8ddf-e3df-4c00-899f-47da72ed9475\",\"columnName\":\"Column 2\",\"columnKey\":\"1da58\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b4c664f4-debd-4821-b494-536eebd893fa\",\"columnName\":\"Column 3\",\"columnKey\":\"714cb\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2024/04/24-03-WP_SAP-DataPollution_750x370_V2.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "a6c05b03-d1a3-4937-9b57-c5121e027d80",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3><strong style=\"background-color: rgb(255, 255, 255); font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">White Paper</strong></h3><p><br></p><p><span style=\"font-size: 20px;\">Conquering Data Chaos: Establishing Trust in Your SAP Investment</span></p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "1f523a88-6d06-4f5f-bc76-5bbe10a1160d",
+              "type" : "component"
+            } ],
+            "id" : "74d35d73-7f59-40a7-8ae0-870fcb6607d1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2024/06/24-06-BRO_Angles-AutomotiveIndustry_750x370.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "bc05920d-f75e-430a-8717-14adbbc9164c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3><strong style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">Brochure</strong></h3><p><br></p><p><span style=\"font-size: 20px;\">Angles Enterprise for SAP Provides Visibility for Automotive Industry</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6d304453-d32f-4a21-b003-87b198b827e3",
+              "type" : "component"
+            } ],
+            "id" : "e54e8ddf-e3df-4c00-899f-47da72ed9475",
+            "name" : "1da58",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2024/06/24-05-VID-FinancialOptimizationSAPFlyover-ResourceTile.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "e638dde9-d061-4baa-ac78-fbc5252e4ad1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3><strong style=\"background-color: rgb(255, 255, 255); font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Video</strong></h3><p><br></p><p><span style=\"font-size: 20px;\">How SAP-run Enterprises Can Optimize Financial Processes</span></p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "906196ec-e4cd-4722-9dd9-bc54e89241d2",
+              "type" : "component"
+            } ],
+            "id" : "b4c664f4-debd-4821-b494-536eebd893fa",
+            "name" : "714cb",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3546d274-985c-4dd7-9236-fe822911648e",
+          "type" : "component"
+        } ],
+        "id" : "ad629aa9-d0d2-4013-9f6e-0212a765c3e8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "SAP",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0efc3f79-121b-4f32-9f1e-ee8bf2b890b8",
+          "type" : "component"
+        } ],
+        "id" : "d2e73c54-56bb-44a5-8dd0-f48144dea28d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1ce15ea4-c6cd-405a-a198-eee23963da80",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-sap"
+  }
+}

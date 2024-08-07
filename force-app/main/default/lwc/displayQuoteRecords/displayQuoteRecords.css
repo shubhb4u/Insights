@@ -1,0 +1,27 @@
+.singleQuote{
+    border: none;
+    box-shadow: 0 9px 15px 0 rgb(189 184 184 / 79%);
+    margin: auto auto;
+    padding: 1rem;
+}
+
+.label{
+    font-weight: bolder;
+    color: rgb(44, 40, 40);
+}
+
+
+.viewButton {
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.viewButton:hover {
+    background-color: #0070d2;
+    transform: translateY(-2px);
+}
+
+.viewButton:active {
+    background-color: #005fbf;
+    transform: translateY(0);
+}

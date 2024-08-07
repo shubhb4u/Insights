@@ -1,0 +1,52 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 07-11-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>Featured Products</h2>
+           <!-- <a href="https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/category/products-solutions/0ZGak0000001061GAA" class="q-link-arrow q-arrow-orange">See All Products</a>-->
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div class="product-block" key={product.Id}>
+                                    <!-- <c-product-card_-ins></c-product-card_-ins> -->
+                                     <div class="img-ctr">
+                                        <img src="https://insightsoftware.com/wp-content/uploads/2024/07/img_data_and_analytics2.png" alt="Product Image">
+                                    </div>
+                                    <div class="product-name slds-m-bottom_xx-small">{product.Name}</div>
+                                    <div class="product-model slds-m-bottom_small">Product Code: <span>{product.ProductCode}</span></div>
+                                    <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
+                                    <div class="product-price-mobile">${product.Price__c} <span>Partner Net Price</span></div>
+                                    <div class="product-last-price-mobile slds-m-bottom_xx-small">MSRP: $650.00</div>
+                                    <div class="product-discount slds-m-bottom_small">Discounted $150.00 (23%)</div>
+                            
+                                    
+                                    <a class="buyAnchor" data-id={product.Id} data-name={product.Name} onclick={handleBuy}>Buy</a>
+                            
+                                </div> 
+                            </template>
+                        </div>
+                    </div>
+                   <!-- <div class="splide__arrows icomoon-container">
+                        <button class="splide__arrow splide__arrow--prev sn-prev icomoon-icon icon-arrow_back" aria-label="Previous slide" onclick={handlePrevious}>Previous</button>
+                        <ul class="splide__pagination">
+                            <template for:each={carouselIndicators} for:item="indicator">
+                                <li key={indicator.index}>
+                                    <button class={indicator.class} type="button" data-index={indicator.index} aria-controls="splide01-slide" onclick={handleIndicatorClick}></button>
+                                </li>
+                            </template>
+                        </ul>
+                        <button class="splide__arrow splide__arrow--next sn-next icomoon-icon icon-arrow_forward" aria-label="Next slide" onclick={handleNext}>Next</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

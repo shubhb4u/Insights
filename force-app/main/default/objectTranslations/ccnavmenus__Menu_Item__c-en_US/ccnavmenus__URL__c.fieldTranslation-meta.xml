@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- URL for menu item. This can be a fully qualified url, or a relative url in a community.
+Example: &quot;https://www.salesforce.com&quot; or &quot;/s/my-custom-page&quot; or &quot;my-custom-page&quot; etc. -->
+    </help>
+    <label><!-- URL --></label>
+    <name>ccnavmenus__URL__c</name>
+</CustomFieldTranslation>
