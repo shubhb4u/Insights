@@ -3,6 +3,9 @@ import { NavigationMixin } from 'lightning/navigation';
 
 export default class BreadcrumbComponent extends NavigationMixin(LightningElement) {
     currentStage = '';
+    cartClass = '';
+    checkoutClass = '';
+    orderClass = '';
 
     connectedCallback() {
         this.currentStage = this.getCurrentStageFromUrl();
@@ -23,15 +26,22 @@ export default class BreadcrumbComponent extends NavigationMixin(LightningElemen
     }
 
     updateBreadcrumbClasses() {
-        // Update visibility based on the current stage
-        this.showCart = this.currentStage === 'cart' || this.currentStage === 'checkout' || this.currentStage === 'order';
-        this.showCheckout = this.currentStage === 'checkout' || this.currentStage === 'order';
-        this.showOrderConfirmation = this.currentStage === 'order';
+
+        // // Update visibility based on the current stage
+        // this.showCart = this.currentStage === 'cart' || this.currentStage === 'checkout' || this.currentStage === 'order';
+        // this.showCheckout = this.currentStage === 'checkout' || this.currentStage === 'order';
+        // this.showOrderConfirmation = this.currentStage === 'order';
         
-        // Update class names based on the current stage
-        this.cartClass = this.currentStage === 'cart' || this.currentStage === 'checkout' || this.currentStage === 'order' ? 'active' : '';
-        this.checkoutClass = this.currentStage === 'checkout' || this.currentStage === 'order' ? 'active' : '';
-        this.orderClass = this.currentStage === 'order' ? 'active' : '';
+        // // Update class names based on the current stage
+        // this.cartClass = this.currentStage === 'cart' || this.currentStage === 'checkout' || this.currentStage === 'order' ? 'active' : '';
+        // this.checkoutClass = this.currentStage === 'checkout' || this.currentStage === 'order' ? 'active' : '';
+        // this.orderClass = this.currentStage === 'order' ? 'active' : '';
+
+          // Update class names based on the current stage
+          this.cartClass = this.currentStage === 'cart' ? 'active' : '';
+          this.checkoutClass = this.currentStage === 'checkout' ? 'active' : '';
+          this.orderClass = this.currentStage === 'order' ? 'active' : '';
+
     }
 
     handleNavigateCart() {

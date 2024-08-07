@@ -162,57 +162,26 @@
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "1200px",
+            "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"1303e4a2-b1bc-4fa1-b20c-4be54779073f\",\"columns\":[{\"UUID\":\"3d49c91f-e3d2-4bbc-8060-d33f3a331a0e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0d6aa3a4-f4ec-4696-a79a-a6a9270b2d27\",\"columnName\":\"Column 2\",\"columnKey\":\"8242d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionConfig" : "{\"UUID\":\"7d0c19c1-7274-4413-a4de-2c7b6cf9eb19\",\"columns\":[{\"UUID\":\"cae4a475-e824-4746-a126-d6a5ffc85c27\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:productPricing",
-              "id" : "6fef2cd1-1eca-4ddc-aeb5-f06d13401716",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:productQuantityAdd",
-              "id" : "33811d90-ad0d-47a9-b366-a548fe761c89",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:productQuantitySelector",
-              "id" : "74cd0802-c272-4e18-9f9f-30eed83b9f88",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:productQuantitySelectorPopover",
-              "id" : "57afb63d-ae4d-4655-9a27-aa556765da96",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:productVariantSelector",
-              "id" : "2cc7e882-cac1-4a73-9b45-281c71c72c4f",
+              "definition" : "c:sldsCarouselCmsPanel",
+              "id" : "47c9104f-7180-4f1f-812e-5796adfca87b",
               "type" : "component"
             } ],
-            "id" : "3d49c91f-e3d2-4bbc-8060-d33f3a331a0e",
+            "id" : "cae4a475-e824-4746-a126-d6a5ffc85c27",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
-          }, {
-            "children" : [ {
-              "attributes" : { },
-              "definition" : "c:productCard_Ins",
-              "id" : "b38a8858-82dc-4001-b9cc-ba143dac6288",
-              "type" : "component"
-            } ],
-            "id" : "0d6aa3a4-f4ec-4696-a79a-a6a9270b2d27",
-            "name" : "8242d",
-            "title" : "Column 2",
-            "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "1303e4a2-b1bc-4fa1-b20c-4be54779073f",
+          "id" : "7d0c19c1-7274-4413-a4de-2c7b6cf9eb19",
           "type" : "component"
         } ],
         "id" : "608eef9f-2eb5-4555-8f84-1e6720a1c148",

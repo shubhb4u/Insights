@@ -278,6 +278,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ManagedContentController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MicrobatchSelfRegController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -299,6 +303,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ProductControllers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ProductMediaTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4476,6 +4484,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Cloud_Support__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Content_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

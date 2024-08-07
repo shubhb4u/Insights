@@ -1,15 +1,14 @@
 <template>
         <div class="breadcrumb">
-            <template if:true={showCart}>
                 <span class={cartClass} onclick={handleNavigateCart}>Cart</span>
-                <span class="separator"></span>
-            </template>
-            <template if:true={showCheckout}>
+                <span class="separator">></span>
+            
+            
                 <span class={checkoutClass} onclick={handleNavigateCheckout}>Checkout</span>
-                <span class="separator"></span>
-            </template>
-            <template if:true={showOrderConfirmation}>
+                <span class="separator">></span>
+            
+            
                 <span class={orderClass}>Done</span>
-            </template>
+            
         </div>
 </template>

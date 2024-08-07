@@ -79,6 +79,10 @@
                 <behavior>Edit</behavior>
                 <field>Shipping_Available__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Content_Type__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
