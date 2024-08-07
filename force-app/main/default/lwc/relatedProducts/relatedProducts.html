@@ -18,8 +18,7 @@
                                 <div class="product-block" key={product.Id}>
                                     <!-- <c-product-card_-ins></c-product-card_-ins> -->
                                      <div class="img-ctr">
-                                        <img src="https://insightsoftware.com/wp-content/uploads/2024/07/img_data_and_analytics2.png" alt="Product Image">
-                                    </div>
+                                        <c-slds-carousel-cms-panel content-key={product.Content_Type__c}></c-slds-carousel-cms-panel>                                    </div>
                                     <div class="product-name slds-m-bottom_xx-small">{product.Name}</div>
                                     <div class="product-model slds-m-bottom_small">Product Code: <span>{product.ProductCode}</span></div>
                                     <div class="product-border slds-border_bottom slds-m-bottom_small"></div>

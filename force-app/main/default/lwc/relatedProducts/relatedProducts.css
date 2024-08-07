@@ -448,23 +448,25 @@ h3{
     display: flex; /* Use flexbox to center the image */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically (optional) */
-    margin-bottom: 1rem; /* Space below the image */
+    margin-bottom: 0.3rem; /* Space below the image */
 }
 
 .img-ctr img {
     max-width: 100%; /* Ensure images are responsive */
-    height: 8rem; /* Set a fixed height for the image */
-    object-fit: cover; /* Ensure the image covers the container without stretching */
+    height: 4rem; /* Set a fixed height for the image */
+    /* object-fit: cover;  */
 }
 
-.img-ctr img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: 8rem; /* Maintain aspect ratio */
+/* .img-ctr img {
+    max-width: 100%;
+    height: 8rem;
     margin: auto auto;
-}
+} 
+*/
+
 
 .product-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #5462df;
     margin: 0 auto; /* Center horizontally within its container */

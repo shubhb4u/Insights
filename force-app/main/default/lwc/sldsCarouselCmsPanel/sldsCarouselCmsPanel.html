@@ -1,8 +1,7 @@
 <template>
-    
-            <div class="slds-m-around_medium">
-                <lightning-formatted-rich-text value={data}></lightning-formatted-rich-text>
-                <img src={url} alt="CMS Image" />
-            </div>
-        
+    <div class="slds-m-around_medium">
+        <div class="image-container">
+            <img style="height: 8rem;" src={url} alt="CMS Image" loading="lazy" />
+        </div>
+    </div>
 </template>
