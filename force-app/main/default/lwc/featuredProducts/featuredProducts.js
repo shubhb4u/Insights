@@ -1,11 +1,14 @@
 import { LightningElement, track } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 import getProductRecs from '@salesforce/apex/FeaturedProductsController.getFeaturedProductsInsights';
-import { addItemToCart } from 'commerce/cartApi'
+import { addItemToCart } from 'commerce/cartApi';
+import getProductMedia from '@salesforce/apex/FeaturedProductsController.getFeaturedProductsInsights';
 
 
-export default class FeaturedProductsController extends NavigationMixin(LightningElement) {
-    @track products;
+
+
+export default class FeaturedProductsController extends LightningElement {
+    @track products = [];
     @track displayedProducts = [];
     @track carouselIndicators = [];
     @track currentPage = 0;
@@ -18,23 +21,34 @@ export default class FeaturedProductsController extends NavigationMixin(Lightnin
     fetchProducts() {
         getProductRecs()
             .then((data) => {
-                this.products = data;
+                this.products = data.map(product => ({
+                    ...product,
+                    formattedUnitPrice: this.formatPrice(product.UnitPrice)
+                }));
                 this.setupCarousel();
-                console.log(' this.products', this.products);
+                console.log('Fetched products:', this.products);
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
             });
     }
-
+    
+    formatPrice(price) {
+        // Ensure the price is a number, then format it to 2 decimal places
+        return Number(price).toLocaleString('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+    }
+    
     setupCarousel() {
         this.updateDisplayedProducts();
-        this.carouselIndicators = Array(Math.ceil(this.products.length / this.itemsPerPage)).fill().map((_, index) => {
-            return {
-                index,
-                class: `splide__pagination__page ${index === this.currentPage ? 'is-active' : ''}`
-            };
-        });
+        this.carouselIndicators = Array(Math.ceil(this.products.length / this.itemsPerPage)).fill().map((_, index) => ({
+            index,
+            class: `splide__pagination__page ${index === this.currentPage ? 'is-active' : ''}`
+        }));
     }
 
     updateDisplayedProducts() {
@@ -66,41 +80,36 @@ export default class FeaturedProductsController extends NavigationMixin(Lightnin
     }
 
     updateIndicatorClasses() {
-        this.carouselIndicators = this.carouselIndicators.map((indicator) => {
-            return {
-                ...indicator,
-                class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
-            };
-        });
+        this.carouselIndicators = this.carouselIndicators.map((indicator) => ({
+            ...indicator,
+            class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
+        }));
     }
 
     handleBuy(event) {
         const productId = event.target.dataset.id;
         let productName = event.target.dataset.name; // Use let instead of const
-
+ 
         addItemToCart(productId, 1);
         location.reload();
-      
+     
         console.log('event.target.dataset: ', event.target.dataset);
         console.log('event.target: ', event.target);
-    
+   
         console.log('productId: ', productId);
-    
+   
         // Convert the product name to lowercase
         productName = productName.toLowerCase();
-    
+   
         console.log('productName: ', productName);
-    
-        // Define the URL
-       // let url = `https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/product/${productName}/${productId}`;
-       // console.log('url is ->> ', url);
-    
-       /*this[NavigationMixin.Navigate]({
-            type: 'standard__webPage',
-            attributes: {
-                url: url
-            }
-        });*/
+
+        // URL navigation (commented out)
+        // const url = `https://your-instance.salesforce.com/InsightsB2B/product/${productName}/${productId}`;
+        // this[NavigationMixin.Navigate]({
+        //     type: 'standard__webPage',
+        //     attributes: {
+        //         url: url
+        //     }
+        // });
     }
-    
 }

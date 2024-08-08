@@ -464,7 +464,7 @@ h3{
 }
 
 .product-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #5462df;
     margin: 0 auto; /* Center horizontally within its container */
@@ -492,6 +492,7 @@ h3{
     font-size: 2rem;
     color: #28a745;
     margin-bottom: 4px;
+
 }
 
 .product-price-mobile span {
@@ -510,6 +511,10 @@ h3{
     font-size: 14px;
     color: #dc3545;
     margin-bottom: 16px;
+}
+
+.discountVal{
+    font-size: 1.5rem;
 }
 
 .d-flex {

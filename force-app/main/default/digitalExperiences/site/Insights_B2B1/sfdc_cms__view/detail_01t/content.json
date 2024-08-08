@@ -455,6 +455,7 @@
                     "title" : "heading",
                     "type" : "region"
                   } ],
+                  "customCssClasses" : "product-variations",
                   "definition" : "commerce_builder:variantSelector",
                   "id" : "719c7488-3be1-45b1-ba10-408f9eb01538",
                   "type" : "component"
@@ -512,7 +513,7 @@
                     "title" : "combinedPurchaseQuantityRuleInfo",
                     "type" : "region"
                   } ],
-                  "customCssClasses" : "Shipping",
+                  "customCssClasses" : "Shipping product-detail-page",
                   "definition" : "commerce_builder:purchaseOptions",
                   "id" : "71c2233a-e063-4528-ab4b-d087fc393d1e",
                   "type" : "component"
@@ -636,7 +637,7 @@
             "children" : [ {
               "attributes" : { },
               "definition" : "c:relatedProducts",
-              "id" : "0ecc703b-0b89-425f-af70-4ac74d80c720",
+              "id" : "6bb741fa-8153-470a-89a0-71444f0d86d0",
               "type" : "component"
             } ],
             "id" : "7961bd0a-4b3d-46e0-89be-9f3b27313d55",
@@ -646,35 +647,6 @@
           } ],
           "definition" : "community_layout:section",
           "id" : "bd932692-159d-4185-8802-a67b21bd194b",
-          "type" : "component"
-        }, {
-          "attributes" : {
-            "backgroundImageConfig" : "",
-            "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "componentSpacerSize" : "",
-            "layoutDirectionDesktop" : "row",
-            "layoutDirectionMobile" : "column",
-            "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "",
-            "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"230c6b1a-94d7-4523-9f8d-1aca5725d830\",\"columns\":[{\"UUID\":\"7465e045-8cf1-4ae6-8d1a-a2b2fed797d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
-            "sectionMinHeight" : "",
-            "sectionVerticalAlign" : "flex-start"
-          },
-          "children" : [ {
-            "children" : [ {
-              "attributes" : { },
-              "definition" : "c:sldsCarouselCmsPanel",
-              "id" : "81161536-e7ec-4cc9-aa3d-ffe0ab51f9cb",
-              "type" : "component"
-            } ],
-            "id" : "7465e045-8cf1-4ae6-8d1a-a2b2fed797d8",
-            "name" : "col1",
-            "title" : "Column 1",
-            "type" : "region"
-          } ],
-          "definition" : "community_layout:section",
-          "id" : "230c6b1a-94d7-4523-9f8d-1aca5725d830",
           "type" : "component"
         } ],
         "id" : "c5c9f646-d800-4a2b-ae5d-0e33fd967226",

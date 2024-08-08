@@ -376,6 +376,7 @@
                         "placeholderLabel" : "",
                         "requireBillingAddress" : true
                       },
+                      "customCssClasses" : "credit-card-section",
                       "definition" : "commerce_builder:checkoutDualPayment",
                       "id" : "909314e0-f378-411d-8349-4fc58ec094b6",
                       "type" : "component"
@@ -428,6 +429,7 @@
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
+                    "backgroundColor" : "rgb(236, 250, 255)",
                     "dxpStyle" : { },
                     "expandByDefault" : false,
                     "icon" : "arrow",

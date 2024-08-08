@@ -514,6 +514,10 @@ h3{
     margin-bottom: 16px;
 }
 
+.discountVal{
+    font-size: 1.5rem;
+}
+
 .d-flex {
     display: flex;
     justify-content: center;

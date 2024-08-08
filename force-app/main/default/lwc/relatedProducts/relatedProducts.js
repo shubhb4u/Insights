@@ -1,9 +1,7 @@
-import { LightningElement, track , wire} from 'lwc';
+import { LightningElement, track, wire } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 import getProductRecs from '@salesforce/apex/DisplayProductRecords.getProductRecs';
-import getProductMedia from '@salesforce/apex/B2BFeaturedProducts.getFeaturedProducts';
 import { addItemToCart } from 'commerce/cartApi';
-
 
 export default class DisplayProductRecords extends NavigationMixin(LightningElement) {
     @track products;
@@ -11,17 +9,8 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
     @track carouselIndicators = [];
     @track currentPage = 0;
     @track itemsPerPage = 4;
-    @track productMedia;
 
-    @wire(getProductMedia)
-    wiredProductMedia({data, error}){
-        if(data){
-            console.log('Product Media is ', data);
-        }else{
-            console.log('Error fetching product media ', error);
-        }
-    }
-
+    
     connectedCallback() {
         this.fetchProducts();
     }
@@ -29,13 +18,20 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
     fetchProducts() {
         getProductRecs()
             .then((data) => {
-                this.products = data;
+                this.products = data.map(product => ({
+                    ...product,
+                    formattedUnitPrice: this.formatPrice(product.UnitPrice)
+                }));
                 this.setupCarousel();
-                console.log(' this.products', this.products);
+                console.log('this.products', this.products);
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
             });
+    }
+
+    formatPrice(price) {
+        return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
     setupCarousel() {
@@ -87,31 +83,20 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
 
     handleBuy(event) {
         const productId = event.target.dataset.id;
-        let productName = event.target.dataset.name; // Use let instead of const
+        let productName = event.target.dataset.name;
 
         addItemToCart(productId, 1);
         location.reload();
-      
+
         console.log('event.target.dataset: ', event.target.dataset);
         console.log('event.target: ', event.target);
-    
+
         console.log('productId: ', productId);
-    
-        // Convert the product name to lowercase
+
         productName = productName.toLowerCase();
-    
+
         console.log('productName: ', productName);
-    
-        // Define the URL
-      /* let url = `https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/product/${productName}/${productId}`;
-       console.log('url is ->> ', url);*/
-    
-       /*this[NavigationMixin.Navigate]({
-            type: 'standard__webPage',
-            attributes: {
-                url: url
-            }
-        });*/
+
+        
     }
-    
 }

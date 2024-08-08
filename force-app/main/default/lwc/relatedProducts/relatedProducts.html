@@ -2,7 +2,7 @@
   @description       : 
   @author            : ChangeMeIn@UserSettingsUnder.SFDoc
   @group             : 
-  @last modified on  : 07-11-2024
+  @last modified on  : 08-08-2024
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
 <template>
@@ -16,20 +16,16 @@
                         <div class="splide__list" id="splide01-list">
                             <template for:each={displayedProducts} for:item="product">
                                 <div class="product-block" key={product.Id}>
-                                    <!-- <c-product-card_-ins></c-product-card_-ins> -->
-                                     <div class="img-ctr">
-                                        <c-slds-carousel-cms-panel content-key={product.Content_Type__c}></c-slds-carousel-cms-panel>                                    </div>
-                                    <div class="product-name slds-m-bottom_xx-small">{product.Name}</div>
-                                    <div class="product-model slds-m-bottom_small">Product Code: <span>{product.ProductCode}</span></div>
+                                    <div class="img-ctr">
+                                        <c-slds-carousel-cms-panel content-key={product.Product2.Content_Type__c}></c-slds-carousel-cms-panel>
+                                    </div>
+                                    <div class="product-name slds-m-bottom_xx-small">{product.Product2.Name}</div>
+                                    <div class="product-model slds-m-bottom_small">Product Code: <span>{product.Product2.ProductCode}</span></div>
                                     <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
-                                    <div class="product-price-mobile">${product.Price__c} <span>Partner Net Price</span></div>
-                                    <div class="product-last-price-mobile slds-m-bottom_xx-small">MSRP: $650.00</div>
-                                    <div class="product-discount slds-m-bottom_small">Discounted $150.00 (23%)</div>
-                            
-                                    
-                                    <a class="buyAnchor" data-id={product.Id} data-name={product.Name} onclick={handleBuy}>Buy</a>
-                            
-                                </div> 
+                                    <!--<div class="product-name slds-m-bottom_xx-small">{product.Product2.Description}</div>-->
+                                    <div class="product-price-mobile">${product.formattedUnitPrice}</div>
+                                    <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                </div>
                             </template>
                         </div>
                     </div>

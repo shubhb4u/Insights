@@ -92,12 +92,21 @@
                 }, {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Continue Shopping",
                     "type" : "primary",
                     "url" : "/"
                   },
+                  "customCssClasses" : "cart-continue-button",
                   "definition" : "dxp_base:button",
                   "id" : "f4e339d8-9696-4150-973d-2de78bec6e97",
                   "type" : "component"
@@ -168,7 +177,7 @@
                     "productDetailsPillBorderColor" : "rgb(217, 223, 231)",
                     "productDetailsPillBorderRadius" : 8,
                     "productDetailsPillFontSize" : "small",
-                    "productFieldMapping" : "[{\"name\":\"ProductCode\",\"label\":\"Product Code\",\"type\":\"STRING\"},{\"name\":\"Description\",\"label\":\"Product Description\",\"type\":\"TEXTAREA\"}]",
+                    "productFieldMapping" : "[{\"name\":\"ProductCode\",\"label\":\"Product Code : \",\"type\":\"STRING\"},{\"name\":\"Description\",\"label\":\"Product Description : \",\"type\":\"TEXTAREA\"}]",
                     "promotionsAppliedSavingsButtonText" : "Saved {amount}",
                     "removeProductLinks" : false,
                     "showActualPrice" : true,
@@ -182,7 +191,7 @@
                     "showRemoveItem" : true,
                     "showSku" : true,
                     "showTotalPrices" : true,
-                    "skuLabel" : "SKU# {0}"
+                    "skuLabel" : "SKU# :  {0}"
                   },
                   "children" : [ {
                     "children" : [ {
@@ -444,6 +453,7 @@
                     "title" : "Total Label",
                     "type" : "region"
                   } ],
+                  "customCssClasses" : "cart-order-summary",
                   "definition" : "commerce_builder:cartSummary",
                   "id" : "5b39f66a-549f-4318-9ac1-0eaa1d1d2c63",
                   "type" : "component"
@@ -682,7 +692,7 @@
                     "variant" : "primary",
                     "width" : "stretch"
                   },
-                  "customCssClasses" : "shipping",
+                  "customCssClasses" : "shipping cart-checkoutbutton",
                   "definition" : "commerce_builder:checkoutButton",
                   "id" : "902b2d9b-b22d-40b7-ad45-8ae700feb5cb",
                   "type" : "component"

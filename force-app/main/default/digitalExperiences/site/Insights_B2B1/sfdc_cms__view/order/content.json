@@ -24,21 +24,6 @@
               "definition" : "c:breadcrumb",
               "id" : "54ed0042-b946-40da-b204-2d0c41309e98",
               "type" : "component"
-            }, {
-              "attributes" : {
-                "dxpStyle" : {
-                  "padding" : {
-                    "bottom" : "",
-                    "left" : "",
-                    "right" : "",
-                    "top" : ""
-                  }
-                }
-              },
-              "customCssClasses" : "breadcrumb-css",
-              "definition" : "c:breadcrumb",
-              "id" : "8511c700-7eb6-41af-bafe-b71037a61817",
-              "type" : "component"
             } ],
             "id" : "7b52f260-055d-4028-824e-36fd6bcdf4ee",
             "name" : "col1",
