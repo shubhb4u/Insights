@@ -1,4 +1,4 @@
-public with sharing class FeaturedProductsController {
+public without sharing class FeaturedProductsController {
    
     @AuraEnabled(cacheable=true)
     public static List<PricebookEntry> getFeaturedProductsInsights() {
@@ -28,5 +28,16 @@ public with sharing class FeaturedProductsController {
     
             
         ];
+    }
+
+    @AuraEnabled(cacheable=true)
+    public static List<product2> getProductRecsForDiscount() {
+        List<product2> productListforDiscount = [
+            SELECT Id, Name, isDiscounted__c,isDiscountedAmount__c,Adjustment_Amount__c, AdjustmentPercent__c
+            FROM product2
+            WHERE  Product2.ProductCode LIKE 'FR%' AND (isDiscounted__c = true OR isDiscountedAmount__c = true)
+        ];
+        System.debug('ProductList for Discount:' + productListforDiscount);
+        return productListforDiscount;
     }
 }
