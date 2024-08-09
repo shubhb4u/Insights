@@ -428,61 +428,57 @@ h3{
 }
 
 
-/* Product card CSS */
 
 .product-block {
     display: flex;
-    flex-direction: column; /* Arrange children in a column */
-    justify-content: space-between; /* Distribute space between children, pushing the "Buy" link to the bottom */
-    height: 450px; /* Set fixed height */
-    width: 400px !important; /* Set fixed width */
-    /* height: 70%;  */
-    border: 1px solid #ddd; /* Optional: Add a border for clarity */
-    padding: 1rem; /* Add padding inside the card */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Add a shadow for visual effect */
-    background-color: #fff; /* Background color of the card */
-    border-radius: 0.5rem; /* Rounded corners */
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px; /* Allow card height to adjust based on content */
+    width: 100%; /* Allow width to be responsive */
+    max-width: 400px; /* Restrict the max width for large screens */
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 0.5rem;
 }
 
 .img-ctr {
-    display: flex; /* Use flexbox to center the image */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically (optional) */
-    margin-bottom: 0.3rem; /* Space below the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3rem;
 }
 
 .img-ctr img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: 4rem; /* Set a fixed height for the image */
-    /* object-fit: cover;  */
-}
-
-/* .img-ctr img {
     max-width: 100%;
-    height: 8rem;
-    margin: auto auto;
-} 
-*/
-
+    max-height: 150px; /* Set a max height but allow the image to scale */
+    object-fit: contain; /* Ensure the image fits within the container */
+}
 
 .product-name {
     font-size: 1.5rem;
     font-weight: 400;
     color: #5462df;
-    margin: 0 auto; /* Center horizontally within its container */
-    text-align: center; /* Center text inside the element */
-    overflow: hidden; /* Hide overflow text */
-    text-overflow: ellipsis; /* Add ellipsis */
-    white-space: nowrap; /* Prevent text from wrapping */
-    width: 100%; /* Ensure it uses the full width of its container */
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.product-name a{
+    color: #5462df;
 }
 
 .product-model {
-    font-size: 0.8rem;
+    font-size: 0.9rem; /* Slightly increase for better readability */
     color: #555;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .product-border {
@@ -490,24 +486,33 @@ h3{
     margin-bottom: 16px;
 }
 
-.pricesAndDiscounts{
+.pricesAndDiscounts {
     display: flex;
-    justify-content: flex-start;
-
+    justify-content: center; /* Spread elements across the container */
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    margin-bottom: 1rem;
+    align-items: center;
 }
 
-.actualPrice{
-    margin: 0 1rem;
+.product-discount{
+    background: #f98282;
+    color: #fff;
+    padding: 0.2rem 0.4rem; /* Adjust padding for more control over box size */
+    display: inline-block; /* Ensures the box only wraps the content */
+    font-size: 1rem; /* Adjusts text size, can be modified */
+    line-height: 1.2; /* Controls the vertical spacing of the text */
+    border-radius: 0.25rem; /* Optional: add a slight border radius for styling */
 }
 
-.disPrice{
+.actualPrice {
     margin: 0.3rem 1rem;
 }
 
 .product-price-mobile {
-    font-size: 2rem;
-    color: #28a745;
+    font-size: 1.75rem;
+    color: #000000;
     margin-bottom: 4px;
+    font-weight: 600;
 }
 
 .product-price-mobile span {
@@ -522,22 +527,18 @@ h3{
     margin-bottom: 4px;
 }
 
-.product-discount {
-    font-size: 14px;
-    color: #dc3545;
-    margin-bottom: 16px;
+.msrpPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.discountVal{
-    font-size: 1.5rem;
-}
-
-.msrp{
+.msrp {
     font-size: 0.9rem;
     font-weight: 400;
     text-decoration: line-through;
     color: #888; 
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 }
 
 .d-flex {
@@ -547,14 +548,11 @@ h3{
     margin-bottom: 16px;
 }
 
-.d-flex img {
-    margin-right: 8px;
-}
-
 .product-qty-mobile {
     display: flex;
     align-items: center;
     margin-right: 16px;
+    margin-bottom: 1rem;
 }
 
 .product-qty-mobile img {
@@ -570,36 +568,32 @@ h3{
 .product-qty-mobile .slds-input {
     width: 40px;
     text-align: center;
-   
 }
 
 .buyAnchor {
-    margin: auto auto; /* Push the "Buy" link to the bottom of the card */
-    padding: 0.5rem 1rem; /* Add padding inside the button */
-    background-color: #5aa5e7; /* Background color of the button */
-    color: #ffffff; /* Text color */
-    text-align: center; /* Center the text inside the button */
-    border-radius: 0.25rem; /* Rounded corners */
-    text-decoration: none; /* Remove underline from the link */
-    font-weight: bold; /* Make the text bold */
-    display: inline-block; /* Make the anchor tag behave like a block-level element */
-    align-self: center; /* Center the button horizontally */
-        
-        transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
-        position: relative;
-        overflow: hidden;
-    }
+    margin: 1rem auto 0 auto;
+    padding: 0.5rem 1rem;
+    background-color: #5aa5e7;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 62.5%; /* Make the button full width */
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
 
-    .buyAnchor:hover {
-        background-color: #0070d2;
-        color:white;
-        transform: translateY(-2px);
-        box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
-    }
+.buyAnchor:hover {
+    background-color: #0070d2;
+    color:white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
 
-    .buyAnchor:active {
-        background-color: #005fbf;
-        color:white;
-        transform: translateY(0);
-        box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
-    }
+.buyAnchor:active {
+    background-color: #005fbf;
+    color:white;
+    transform: translateY(0);
+    box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}

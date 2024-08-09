@@ -2,7 +2,7 @@
   @description       :
   @author            : ChangeMeIn@UserSettingsUnder.SFDoc
   @group             :
-  @last modified on  : 07-03-2024
+  @last modified on  : 08-09-2024
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
 <template>
@@ -18,22 +18,11 @@
             <p class="slds-p-horizontal_small" style="color: white;">
                 <lightning-icon icon-name="utility:success" size="small"></lightning-icon>
                 Quote has been requested.
-                Our representative will get in touch with you soon!!
+                Our representative will get in touch with you soon.
             </p>
         </div>
     </div>
 </template>
 
-<!-- <button class="animated-button"  onclick={handleAvailableCredit}>Check Available Credit</button> -->
 
-<template if:true={isCreditAvailable}>
-  <div class="slds-p-around_medium">
-      <div class="slds-box slds-theme_success">
-          <p class="slds-p-horizontal_small" style="color: white;">
-              <lightning-icon icon-name="utility:success" size="small"></lightning-icon>
-              Credit is available. Use PO number : `CL-{creditVal}`
-          </p>
-      </div>
-  </div>
-</template>
 </template>

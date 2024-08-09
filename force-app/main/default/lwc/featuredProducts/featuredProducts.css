@@ -490,8 +490,10 @@ h3{
 
 .product-price-mobile {
     font-size: 2rem;
-    color: #28a745;
+    font-family: 'Poppins';
+    color: #160E0E;
     margin-bottom: 4px;
+    text-align:center !important;
 
 }
 
@@ -556,6 +558,7 @@ h3{
     background-color: #5aa5e7; /* Background color of the button */
     color: #ffffff; /* Text color */
     text-align: center; /* Center the text inside the button */
+    width: 250px !important;
     border-radius: 0.25rem; /* Rounded corners */
     text-decoration: none; /* Remove underline from the link */
     font-weight: bold; /* Make the text bold */

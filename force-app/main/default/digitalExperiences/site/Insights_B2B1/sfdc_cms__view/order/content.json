@@ -66,7 +66,7 @@
                 "dxpStyle" : { },
                 "headerText" : "Thank you for your order!"
               },
-              "customCssClasses" : "Order-Confirmation",
+              "customCssClasses" : "Order-Confirmation Order-Confirmation-Thankyou Order-Confirmation-Text",
               "definition" : "commerce_unified_checkout:orderConfirmation",
               "id" : "8be06cc1-71c8-469c-aa46-2f324622098e",
               "type" : "component"

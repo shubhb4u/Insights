@@ -6,7 +6,7 @@
       "children" : [ {
         "children" : [ {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "dxpStyle" : { },
@@ -39,38 +39,7 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "",
-            "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "componentSpacerSize" : "",
-            "layoutDirectionDesktop" : "row",
-            "layoutDirectionMobile" : "column",
-            "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "",
-            "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"cdfbf8ea-21da-4d8f-b11d-9c421ae2d5a9\",\"columns\":[{\"UUID\":\"77d0244c-8702-4d3f-ada8-bdb0ed5bb3f6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
-            "sectionMinHeight" : "",
-            "sectionVerticalAlign" : "flex-start"
-          },
-          "children" : [ {
-            "children" : [ {
-              "attributes" : {
-                "productId" : "{!recordId}"
-              },
-              "definition" : "c:recommendationsSample_Demo",
-              "id" : "52851a8d-ffc3-4e39-8f28-df45e3a4efcd",
-              "type" : "component"
-            } ],
-            "id" : "77d0244c-8702-4d3f-ada8-bdb0ed5bb3f6",
-            "name" : "col1",
-            "title" : "Column 1",
-            "type" : "region"
-          } ],
-          "definition" : "community_layout:section",
-          "id" : "cdfbf8ea-21da-4d8f-b11d-9c421ae2d5a9",
-          "type" : "component"
-        }, {
-          "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "dxpStyle" : { },
@@ -213,6 +182,7 @@
                         "textDecoration" : "{}",
                         "textDisplayInfo" : "{}"
                       },
+                      "customCssClasses" : "ClearFilter",
                       "definition" : "commerce_builder:searchFilters",
                       "id" : "01403775-b09b-4b3f-b332-de8ed58d3fa9",
                       "type" : "component"

@@ -241,6 +241,7 @@
                 "title" : "footerClearCart",
                 "type" : "region"
               } ],
+              "customCssClasses" : "shopping-cart-error-message",
               "definition" : "commerce_builder:b2bCartContents",
               "id" : "c3a7d216-8fd8-453e-be19-5aa26425cded",
               "type" : "component"
@@ -282,6 +283,7 @@
                     "showTaxPrice" : true,
                     "subtotalTextSize" : "small",
                     "taxTextSize" : "small",
+                    "totalTextColor" : "rgb(22, 14, 14)",
                     "totalTextSize" : "small"
                   },
                   "children" : [ {
@@ -479,9 +481,12 @@
                   "children" : [ {
                     "children" : [ {
                       "attributes" : {
+                        "applyCouponButtonBackgroundHoverColor" : "rgb(0, 122, 201)",
                         "applyCouponButtonProcessingText" : "Applying",
                         "applyCouponButtonText" : "Apply",
-                        "couponInputBackgroundColor" : "rgba(255, 255, 255, 0)",
+                        "applyCouponButtonTextColor" : "rgb(255, 255, 255)",
+                        "applyCouponButtonTextHoverColor" : "rgb(255, 255, 255)",
+                        "couponInputBackgroundColor" : "rgb(0, 122, 201)",
                         "couponInputPlaceholderText" : "Coupon code...",
                         "showRevealButton" : true
                       },
@@ -495,6 +500,7 @@
                             "type" : "tertiary",
                             "url" : ""
                           },
+                          "customCssClasses" : "coupon-text",
                           "definition" : "dxp_base:button",
                           "id" : "a18955e1-388e-4949-8840-242ea0ef08b5",
                           "type" : "component"
@@ -504,6 +510,7 @@
                         "title" : "revealButton",
                         "type" : "region"
                       } ],
+                      "customCssClasses" : "",
                       "definition" : "commerce_builder:cartApplyCoupon",
                       "id" : "6f4f244c-7928-41af-a916-b3f65ce43a3b",
                       "type" : "component"

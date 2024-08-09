@@ -49,7 +49,7 @@
                     "top" : ""
                   }
                 },
-                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"color: rgb(49, 171, 70); font-size: 48px;\">Office of the CFO</strong></h1><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p><p><br></p>"
+                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "5f152c1e-6467-4d07-905a-656d7c8789ce",
@@ -260,7 +260,7 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "layoutDirectionDesktop" : "row",

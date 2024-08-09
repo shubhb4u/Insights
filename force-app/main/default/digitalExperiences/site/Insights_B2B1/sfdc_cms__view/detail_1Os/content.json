@@ -11,27 +11,42 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "backgroundImageConfig" : "",
+                "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
                 "backgroundImageOverlay" : "rgba(0,0,0,0)",
                 "componentSpacerSize" : "",
-                "dxpStyle" : { },
-                "maxContentWidth" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "5rem",
+                    "top" : ""
+                  }
+                },
+                "maxContentWidth" : "1440px",
                 "sectionColumnGutterWidth" : "",
-                "sectionConfig" : "{\"UUID\":\"c3b5a42e-4507-42cd-bf1d-15f82cf1ed19\",\"columns\":[{\"UUID\":\"b29927e2-fab5-4ebf-bd6a-ba7074f76872\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"2db35284-1458-4eb5-abbc-0eabf1536ed8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}"
+                "sectionConfig" : "{\"UUID\":\"c3b5a42e-4507-42cd-bf1d-15f82cf1ed19\",\"columns\":[{\"UUID\":\"b29927e2-fab5-4ebf-bd6a-ba7074f76872\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":null},{\"UUID\":\"2db35284-1458-4eb5-abbc-0eabf1536ed8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null}]}"
               },
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
-                    "dxpStyle" : { },
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "3rem",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
-                    "paddingHorizontal" : "none",
+                    "paddingHorizontal" : "large",
                     "paddingVertical" : "none",
                     "text" : "Order: {!Order.Details.orderNumber}",
                     "textAlign" : "left",
+                    "textColor" : "rgb(0, 0, 0)",
                     "textDecoration" : "{\"bold\": true}",
-                    "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h1\"}"
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
                   },
                   "definition" : "dxp_base:textBlock",
                   "id" : "054e23d0-2c1d-4042-bcc9-ca125ac5f572",
@@ -70,7 +85,14 @@
                 "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
                 "backgroundImageOverlay" : "rgba(0,0,0,0)",
                 "componentSpacerSize" : "",
-                "dxpStyle" : { },
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
                 "maxContentWidth" : "",
                 "sectionColumnGutterWidth" : "",
                 "sectionConfig" : "{\"UUID\":\"f6bf2eff-3197-478a-be35-f19a160e0d24\",\"columns\":[{\"UUID\":\"851ebeb1-bb29-4c77-9389-72342049d5bc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"6b31b172-6820-4509-ae42-f19b5b16f37d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"8\",\"seedComponents\":null}]}"
@@ -78,7 +100,14 @@
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
-                    "dxpStyle" : { },
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "1rem"
+                      }
+                    },
                     "highlightsCardBackgroundColor" : "rgb(255, 255, 255)",
                     "highlightsCardBorderColor" : "rgb(255, 255, 255)",
                     "highlightsCardBorderRadius" : 10,
@@ -86,7 +115,7 @@
                     "orderSummaryDetails" : "{!Order.Details}",
                     "orderSummaryHighlightsFieldMapping" : "[{\"entity\": \"OrderSummary\",\"name\": \"OrderedDate\",\"label\": \"Ordered Date\",\"type\": \"Date/Time\",\"expression\": \"{!Order.OrderSummary.OrderedDate}\"},{\"entity\": \"OrderSummary\",\"name\": \"AccountId\",\"label\": \"Account\",\"type\": \"Lookup(Account)\",\"expression\": \"{!Order.OrderSummary.AccountId}\"},{\"entity\": \"OrderSummary\",\"name\": \"OwnerId\",\"label\": \"Placed By\",\"type\": \"Lookup(User,Group)\",\"expression\": \"{!Order.OrderSummary.OwnerId}\"},{\"entity\": \"OrderSummary\",\"name\": \"Status\",\"label\": \"Status\",\"type\": \"Picklist\",\"expression\": \"{!Order.OrderSummary.Status}\"}]"
                   },
-                  "customCssClasses" : "",
+                  "customCssClasses" : "orderlabels",
                   "definition" : "commerce_builder:orderDetails",
                   "id" : "9c183785-d309-42f1-9a7a-25fe4714b0ce",
                   "type" : "component"
@@ -103,6 +132,7 @@
                     "totalsCardBorderRadius" : 10,
                     "totalsCardTitle" : "Totals"
                   },
+                  "customCssClasses" : "orderlabels",
                   "definition" : "commerce_builder:orderAmount",
                   "id" : "311ea57d-d81a-4967-8a9c-4a1667820c00",
                   "type" : "component"
@@ -115,6 +145,7 @@
                     "orderPromotionDetails" : "{!Order.Adjustments}",
                     "promotionTitle" : "Applied Promotions"
                   },
+                  "customCssClasses" : "orderlabels",
                   "definition" : "commerce_builder:orderAppliedPromotions",
                   "id" : "2de6d0e3-b7e0-419a-9c40-583f822ecd07",
                   "type" : "component"

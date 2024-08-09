@@ -2,8 +2,9 @@
  * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 08-08-2024
+ * @last modified on  : 09-08-2024
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+ * Last updated by Shubham:  limiting the number of records to 8 to resolve load delay for now. Looking for solutions.
 **/
 public without sharing class DisplayProductRecords {
     @AuraEnabled(cacheable=true)
@@ -13,7 +14,7 @@ public without sharing class DisplayProductRecords {
             product2.Adjustment_Amount__c, product2.AdjustmentPercent__c
             FROM PricebookEntry
             WHERE Pricebook2.Name = 'Insights B2B Price Book' 
-              AND Product2.ProductCode LIKE 'FR%'
+              AND Product2.ProductCode LIKE 'FR%' limit 8
         ];
         System.debug('ProductList:' + productList);
         return productList;

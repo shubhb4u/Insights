@@ -207,8 +207,8 @@
                         "editAddressLabel" : "Edit Address",
                         "makeDefaultAddressLabel" : "Make this my default address",
                         "newAddressButtonLabel" : "New Address",
-                        "shippingAddressLimit" : "6",
-                        "shippingAddressLimitIncrease" : "6",
+                        "shippingAddressLimit" : "3",
+                        "shippingAddressLimitIncrease" : "3",
                         "showCompanyName" : false,
                         "showMoreButtonLabel" : "Show More",
                         "splitShipLinkLabel" : "Ship to Multiple Locations",
@@ -321,7 +321,7 @@
                   "type" : "component"
                 }, {
                   "attributes" : {
-                    "proceedButtonAlignment" : "right"
+                    "proceedButtonAlignment" : "left"
                   },
                   "children" : [ {
                     "children" : [ {
@@ -365,7 +365,7 @@
                   }, {
                     "children" : [ {
                       "attributes" : {
-                        "billingAddressSameAsShippingAddressLabel" : "Same as shipping address",
+                        "billingAddressSameAsShippingAddressLabel" : "Billing address same as Shipping address",
                         "cardPaymentLabel" : "Credit Card",
                         "checkoutDetails" : "{!Checkout.Details}",
                         "headerLabel" : "Purchase Order",
@@ -376,7 +376,7 @@
                         "placeholderLabel" : "",
                         "requireBillingAddress" : true
                       },
-                      "customCssClasses" : "credit-card-section",
+                      "customCssClasses" : "credit-card-section payment-bg",
                       "definition" : "commerce_builder:checkoutDualPayment",
                       "id" : "909314e0-f378-411d-8349-4fc58ec094b6",
                       "type" : "component"
@@ -391,6 +391,7 @@
                     "title" : "proceed",
                     "type" : "region"
                   } ],
+                  "customCssClasses" : "payment-bg",
                   "definition" : "commerce_unified_checkout:checkoutSectionPaymentDual",
                   "id" : "bd15dfd8-bcb5-4a0f-aa71-f9be0c5556e4",
                   "type" : "component"
@@ -424,12 +425,13 @@
                 "showTaxPrice" : true,
                 "subtotalTextSize" : "small",
                 "taxTextSize" : "small",
+                "totalTextColor" : "rgb(22, 14, 14)",
                 "totalTextSize" : "medium"
               },
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
-                    "backgroundColor" : "rgb(236, 250, 255)",
+                    "backgroundColor" : "rgb(255, 255, 255)",
                     "dxpStyle" : { },
                     "expandByDefault" : false,
                     "icon" : "arrow",
@@ -773,7 +775,7 @@
             "title" : "Column 2",
             "type" : "region"
           } ],
-          "customCssClasses" : "",
+          "customCssClasses" : "cart-bg",
           "definition" : "community_layout:section",
           "id" : "7026f779-4bdf-41a9-848e-07cf351c0969",
           "type" : "component"

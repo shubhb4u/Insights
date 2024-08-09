@@ -13,23 +13,29 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
     @track itemsPerPage = 4;
     @track product2;
 
-    
+    @wire(getProductDiscountList)
+    wiredProductDiscountList({ error, data }) {
+        if (data) {
+            this.productDiscountList = data;
+            console.log('Product discount list received:', this.productDiscountList);
+        } else if (error) {
+            console.error('Error retrieving product discount list:', error);
+        }
+    }
+
     connectedCallback() {
         this.fetchProducts();
-        this.getProductDiscountList();
     }
 
     fetchProducts() {
         getProductRecs()
             .then((data) => {
                 this.products = data.map(product => {
-                    const discountedPrice = this.getFinalPrice(product);
-                    let showMSRP = false;
+                    let discountedPrice = this.getFinalPrice(product);
                     return {
                         ...product,
                         formattedUnitPrice: this.formatPrice(discountedPrice),
                         isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2.Id)
-
                     };
                 });
                 this.setupCarousel();
@@ -40,64 +46,35 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
             });
     }
 
-    getProductDiscountList() {
-        getProductDiscountList()
-            .then((data) => {
-                this.productDiscountList = data;
-                console.log('productDiscountList is -->>> ', this.productDiscountList);
-            })
-            .catch((error) => {
-                console.log('Error getting discount product list ', error);
-            });
-    }
-
     getFinalPrice(product) {
+        this.showMSRP = false;
         let finalPrice = product.UnitPrice;
 
-        const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
+        // Ensure productDiscountList is defined and not empty
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
 
-        if (matchingDiscountProduct) {
-            this.showMSRP = true;
-            if (matchingDiscountProduct.isDiscounted__c) {
-                finalPrice -= (matchingDiscountProduct.AdjustmentPercent__c / 100) * finalPrice;
-                console.log('Discount applied. Final price:', finalPrice);
-            } else if (matchingDiscountProduct.isDiscountedAmount__c) {
-                finalPrice -= matchingDiscountProduct.Adjustment_Amount__c;
-                console.log('Discount applied. Final price:', finalPrice);
+            if (matchingDiscountProduct) {
+                if (matchingDiscountProduct.isDiscounted__c) {
+                    this.showMSRP = true;
+                    finalPrice -= parseFloat((matchingDiscountProduct.AdjustmentPercent__c / 100) * finalPrice);
+                    console.log('Discount applied. Final price:', finalPrice);
+                } else if (matchingDiscountProduct.isDiscountedAmount__c) {
+                    this.showMSRP = true;
+                    finalPrice -= matchingDiscountProduct.Adjustment_Amount__c;
+                    console.log('Discount applied. Final price:', finalPrice);
+                }
             }
         } else {
-            this.showMSRP = false;
+            console.warn('productDiscountList is undefined or empty. Returning original price.');
         }
 
         return finalPrice;
     }
-    
 
     formatPrice(price) {
-
-        // console.log('price is - >>>>> ', price);
-        // console.log('Adjustment_Amount__c is - >>>>> ', product2.Adjustment_Amount__c);
-        // console.log('AdjustmentPercent__c is - >>>>> ', product2.AdjustmentPercent__c);
-        // console.log('isDiscounted__c is - >>>>> ', product2.isDiscounted__c);
-        // console.log('isDiscountedAmount__c is - >>>>> ', product2.isDiscountedAmount__c);
-
-
-        // let discountedPrice;
-        // if(isDiscounted){
-        //     discountedPrice = price - ((AdjustmentPercent/100) * price);
-        //     console.log('discountedPrice from percent -->> ',discountedPrice );
-        // }else if(isDiscountedAmount){
-        //     discountedPrice = price - Adjustment_Amount;
-        //     console.log('discountedPrice from amount -->> ',discountedPrice )
-        // }else{
-        //     discountedPrice = price;
-        //     console.log('Normal Price -->> ', discountedPrice);
-        // }
-
-        return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
-
-
 
     setupCarousel() {
         this.updateDisplayedProducts();
@@ -155,10 +132,18 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
 
         addItemToCart(productId, 1);
         location.reload();
+    }
 
+    handleNavigate(event) {
+        const productId = event.target.dataset.id;
+        const productName = event.target.dataset.name;
 
-        
-
-        
+        let url = `https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/product/${productName}/${productId}`;
+        this[NavigationMixin.Navigate]({
+            type: "standard__webPage",
+            attributes: {
+                url: url
+            },
+        });
     }
 }

@@ -5,19 +5,21 @@ public with sharing class PromotionTargetHandler {
         Map<Id, Decimal> productPercentMap = new Map<Id, Decimal>();
         Map<Id, Decimal> productAmountMap = new Map<Id, Decimal>();
         Set<Id> productIds = new Set<id>();
-
+		system.debug('proTarList'+proTarList);
         // Iterate over the list of ProductMedia records
-        if(proTarList.isEmpty()){
+        if(!proTarList.isEmpty()){
+            system.debug('Inside proTarList');
             for (PromotionTarget proTar : proTarList) {
                 // Get the Product2 Id from the ProductMedia record
                 Id productId = proTar.TargetId;
                 productIds.add(proTar.TargetId);
-    
+    			system.debug('productIds' +productIds);
                 // Determine the content type based on your logic
                 // Here, we assume the content type can be derived from a field on ProductMedia, adjust as necessary
                 Decimal AdjustmentPercent = proTar.AdjustmentPercent;
                 Decimal  AdjustmentAmount = protar.AdjustmentAmount;
-    
+    			system.debug('AdjustmentPercent' +AdjustmentPercent);
+                system.debug('AdjustmentAmount' +AdjustmentAmount);
                 // Update the map with the new content type
                 if(AdjustmentPercent != 0){
                     productPercentMap.put(productId, AdjustmentPercent);
@@ -25,6 +27,7 @@ public with sharing class PromotionTargetHandler {
                 if(AdjustmentAmount != 0){
                     productAmountMap.put(productId, AdjustmentAmount);
                 }
+                system.debug('productAmountMap' +productAmountMap);
                 
             }
         }
@@ -37,7 +40,7 @@ public with sharing class PromotionTargetHandler {
                                                 Id IN : productIds];
         }
         
-    
+    	system.debug('productsToUpdate'+productsToUpdate);
         //List to upddate products -  
         List<Product2> updateProductPromotionAmounts = new List<product2>();                                      
 
@@ -55,7 +58,7 @@ public with sharing class PromotionTargetHandler {
             updateProductPromotionAmounts.add(product);
             
         }
-
+		system.debug('updateProductPromotionAmounts'+updateProductPromotionAmounts);
         // Perform the update
         if (!updateProductPromotionAmounts.isEmpty()) {
             upsert updateProductPromotionAmounts;
