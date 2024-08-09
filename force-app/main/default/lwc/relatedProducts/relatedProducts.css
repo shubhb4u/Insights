@@ -490,6 +490,20 @@ h3{
     margin-bottom: 16px;
 }
 
+.pricesAndDiscounts{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.actualPrice{
+    margin: 0 1rem;
+}
+
+.disPrice{
+    margin: 0.3rem 1rem;
+}
+
 .product-price-mobile {
     font-size: 2rem;
     color: #28a745;
@@ -516,6 +530,14 @@ h3{
 
 .discountVal{
     font-size: 1.5rem;
+}
+
+.msrp{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #888; 
+    margin: 0 1rem;
 }
 
 .d-flex {

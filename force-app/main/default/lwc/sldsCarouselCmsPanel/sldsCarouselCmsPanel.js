@@ -13,7 +13,6 @@ export default class SldsCarouselCmsPanel extends LightningElement {
   onGetContent(result) {
     if (result.data) {
       this.data = result.data;
-      console.log('url ----------------------- ', this.data);
       console.log('this.data.contentBody.url ->>>>>>>>>>>>>> ', this.data.contentBody['sfdc_cms:media'].url);
       this.url = this.baseDomain+ this.data.contentBody['sfdc_cms:media'].url;
       

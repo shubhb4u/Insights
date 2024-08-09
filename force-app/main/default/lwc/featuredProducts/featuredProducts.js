@@ -1,10 +1,6 @@
 import { LightningElement, track } from 'lwc';
-import { NavigationMixin } from 'lightning/navigation';
 import getProductRecs from '@salesforce/apex/FeaturedProductsController.getFeaturedProductsInsights';
 import { addItemToCart } from 'commerce/cartApi';
-import getProductMedia from '@salesforce/apex/FeaturedProductsController.getFeaturedProductsInsights';
-
-
 
 
 export default class FeaturedProductsController extends LightningElement {
@@ -26,7 +22,7 @@ export default class FeaturedProductsController extends LightningElement {
                     formattedUnitPrice: this.formatPrice(product.UnitPrice)
                 }));
                 this.setupCarousel();
-                console.log('Fetched products:', this.products);
+                console.log('Fetched products: --->>>>>> ', this.products);
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
@@ -89,27 +85,11 @@ export default class FeaturedProductsController extends LightningElement {
     handleBuy(event) {
         const productId = event.target.dataset.id;
         let productName = event.target.dataset.name; // Use let instead of const
- 
+        console.log('productId:---->>>>> ', productId);
+        console.log('productName: ----->>>>>>', productName);
+
         addItemToCart(productId, 1);
         location.reload();
-     
-        console.log('event.target.dataset: ', event.target.dataset);
-        console.log('event.target: ', event.target);
    
-        console.log('productId: ', productId);
-   
-        // Convert the product name to lowercase
-        productName = productName.toLowerCase();
-   
-        console.log('productName: ', productName);
-
-        // URL navigation (commented out)
-        // const url = `https://your-instance.salesforce.com/InsightsB2B/product/${productName}/${productId}`;
-        // this[NavigationMixin.Navigate]({
-        //     type: 'standard__webPage',
-        //     attributes: {
-        //         url: url
-        //     }
-        // });
     }
 }

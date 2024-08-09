@@ -16,13 +16,14 @@
                                     <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
                                     <div class="product-price-details">
                                         <div class="product-price-mobile">{product.formattedUnitPrice}</div>
+                                    </div>
                                         <template if:true={product.Product2.isDiscounted__c}>
                                             <div class="product-discount slds-m-bottom_small"> <span class="discountVal">{product.Product2.AdjustmentPercent__c}%</span> OFF </div>
                                         </template>
                                         <template if:true={product.Product2.isDiscountedAmount__c}>
                                             <div class="product-discount slds-m-bottom_small"> <span class="discountVal">${product.Product2.Adjustment_Amount__c}</span> OFF</div>
                                         </template>
-                                    </div>
+                                    
                                     <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
                                 </div>
                             </template>
