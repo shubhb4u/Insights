@@ -1,18 +1,18 @@
 import { LightningElement, track, wire } from 'lwc';
-import { NavigationMixin } from 'lightning/navigation';
 import getProductRecs from '@salesforce/apex/FeaturedProductsController.getFeaturedProductsInsights';
-import getProductDiscountList from '@salesforce/apex/DisplayProductRecords.getProductRecsForDiscount';
 import { addItemToCart } from 'commerce/cartApi';
+import getProductDiscountList from '@salesforce/apex/FeaturedProductsController.getProductRecsForDiscount';
+
+
 
 
 export default class FeaturedProductsController extends LightningElement {
-    @track products;
-    @track productDiscountList;
+    @track products = [];
+    @track productDiscountList=[];
     @track displayedProducts = [];
     @track carouselIndicators = [];
     @track currentPage = 0;
     @track itemsPerPage = 4;
-    @track product2;
 
     @wire(getProductDiscountList)
     wiredProductDiscountList({ error, data }) {
@@ -24,7 +24,33 @@ export default class FeaturedProductsController extends LightningElement {
         }
     }
 
+
     connectedCallback() {
+
+        
+            // Fetch discounts first, then products.
+            getProductDiscountList()
+                .then(discountData => {
+                    this.productDiscountList = discountData;
+                    return getProductRecs();
+                })
+                .then(productData => {
+                    this.products = productData.map(product => {
+                        let discountedPrice = this.getFinalPrice(product);
+                        return {
+                            ...product,
+                            formattedUnitPrice: this.formatPrice(discountedPrice),
+                            isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2.Id)
+                        };
+                    });
+                    this.setupCarousel();
+                    console.log('this.products --->>>>>  ', this.products);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        
+        
         this.fetchProducts();
     }
 
@@ -73,18 +99,23 @@ export default class FeaturedProductsController extends LightningElement {
         return finalPrice;
     }
 
+    
     formatPrice(price) {
-        return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        // Ensure the price is a number, then format it to 2 decimal places
+        return Number(price).toLocaleString('en-US', {
+            style: 'currency',
+            currency: 'USD',
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
     }
-
+    
     setupCarousel() {
         this.updateDisplayedProducts();
-        this.carouselIndicators = Array(Math.ceil(this.products.length / this.itemsPerPage)).fill().map((_, index) => {
-            return {
-                index,
-                class: `splide__pagination__page ${index === this.currentPage ? 'is-active' : ''}`
-            };
-        });
+        this.carouselIndicators = Array(Math.ceil(this.products.length / this.itemsPerPage)).fill().map((_, index) => ({
+            index,
+            class: `splide__pagination__page ${index === this.currentPage ? 'is-active' : ''}`
+        }));
     }
 
     updateDisplayedProducts() {
@@ -116,35 +147,22 @@ export default class FeaturedProductsController extends LightningElement {
     }
 
     updateIndicatorClasses() {
-        this.carouselIndicators = this.carouselIndicators.map((indicator) => {
-            return {
-                ...indicator,
-                class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
-            };
-        });
+        this.carouselIndicators = this.carouselIndicators.map((indicator) => ({
+            ...indicator,
+            class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
+        }));
     }
 
     handleBuy(event) {
         const productId = event.target.dataset.id;
-        let productName = event.target.dataset.name;
-
-        console.log('productId: --->>>> ', productId);
-        console.log('productName: ---->>>> ', productName);
+        let productName = event.target.dataset.name; // Use let instead of const
+        console.log('productId:---->>>>> ', productId);
+        console.log('productName: ----->>>>>>', productName);
 
         addItemToCart(productId, 1);
         location.reload();
-    }
+   
 
-    handleNavigate(event) {
-        const productId = event.target.dataset.id;
-        const productName = event.target.dataset.name;
-
-        let url = `https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/product/${productName}/${productId}`;
-        this[NavigationMixin.Navigate]({
-            type: "standard__webPage",
-            attributes: {
-                url: url
-            },
-        });
     }
+    
 }

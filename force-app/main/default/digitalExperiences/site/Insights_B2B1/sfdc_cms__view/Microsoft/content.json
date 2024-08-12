@@ -30,17 +30,67 @@
             "children" : [ {
               "attributes" : {
                 "dxpStyle" : {
-                  "margin" : {
+                  "padding" : {
                     "bottom" : "",
-                    "left" : "5rem",
-                    "right" : "1rem",
-                    "top" : "4rem"
+                    "left" : "80px",
+                    "right" : "",
+                    "top" : "50px"
                   }
                 },
-                "richTextValue" : "<div class=\"container\">\n        <div class=\"header\">MICROSOFT DYNAMICS ERP REPORTING, BI, & DASHBOARD SOFTWARE SOLUTIONS</div>\n        <div class=\"main-title\">\n            Flexible Reporting, BI,<br>\n            Analytics, Budgeting and<br>\n            Dashboard Software<br>\n            Solutions Designed for<br>\n            Microsoft Dynamics\n        </div>\n        <a href=\"#\" class=\"button\">Get a Demo</a>\n        <a href=\"#\" class=\"button secondary\">Request Pricing</a>\n    </div>"
+                "richTextValue" : "<p><strong style=\"font-size: 18px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(0, 168, 232);\">Microsoft Dynamics ERP Reporting, BI, &amp; Dashboard Software </strong></p><p><strong style=\"font-size: 18px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(0, 168, 232);\">Solutions</strong></p><p><br></p><h1><span style=\"font-size: 48px;\">Flexible Reporting, BI, Analytics, Budgeting and Dashboard Software Solutions Designed for Microsoft Dynamics</span></h1><p><br></p>"
               },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "04ec0412-c6a6-4d16-8b83-596b936560ad",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "20d2ff29-8431-447f-9d29-79454a952586",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "0.5rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"ed589074-ba3c-4823-885d-048bdaf741f0\",\"columns\":[{\"UUID\":\"3ef5a7ee-9c4e-4711-8a5b-89069373613b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"5\",\"seedComponents\":[]},{\"UUID\":\"09c319c6-4c90-4db6-bd41-bb7187abfe4e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"7\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Get a Demo >",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "homepage-banner-buttons1",
+                  "definition" : "dxp_base:button",
+                  "id" : "a3bb92d8-772b-4f6a-a9ce-7eb77016d1a9",
+                  "type" : "component"
+                } ],
+                "id" : "3ef5a7ee-9c4e-4711-8a5b-89069373613b",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Request Pricing >",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "homepage-banner-buttons2",
+                  "definition" : "dxp_base:button",
+                  "id" : "8f047cf5-cb40-413a-bc7b-685e1c3a628b",
+                  "type" : "component"
+                } ],
+                "id" : "09c319c6-4c90-4db6-bd41-bb7187abfe4e",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "ed589074-ba3c-4823-885d-048bdaf741f0",
               "type" : "component"
             } ],
             "id" : "f9899b64-123a-4da3-a868-84f9f719e425",
@@ -50,10 +100,16 @@
           }, {
             "children" : [ {
               "attributes" : {
-                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-dynamics-hero.png\" alt=\"Image 2\" width=\"500\" height=\"300\">\n</div>"
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-dynamics-hero.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 90
               },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "0c3e17c5-3802-45ea-a8e8-5d73e35ca28b",
+              "definition" : "dxp_base:image",
+              "id" : "ac5d9ed2-984c-42eb-8d5e-9598556e1ddd",
               "type" : "component"
             } ],
             "id" : "7023354b-fc67-433c-96e6-5cf2abf4d08a",
@@ -237,6 +293,7 @@
                 "paddingVertical" : "large",
                 "text" : "Considering Migrating to Dynamics 365?\nDiscover How to Simplify, Accelerate and Minimize Risk of Your Dynamics 365 ERP Upgrade",
                 "textAlign" : "center",
+                "textColor" : "rgb(30, 37, 86)",
                 "textDecoration" : "{}",
                 "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
               },
@@ -251,6 +308,7 @@
                 "text" : "Learn More about Jet Analytics",
                 "type" : "primary"
               },
+              "customCssClasses" : "microsoftpage-buttons",
               "definition" : "dxp_base:button",
               "id" : "1bc2f7ef-c36e-4eec-b32b-cabde54586c1",
               "type" : "component"
@@ -296,19 +354,19 @@
                     "top" : "6rem"
                   }
                 },
-                "richTextValue" : "<h3><span style=\"font-size: 48px;\">Microsoft Dynamics 365 for Business Central</span></h3><p><span style=\"font-size: 24px;\">Make more informed decisions based on business performance with accurate reporting, fast analytics, and controlled budgeting directly inside Excel.</span></p>"
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Microsoft Dynamics 365 for Business Central</span></h3><p>Make more informed decisions based on business performance with accurate reporting, fast analytics, and controlled budgeting directly inside Excel.</p>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "de3f5929-9e86-4d8f-83e9-4ff0e1681029",
               "type" : "component"
             }, {
               "attributes" : {
-                "alignment" : "center",
+                "alignment" : "left",
                 "dxpStyle" : {
                   "margin" : {
                     "bottom" : "",
                     "left" : "",
-                    "right" : "",
+                    "right" : "14rem",
                     "top" : ""
                   }
                 },
@@ -317,6 +375,7 @@
                 "text" : "Learn About Our Dynamics AX Solutions",
                 "type" : "primary"
               },
+              "customCssClasses" : "microsoftpage-buttons",
               "definition" : "dxp_base:button",
               "id" : "427d781c-9dd3-452a-aa90-60f891d36379",
               "type" : "component"
@@ -328,10 +387,16 @@
           }, {
             "children" : [ {
               "attributes" : {
-                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-business-central-feature-1-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\"></center>\n</div>"
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-business-central-feature-1-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
               },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "0f6e9549-5ccc-49fc-a9f2-c0ddab5f9e45",
+              "definition" : "dxp_base:image",
+              "id" : "68c099bc-d0c4-46ba-8704-7f4d97d6eb28",
               "type" : "component"
             } ],
             "id" : "70f25ce0-99ec-4717-978b-5299ec6e2283",
@@ -367,18 +432,16 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "dxpStyle" : {
-                  "margin" : {
-                    "bottom" : "",
-                    "left" : "",
-                    "right" : "",
-                    "top" : "2rem"
-                  }
-                },
-                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-nav-fearure-4.png\" alt=\"Image 2\" width=\"500\" height=\"500\"></center>\n</div>"
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-finance-and-operations-feature-2.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
               },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "0661534d-4ce6-4a9b-a0b7-ac98cc80426a",
+              "definition" : "dxp_base:image",
+              "id" : "23c5f5a4-5ffc-4ffa-b203-2301098695c2",
               "type" : "component"
             } ],
             "id" : "a8912ad7-b6c4-4fc2-877b-034f733ce111",
@@ -396,19 +459,28 @@
                     "top" : "6rem"
                   }
                 },
-                "richTextValue" : "<h3><span style=\"font-size: 48px;\">Microsoft Dynamics NAV</span></h3><h3><span style=\"font-size: 24px;\">Embedded within the familiar Excel environment, our Microsoft Dynamics NAV reporting, analytics, and budgeting solutions give you access to accurate business information, when and where you need it.</span></h3>"
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Microsoft Dynamics 365 for Finance &amp; Operations</span></h3><h3><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86); font-size: 16px;\">Gain full access to all the Microsoft Dynamics 365 for Finance &amp; Operations data you need to build reports in any format quickly, and easily use Power BI.</span></h3>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "70dca872-ebc7-42a3-a198-432182221c46",
               "type" : "component"
             }, {
               "attributes" : {
-                "alignment" : "center",
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "12.8rem",
+                    "top" : ""
+                  }
+                },
                 "size" : "standard",
                 "stretch" : "standard",
                 "text" : "Learn About Our Dynamics NAV Solutions",
                 "type" : "primary"
               },
+              "customCssClasses" : "microsoftpage-buttons",
               "definition" : "dxp_base:button",
               "id" : "9054ef4a-3c0a-4810-b32c-699b5351df10",
               "type" : "component"
@@ -449,12 +521,12 @@
                 "dxpStyle" : {
                   "margin" : {
                     "bottom" : "",
-                    "left" : "6rem",
-                    "right" : "6rem",
-                    "top" : "5rem"
+                    "left" : "2rem",
+                    "right" : "2rem",
+                    "top" : "6rem"
                   }
                 },
-                "richTextValue" : "<h3><span style=\"font-size: 48px;\">Microsoft Dynamics GP</span></h3><p><span style=\"font-size: 24px;\">Financial reporting, corporate analytics, and collaborative budgeting embedded within the familiar Excel environment you already know.</span></p>"
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Microsoft Dynamics AX</span></h3><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Make timely, strategic decisions based on accurate data, adaptable reporting, and Power BI analytics in any format your users need.</span></p><p><br></p>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "05460ff0-bf50-43de-a351-b537656b9c53",
@@ -466,7 +538,7 @@
                   "margin" : {
                     "bottom" : "",
                     "left" : "",
-                    "right" : "",
+                    "right" : "13.5rem",
                     "top" : ""
                   }
                 },
@@ -475,6 +547,7 @@
                 "text" : "Learn About Our Dynamics GP Solutions",
                 "type" : "primary"
               },
+              "customCssClasses" : "microsoftpage-buttons",
               "definition" : "dxp_base:button",
               "id" : "bdd22a2f-d71b-474e-b184-c12d895699bc",
               "type" : "component"
@@ -486,18 +559,16 @@
           }, {
             "children" : [ {
               "attributes" : {
-                "dxpStyle" : {
-                  "margin" : {
-                    "bottom" : "",
-                    "left" : "",
-                    "right" : "",
-                    "top" : ""
-                  }
-                },
-                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-finance-and-operations-feature-2.png\" alt=\"Image 2\" width=\"500\" height=\"500\"></center>\n</div>"
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-ax-feature-3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
               },
-              "definition" : "community_builder:htmlEditor",
-              "id" : "6d1c6793-9554-4b65-89cb-b7e8b97bcd3d",
+              "definition" : "dxp_base:image",
+              "id" : "d5506f81-ccf2-47ee-8a3b-4937f7011c4c",
               "type" : "component"
             } ],
             "id" : "dbfa6323-3916-4c08-bcd1-80c740bd1d41",
@@ -507,6 +578,178 @@
           } ],
           "definition" : "community_layout:section",
           "id" : "ae2b4ba0-f76e-4d99-a273-22ca74e0dafa",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bc554303-1ea7-4420-9b21-049844724043\",\"columns\":[{\"UUID\":\"1f10cc4e-9fde-4793-be59-2b4c5b4ffe28\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"7\",\"seedComponents\":[]},{\"UUID\":\"8b2697de-a2a9-4ff1-afd8-0e6135b868ce\",\"columnName\":\"Column 2\",\"columnKey\":\"ac99b\",\"columnWidth\":\"5\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/microsoft-nav-fearure-4.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 90
+              },
+              "definition" : "dxp_base:image",
+              "id" : "55f9d055-5976-4941-b7a3-c529b1a38387",
+              "type" : "component"
+            } ],
+            "id" : "1f10cc4e-9fde-4793-be59-2b4c5b4ffe28",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "8rem",
+                    "top" : "12rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Microsoft Dynamics NAV</span></h3><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Embedded within the familiar Excel environment, our Microsoft Dynamics NAV reporting, analytics, and budgeting solutions give you access to accurate business information, when and where you need it.</span></p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "8107c136-0e9a-4452-99cf-8c0b55e9add9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "14.5rem",
+                    "top" : ""
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our Dynamics NAV Solutions",
+                "type" : "primary"
+              },
+              "customCssClasses" : "microsoftpage-buttons",
+              "definition" : "dxp_base:button",
+              "id" : "b925325f-73fc-4676-a969-ae1588358543",
+              "type" : "component"
+            } ],
+            "id" : "8b2697de-a2a9-4ff1-afd8-0e6135b868ce",
+            "name" : "ac99b",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bc554303-1ea7-4420-9b21-049844724043",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d0d7c391-551a-465b-b0e8-bc3e41dabe9c\",\"columns\":[{\"UUID\":\"ae4db23b-f2c6-4b0a-abaf-29bd2f4820b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"eb537a27-f1c6-498a-a50e-fcfeb2fc834b\",\"columnName\":\"Column 2\",\"columnKey\":\"28481\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "7rem",
+                    "right" : "3rem",
+                    "top" : "15rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Microsoft Dynamics GP</span></h3><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Financial reporting, corporate analytics, and collaborative budgeting embedded within the familiar Excel environment you already know.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4acc151e-96e1-47a6-8a0c-0134462a94b6",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "8.5rem",
+                    "top" : ""
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our Dynamics GP Solutions\t",
+                "type" : "primary"
+              },
+              "customCssClasses" : "microsoftpage-buttons",
+              "definition" : "dxp_base:button",
+              "id" : "c56857b2-3ab1-4d37-95bd-42f97524aa3e",
+              "type" : "component"
+            } ],
+            "id" : "ae4db23b-f2c6-4b0a-abaf-29bd2f4820b5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/10/micrsoft-gp-feature-5.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 80
+              },
+              "definition" : "dxp_base:image",
+              "id" : "7287d5b9-33ea-44b2-880c-ad9fa48919f4",
+              "type" : "component"
+            } ],
+            "id" : "eb537a27-f1c6-498a-a50e-fcfeb2fc834b",
+            "name" : "28481",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d0d7c391-551a-465b-b0e8-bc3e41dabe9c",
           "type" : "component"
         }, {
           "attributes" : {
@@ -536,7 +779,7 @@
                 "dxpStyle" : {
                   "margin" : {
                     "bottom" : "",
-                    "left" : "5rem",
+                    "left" : "2rem",
                     "right" : "",
                     "top" : ""
                   }
@@ -593,6 +836,12 @@
                 "left" : "1rem",
                 "right" : "1rem",
                 "top" : "1rem"
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
               }
             },
             "layoutDirectionDesktop" : "row",
@@ -628,7 +877,7 @@
                     "top" : "2rem"
                   }
                 },
-                "richTextValue" : "<h3><span style=\"font-size: 36px;\">How to Compare Dynamics BI &amp; Reporting Solutions</span></h3><p><br></p><p><span style=\"font-size: 24px;\">In this whitepaper, you will learn about what’s included in the Microsoft BI stack, common data frustrations faced by Dynamics users, a comparison of your BI options (including out-of-the-box functionality) and finally, a complete framework for evaluating third-party BI solution providers.</span></p><p><a href=\"https://insightsoftware.com/resources/how-to-compare-dynamics-bi-reporting-solutions/\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-family: var(--bs-btn-font-family); font-size: var(--bs-btn-font-size); color: rgb(255, 255, 255);\">View White Paper Now</a></p><p><br></p>"
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">How to Compare Dynamics BI &amp; Reporting Solutions</span></h3><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">In this whitepaper, you will learn about what’s included in the Microsoft BI stack, common data frustrations faced by Dynamics users, a comparison of your BI options (including out-of-the-box functionality) and finally, a complete framework for evaluating third-party BI solution providers.</span></p><p><a href=\"https://insightsoftware.com/resources/how-to-compare-dynamics-bi-reporting-solutions/\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(255, 255, 255); font-size: var(--bs-btn-font-size); font-family: var(--bs-btn-font-family);\">View White Paper Now</a></p>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "809f39fe-6374-49e1-9ba9-78474b4703d7",
@@ -649,6 +898,7 @@
                 "text" : "View White Paper Now",
                 "type" : "primary"
               },
+              "customCssClasses" : "homepage-banner-buttons1",
               "definition" : "dxp_base:button",
               "id" : "c1bb5122-da03-4158-bd4e-46e018209039",
               "type" : "component"

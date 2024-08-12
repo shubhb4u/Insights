@@ -342,6 +342,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>StripeAdapterNew</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StripeValidationException</apexClass>
         <enabled>false</enabled>
     </classAccesses>

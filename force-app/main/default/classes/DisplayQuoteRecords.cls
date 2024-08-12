@@ -11,7 +11,7 @@ public with sharing class DisplayQuoteRecords {
 @AuraEnabled
 public static List<Quote> DisplayQuoteRecs(string contactId) {
     if(ContactId!=null){
-    List<Quote> qLidt=[select id,ContactId,Status,Name,ExpirationDate,TotalPrice,Quote_PDF_Download__c,QuoteNumber from Quote where ContactId = : ContactId ORDER BY CreatedDate DESC];
+    List<Quote> qLidt=[select id,ContactId,Contact.Account.name,Status,Name,ExpirationDate,TotalPrice,Quote_PDF_Download__c,QuoteNumber, Discount from Quote where ContactId = : ContactId ORDER BY CreatedDate DESC];
     System.debug('qLidt:'+qLidt);
     return qLidt;
     }else{

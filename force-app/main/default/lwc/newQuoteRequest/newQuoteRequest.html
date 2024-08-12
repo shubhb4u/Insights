@@ -6,10 +6,10 @@
   @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 -->
 <template>
-  <lightning-input type="date" label="Request a Quote By" value={requestQuoteBy} onchange={handleRequestQuoteByChange} required></lightning-input>
-  <div class="error" style="font-weight: 400;color: #CC0F08;">{requestQuoteByError}</div>
-  <lightning-input type="text" label="Reason for Quote" value={reasonForQuote} onchange={handleReasonForQuoteChange} required></lightning-input>
-  <div class="error" style="font-weight: 400;color: #CC0F08;">{reasonForQuoteError}</div>
+  <lightning-input  type="date" style="font-weight: 200;"  label="Request Quote By" value={requestQuoteBy} onchange={handleRequestQuoteByChange} required></lightning-input>
+  <div class="error" style="font-weight: 300;color: #CC0F08;">{requestQuoteByError}</div>
+  <lightning-input  type="text" style="font-weight: 200;"  label="Reason for Quote" value={reasonForQuote} onchange={handleReasonForQuoteChange} required></lightning-input>
+  <div class="error" style="font-weight: 300;color: #CC0F08;">{reasonForQuoteError}</div>
   <button class="animated-button"  onclick={handleCreateQuote}>New Quote</button>
   
   <template if:true={showSuccessMessage}>

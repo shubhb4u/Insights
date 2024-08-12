@@ -12,6 +12,7 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
     @track currentPage = 0;
     @track itemsPerPage = 4;
     @track product2;
+    
 
     @wire(getProductDiscountList)
     wiredProductDiscountList({ error, data }) {
@@ -25,6 +26,11 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
 
     connectedCallback() {
         this.fetchProducts();
+
+        // Initialize counter values for each product
+        this.displayedProducts.forEach(product => {
+            this.productCounters[product.Id] = 1;
+        });
     }
 
     fetchProducts() {
@@ -123,6 +129,8 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         });
     }
 
+    
+
     handleBuy(event) {
         const productId = event.target.dataset.id;
         let productName = event.target.dataset.name;
@@ -131,7 +139,8 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         console.log('productName: ---->>>> ', productName);
 
         addItemToCart(productId, 1);
-        location.reload();
+        window.location.href = 'https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/cart';
+
     }
 
     handleNavigate(event) {

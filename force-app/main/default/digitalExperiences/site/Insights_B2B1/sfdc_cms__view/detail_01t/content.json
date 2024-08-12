@@ -6,7 +6,7 @@
       "children" : [ {
         "children" : [ {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "layoutDirectionDesktop" : "row",
@@ -45,7 +45,7 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "layoutDirectionDesktop" : "row",
@@ -343,7 +343,7 @@
                     "title" : "Documents",
                     "type" : "region"
                   } ],
-                  "customCssClasses" : "detailBoxCart",
+                  "customCssClasses" : "q-edition-panel",
                   "definition" : "dxp_layout:tabs",
                   "id" : "5a906ad4-7489-4b1c-b1bd-a0ce344dbd55",
                   "type" : "component"
@@ -605,7 +605,7 @@
                 "title" : "subscriptionLabel",
                 "type" : "region"
               } ],
-              "customCssClasses" : "detailBoxCart quantity-selector-buttons Shipping",
+              "customCssClasses" : "q-edition-panel quantity-selector-buttons Shipping",
               "definition" : "commerce_builder:productSet",
               "id" : "21b0fe72-1f1e-4d1b-8548-dcd5cc6de0be",
               "type" : "component"
@@ -621,7 +621,7 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "layoutDirectionDesktop" : "row",

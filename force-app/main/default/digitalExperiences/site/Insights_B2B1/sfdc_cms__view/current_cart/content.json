@@ -264,6 +264,7 @@
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
+                    "discountAmountTextColor" : "rgb(0, 0, 0)",
                     "discountAmountTextSize" : "small",
                     "dxpStyle" : {
                       "margin" : {
@@ -274,6 +275,7 @@
                       }
                     },
                     "originalTextSize" : "small",
+                    "shippingTextColor" : "rgb(0, 0, 0)",
                     "shippingTextSize" : "small",
                     "showDiscountAmount" : true,
                     "showOriginalPrice" : false,
@@ -281,7 +283,9 @@
                     "showSubtotalPrice" : true,
                     "showTaxIncludedLabel" : false,
                     "showTaxPrice" : true,
+                    "subtotalTextColor" : "rgb(0, 0, 0)",
                     "subtotalTextSize" : "small",
+                    "taxTextColor" : "rgb(0, 0, 0)",
                     "taxTextSize" : "small",
                     "totalTextColor" : "rgb(22, 14, 14)",
                     "totalTextSize" : "small"

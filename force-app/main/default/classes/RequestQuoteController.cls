@@ -21,7 +21,7 @@ public with sharing class RequestQuoteController {
     }
     
     @AuraEnabled
-    public static String createQuote(Id cartId, Date requestQuoteBy, String reasonForQuote, Id contactId, String userName, String userEmail,Id accountId ) {
+    public static String createQuote(Id cartId, Date requestQuoteBy, String reasonForQuote, Id contactId, String userName, String userEmail,Id accountId, Decimal cartGrandTotal ) {
         try {
             List<QuoteLineItem> quoteLineItems = new List<QuoteLineItem>();
             List<CartItem> cartItems = new List<CartItem>();
@@ -33,8 +33,20 @@ public with sharing class RequestQuoteController {
             System.debug('reasonForQuote: ' + reasonForQuote);
             System.debug('userName: ' + userName);
             System.debug('userEmail: ' + userEmail);
+            System.debug('cartGrandTotal: ' + cartGrandTotal);
     
             if (cartId != null) {
+
+                Map<Id,PromotionTarget> promotionMap = new Map<Id, PromotionTarget>();
+                List<PromotionTarget> promoList = [select id,AdjustmentAmount, AdjustmentPercent, AdjustmentType, TargetId from PromotionTarget ];
+                if(!promoList.isEmpty()){
+                    for(PromotionTarget pro: promoList){
+                        promotionMap.put(pro.TargetId, pro );
+                    }
+                    System.debug('promotionMap  is ->>> '+ promotionMap);
+                }
+
+
                 cartItems = [SELECT Id,Name,Quantity, Product2Id,Product2.StockKeepingUnit, ListPrice, SalesPrice, TotalAmount, CartId FROM CartItem WHERE CartId = :cartId AND Type ='Product'];
     
                 // Create a new Quote record
@@ -57,8 +69,25 @@ public with sharing class RequestQuoteController {
     
                     PricebookEntry pbEntry = getProductPrice(cartItem.Product2Id, priceBookId);
                     System.debug('PricebookEntry: ' + pbEntry);
+
+                    if(promotionMap.containsKey(cartItem.Product2Id) && promotionMap.get(cartItem.Product2Id).AdjustmentType != null){
+
+                        QuoteLineItem quoteL = new QuoteLineItem();
+                        quoteL.QuoteId = newQuote.Id;
+                        quoteL.Product2Id = cartItem.Product2Id;
+                        quoteL.Quantity = cartItem.Quantity;
+                        quoteL.PricebookEntryId = pbEntry.Id;
+                        if(promotionMap.get(cartItem.Product2Id).AdjustmentType == 'FixedAmountOffUnitPrice'){
+                            quoteL.UnitPrice = cartItem.SalesPrice - promotionMap.get(cartItem.Product2Id).AdjustmentAmount;
+                        }else{
+                            quoteL.UnitPrice = cartItem.SalesPrice - ((promotionMap.get(cartItem.Product2Id).AdjustmentPercent/100)*cartItem.SalesPrice);
+                        }
+                        
     
-                    QuoteLineItem quoteLineItem = new QuoteLineItem(
+                    quoteLineItems.add(quoteL);
+                    }
+                    else{
+                        QuoteLineItem quoteLineItem = new QuoteLineItem(
                         QuoteId = newQuote.Id,
                         Product2Id = cartItem.Product2Id,
                         Quantity = cartItem.Quantity,
@@ -66,9 +95,18 @@ public with sharing class RequestQuoteController {
                         PricebookEntryId = pbEntry.Id
                     );
     
-                    quoteLineItems.add(quoteLineItem);
-                    //cartItem.Requested_a_quote__c = true;
+                        quoteLineItems.add(quoteLineItem);
+
+                    }
+    
                 }
+
+                // Quote qo = [Select id, TotalPrice from Webcart where id =: newQuote.Id limit 1];
+                // if(qo.TotalPrice != cartGrandTotal){
+                //     qo.TotalPrice = cartGrandTotal;
+                //     update qo;
+                //     System.debug('Quote price updated because of discounts !!');
+                // }
     
                 if (!cartItems.isEmpty()) {
                     update cartItems;
@@ -87,7 +125,5 @@ public with sharing class RequestQuoteController {
             return 'Error creating quote: ' + e.getMessage();
         }
     }
-
-
 
     }

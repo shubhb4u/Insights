@@ -165,6 +165,16 @@
         <relatedList>RelatedProductSellingModelOption</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>SBQQ__Subscription__c.SBQQ__Product__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>PRODUCT2.NAME</fields>
+        <fields>PRODUCT2.CUSTOMER_PRODUCT_ID</fields>
+        <fields>PRODUCT2.DESCRIPTION</fields>
+        <relatedList>Product2.SBQQ__SubscriptionTarget__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedStandardPriceList</relatedList>
     </relatedLists>
     <relatedLists>

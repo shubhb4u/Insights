@@ -117,7 +117,8 @@ export default class NewQuoteRequest extends LightningElement {
                 contactId: this.contactId,
                 userName: this.userName,
                 userEmail: this.userEmail, // Pass user email to Apex
-                accountId: this.accountId
+                accountId: this.accountId,
+                cartGrandTotal: this.grandTotalAmount
             })
                 .then(response => {
                     // Handle successful response

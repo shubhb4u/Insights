@@ -448,6 +448,7 @@
                         "paddingVertical" : "none",
                         "text" : "Order Details",
                         "textAlign" : "left",
+                        "textColor" : "rgb(0, 0, 0)",
                         "textDecoration" : "{\"bold\": true}",
                         "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h2\"}"
                       },
@@ -678,6 +679,7 @@
                     "paddingVertical" : "none",
                     "text" : "Total",
                     "textAlign" : "left",
+                    "textColor" : "rgb(0, 0, 0)",
                     "textDecoration" : "{\"bold\": true}",
                     "textDisplayInfo" : "{ \"headingTag\": \"p\", \"textStyle\": \"heading-small\"}"
                   },
