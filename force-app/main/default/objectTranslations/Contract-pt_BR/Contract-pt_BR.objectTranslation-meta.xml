@@ -4,6 +4,29 @@
         <label><!-- Active Contract Lookup --></label>
         <name>SBQQ__ActiveContractLookup</name>
     </fieldSets>
+    <layouts>
+        <layout>Copy of CPQ Contract Layout</layout>
+        <sections>
+            <label><!-- Amendments --></label>
+            <section>Amendments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce CPQ Information --></label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Info --></label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Amend --></label>
         <name>SBQQ__Amend</name>

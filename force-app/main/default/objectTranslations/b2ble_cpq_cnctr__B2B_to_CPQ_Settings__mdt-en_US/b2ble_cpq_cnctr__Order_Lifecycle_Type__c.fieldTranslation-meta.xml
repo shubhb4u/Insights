@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Order Lifecycle Type --></label>
+    <name>b2ble_cpq_cnctr__Order_Lifecycle_Type__c</name>
+    <picklistValues>
+        <masterLabel>MANAGED</masterLabel>
+        <translation><!-- MANAGED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UNMANAGED</masterLabel>
+        <translation><!-- UNMANAGED --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

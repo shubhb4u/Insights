@@ -57,11 +57,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__CustomerDiscount__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__DeliveryMethod__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -73,11 +68,6 @@
     </availableFields>
     <availableFields>
         <field>SBQQ__Distributor__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
-        <field>SBQQ__EndDate__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
     </availableFields>
@@ -177,16 +167,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__StartDate__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
-        <field>SBQQ__SubscriptionTerm__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__TargetCustomerAmount__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -197,5 +177,25 @@
         <isRequired>false</isRequired>
     </availableFields>
     <description>Quote fields displayed in Edit Lines page above the line items table.</description>
+    <displayedFields>
+        <field>SBQQ__StartDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__EndDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__SubscriptionTerm__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__CustomerDiscount__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
     <label>Line Editor</label>
 </FieldSet>

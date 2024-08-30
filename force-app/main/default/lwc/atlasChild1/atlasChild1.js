@@ -34,7 +34,13 @@ export default class AtlasChild1 extends LightningElement {
 
     handleSubmit(event) {
         event.preventDefault();
-        const emailInput = this.template.querySelector('#email');
+        const emailInput = this.template.querySelector('[id="email"]') || this.template.querySelector('input[type="text"]');
+            // Check if email is empty
+            if (!this.email) {
+                emailInput.setCustomValidity('please enter a valid corporate email.');
+                emailInput.reportValidity();
+                return;
+            }
         if (emailInput.checkValidity()) {
             createLead({ email: this.email })
                 .then(() => {
@@ -44,11 +50,14 @@ export default class AtlasChild1 extends LightningElement {
                 .catch(error => {
                     console.error('Error creating lead: ', error);
                 });
+        } else{
+            this.validateEmail({target:emailInput});
         }
     }
 
     resetForm() {
         this.email = '';
         this.emailError = false;
+        this.template.querySelector('form').reset(); 
     }
 }

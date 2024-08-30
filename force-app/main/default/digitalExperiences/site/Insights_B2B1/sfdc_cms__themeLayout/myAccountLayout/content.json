@@ -12,31 +12,6 @@
             "hideWishlistShortcut" : true
           },
           "children" : [ {
-            "children" : [ {
-              "attributes" : {
-                "columnGutterWidth" : "",
-                "dxpStyle" : { },
-                "sectionConfig" : "{\"UUID\":\"9f0bfcdc-b50e-44c6-97f9-09468d603940\",\"columns\":[{\"UUID\":\"caa0f510-27d6-4d3b-bfa5-8fee5f4a00bb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
-              },
-              "children" : [ {
-                "children" : [ {
-                  "attributes" : {
-                    "dxpStyle" : { },
-                    "richTextValue" : "Free Shipping on Orders Over $500"
-                  },
-                  "definition" : "community_builder:richTextEditor",
-                  "id" : "dcfcf864-47df-4af6-bf31-922e02111ac8",
-                  "type" : "component"
-                } ],
-                "id" : "caa0f510-27d6-4d3b-bfa5-8fee5f4a00bb",
-                "name" : "col1",
-                "title" : "Column 1",
-                "type" : "region"
-              } ],
-              "definition" : "dxp_layout:columns",
-              "id" : "9f0bfcdc-b50e-44c6-97f9-09468d603940",
-              "type" : "component"
-            } ],
             "id" : "a00018e3-ce7e-4aac-815e-3f9dde5d2912",
             "name" : "promoBanner",
             "title" : "Rich Text Editor (Promo Banner)",
@@ -62,6 +37,7 @@
               "attributes" : {
                 "alignment" : "left",
                 "dxpStyle" : { },
+                "navigationMenuEditor" : "Default_Navigation",
                 "showBackLabel" : true,
                 "showHomeLink" : true
               },
@@ -391,7 +367,7 @@
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "none",
                 "paddingVertical" : "small",
-                "text" : "Hello {!User.Record.Name}",
+                "text" : "Hello",
                 "textAlign" : "left",
                 "textDecoration" : "{\"bold\": true}",
                 "textDisplayInfo" : "{\"textStyle\": \"heading-large\", \"headingTag\": \"h1\"}"

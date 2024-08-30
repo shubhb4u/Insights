@@ -7,11 +7,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__AdditionalQuantity__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__BatchQuantity__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -28,11 +23,6 @@
     </availableFields>
     <availableFields>
         <field>SBQQ__CostEditable__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
-        <field>SBQQ__CustomerPrice__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
     </availableFields>
@@ -97,11 +87,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__Markup__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__NetPrice__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -142,11 +127,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__PricingMethod__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__ProductCode__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -163,11 +143,6 @@
     </availableFields>
     <availableFields>
         <field>SBQQ__Quantity__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
-        <field>SBQQ__RegularPrice__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
     </availableFields>
@@ -227,5 +202,30 @@
         <isRequired>false</isRequired>
     </availableFields>
     <description>Quote Line fields to display in the drawer for standard products.</description>
+    <displayedFields>
+        <field>SBQQ__PricingMethod__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__Markup__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__AdditionalQuantity__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__RegularPrice__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__CustomerPrice__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
     <label>Standard Line Item Drawer</label>
 </FieldSet>

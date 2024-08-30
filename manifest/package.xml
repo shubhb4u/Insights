@@ -150,6 +150,7 @@
 	</types>
 	<types>
 		<members>Account</members>
+		<members>Account</members>
 		<members>AccountBrand</members>
 		<members>AccountCleanInfo</members>
 		<members>AccountContactRole</members>
@@ -349,6 +350,7 @@
 		<members>PaymentGroup</members>
 		<members>PaymentLineInvoice</members>
 		<members>PaymentMethod</members>
+		<members>PersonAccount</members>
 		<members>PickTicket</members>
 		<members>PickTicketAssignment</members>
 		<members>PickTicketProduct</members>
@@ -557,6 +559,72 @@
 		<members>WorkType</members>
 		<members>WorkTypeGroup</members>
 		<members>WorkTypeGroupMember</members>
+		<members>b2ble_cpq_cnctr__B2B_to_CPQ_Settings__mdt</members>
+		<members>b2ble_cpq_cnctr__Log_Event__e</members>
+		<members>b2ble_cpq_cnctr__Log__c</members>
+		<members>blng__AccountBalanceSnapshot__c</members>
+		<members>blng__AgingBuckets__c</members>
+		<members>blng__BalanceSnapShotRun__c</members>
+		<members>blng__BalanceSnapShotScheduler__c</members>
+		<members>blng__BillingBatchJob__c</members>
+		<members>blng__BillingConfig__c</members>
+		<members>blng__BillingPrefix__c</members>
+		<members>blng__BillingRule__c</members>
+		<members>blng__BillingSchedule__c</members>
+		<members>blng__BillingTransaction__c</members>
+		<members>blng__BillingTreatment__c</members>
+		<members>blng__CreditNoteAllocation__c</members>
+		<members>blng__CreditNoteLine__c</members>
+		<members>blng__CreditNote__c</members>
+		<members>blng__DebitNoteAllocationCreditNoteLine__c</members>
+		<members>blng__DebitNoteAllocation__c</members>
+		<members>blng__DebitNoteLine__c</members>
+		<members>blng__DebitNote__c</members>
+		<members>blng__ErrorLog__c</members>
+		<members>blng__FinanceBook__c</members>
+		<members>blng__FinancePeriod__c</members>
+		<members>blng__GLAccount__c</members>
+		<members>blng__GLRule__c</members>
+		<members>blng__GLTreatment__c</members>
+		<members>blng__InvoiceLine__c</members>
+		<members>blng__InvoicePlanLine__c</members>
+		<members>blng__InvoicePlan__c</members>
+		<members>blng__InvoiceRun__c</members>
+		<members>blng__InvoiceScheduler__c</members>
+		<members>blng__Invoice__c</members>
+		<members>blng__LegalEntity__c</members>
+		<members>blng__PaymentAllocationDebitNoteLine__c</members>
+		<members>blng__PaymentAllocationInvoiceLine__c</members>
+		<members>blng__PaymentAllocationInvoice__c</members>
+		<members>blng__PaymentAuthorization__c</members>
+		<members>blng__PaymentGatewayConfig__c</members>
+		<members>blng__PaymentGateway__c</members>
+		<members>blng__PaymentMapping__c</members>
+		<members>blng__PaymentMethod__c</members>
+		<members>blng__PaymentRun__c</members>
+		<members>blng__PaymentScheduler__c</members>
+		<members>blng__PaymentTerms__c</members>
+		<members>blng__PaymentTransaction__c</members>
+		<members>blng__Payment__c</members>
+		<members>blng__RefundLineCreditNoteLine__c</members>
+		<members>blng__RefundLinePayment__c</members>
+		<members>blng__Refund__c</members>
+		<members>blng__RevenueAdjustmentLine__c</members>
+		<members>blng__RevenueAdjustment__c</members>
+		<members>blng__RevenueAgreement__c</members>
+		<members>blng__RevenueDistributionMethod__c</members>
+		<members>blng__RevenueRecognitionRule__c</members>
+		<members>blng__RevenueRecognitionTreatment__c</members>
+		<members>blng__RevenueSchedule__c</members>
+		<members>blng__RevenueTransaction__c</members>
+		<members>blng__SubInvoiceLine__c</members>
+		<members>blng__TaxConfig__c</members>
+		<members>blng__TaxIntegration__c</members>
+		<members>blng__TaxRate__c</members>
+		<members>blng__TaxRule__c</members>
+		<members>blng__TaxTreatment__c</members>
+		<members>blng__UsageSummary__c</members>
+		<members>blng__Usage__c</members>
 		<members>ccnavmenus__Menu_Item__c</members>
 		<members>ccnavmenus__Menu__c</members>
 		<name>CustomObject</name>
@@ -593,12 +661,14 @@
 		<members>site/Insights_B2B1</members>
 		<members>site/Quest1</members>
 		<members>site/Solar_Winds1</members>
+		<members>site/Test1</members>
 		<name>DigitalExperienceBundle</name>
 	</types>
 	<types>
 		<members>Insights_B2B1</members>
 		<members>Quest1</members>
 		<members>Solar_Winds1</members>
+		<members>Test1</members>
 		<name>DigitalExperienceConfig</name>
 	</types>
 	<types>
@@ -956,6 +1026,9 @@
 		<members>Solar Winds.Customer_Members</members>
 		<members>Solar Winds.Members_without_contribution</members>
 		<members>Solar Winds.Partner_and_Customer_members</members>
+		<members>Test.Customer_Members</members>
+		<members>Test.Members_without_contribution</members>
+		<members>Test.Partner_and_Customer_members</members>
 		<name>UserCriteria</name>
 	</types>
 	<types>

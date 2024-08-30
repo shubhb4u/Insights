@@ -152,4 +152,8 @@
         <name>standard__OMConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Test</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

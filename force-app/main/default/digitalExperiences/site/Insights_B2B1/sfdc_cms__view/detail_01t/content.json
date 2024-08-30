@@ -28,7 +28,7 @@
                 "maxDepthOnMobile" : "3",
                 "showHomeLink" : true,
                 "showLastItemAsLink" : false,
-                "textColor" : "rgb(62, 131, 28)",
+                "textColor" : "rgb(0, 0, 0)",
                 "textSize" : "medium"
               },
               "definition" : "commerce_builder:breadcrumbs",
@@ -237,7 +237,7 @@
               "attributes" : {
                 "carouselPageSize" : 1,
                 "carouselPosition" : "below",
-                "imageBorderColor" : "rgba(0, 0, 0, 0.46)",
+                "imageBorderColor" : "rgba(255, 255, 255, 0.46)",
                 "product" : "{!Product.Details}",
                 "showCarousel" : true
               },
@@ -310,7 +310,7 @@
                         "textAlign" : "left",
                         "textColor" : "rgb(68, 68, 68)",
                         "textDecoration" : "{}",
-                        "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
                       },
                       "definition" : "dxp_base:textBlock",
                       "id" : "ccd3abcc-1065-4809-a6ec-abc488313630",
@@ -332,7 +332,7 @@
                         "textAlign" : "left",
                         "textColor" : "rgb(68, 68, 68)",
                         "textDecoration" : "{}",
-                        "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                        "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
                       },
                       "definition" : "dxp_base:textBlock",
                       "id" : "b2347323-4285-4da7-91b4-44f7534c1215",
@@ -402,6 +402,7 @@
                         "textDecoration" : "{\"bold\":false}",
                         "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
                       },
+                      "customCssClasses" : "product-name",
                       "definition" : "dxp_base:textBlock",
                       "id" : "811e9dad-a1f6-4aff-80b4-8865f01ace2d",
                       "type" : "component"
@@ -431,11 +432,11 @@
                     "selectedProductSellingModel" : "{!Product.SelectedProductSellingModel}",
                     "showTaxIndication" : true,
                     "slot1PriceLabel" : "",
-                    "slot1PriceTextColor" : "rgb(22, 14, 14)",
+                    "slot1PriceTextColor" : "rgb(80, 163, 90)",
                     "slot2PriceLabel" : "",
-                    "slot2PriceTextColor" : "rgb(112, 114, 117, 1)",
+                    "slot2PriceTextColor" : "rgb(198, 198, 198)",
                     "slot3PriceLabel" : "Net Price",
-                    "slot3PriceTextColor" : "rgb(22, 14, 14)",
+                    "slot3PriceTextColor" : "rgb(80, 163, 90)",
                     "slot3PriceTextSize" : "large",
                     "taxIncludedLabel" : "Tax Included",
                     "taxLabelSize" : "small",
@@ -467,18 +468,20 @@
               }, {
                 "children" : [ {
                   "attributes" : {
-                    "addToCartButtonBackgroundColor" : "rgb(22, 171, 226)",
-                    "addToCartButtonBackgroundHoverColor" : "rgb(0, 122, 201)",
-                    "addToCartButtonBorderRadius" : 5,
+                    "addToCartButtonBackgroundColor" : "rgb(1, 118, 211)",
+                    "addToCartButtonBackgroundHoverColor" : "rgb(1, 68, 134)",
+                    "addToCartButtonBorderRadius" : 0,
                     "addToCartButtonProcessingText" : "Adding...",
                     "addToCartButtonText" : "Add To Cart",
                     "addToCartButtonTextColor" : "rgb(255, 255, 255)",
                     "addToCartButtonTextHoverColor" : "rgb(255, 255, 255)",
-                    "addToListButtonBackgroundHoverColor" : "rgb(47, 136, 170)",
-                    "addToListButtonBorderRadius" : 5,
+                    "addToListButtonBackgroundColor" : "rgb(1, 118, 211)",
+                    "addToListButtonBackgroundHoverColor" : "rgb(1, 68, 134)",
+                    "addToListButtonBorderColor" : "rgb(1, 118, 211)",
+                    "addToListButtonBorderRadius" : 0,
                     "addToListButtonText" : "Add To List",
                     "addToListButtonTextColor" : "rgb(255, 255, 255)",
-                    "addToListButtonTextHoverColor" : "rgb(234, 213, 213)",
+                    "addToListButtonTextHoverColor" : "rgb(255, 255, 255)",
                     "incrementValueGuideText" : "Increment quantity is {0}",
                     "maximumValueGuideText" : "Maximum quantity is {0}",
                     "minimumValueGuideText" : "Minimum quantity is {0}",
@@ -487,7 +490,7 @@
                     "productInventory" : "{!Product.Inventory}",
                     "productPricing" : "{!Product.Pricing}",
                     "productVariant" : "{!Product.SelectedVariant}",
-                    "quantitySelectorLabel" : "",
+                    "quantitySelectorLabel" : "QTY",
                     "selectedProductSellingModel" : "{!Product.SelectedProductSellingModel}",
                     "showAddToListButton" : true
                   },
@@ -505,17 +508,16 @@
                         "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-small\"}"
                       },
                       "definition" : "dxp_base:textBlock",
-                      "id" : "a80b62d2-d803-4b5b-9bbf-1a7308176fe2",
+                      "id" : "6ac70862-b386-4910-8100-f2757a683ae9",
                       "type" : "component"
                     } ],
-                    "id" : "96f8a312-8d73-447c-bb7b-5d5838470ee4",
+                    "id" : "fad32549-5553-4087-bd56-6674b1731d3a",
                     "name" : "combinedPurchaseQuantityRuleInfo",
                     "title" : "combinedPurchaseQuantityRuleInfo",
                     "type" : "region"
                   } ],
-                  "customCssClasses" : "Shipping product-detail-page",
                   "definition" : "commerce_builder:purchaseOptions",
-                  "id" : "71c2233a-e063-4528-ab4b-d087fc393d1e",
+                  "id" : "c07b1ddf-1754-423f-a88c-31d241454544",
                   "type" : "component"
                 } ],
                 "id" : "b811acf5-15d3-4162-8148-566c8b51a6b5",
@@ -605,7 +607,7 @@
                 "title" : "subscriptionLabel",
                 "type" : "region"
               } ],
-              "customCssClasses" : "q-edition-panel quantity-selector-buttons Shipping",
+              "customCssClasses" : "quantity-selector-buttons q-edition-panel productset-button",
               "definition" : "commerce_builder:productSet",
               "id" : "21b0fe72-1f1e-4d1b-8548-dcd5cc6de0be",
               "type" : "component"
@@ -636,6 +638,7 @@
           "children" : [ {
             "children" : [ {
               "attributes" : { },
+              "customCssClasses" : "related-products",
               "definition" : "c:relatedProducts",
               "id" : "6bb741fa-8153-470a-89a0-71444f0d86d0",
               "type" : "component"

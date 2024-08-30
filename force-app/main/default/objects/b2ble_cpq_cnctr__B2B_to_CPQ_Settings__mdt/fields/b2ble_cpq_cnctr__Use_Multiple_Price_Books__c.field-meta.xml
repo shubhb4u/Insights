@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>b2ble_cpq_cnctr__Use_Multiple_Price_Books__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Mark TRUE if Store uses more than one Price Book.  Setting used by B2B to CPQ connector to inform Quote user that prices could be sourced from more than one Price Book.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Mark TRUE if Store uses more than one Price Book.  Setting used by B2B to CPQ connector to inform Quote user that prices could be sourced from more than one Price Book.</inlineHelpText>
+    <label>Use Multiple Price Books</label>
+    <type>Checkbox</type>
+</CustomField>

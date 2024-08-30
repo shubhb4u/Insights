@@ -19,14 +19,6 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
-            "children" : [ {
-              "attributes" : {
-                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">My Quotes</strong></p>"
-              },
-              "definition" : "community_builder:richTextEditor",
-              "id" : "c3a526f7-2965-4988-800d-f77209c4a794",
-              "type" : "component"
-            } ],
             "id" : "bd783d42-a32b-4481-a5ed-9e0c2b845816",
             "name" : "col1",
             "title" : "Column 1",
@@ -34,9 +26,8 @@
           }, {
             "children" : [ {
               "attributes" : { },
-              "customCssClasses" : "quotePage shipping",
-              "definition" : "c:displayQuoteRecords",
-              "id" : "7cb11521-9125-4d84-81c2-426cb0989ccc",
+              "definition" : "c:displayQuotesNew",
+              "id" : "e4d97745-1e20-454a-8022-259b8411dd0d",
               "type" : "component"
             } ],
             "id" : "7e04e396-2c3a-4fbe-afe9-9180a5618751",

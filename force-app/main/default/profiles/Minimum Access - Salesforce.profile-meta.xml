@@ -126,6 +126,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AdvanceShippingNotice</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -13134,7 +13138,10 @@
         <flow>Create_Invoice_and_Ensure_Funds</flow>
     </flowAccesses>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Copy of CPQ Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Copy of CPQ Account Layout</layout>
         <recordType>Account.Business_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -13225,6 +13232,9 @@
         <layout>ContactPointTypeConsent-Contact Point Type Consent Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contract-Copy of CPQ Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13309,6 +13319,12 @@
         <layout>ManagedContentVariant-Managed Content Variant Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Copy of CPQ Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Copy of CPQ Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderItemAdjustmentLineSummary-Order Product Adjustment Line Item Summary Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13326,6 +13342,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Copy of CPQ Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProductAttribute-Product Attribute Layout</layout>
@@ -13395,6 +13414,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Quote__c-Copy of Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Seller-Seller Layout</layout>
@@ -13634,6 +13656,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>PersonAccount.PersonAccount</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

@@ -62,12 +62,6 @@ export default class NewQuoteRequest extends LightningElement {
         }
     }
 
-    connectedCallback() {
-        console.log('Welcome to JS:');
-        console.log('cartId in connectedCallback:', this.CartId);
-    }
-
-    
 
     renderedCallback() {
         console.log('cartId in renderedCallback:', this.CartId);
@@ -117,8 +111,7 @@ export default class NewQuoteRequest extends LightningElement {
                 contactId: this.contactId,
                 userName: this.userName,
                 userEmail: this.userEmail, // Pass user email to Apex
-                accountId: this.accountId,
-                cartGrandTotal: this.grandTotalAmount
+                accountId: this.accountId
             })
                 .then(response => {
                     // Handle successful response

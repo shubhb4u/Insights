@@ -215,7 +215,7 @@
                     "title" : "showMore",
                     "type" : "region"
                   } ],
-                  "customCssClasses" : "shopping-cartItems",
+                  "customCssClasses" : "shopping-cartItems shop-cart",
                   "definition" : "commerce_builder:cartItems",
                   "id" : "a5e71ae2-760a-494c-817a-7f839ec60aea",
                   "type" : "component"
@@ -656,6 +656,7 @@
                         "title" : "pagination",
                         "type" : "region"
                       } ],
+                      "customCssClasses" : "cart-promotions",
                       "definition" : "dxp_content_layout:list",
                       "id" : "4dc93328-e994-4c50-8b40-39ae85e6e459",
                       "type" : "component",
@@ -725,26 +726,65 @@
                 "layoutDirectionDesktop" : "row",
                 "layoutDirectionMobile" : "column",
                 "layoutDirectionTablet" : "column",
-                "sectionConfig" : "{\"UUID\":\"3e299ba1-5338-45e5-8dda-c865ef89db20\",\"columns\":[{\"UUID\":\"750f1c2d-b338-412d-83e0-ece05cc74723\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                "sectionConfig" : "{\"UUID\":\"89dd4d9e-b59c-48c1-9c35-9b6799c96c4b\",\"columns\":[{\"UUID\":\"6a84f40d-a596-4993-ae88-f34330963ebe\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
               },
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
-                    "effectiveAccountId" : "{!CurrentUser.effectiveAccountId}"
+                    "backgroundColor" : "rgb(255, 255, 255)",
+                    "expandByDefault" : false,
+                    "icon" : "arrow",
+                    "iconAlignment" : "right",
+                    "iconColor" : "rgb(0, 112, 210)"
                   },
-                  "customCssClasses" : "",
-                  "definition" : "c:newQuoteRequest",
-                  "id" : "130e2694-9a9d-4076-86fb-253ff9526f5e",
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "large",
+                        "text" : "Request Additional Discount",
+                        "textAlign" : "left",
+                        "textColor" : "rgb(0, 0, 0)",
+                        "textDecoration" : "{\"bold\":true}",
+                        "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "19136166-4c59-4f83-a832-e84dd24ef88e",
+                      "type" : "component"
+                    } ],
+                    "id" : "28122bb0-b295-40fd-8e48-7fb8be08e46f",
+                    "name" : "title",
+                    "title" : "title",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "effectiveAccountId" : "{!CurrentUser.effectiveAccountId}"
+                      },
+                      "definition" : "c:newQuoteRequest",
+                      "id" : "2004ca4d-9e43-474a-afea-58598ffd81d4",
+                      "type" : "component"
+                    } ],
+                    "id" : "b132f4ce-8dbf-48f3-a853-54304333ca95",
+                    "name" : "content",
+                    "title" : "content",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:expandableSection",
+                  "id" : "e0cca129-3e5b-4a82-8985-f2492b6d5f6e",
                   "type" : "component"
                 } ],
-                "id" : "750f1c2d-b338-412d-83e0-ece05cc74723",
+                "id" : "6a84f40d-a596-4993-ae88-f34330963ebe",
                 "name" : "col1",
                 "title" : "Column 1",
                 "type" : "region"
               } ],
               "customCssClasses" : "detailBoxCart",
               "definition" : "dxp_layout:columns",
-              "id" : "3e299ba1-5338-45e5-8dda-c865ef89db20",
+              "id" : "89dd4d9e-b59c-48c1-9c35-9b6799c96c4b",
               "type" : "component"
             } ],
             "id" : "fd0b10c8-c893-447c-be46-31f2af48ba1b",
@@ -797,21 +837,6 @@
           } ]
         }
       }, {
-        "targetId" : "3e299ba1-5338-45e5-8dda-c865ef89db20",
-        "isHiddenOnOperationSuccess" : true,
-        "isActive" : true,
-        "rule" : {
-          "name" : "0abddbeb-f539-4cab-9f10-fa8dd877a8aa",
-          "description" : "",
-          "criteriaType" : "AllCriteriaMatch",
-          "expressionCriteria" : [ {
-            "resource" : "Cart.Totals.grandTotal",
-            "operator" : "LessThanOrEqual",
-            "value" : 0,
-            "criterionNumber" : 1
-          } ]
-        }
-      }, {
         "targetId" : "4dc93328-e994-4c50-8b40-39ae85e6e459",
         "isHiddenOnOperationSuccess" : false,
         "isActive" : true,
@@ -824,6 +849,26 @@
             "operator" : "NotEqual",
             "value" : "null",
             "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "e0cca129-3e5b-4a82-8985-f2492b6d5f6e",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "aab3ea6b-51e6-4207-8432-eab3ffbc0911",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Cart.Details.cartId",
+            "operator" : "NotEqual",
+            "value" : "null",
+            "criterionNumber" : 1
+          }, {
+            "resource" : "Cart.Details.totalProductCount",
+            "operator" : "NotEqual",
+            "value" : 0,
+            "criterionNumber" : 2
           } ]
         }
       } ]

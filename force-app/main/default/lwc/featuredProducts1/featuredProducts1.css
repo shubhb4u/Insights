@@ -28,7 +28,7 @@ body {
 }
 
 .q-feature-products h2 {
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
     line-height: 1.36 !important;
     letter-spacing: -0.39px !important;
     text-align: left !important;
-    color: #00556c;
+    color: rgb(0, 0, 0);;
     display: block !important;
     margin-block-start: 0.83em !important;
     margin-block-end: 0.83em !important;
@@ -469,7 +469,7 @@ h3{
 }
 
 .product-name a{
-    color: #5462df;
+    color: rgb(0, 0, 0);
 }
 
 .product-model {
@@ -490,7 +490,7 @@ h3{
     display: flex;
     justify-content: center; /* Spread elements across the container */
     flex-wrap: wrap; /* Ensure items wrap on smaller screens */
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     align-items: center;
 }
 
@@ -539,6 +539,7 @@ h3{
     text-decoration: line-through;
     color: #888; 
     margin: 1rem 1rem;
+    font-size: 18px !important;
 }
 
 .d-flex {
@@ -573,7 +574,7 @@ h3{
 .buyAnchor {
     margin: 1rem auto 0 auto;
     padding: 0.5rem 1rem;
-    background-color: #5aa5e7;
+    background-color: rgb(1 169 243);
     color: #ffffff;
     text-align: center;
     border-radius: 0.25rem;

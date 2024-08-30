@@ -95,6 +95,7 @@
                 "brandNavigationColorText" : "rgba(41, 41, 41, 0.77)",
                 "debugMode" : false,
                 "drillDownBackButtonLabel" : "Back",
+                "fontFamily" : "Poppins, Helvetica, Arial, Sans-serif",
                 "hamburgerMenuMode" : "mobile-only",
                 "hideHamburgerMenuAnimation" : false,
                 "isVertical" : false,
@@ -123,9 +124,9 @@
               "attributes" : {
                 "dxpStyle" : {
                   "padding" : {
-                    "bottom" : "",
+                    "bottom" : "8px",
                     "left" : "",
-                    "right" : "",
+                    "right" : "10px",
                     "top" : ""
                   }
                 },
@@ -168,7 +169,7 @@
                 "countType" : "TotalProductCount",
                 "dxpStyle" : {
                   "padding" : {
-                    "bottom" : "",
+                    "bottom" : "8px",
                     "left" : "",
                     "right" : "",
                     "top" : ""
@@ -627,7 +628,7 @@
                                     "top" : "10px"
                                   }
                                 },
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -796,7 +797,7 @@
                                     "top" : "10px"
                                   }
                                 },
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -812,7 +813,7 @@
                             }, {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -885,7 +886,7 @@
                             "children" : [ {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -901,7 +902,7 @@
                             }, {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -931,7 +932,7 @@
                                     "top" : "10px"
                                   }
                                 },
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -947,7 +948,7 @@
                             }, {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -977,7 +978,7 @@
                                     "top" : "10px"
                                   }
                                 },
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -993,7 +994,7 @@
                             }, {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -1023,7 +1024,7 @@
                                     "top" : "10px"
                                   }
                                 },
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -1039,7 +1040,7 @@
                             }, {
                               "attributes" : {
                                 "backgroundColor" : "",
-                                "isLinkable" : false,
+                                "isLinkable" : true,
                                 "linkAssistiveText" : "",
                                 "paddingHorizontal" : "none",
                                 "paddingVertical" : "none",
@@ -1221,6 +1222,7 @@
                                 "textDecoration" : "{}",
                                 "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
                               },
+                              "customCssClasses" : "Terms",
                               "definition" : "dxp_base:textBlock",
                               "id" : "76601069-573c-4a42-ac24-19902d93cc46",
                               "type" : "component"
@@ -1243,6 +1245,7 @@
                                 "textDecoration" : "{}",
                                 "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
                               },
+                              "customCssClasses" : "Terms",
                               "definition" : "dxp_base:textBlock",
                               "id" : "c9f34427-34ff-4b5a-afda-3625acaeea2f",
                               "type" : "component"
@@ -1266,6 +1269,7 @@
                                 "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
                                 "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://insightsoftware.com/legal/terms-of-use/\"}}}}"
                               },
+                              "customCssClasses" : "Terms",
                               "definition" : "dxp_base:textBlock",
                               "id" : "401f1287-eb87-4584-864a-3c742d10f652",
                               "type" : "component"

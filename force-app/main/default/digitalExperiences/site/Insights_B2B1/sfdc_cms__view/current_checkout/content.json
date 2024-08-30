@@ -214,7 +214,7 @@
                         "splitShipLinkLabel" : "Ship to Multiple Locations",
                         "summaryModeEnabled" : true
                       },
-                      "customCssClasses" : "shipping checkout-radio-buttons shipping-address-styles",
+                      "customCssClasses" : "shipping checkout-radio-buttons shipping-address-styles shipping-country-background",
                       "definition" : "commerce_builder:checkoutDeliveryAddress",
                       "id" : "88268f09-6766-4c71-a03f-6ff97192827a",
                       "type" : "component"

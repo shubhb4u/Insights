@@ -2,7 +2,6 @@ import { LightningElement, api } from 'lwc';
 
 export default class Counter extends LightningElement {
     @api counterValue = 1;
-    @api productId;
 
     handleIncrement() {
         this.counterValue += 1;
@@ -18,7 +17,7 @@ export default class Counter extends LightningElement {
 
     dispatchCounterChangeEvent() {
         const counterChangeEvent = new CustomEvent('counterchange', {
-            detail: { newValue: this.counterValue, productId: this.productId }
+            detail: this.counterValue
         });
         this.dispatchEvent(counterChangeEvent);
     }

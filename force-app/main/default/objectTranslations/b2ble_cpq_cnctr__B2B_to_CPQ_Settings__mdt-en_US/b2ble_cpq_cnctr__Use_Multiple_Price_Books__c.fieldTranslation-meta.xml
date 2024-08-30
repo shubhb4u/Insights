@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Mark TRUE if Store uses more than one Price Book.  Setting used by B2B to CPQ connector to inform Quote user that prices could be sourced from more than one Price Book. --></help>
+    <label><!-- Use Multiple Price Books --></label>
+    <name>b2ble_cpq_cnctr__Use_Multiple_Price_Books__c</name>
+</CustomFieldTranslation>

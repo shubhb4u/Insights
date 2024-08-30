@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sync to B2B --></label>
+    <name>b2ble_cpq_cnctr__Sync_to_B2B__c</name>
+</CustomFieldTranslation>

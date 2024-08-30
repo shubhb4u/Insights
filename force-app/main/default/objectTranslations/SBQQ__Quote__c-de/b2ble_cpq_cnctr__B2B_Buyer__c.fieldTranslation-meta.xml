@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- B2B Buyer --></label>
+    <name>b2ble_cpq_cnctr__B2B_Buyer__c</name>
+    <relationshipLabel><!-- Quotes (B2B Buyer) --></relationshipLabel>
+</CustomFieldTranslation>

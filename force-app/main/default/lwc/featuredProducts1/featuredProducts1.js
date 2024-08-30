@@ -5,8 +5,8 @@ import getProductDiscountList from '@salesforce/apex/FeaturedProductsController.
 import { addItemToCart } from 'commerce/cartApi';
 
 export default class FeaturedProducts1 extends NavigationMixin(LightningElement) {
-    @track products;
-    @track productDiscountList;
+    @track products = [];
+    @track productDiscountList = [];
     @track displayedProducts = [];
     @track carouselIndicators = [];
     @track currentPage = 0;
@@ -20,7 +20,6 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
         } else if (error) {
             console.error('Error retrieving product discount list:', error);
         }
-        console.log('this.productDiscountList test',this.productDiscountList);
     }
 
     fetchProducts() {
@@ -33,11 +32,8 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
                         formattedUnitPrice: this.formatPrice(discountedPrice),
                         isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2Id)
                     };
-                    
                 });
-                console.log('this.products test',this.products);
                 this.setupCarousel();
-                console.log('this.products --->>>>>  ', this.products);
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
@@ -66,7 +62,6 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
         const productId = event.target.dataset.id;
         addItemToCart(productId, 1);
         window.location.href = 'https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/cart';
-
     }
 
     handleNavigate(event) {
@@ -82,7 +77,49 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
     }
 
     setupCarousel() {
-        // Initialize your carousel here if you are using a third-party library like Splide
-        console.log('Carousel setup...');
+        this.updateDisplayedProducts();
+        this.carouselIndicators = Array(Math.ceil(this.products.length / this.itemsPerPage)).fill().map((_, index) => {
+            return {
+                index,
+                class: `splide__pagination__page ${index === this.currentPage ? 'is-active' : ''}`
+            };
+        });
+    }
+
+    updateDisplayedProducts() {
+        const startIndex = this.currentPage * this.itemsPerPage;
+        const endIndex = startIndex + this.itemsPerPage;
+        this.displayedProducts = this.products.slice(startIndex, endIndex);
+    }
+
+    handlePrevious() {
+        if (this.currentPage > 0) {
+            this.currentPage--;
+            this.updateDisplayedProducts();
+            this.updateIndicatorClasses();
+        }
+    }
+
+    handleNext() {
+        if (this.currentPage < this.carouselIndicators.length - 1) {
+            this.currentPage++;
+            this.updateDisplayedProducts();
+            this.updateIndicatorClasses();
+        }
+    }
+
+    handleIndicatorClick(event) {
+        this.currentPage = parseInt(event.target.dataset.index, 10);
+        this.updateDisplayedProducts();
+        this.updateIndicatorClasses();
+    }
+
+    updateIndicatorClasses() {
+        this.carouselIndicators = this.carouselIndicators.map((indicator) => {
+            return {
+                ...indicator,
+                class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
+            };
+        });
     }
 }

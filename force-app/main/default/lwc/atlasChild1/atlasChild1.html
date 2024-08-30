@@ -12,14 +12,12 @@
             <div class="form-group">
                 <label for="email">Business Email*</label>
                 <input 
-                    type="email" 
-                    id="email" 
+                    type="text" 
                     class="form-control" 
-                    placeholder="Business Email" 
-                    required 
-                    onchange={handleInputChange} 
+                    placeholder="Business Email"  
+                    oninput={handleInputChange}
                     onblur={validateEmail}>
-                <p if:true={emailError} class="error-message">Please enter a valid corporate email.</p>
+                <!-- <p if:true={emailError} class="error-message">Please enter a valid corporate email.</p> -->
             </div>
             <div class="form-group">
                 <label for="primary-system">Primary Financial System</label>

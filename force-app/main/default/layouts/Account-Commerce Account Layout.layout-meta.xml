@@ -272,114 +272,109 @@
             <sortOrder>23</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ViewDigitalWallet</actionName>
+            <actionName>SendSurveyInvitation</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>24</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>SendSurveyInvitation</actionName>
+            <actionName>Delete</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>25</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Delete</actionName>
+            <actionName>IncludeOffline</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>26</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>IncludeOffline</actionName>
+            <actionName>Submit</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>27</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Submit</actionName>
+            <actionName>PrintableView</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>28</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>PrintableView</actionName>
+            <actionName>PartnerScorecard</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>29</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>PartnerScorecard</actionName>
+            <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>30</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Share</actionName>
+            <actionName>DisablePartnerPortalAccount</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>31</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>DisablePartnerPortalAccount</actionName>
+            <actionName>CreateSurveyInvitation</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>32</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>CreateSurveyInvitation</actionName>
+            <actionName>XClean</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>33</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>XClean</actionName>
+            <actionName>EnableAsPartner</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>34</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>EnableAsPartner</actionName>
+            <actionName>CreateSalesSummaries</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>35</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>CreateSalesSummaries</actionName>
+            <actionName>AccountAddToCampaign</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>36</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>AccountAddToCampaign</actionName>
+            <actionName>RecordShareHierarchy</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>37</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>RecordShareHierarchy</actionName>
+            <actionName>ChangeOwnerOne</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>38</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeOwnerOne</actionName>
+            <actionName>CreatePartnerChannelQuickAction</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>39</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>CreatePartnerChannelQuickAction</actionName>
+            <actionName>Entitlements</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>40</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Entitlements</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>41</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>CallHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>42</sortOrder>
+            <sortOrder>41</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>SmsHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>43</sortOrder>
+            <sortOrder>42</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>EmailHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>44</sortOrder>
+            <sortOrder>43</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>WebsiteHighlightAction</actionName>
             <actionType>ProductivityAction</actionType>
-            <sortOrder>45</sortOrder>
+            <sortOrder>44</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>

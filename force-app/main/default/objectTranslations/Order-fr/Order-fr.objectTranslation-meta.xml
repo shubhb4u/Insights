@@ -7,6 +7,29 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Copy of CPQ Order Layout</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- OrderContracting --></label>
+            <section>OrderContracting</section>
+        </sections>
+        <sections>
+            <label><!-- Quote and Opportunity --></label>
+            <section>Quote and Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping and Billing Information --></label>
+            <section>Shipping and Billing Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Can&apos;t contract the order. Activate the order and try again. --></errorMessage>
         <name>SBQQ__Cannot_Contract_New_Order</name>

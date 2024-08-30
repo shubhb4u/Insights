@@ -16,6 +16,41 @@
         <label><!-- Non-Current Quote Locked Fields --></label>
         <name>SBQQ__NonCurrentQuoteLockedFields</name>
     </fieldSets>
+    <layouts>
+        <layout>Copy of Quote Layout</layout>
+        <sections>
+            <label><!-- Additional Text --></label>
+            <section>Additional Text</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Discount Information --></label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Information --></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Options --></label>
+            <section>Quote Options</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>見積番号</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- The End Date must come after the Start Date. --></errorMessage>

@@ -278,6 +278,7 @@
                         "title" : "pagination",
                         "type" : "region"
                       } ],
+                      "customCssClasses" : "orderDetails",
                       "definition" : "dxp_content_layout:list",
                       "id" : "0d6c0c40-3719-4d3a-b922-ca905e2bfd17",
                       "type" : "component"

@@ -11,7 +11,10 @@
         <form class="form" onsubmit={handleSubmit}>
             <div class="form-group">
                 <label for="email">Business Email*</label>
-                <input type="email" id="email" class="form-control" name="businessEmail" value={businessEmail} placeholder="Business Email" onchange={handleInputChange} required>
+                <input type="text"  class="form-control" name="businessEmail" value={businessEmail} placeholder="Business Email" onchange={handleInputChange}>
+                <template if:true={businessEmailError}>
+                    <p class="error">Please enter a valid corporate email.</p>
+                </template>
             </div>
             <div class="form-group">
                 <label for="primary-system">Primary Financial System</label>
@@ -291,6 +294,9 @@
             <template lwc:if={showSuccessMessage}>
                 <p class="success-message">Inquiry has been submitted.
                     Our representative will get in touch with you soon!!</p>
+            </template>
+            <template lwc:if={showErrorMessage}>
+                <p class="error-message">Error submitting form. Please ensure all fields are filled and consent is given.</p>
             </template>
         </form>
     </div>

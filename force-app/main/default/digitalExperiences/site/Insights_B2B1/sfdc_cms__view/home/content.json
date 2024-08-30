@@ -49,7 +49,7 @@
                     "top" : ""
                   }
                 },
-                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
+                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "5f152c1e-6467-4d07-905a-656d7c8789ce",
@@ -80,7 +80,7 @@
                       "margin" : {
                         "bottom" : "",
                         "left" : "",
-                        "right" : "",
+                        "right" : "8px",
                         "top" : ""
                       }
                     },
@@ -243,7 +243,16 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "3rem",
+                    "top" : ""
+                  }
+                }
+              },
               "definition" : "c:featuredProducts1",
               "id" : "0e88eba9-9317-4e2e-89e7-1df869f996ae",
               "type" : "component"
