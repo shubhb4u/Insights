@@ -26,7 +26,7 @@ public static List<Quote> DisplayQuoteRecs(string contactId) {
 public static List<SBQQ__Quote__c> DisplayCPQQuoteRecs(string accountId) {
     try {
         if (accountId != null) {
-            List<SBQQ__Quote__c> cpqQuoteList = [SELECT Id, SBQQ__PrimaryContact__c, SBQQ__Account__c, SBQQ__Status__c, Name, SBQQ__ExpirationDate__c, SBQQ__NetAmount__c, SBQQ__AdditionalDiscountAmount__c 
+            List<SBQQ__Quote__c> cpqQuoteList = [SELECT Id, SBQQ__PrimaryContact__c, SBQQ__Account__c, SBQQ__Account__r.Name, SBQQ__Status__c, Name, SBQQ__ExpirationDate__c, SBQQ__NetAmount__c, SBQQ__AdditionalDiscountAmount__c 
                                                  FROM SBQQ__Quote__c 
                                                  WHERE SBQQ__Account__c = :accountId 
                                                  ORDER BY CreatedDate DESC];
@@ -34,7 +34,7 @@ public static List<SBQQ__Quote__c> DisplayCPQQuoteRecs(string accountId) {
             return cpqQuoteList;
         } else {
             // Handle the case where accountId is null
-            List<SBQQ__Quote__c> defaultCPQQuoteList = [SELECT Id, SBQQ__PrimaryContact__c, SBQQ__Account__c, SBQQ__Status__c, Name, SBQQ__ExpirationDate__c, SBQQ__NetAmount__c, SBQQ__AdditionalDiscountAmount__c 
+            List<SBQQ__Quote__c> defaultCPQQuoteList = [SELECT Id, SBQQ__PrimaryContact__c, SBQQ__Account__c, SBQQ__Account__r.Name, SBQQ__Status__c, Name, SBQQ__ExpirationDate__c, SBQQ__NetAmount__c, SBQQ__AdditionalDiscountAmount__c 
                                                         FROM SBQQ__Quote__c 
                                                         WHERE SBQQ__Account__c = '001ak00000OfQTlAAN'];
             return defaultCPQQuoteList;
