@@ -1,27 +1,76 @@
-.singleQuote{
-    border: none;
-    box-shadow: 0 9px 15px 0 rgb(189 184 184 / 79%);
-    margin: auto auto;
+.slds-box.slds-theme_default {
     padding: 1rem;
 }
 
-.label{
-    font-weight: bolder;
-    color: rgb(44, 40, 40);
+.slds-grid.slds-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
+.slds-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.singleQuote {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.singleQuote p {
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 0.875rem;
+    color: #333;
+}
+
+.label {
+    font-weight: bold;
+}
 
 .viewButton {
-    margin-top: 0.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #0070d2;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .viewButton:hover {
-    background-color: #0070d2;
-    transform: translateY(-2px);
+    background-color: #005fb2;
 }
 
-.viewButton:active {
-    background-color: #005fbf;
-    transform: translateY(0);
+.slds-col:nth-child(even) .singleQuote {
+    background-color: #f7f7f7;
+}
+
+.slds-col:last-child {
+    border-bottom: none;
+}
+
+.slds-col .status {
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.status.pending {
+    background-color: #f5a623;
+}
+
+.status.error {
+    background-color: #d0021b;
 }

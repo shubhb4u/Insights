@@ -1,0 +1,74 @@
+.slds-card {
+    border: none !important; /* Removes the border */
+    background: none !important; /* Removes the background color */
+}
+
+
+.slds-table_edit_container {
+    margin: 20px 0;
+    background-color: white;
+    padding: 15px; /* Add padding around the table */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+
+}
+
+.slds-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Add space between rows */
+   background-color: white;
+}
+
+.slds-table thead th{
+    background-color: white;
+}
+
+.slds-truncate {
+    max-width: 200px;
+    background-color: white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3e3e3c; /* Darker color for headers */
+}
+
+
+.textContent{
+    color: #005cb9;
+    font-size: 20x;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.numericContent{
+    color: #6c7476;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.viewButton {
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: white;
+}
+
+.viewButton:hover {
+    background-color: #0070d2;
+    transform: translateY(-2px);
+}
+
+.viewButton:active {
+    background-color: #005fbf;
+    transform: translateY(0);
+}

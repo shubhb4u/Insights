@@ -5,12 +5,14 @@ import { CartSummaryAdapter } from "commerce/cartApi";
 import { getRecord, getFieldValue } from "lightning/uiRecordApi";
 import USER_ID from "@salesforce/user/Id";
 import ACCOUNT_OWNERID from '@salesforce/schema/User.Account.OwnerId';
+import ACCOUNT_NAME from '@salesforce/schema/User.Account.Name';
 
 export default class CreateOpportunityCPQInsights extends LightningElement {
 
     @track CartId;
     @track AccountId;
     @track accountOwnerId;
+    @track accountName;
 
     @wire(CartSummaryAdapter)
     setCartSummary({ data, error }) {
@@ -25,10 +27,11 @@ export default class CreateOpportunityCPQInsights extends LightningElement {
         }
     }
 
-    @wire(getRecord, { recordId: USER_ID, fields: [ ACCOUNT_OWNERID] })
+    @wire(getRecord, { recordId: USER_ID, fields: [ ACCOUNT_OWNERID, ACCOUNT_NAME] })
         user({ data, error }) {
             if (data) {
                 this.accountOwnerId = getFieldValue(data, ACCOUNT_OWNERID);
+                this.accountName = getFieldValue(data, ACCOUNT_NAME);
 
                 console.log('this.accountOwnerId ->>>', this.accountOwnerId);
             } else if (error) {
@@ -42,13 +45,11 @@ export default class CreateOpportunityCPQInsights extends LightningElement {
 
         if(this.CartId && this.AccountId && this.accountOwnerId){
 
-            createOpportunityForQuote({cartId: this.CartId, accountId: this.AccountId, accountOwnerId: this.accountOwnerId})
+            createOpportunityForQuote({cartId: this.CartId, accountId: this.AccountId, accountOwnerId: this.accountOwnerId, accountName: this.accountName})
             .then(response=>{
                 // Handle successful response
-                if(response == 'success'){
-                    console.log('opportunity created successfully:', response);
-                    this.showToast('Success', 'Our sales representative will get in touch with you soon.', 'success');
-                }
+                console.log('Calling showToast');
+                this.showToast('Success', 'Our sales representative will get in touch with you soon.', 'success');
                 
             })
             .catch(error => {

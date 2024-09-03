@@ -89,7 +89,7 @@ public static String createQuote(Id cartId, Date requestQuoteBy, String reasonFo
 }
 
 @AuraEnabled
-public static string createOpportunityForQuote( String cartId, String accountId, String accountOwnerId){
+public static string createOpportunityForQuote( String cartId, String accountId, String accountOwnerId, String accountName){
     try {
 
         System.debug('cartId: --->>>' + cartId);
@@ -105,7 +105,7 @@ public static string createOpportunityForQuote( String cartId, String accountId,
             // Id systemAdmin = [SELECT Id FROM User WHERE Profile.Name = 'System Administrator' LIMIT 1].Id;
             
             Opportunity opp = new Opportunity();
-            opp.Name = accountId +' ' + + System.today() + ' opportunity';
+            opp.Name = accountName + ' ' + System.today() + ' opportunity';
             opp.AccountId = accountId;
             opp.CloseDate = System.today() + 30;
             opp.StageName = 'Prospecting';
@@ -130,7 +130,7 @@ public static String getProductNames(List<CartItem> cartItems) {
             productNames += cartIt.Name + '; ';
         }
 
-        productNames = 'The requested products are-> ' + productNames;
+        productNames = 'The requested products on ' + System.today() + ' are -> ' + productNames;
     }
     return productNames;
 }

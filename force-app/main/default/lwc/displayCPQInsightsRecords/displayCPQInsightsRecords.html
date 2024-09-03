@@ -1,0 +1,67 @@
+<!--
+  @description       : Display quote records of a particular user in their profile page
+  @author            : Shubham Mazumdar
+  @group             : 
+  @last modified on  : 07-23-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+
+
+<template>
+    <lightning-card title="Showing Results">
+        <div class="slds-table_edit_container">
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th scope="col">
+                            <div class="slds-truncate" title="Quote Name">Quote Name</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="End Customer">End Customer</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Quote Amount">Quote Amount</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Discount %">Discount %</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Status">Status</div>
+                        </th>
+                        <th scope="col">
+                            <div class="slds-truncate" title="Status">Expiration Date</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={Quotes} for:item="quote">
+                        <tr key={quote.id}>
+                            <td>
+                                <div class="textContent" title={quote.name} data-id={quote.id}>{quote.Name}</div>
+                            </td>
+                            <td>
+                                <div class="textContent" title={quote.customer}>{quote.SBQQ__Account__c}</div>
+                            </td>
+                            <td>
+                                <div class="numericContent" title={quote.amount}>${quote.SBQQ__NetAmount__c}</div>
+                            </td>
+                            <td>
+                                <div class="numericContent" title={quote.discount}>{quote.SBQQ__AdditionalDiscountAmount__c}%</div>
+                            </td>
+                            <td>
+                                <div class="numericContent" title={quote.Status}>{quote.SBQQ__Status__c}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate numericContent" title={quote.ExpirationDate}>{quote.ExpirationDate}</div>
+                            </td>
+                            <td>
+                                <button class="slds-button slds-button_brand viewButton" onclick={handleViewCode} data-quote-id={quote.Id}
+                        data-quote-name={quote.Name}>View Quote</button>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </lightning-card>
+</template>
