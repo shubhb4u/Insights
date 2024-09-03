@@ -38,10 +38,10 @@ export default class DisplayCPQInsightsRecords extends NavigationMixin(Lightning
                     console.log('DisplayQuoteRecords for CPQ results ->>>', result);
                     this.Quotes = result;
 
-                    // Adding a property to our quotes to hide/display download button
-                    // this.Quotes.forEach((el) => {
-                    //     el.showButton = el.Status === 'Approved' || el.Status === 'Accepted';
-                    // });
+                    //Adding a property to our quotes to hide/display download button
+                    this.Quotes.forEach((el) => {
+                        el.showButton = el.Status === 'Approved' || el.Status === 'Accepted';
+                    });
                 })
                 .catch(error => {
                     console.error('Error fetching quotes:', error);
