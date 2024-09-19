@@ -62,6 +62,12 @@ export default class NewQuoteRequest extends LightningElement {
         }
     }
 
+    connectedCallback() {
+        console.log('Welcome to JS:');
+        console.log('cartId in connectedCallback:', this.CartId);
+    }
+
+    
 
     renderedCallback() {
         console.log('cartId in renderedCallback:', this.CartId);

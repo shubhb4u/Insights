@@ -5,10 +5,13 @@
  * For full license text, see the LICENSE file in the repo
  * root or https://opensource.org/licenses/apache-2-0/
  */
-import { api, LightningElement } from 'lwc';
+import { api, LightningElement, wire } from 'lwc';
 import { generateStyleProperties } from 'experience/styling';
 import { EVENT, KEY_CODE } from './constants';
 import { i18n } from './labels';
+
+import getProductRecs from '@salesforce/apex/DisplayProductRecords.getProductRecs';
+import getProductDiscountList from '@salesforce/apex/DisplayProductRecords.getProductRecsForDiscount';
 /**
  * @typedef {import('../searchProductCard/searchProductCard').ProductCardConfiguration} ProductCardConfiguration
  */
@@ -99,6 +102,77 @@ export default class SearchProductGrid extends LightningElement {
 
     @api
     displayData;
+
+    @api
+    products;
+
+    @wire(getProductDiscountList)
+    wiredProductDiscountList({ error, data }) {
+        if (data) {
+            this.productDiscountList = data;
+            console.log('Product discount list received:', this.productDiscountList);
+        } else if (error) {
+            console.error('Error retrieving product discount list:', error);
+        }
+    }
+
+    connectedCallback() {
+        this.fetchProducts();
+
+        // Initialize counter values for each product
+        this.displayedProducts.forEach(product => {
+            this.productCounters[product.Id] = 1;
+        });
+    }
+
+    fetchProducts() {
+        getProductRecs()
+            .then((data) => {
+                this.products = data.map(product => {
+                    let discountedPrice = this.getFinalPrice(product);
+                    return {
+                        ...product,
+                        formattedUnitPrice: this.formatPrice(discountedPrice),
+                        isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2.Id)
+                    };
+                });
+                this.setupCarousel();
+                console.log('this.products --->>>>>  ', this.products);
+            })
+            .catch((error) => {
+                console.error('Error fetching products:', error);
+            });
+    }
+
+    getFinalPrice(product) {
+        this.showMSRP = false;
+        let finalPrice = product.UnitPrice;
+
+        // Ensure productDiscountList is defined and not empty
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
+
+            if (matchingDiscountProduct) {
+                if (matchingDiscountProduct.isDiscounted__c) {
+                    this.showMSRP = true;
+                    finalPrice -= parseFloat((matchingDiscountProduct.AdjustmentPercent__c / 100) * finalPrice);
+                    console.log('Discount applied. Final price:', finalPrice);
+                } else if (matchingDiscountProduct.isDiscountedAmount__c) {
+                    this.showMSRP = true;
+                    finalPrice -= matchingDiscountProduct.Adjustment_Amount__c;
+                    console.log('Discount applied. Final price:', finalPrice);
+                }
+            }
+        } else {
+            console.warn('productDiscountList is undefined or empty. Returning original price.');
+        }
+
+        return finalPrice;
+    }
+
+    formatPrice(price) {
+        return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
 
     /**
      * Gets the normalized card collection display-data.
@@ -210,6 +284,8 @@ export default class SearchProductGrid extends LightningElement {
             })
         );
     }
+
+    
 
     /**
      * Handles key downs on the list.

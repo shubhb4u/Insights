@@ -38,7 +38,14 @@
             "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
-            "dxpStyle" : { },
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
             "layoutDirectionDesktop" : "row",
             "maxContentWidth" : "1440px",
             "sectionColumnGutterWidth" : "",
@@ -724,6 +731,32 @@
                 "columnMinHeight" : "",
                 "columnVerticalAlign" : "flex-start",
                 "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"c53835b8-3be8-43be-986e-c3852827effa\",\"columns\":[{\"UUID\":\"4dee5f7d-7868-4bf6-8051-acf34f7205bb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "c:createOpportunityCPQInsights",
+                  "id" : "41c98b2a-0334-4b27-a18c-2012f0c25383",
+                  "type" : "component"
+                } ],
+                "id" : "4dee5f7d-7868-4bf6-8051-acf34f7205bb",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "detailBoxCart",
+              "definition" : "dxp_layout:columns",
+              "id" : "c53835b8-3be8-43be-986e-c3852827effa",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
                 "layoutDirectionMobile" : "column",
                 "layoutDirectionTablet" : "column",
                 "sectionConfig" : "{\"UUID\":\"89dd4d9e-b59c-48c1-9c35-9b6799c96c4b\",\"columns\":[{\"UUID\":\"6a84f40d-a596-4993-ae88-f34330963ebe\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"

@@ -162,7 +162,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Read</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>QUOTE.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
@@ -190,5 +190,5 @@
         <searchResultsAdditionalFields>QUOTE.SUBTOTAL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QUOTE.TOTALPRICE</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

@@ -1,64 +1,295 @@
 <template>
-    <lightning-card title="Showing Results">
-        <div class="slds-table_edit_container">
-            <table class="slds-table slds-table_bordered slds-table_cell-buffer">
-                <thead>
-                    <tr class="slds-line-height_reset">
-                        <th scope="col">
-                            <div class="slds-truncate" title="Quote Name">Quote Name</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="Quote Number">Quote Number</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="End Customer">End Customer</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="Quote Amount">Quote Amount</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="Discount %">Discount %</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="Status">Status</div>
-                        </th>
-                        <th scope="col">
-                            <div class="slds-truncate" title="Status">Expiration Date</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <template for:each={Quotes} for:item="quote">
-                        <tr key={quote.id}>
-                            <td>
-                                <div class="textContent" title={quote.Name}>{quote.Name}</div>
-                            </td>
-                            <td>
-                                <div class="textContent" title={quote.Number}>{quote.QuoteNumber}</div>
-                            </td>
-                            <td>
-                                <div class="textContent" title={quote.customer}>{quote.Contact.Account.Name}</div>
-                            </td>
-                            <td>
-                                <div class="numericContent" title={quote.amount}>${quote.TotalPrice}</div>
-                            </td>
-                            <td>
-                                <div class="numericContent" title={quote.discount}>{quote.Discount}%</div>
-                            </td>
-                            <td>
-                                <div class="numericContent" title={quote.Status}>{quote.Status}</div>
-                            </td>
-                            <td>
-                                <div class="slds-truncate numericContent" title={quote.ExpirationDate}>{quote.ExpirationDate}</div>
-                            </td>
-                            <td>
-                                <button class="slds-button slds-button_brand viewButton" onclick={handleViewCode} data-quote-id={quote.Id}
-                        data-quote-name={quote.Name}>View Quote</button>
-                            </td>
-                        </tr>
-                    </template>
-                </tbody>
-            </table>
+    <div class="filtering-table">
+        <div class="filter-showing-results">
+            <h4>Showing Results</h4>
         </div>
-    </lightning-card>
+        <!--Desktop View-->
+        <table id="filtering-table-recent">
+            <thead>
+                <tr>
+                    <th>Quote Name</th>
+                    <th>Quote Number</th>
+                    <th>End Customer</th>
+                    <th>Quote Amount</th>
+                    <th>Discount %</th>
+                    <th>Status</th>
+                    <th>Expiration Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={Quotes} for:item="quote">
+                    <tr key={quote.id}>
+                        <td>
+                            <span title={quote.name} data-id={quote.id}>{quote.Name}</span>
+                        </td>
+                        <td>
+                            <span title={quote.Number}>{quote.QuoteNumber}</span>
+                        </td>
+                        <td>
+                            <span title={quote.customer}>{quote.Contact.Account.Name}</span>
+                        </td>
+                        <td>
+                            <p title={quote.amount}>${quote.TotalPrice}</p>
+                        </td>
+                        <td>
+                            <p title={quote.discount}>{quote.Discount}%</p>
+                        </td>
+                        <td>
+                            <p title={quote.Status}>{quote.Status}</p>
+                        </td>
+                        <td>
+                            <p title={quote.ExpirationDate}>{quote.ExpirationDate}</p>
+                        </td>
+                        <td>
+                            <button class="slds-button slds-button_brand viewButton" onclick={handleViewCode} data-quote-id={quote.Id}
+                        data-quote-name={quote.Name}>View Quote</button>
+                        </td>
+                    </tr>
+                </template>
+                
+                
+            </tbody>
+        </table>
+
+        <!--Mobile View-->
+        <!-- <div class="mobile-filtering-info">
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <p>Pending Approval</p>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/Avigilion.webp" alt="Avigilion">
+                                Avigilon
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/pelco.webp" alt="Pelco">
+                                Pelco
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/OpenPath.webp" alt="OpenPath">
+                                OpenPath
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %:<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/OpenPath.webp" alt="OpenPath">
+                                OpenPath
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %:<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/pelco.webp" alt="Pelco">
+                                Pelco
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %:<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/Avigilion.webp" alt="Avigilion">
+                                Avigilon
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %:<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-filtering-item">
+                <div class="title">
+                    <span>QN #29482930</span>
+                    <div class="status-ready">
+                        <p>Ready to Order</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p>Quote Name: <span>Allen Highschool Cameras</span></p>
+                    </div>
+                    <div class="line">
+                        <p>End Customer: <span>Allen ISD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>
+                            Portfolio:
+                            <span class="info-flex">
+                                <img src="img/Avigilion.webp" alt="Avigilion">
+                                Avigilon
+                            </span>
+                        </p>
+                    </div>
+                    <div class="line">
+                        <p>Quote Amount: <span>$12,983.40 USD</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Discount %:<span>35%</span></p>
+                    </div>
+                    <div class="line">
+                        <p>Trade Discount %:<span>5%</span></p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
 </template>

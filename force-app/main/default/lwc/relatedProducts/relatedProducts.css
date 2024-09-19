@@ -469,7 +469,7 @@ h3{
 }
 
 .product-name a{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 92, 185);
 }
 
 .product-model {
@@ -510,9 +510,9 @@ h3{
 
 .product-price-mobile {
     font-size: 1.75rem;
-    color: #000000;
+    color: rgba(80, 163, 90, 1);
     margin-bottom: 4px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .product-price-mobile span {
@@ -534,12 +534,12 @@ h3{
 }
 
 .msrp {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     text-decoration: line-through;
     color: #888; 
     margin: 1rem 1rem;
-    font-size: 18px !important;
+    /* font-size: 18px !important; */
 }
 
 .d-flex {

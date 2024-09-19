@@ -5,7 +5,7 @@
  * @last modified on  : 07-23-2024
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
-public with sharing class IndividualQuoteRecords {
+public without sharing class IndividualQuoteRecords {
     @AuraEnabled
     public static Quote getQuoteRecord(string quoteId) {
         system.debug('quoteId: '+quoteId);
@@ -17,22 +17,24 @@ public with sharing class IndividualQuoteRecords {
         }
         return quo;
     }
+
+    
+
     @AuraEnabled
     public static string acceptQuoteRecord(string quoteId) {
-        system.debug('quoteId: '+quoteId);
+        system.debug('quoteId: --->>>> '+quoteId);
         Quote quo;
         if(quoteId!=null){
-            system.debug('Inside If:');
-        quo=[select id,ContactId,Status,Name,ExpirationDate,TotalPrice from Quote where Id = : quoteId limit 1];
-        if(quo.ExpirationDate!=null && System.today()<=quo.ExpirationDate && quo.Status=='Approved'){
-            quo.Status = 'Accepted';
-            update quo;
-            System.debug('qLidt:'+quo);
-        }else if(quo.ExpirationDate!=null && System.today()>quo.ExpirationDate){
-            return 'expired';
-        }else if(quo.Status!='Approved'){
-            return 'not approved';
-        }
+            quo=[select id,ContactId,Status,Name,ExpirationDate,TotalPrice from Quote where Id = : quoteId limit 1];
+            if(quo.ExpirationDate!=null && System.today()<=quo.ExpirationDate && quo.Status=='Approved'){
+                quo.Status = 'Accepted';
+                update quo;
+                System.debug('qLidt:'+quo);
+            }else if(quo.ExpirationDate!=null && System.today()>quo.ExpirationDate){
+                return 'expired';
+            }else if(quo.Status!='Approved'){
+                return 'not approved';
+            }
         }
         if(quo.status == 'Accepted' ){
             return 'success';
@@ -41,6 +43,10 @@ public with sharing class IndividualQuoteRecords {
             return 'failed';
         }
     }
+
+    
+
+
     @AuraEnabled
     public static String clearCartandAddQuoteLines(String quoteId, String cartId) {
         List<CartItem> cartItems = [SELECT Id FROM CartItem WHERE CartId = :cartId];
@@ -64,11 +70,14 @@ public with sharing class IndividualQuoteRecords {
     
         return cartId;
     }
+
+
+
     @AuraEnabled
     public static String createCartAndAddQuoteLinesIntoCart(String quoteId,string accountId) {
         // Create a new cart
         WebCart cart = new WebCart();
-        cart.Name = 'Default_Cart_Name';
+        cart.Name = 'Default_Cart_Name ' + quoteId;
         cart.WebStoreId = '0ZEak0000014VMPGA2'; // Replace with the actual store ID
         cart.AccountId = accountId; 
         insert cart;
@@ -88,6 +97,8 @@ public with sharing class IndividualQuoteRecords {
         }
         return cart.Id;
     }
+
+
     private static List<CartItem> createCartItemsFromQuoteLines(String quoteId, String cartId, String deliveryGroupId) {
         List<CartItem> cartItemsToAdd = new List<CartItem>();
         List<QuoteLineItem> quoteLineItems = [SELECT Id, Product2Id, Product2.Name, Product2.StockKeepingUnit, Quote.Name, QuoteId, UnitPrice, TotalPrice, ListPrice, Discount, Quantity 

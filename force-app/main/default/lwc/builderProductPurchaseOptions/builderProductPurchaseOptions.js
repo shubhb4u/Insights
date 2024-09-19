@@ -149,20 +149,20 @@ export default class BuilderProductPurchaseOptions extends LightningElement {
     @api
     outOfStockText;
 
-    connectedCallback() {
-        this.fetchProducts();
-    }
+    // connectedCallback() {
+    //     this.fetchProducts();
+    // }
 
-    fetchProducts() {
-        getProductRecs()
-            .then((data) => {
-                this.products = data;
-                console.log(' this.products', this.product);
-            })
-            .catch((error) => {
-                console.error('Error fetching products:', error);
-            });
-    }
+    // fetchProducts() {
+    //     getProductRecs()
+    //         .then((data) => {
+    //             this.products = data;
+    //             console.log(' this.products', this.product);
+    //         })
+    //         .catch((error) => {
+    //             console.error('Error fetching products:', error);
+    //         });
+    // }
 
    
 

@@ -12,6 +12,7 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
     @track currentPage = 0;
     @track itemsPerPage = 4;
     @track product2;
+    @track productCounters = {}; // Store quantity for each product
     
 
     @wire(getProductDiscountList)
@@ -26,13 +27,8 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
 
     connectedCallback() {
         this.fetchProducts();
-
-        // Initialize counter values for each product
-        this.displayedProducts.forEach(product => {
-            this.productCounters[product.Id] = 1;
-        });
     }
-
+    
     fetchProducts() {
         getProductRecs()
             .then((data) => {
@@ -45,11 +41,19 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
                     };
                 });
                 this.setupCarousel();
-                console.log('this.products --->>>>>  ', this.products);
+                this.initializeProductCounters(); // Call to initialize counters
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
             });
+    }
+    
+    initializeProductCounters() {
+        this.displayedProducts.forEach(product => {
+            if (!this.productCounters[product.Id]) {
+                this.productCounters[product.Id] = 1; // Default quantity to 1
+            }
+        });
     }
 
     getFinalPrice(product) {
@@ -96,6 +100,13 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         const startIndex = this.currentPage * this.itemsPerPage;
         const endIndex = startIndex + this.itemsPerPage;
         this.displayedProducts = this.products.slice(startIndex, endIndex);
+
+        // Initialize counters for newly displayed products
+        this.displayedProducts.forEach(product => {
+            if (!this.productCounters[product.Id]) {
+                this.productCounters[product.Id] = 1; // Default quantity to 1
+            }
+        });
     }
 
     handlePrevious() {
@@ -129,19 +140,32 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         });
     }
 
+
+    handleQuantityChange(event) {
+        console.log('Quantity change event:', event);
+        const newQuantity = event.detail.quantity;
+        const productId = event.detail.id;
+    
+        this.productCounters[productId] = newQuantity;
+        console.log(`Product ID: ${productId}, New Quantity: ${newQuantity}`);
+    }
+    
     
 
+    //Commenting this out to use the quantity selector component -- 
     handleBuy(event) {
-        const productId = event.target.dataset.id;
-        let productName = event.target.dataset.name;
+        const productId = event.target.dataset.id; // Get the product ID
+        const quantity = this.productCounters[productId] || 1; // Get the quantity or default to 1
 
-        console.log('productId: --->>>> ', productId);
-        console.log('productName: ---->>>> ', productName);
+        console.log('Product ID:', productId);
+        console.log('Quantity:', quantity);
 
-        addItemToCart(productId, 1);
+        addItemToCart(productId, quantity);
         window.location.href = 'https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/cart';
 
     }
+
+    
 
     handleNavigate(event) {
         const productId = event.target.dataset.id;

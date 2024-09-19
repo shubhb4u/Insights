@@ -20,11 +20,9 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Quote Record</span></p>"
-              },
-              "definition" : "community_builder:richTextEditor",
-              "id" : "1f137794-e350-42b5-a2bf-cc71295cb959",
+              "attributes" : { },
+              "definition" : "c:individualCPQInsightsRecords",
+              "id" : "c966f944-108c-4332-ab8a-0a4299eecaed",
               "type" : "component"
             } ],
             "id" : "3d7378ee-4bac-4d32-abcf-f6cbc5c1dfba",
@@ -34,54 +32,6 @@
           } ],
           "definition" : "community_layout:section",
           "id" : "ac988876-cabb-4c71-bde1-5d5f10859f5a",
-          "type" : "component"
-        }, {
-          "attributes" : {
-            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
-            "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "componentSpacerSize" : "",
-            "dxpStyle" : {
-              "padding" : {
-                "bottom" : "0rem",
-                "left" : "0rem",
-                "right" : "0rem",
-                "top" : "0rem"
-              }
-            },
-            "layoutDirectionDesktop" : "row",
-            "layoutDirectionMobile" : "column",
-            "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "1200px",
-            "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"e516b21f-5f79-498a-a9f6-2632d95374f6\",\"columns\":[{\"UUID\":\"6a6dacb2-4d11-4e76-8e44-4d36ba88054b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
-            "sectionMinHeight" : "8rem",
-            "sectionVerticalAlign" : "flex-start"
-          },
-          "children" : [ {
-            "children" : [ {
-              "attributes" : {
-                "dxpStyle" : {
-                  "padding" : {
-                    "bottom" : "1rem",
-                    "left" : "1rem",
-                    "right" : "1rem",
-                    "top" : "0.5rem"
-                  }
-                }
-              },
-              "customCssClasses" : "shipping",
-              "definition" : "c:individualQuoteRecords",
-              "id" : "f1d7f3b9-6df7-45fc-a944-8d6ea18e4bb9",
-              "type" : "component"
-            } ],
-            "id" : "6a6dacb2-4d11-4e76-8e44-4d36ba88054b",
-            "name" : "col1",
-            "title" : "Column 1",
-            "type" : "region"
-          } ],
-          "customCssClasses" : "",
-          "definition" : "community_layout:section",
-          "id" : "e516b21f-5f79-498a-a9f6-2632d95374f6",
           "type" : "component"
         } ],
         "id" : "ca4c7f75-5425-4e18-9bba-e0a96b94e6f9",

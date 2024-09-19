@@ -250,6 +250,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>IndividualCPQRecords</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>IndividualQuoteRecords</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3331,6 +3335,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Probability</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Requested_products__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -32,6 +32,11 @@
                             configuration={field.configuration}
                             display-data={field.displayData}></c-search-product-field>
                     </div>
+                    <div key={field.displayData.description}>
+                        <c-search-product-field
+                            configuration={field.configuration}
+                            display-data={field.displayData}></c-search-product-field>
+                    </div>
                 </template>
             </a>
         </div>
@@ -61,6 +66,7 @@
                 <lightning-formatted-text value={quantityRuleCombinedText}></lightning-formatted-text>
             </div>
         </template>
+
 
         <div
             if:true={showCallToActionButton}

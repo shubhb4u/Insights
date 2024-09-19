@@ -28,7 +28,7 @@
                                     <!--<div class="product-name slds-m-bottom_xx-small">{product.Product2.Description}</div>-->
                                     <div class="pricesAndDiscounts">
                                         <div class="actualPrice">
-                                            <div class="product-price-mobile"><span style="font-size: 1rem;">$</span>{product.formattedUnitPrice}  </div>
+                                            <div class="product-price-mobile"><span style="font-size: 1rem;">$</span>{product.formattedUnitPrice}</div>
                                         </div>
                                         <div class="disPrice">
                                             <template lwc:if={product.Product2.isDiscounted__c}>
@@ -56,9 +56,12 @@
                                     
 
                                     </div>
+                                    <c-quantity-selector-insights product-id={product.Product2.Id} onquantitychange={handleQuantityChange}></c-quantity-selector-insights>
                     
                                     <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                    
                                 </div>
+                                
                             </template>
                         </div>
                     </div>
