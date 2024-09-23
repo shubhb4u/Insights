@@ -27,5 +27,20 @@
         current-page={currentPage}
         onaddproducttocart={handleAddToCart}
         onshowproduct={handleNavigateToProductPage}
-        onupdatecurrentpage={handleUpdateCurrentPage}></c-search-results>
+        onupdatecurrentpage={handleUpdateCurrentPage}>
+        
+        <!-- Quantity Selector Child Component -->
+        <c-product-quantity-selector 
+            minimum={quantityMinimum}
+            maximum={quantityMaximum}
+            step={step}
+            label={label}
+            hide-buttons={hideButtons}
+            hide-label={hideLabel}
+            minimum-value-guide-text={minimumValueGuideText}
+            maximum-value-guide-text={maximumValueGuideText}
+            step-value-guide-text={stepValueGuideText}
+            onvaluechanged={handleQuantityChanged}>
+        </c-product-quantity-selector>
+    </c-search-results>
 </template>

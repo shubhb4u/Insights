@@ -43,8 +43,9 @@
                 },
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ?lastModifiedDate=Tue Jun 18 06:04:12 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC3DRJIDRGGBD2BJBSZ4WWGLOIMQ\",\"contentType\":null}}",
                 "imageInfoMobile" : "",
-                "logoWidth" : 250
+                "logoWidth" : 200
               },
+              "customCssClasses" : "site-header-logo",
               "definition" : "dxp_content_layout:siteLogo",
               "id" : "f6848a7b-f32b-40fe-9762-58bcdb6da110",
               "type" : "component"
@@ -805,7 +806,8 @@
                                 "textAlign" : "left",
                                 "textColor" : "rgba(33, 37, 41, 0.75)",
                                 "textDecoration" : "{}",
-                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+                                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}",
+                                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"MRI_Software__c\"}}}}"
                               },
                               "definition" : "dxp_base:textBlock",
                               "id" : "b120e67b-0005-4565-b2b6-75cec3eec4cd",

@@ -262,6 +262,12 @@
                 <identifier>RecordisDiscountedAmount_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Final_Discount_Insights__c</fieldItem>
+                <identifier>RecordFinal_Discount_Insights__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-69c648e7-a189-437a-87be-4d71754839e7</name>
         <type>Facet</type>
     </flexiPageRegions>

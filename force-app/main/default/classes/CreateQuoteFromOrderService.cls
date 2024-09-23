@@ -101,19 +101,19 @@ public without sharing class CreateQuoteFromOrderService {
                     }
 
                     // Update Orders with the corresponding Quote Ids
-                    // List<Order> ordersToUpdate = new List<Order>();
-                    // for (Order ord : orderMap.values()) {
-                    //     Id quoteId = orderToQuoteMap.get(ord.Id);
-                    //     if (quoteId != null) {
-                    //         ord.SBQQ__Quote__c  = quoteId;  
-                    //         ordersToUpdate.add(ord);
-                    //     }
-                    // }
+                    List<Order> ordersToUpdate = new List<Order>();
+                    for (Order ord : orderMap.values()) {
+                        Id quoteId = orderToQuoteMap.get(ord.Id);
+                        if (quoteId != null) {
+                            ord.SBQQ__Quote__c  = quoteId;  
+                            ordersToUpdate.add(ord);
+                        }
+                    }
 
                     // Update Orders with the Parent Quote Id
-                    // if (!ordersToUpdate.isEmpty()) {
+                    if (!ordersToUpdate.isEmpty()) {
                         // update ordersToUpdate;
-                    // }
+                    }
 
                     System.debug('Quotes, Quote Lines, and Order updates completed successfully!');
                 }

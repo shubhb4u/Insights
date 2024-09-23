@@ -172,6 +172,13 @@
                   }, {
                     "children" : [ {
                       "attributes" : {
+                        "searchResults" : "{!Search.Results}"
+                      },
+                      "definition" : "c:builderSearchFilters",
+                      "id" : "a4576b56-aace-4560-a0e9-c0e2d5245d68",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
                         "headingTextAlign" : "left",
                         "headingTextDecoration" : "{}",
                         "headingTextDisplayInfo" : "{}",
@@ -205,7 +212,7 @@
                         "addToCartButtonText" : "Buy",
                         "cardAlignment" : "center",
                         "cardBorderRadius" : "8",
-                        "cardContentMapping" : "[{\"name\":\"Description\",\"showLabel\":false,\"label\":\"Product Description\",\"type\":\"TEXTAREA\",\"fontSize\":\"small\",\"fontColor\":\"rgb(0, 92, 185)\"},{\"name\":\"StockKeepingUnit\",\"showLabel\":true,\"label\":\"Product SKU : \",\"type\":\"STRING\",\"fontSize\":\"medium\",\"fontColor\":\"rgb(95, 95, 95)\"}]",
+                        "cardContentMapping" : "[{\"name\":\"Name\",\"showLabel\":false,\"label\":\"Product Name\",\"type\":\"STRING\",\"fontSize\":\"small\",\"fontColor\":\"rgb(0, 92, 185)\"},{\"name\":\"StockKeepingUnit\",\"showLabel\":true,\"label\":\"Product SKU : \",\"type\":\"STRING\",\"fontSize\":\"medium\",\"fontColor\":\"rgb(95, 95, 95)\"},{\"name\":\"Final_Discount_Insights__c\",\"showLabel\":true,\"label\":\"Discount :\",\"type\":\"DOUBLE\",\"fontSize\":\"medium\",\"fontColor\":\"rgb(249, 4, 4)\"}]",
                         "currentPage" : "{!Search.Pagination.currentPage}",
                         "dxpStyle" : {
                           "margin" : {
@@ -221,7 +228,7 @@
                             "top" : ""
                           }
                         },
-                        "gridColumnSpacing" : "medium",
+                        "gridColumnSpacing" : "small",
                         "gridRowSpacing" : "medium",
                         "includeQuantityRules" : "{!Search.includeQuantityRules}",
                         "incrementValueGuideText" : "Increment quantity is {0}",
@@ -234,7 +241,7 @@
                         "quantitySelectorLabel" : "",
                         "resultsLayout" : "grid",
                         "searchResults" : "{!Search.Results}",
-                        "searchResultsFields" : "{!Search.Description},{!Search.StockKeepingUnit}",
+                        "searchResultsFields" : "{!Search.Name},{!Search.StockKeepingUnit},{!Search.Final_Discount_Insights__c}",
                         "searchResultsLoading" : "{!Search.ClientState.loading}",
                         "showCallToActionButton" : true,
                         "showNegotiatedPrice" : true,

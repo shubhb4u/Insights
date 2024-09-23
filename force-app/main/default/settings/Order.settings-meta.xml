@@ -4,7 +4,7 @@
     <enableNegativeQuantity>true</enableNegativeQuantity>
     <enableOptionalPricebook>true</enableOptionalPricebook>
     <enableOrderEvents>true</enableOrderEvents>
-    <enableOrderWithMultiplePriceBooks>false</enableOrderWithMultiplePriceBooks>
+    <enableOrderWithMultiplePriceBooks>true</enableOrderWithMultiplePriceBooks>
     <enableOrders>true</enableOrders>
     <enableReductionOrders>false</enableReductionOrders>
     <enableZeroQuantity>true</enableZeroQuantity>

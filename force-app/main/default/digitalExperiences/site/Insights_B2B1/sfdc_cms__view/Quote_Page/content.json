@@ -60,8 +60,8 @@
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:displayCPQInsightsRecords",
-              "id" : "6b838c91-5c59-4423-9c4a-bff5e8090259",
+              "definition" : "c:displayQuotesNew",
+              "id" : "7e8fd062-7936-464a-834d-f0f31ea950a8",
               "type" : "component"
             } ],
             "id" : "2784921c-dbd1-4a58-86ae-d23da2737404",

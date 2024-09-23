@@ -12,21 +12,21 @@
             "dxpStyle" : {
               "margin" : {
                 "bottom" : "",
-                "left" : "5rem",
+                "left" : "",
                 "right" : "",
                 "top" : ""
               },
               "padding" : {
                 "bottom" : "3rem",
-                "left" : "",
+                "left" : "3rem",
                 "right" : "",
-                "top" : ""
+                "top" : "5rem"
               }
             },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "1350px",
+            "maxContentWidth" : "none",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"bf8a2f55-6cc5-4901-8dde-e28289cecbab\",\"columns\":[{\"UUID\":\"910a0965-ccd0-4351-a942-59aa38600163\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"dc5d0849-559e-4196-ac50-2b89a8f5ff8d\",\"columnName\":\"Column 2\",\"columnKey\":\"9d688\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
@@ -44,13 +44,14 @@
                   },
                   "padding" : {
                     "bottom" : "",
-                    "left" : "60px",
+                    "left" : "45px",
                     "right" : "",
                     "top" : ""
                   }
                 },
-                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
+                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
               },
+              "customCssClasses" : "home-banner-heading",
               "definition" : "community_builder:richTextEditor",
               "id" : "5f152c1e-6467-4d07-905a-656d7c8789ce",
               "type" : "component"
@@ -70,7 +71,7 @@
                 "layoutDirectionDesktop" : "row",
                 "layoutDirectionMobile" : "column",
                 "layoutDirectionTablet" : "column",
-                "sectionConfig" : "{\"UUID\":\"0711eb04-9e94-4222-accf-1d58bbc6c13b\",\"columns\":[{\"UUID\":\"fbd4af03-00dd-46d9-ab11-64a7a124ce3e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c65142a5-0146-4220-9683-ef638ac52b6c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                "sectionConfig" : "{\"UUID\":\"0711eb04-9e94-4222-accf-1d58bbc6c13b\",\"columns\":[{\"UUID\":\"fbd4af03-00dd-46d9-ab11-64a7a124ce3e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"5\",\"seedComponents\":[]},{\"UUID\":\"c65142a5-0146-4220-9683-ef638ac52b6c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"7\",\"seedComponents\":[]}]}"
               },
               "children" : [ {
                 "children" : [ {
@@ -80,7 +81,7 @@
                       "margin" : {
                         "bottom" : "",
                         "left" : "",
-                        "right" : "8px",
+                        "right" : "",
                         "top" : ""
                       }
                     },
@@ -153,7 +154,7 @@
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCDZNI5CDEWFDU3LKV5ZPTYX35PQ\",\"contentType\":null}}",
                 "overlayColor" : "",
                 "position" : "center center",
-                "width" : 80
+                "width" : 82
               },
               "definition" : "dxp_base:image",
               "id" : "0a089942-5ea3-43e9-a057-1b4dea8d90b8",
@@ -164,7 +165,7 @@
             "title" : "Column 2",
             "type" : "region"
           } ],
-          "customCssClasses" : "fixed shipping detailBoxCart",
+          "customCssClasses" : "",
           "definition" : "community_layout:section",
           "id" : "bf8a2f55-6cc5-4901-8dde-e28289cecbab",
           "type" : "component"
@@ -229,7 +230,7 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "",
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "layoutDirectionDesktop" : "row",
@@ -1033,7 +1034,7 @@
                             "top" : "15px"
                           }
                         },
-                        "richTextValue" : "<p><span style=\"font-size: 18px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(84, 97, 118);\">insightsoftware streamlines financial processes with intuitive solutions, enabling accurate planning, reporting, and analysis for informed decision-making.</span></p>"
+                        "richTextValue" : "<p><span style=\"color: rgb(84, 97, 118); font-family: Poppins, Helvetica, Arial, sans-serif; font-size: 18px;\">Insightsoftware streamlines financial processes with intuitive solutions, enabling accurate planning, reporting, and analysis for informed decision-making.</span></p>"
                       },
                       "definition" : "community_builder:richTextEditor",
                       "id" : "8110e617-6cf1-4980-90be-c314acc669fa",

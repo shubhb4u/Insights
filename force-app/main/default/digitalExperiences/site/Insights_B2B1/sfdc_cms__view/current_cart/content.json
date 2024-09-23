@@ -730,32 +730,6 @@
                 "columnGutterWidth" : "",
                 "columnMinHeight" : "",
                 "columnVerticalAlign" : "flex-start",
-                "layoutDirectionDesktop" : "row",
-                "layoutDirectionMobile" : "column",
-                "layoutDirectionTablet" : "column",
-                "sectionConfig" : "{\"UUID\":\"c53835b8-3be8-43be-986e-c3852827effa\",\"columns\":[{\"UUID\":\"4dee5f7d-7868-4bf6-8051-acf34f7205bb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
-              },
-              "children" : [ {
-                "children" : [ {
-                  "attributes" : { },
-                  "definition" : "c:createOpportunityCPQInsights",
-                  "id" : "41c98b2a-0334-4b27-a18c-2012f0c25383",
-                  "type" : "component"
-                } ],
-                "id" : "4dee5f7d-7868-4bf6-8051-acf34f7205bb",
-                "name" : "col1",
-                "title" : "Column 1",
-                "type" : "region"
-              } ],
-              "customCssClasses" : "detailBoxCart",
-              "definition" : "dxp_layout:columns",
-              "id" : "c53835b8-3be8-43be-986e-c3852827effa",
-              "type" : "component"
-            }, {
-              "attributes" : {
-                "columnGutterWidth" : "",
-                "columnMinHeight" : "",
-                "columnVerticalAlign" : "flex-start",
                 "layoutDirectionDesktop" : "column",
                 "layoutDirectionMobile" : "column",
                 "layoutDirectionTablet" : "column",

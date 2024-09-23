@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion> <!-- Add the correct API version -->
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
@@ -29,15 +30,14 @@
             <property name="negotiatedPriceTextSize" type="String" default="medium" datasource="small,medium,large" />
             <property name="originalPriceTextColor" type="Color" />
             <property name="originalPriceTextSize" type="String" default="medium" datasource="small,medium,large" />
-
-            <!-- Card Content Mapping-->
+            <property name="quantityMinimum" type="Integer" default="1" />
+            <property name="quantityMaximum" type="Integer" default="100" />
             <property
                 name="cardContentMapping"
                 type="String"
-                default='[{"name": "Name", "showLabel": false, "label": "Product Name", "fontSize": "medium"}]'
+                default='[{"name": "Name", "showLabel": false, "label": "Product Name", "fontSize": "medium"},
+                {"description":"Description", "showLabel":"false", "label":"Product Description", "fontSize":"medium"}]'
             />
-
-            <!-- Call to Action Section -->
             <property name="showCallToActionButton" type="Boolean" default="false" />
             <property
                 name="addToCartButtonStyle"
@@ -45,9 +45,9 @@
                 default="primary"
                 datasource=",primary,secondary,tertiary"
             />
-            <property name="addToCartButtonText" type="String" translatable="true" default="Add to cart" />
-            <property name="addToCartButtonProcessingText" type="String" translatable="true" default="Adding..." />
-            <property name="viewOptionsButtonText" type="String" translatable="true" default="View options" />
+            <property name="addToCartButtonText" type="String" default="Add to cart" />
+            <property name="addToCartButtonProcessingText" type="String" default="Adding..." />
+            <property name="viewOptionsButtonText" type="String" default="View options" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

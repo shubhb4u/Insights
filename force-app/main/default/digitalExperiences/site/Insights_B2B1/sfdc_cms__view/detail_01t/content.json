@@ -490,7 +490,7 @@
                     "productInventory" : "{!Product.Inventory}",
                     "productPricing" : "{!Product.Pricing}",
                     "productVariant" : "{!Product.SelectedVariant}",
-                    "quantitySelectorLabel" : "QTY",
+                    "quantitySelectorLabel" : "",
                     "selectedProductSellingModel" : "{!Product.SelectedProductSellingModel}",
                     "showAddToListButton" : true
                   },
@@ -516,6 +516,7 @@
                     "title" : "combinedPurchaseQuantityRuleInfo",
                     "type" : "region"
                   } ],
+                  "customCssClasses" : "pdpPage",
                   "definition" : "commerce_builder:purchaseOptions",
                   "id" : "c07b1ddf-1754-423f-a88c-31d241454544",
                   "type" : "component"
@@ -783,6 +784,29 @@
           "customCssClasses" : "",
           "definition" : "community_layout:section",
           "id" : "e852011c-b8f1-46a0-8bf0-00738655d6ec",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9e399522-62b0-4950-b1dd-60985a319643\",\"columns\":[{\"UUID\":\"a0969d3e-f5e7-40fe-bcca-0ab4fecafcfd\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "a0969d3e-f5e7-40fe-bcca-0ab4fecafcfd",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9e399522-62b0-4950-b1dd-60985a319643",
           "type" : "component"
         }, {
           "attributes" : {

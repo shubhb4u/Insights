@@ -57,6 +57,10 @@ export default class BuilderProductQuantitySelector extends LightningElement {
 
     handleQuantityChanged({ detail }) {
         if (detail && typeof detail.value === 'number') {
+            const valueChangedEvent = new CustomEvent('valuechanged', {
+                detail: { value: detail.value },
+            });
+            this.dispatchEvent(valueChangedEvent);
             dispatchAction(this, createCommonQuantityUpdateAction(detail.value));
         }
     }

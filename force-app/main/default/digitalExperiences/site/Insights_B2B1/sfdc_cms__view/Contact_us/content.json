@@ -312,6 +312,14 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Regional Offices</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "75276050-77f9-41a7-aa63-7fe06c863b82",
+              "type" : "component"
+            } ],
             "id" : "19f86bce-9bd9-4551-869a-00ec7c95fc8c",
             "name" : "col1",
             "title" : "Column 1",
@@ -319,6 +327,230 @@
           } ],
           "definition" : "community_layout:section",
           "id" : "21f3c7fb-a882-4307-a54c-fa50524e9c82",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fae10dd7-15ca-4892-9078-f0efaed4aeb6\",\"columns\":[{\"UUID\":\"640d6a25-8588-4b15-9924-83fb8f4c88d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f51b7ed4-cec5-4297-a960-1fc04e1e28ab\",\"columnName\":\"Column 2\",\"columnKey\":\"fc4a6\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: right;\"><span style=\"font-size: 28px;\">Global HQ</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">8529 Six Forks Rd.</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Raleigh, NC 27615</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">USA</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0801ba28-699d-4411-92fd-38ce59942438",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "right",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Product Support",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "ffa63b47-15f8-4c75-8ddf-7ac74769fc00",
+              "type" : "component"
+            } ],
+            "id" : "640d6a25-8588-4b15-9924-83fb8f4c88d8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Americas",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "f47c8122-48c7-4bc9-986d-8df47c84bac7",
+                  "type" : "component"
+                } ],
+                "id" : "87a7e94c-507e-489c-8e60-ddfa65db2a28",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "eb533bd8-c88e-472b-b128-aa880b3a94d9",
+                  "type" : "component"
+                } ],
+                "id" : "ad6d2e86-70ac-401e-9287-33c5628c961e",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "2504f8cd-080c-4189-aebe-07d9d869f798",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Europe",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7e60e98b-5889-4c83-851b-fbc844518a82",
+                  "type" : "component"
+                } ],
+                "id" : "7a2bf1ea-d142-4346-89d5-be06707e793e",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "a5fa1a92-a260-4e28-8d88-34c66d1cca3e",
+                  "type" : "component"
+                } ],
+                "id" : "7ad3822c-a3ad-43d2-a17a-8b4ca69bf3f0",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "6cfb0f1a-2edc-4c95-8c0e-2468bfc7cfed",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Asia Pacific",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "fbdbbd7e-4ca0-43ae-ae08-0f0bd45cbb48",
+                  "type" : "component"
+                } ],
+                "id" : "c5ae6796-f26d-464c-ad16-031c60479e0c",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5908ab85-4fcd-4a46-a1c1-61bd4e7f3eb4",
+                  "type" : "component"
+                } ],
+                "id" : "ac78a5cb-ac00-4f8e-a129-f62502b73e25",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "dcbbf79c-5c90-4dbb-8eb0-a18b9d672c95",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Middle East",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6f54cf19-a331-457b-8245-e943015a371a",
+                  "type" : "component"
+                } ],
+                "id" : "f0651ea6-d084-491c-86f0-6b63a3dc4fc7",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "cb2c76e8-82e1-44ee-a7ff-4191a9ba86f8",
+                  "type" : "component"
+                } ],
+                "id" : "8b8781ab-459d-4a12-b468-1ab3af742f8c",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "0f0bca83-b105-4d01-b6da-62918c17f8f2",
+              "type" : "component"
+            } ],
+            "id" : "f51b7ed4-cec5-4297-a960-1fc04e1e28ab",
+            "name" : "fc4a6",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fae10dd7-15ca-4892-9078-f0efaed4aeb6",
           "type" : "component"
         } ],
         "id" : "b0375ebe-b4e0-42e1-8551-ebfb9743aed8",

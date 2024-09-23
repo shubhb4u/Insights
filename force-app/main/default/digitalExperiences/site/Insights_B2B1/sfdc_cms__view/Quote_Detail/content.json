@@ -21,8 +21,8 @@
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:individualCPQInsightsRecords",
-              "id" : "c966f944-108c-4332-ab8a-0a4299eecaed",
+              "definition" : "c:individualQuoteRecords",
+              "id" : "d9d4f85e-6a1b-406e-b940-5c2cca7702b1",
               "type" : "component"
             } ],
             "id" : "3d7378ee-4bac-4d32-abcf-f6cbc5c1dfba",

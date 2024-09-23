@@ -1,0 +1,1076 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Customer Success",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1b2378a3-14d3-418d-9d03-65f916bc2f7b\",\"columns\":[{\"UUID\":\"3e4bd282-d438-44b2-8bed-eea8afd719c2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"font-size: 22px;\">CUSTOMER SUCCESS</strong></h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "bea225c6-b18e-41d1-b4e0-1be981a6a62c",
+              "type" : "component"
+            } ],
+            "id" : "3e4bd282-d438-44b2-8bed-eea8afd719c2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1b2378a3-14d3-418d-9d03-65f916bc2f7b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9eb68b72-d02e-4bd7-aede-a95a4c18001d\",\"columns\":[{\"UUID\":\"3ec20e85-8799-49d9-b20f-93e010bba8b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Helping you get the most value out of your</strong></h2><h2 style=\"text-align: center;\"><strong style=\"font-size: 36px;\"> insightsoftware solutions</strong></h2><p style=\"text-align: center;\"><br></p>"
+              },
+              "customCssClasses" : "Helping-CustomerSuccess",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "605e6c27-206f-4b18-8ab9-5da18e9da493",
+              "type" : "component"
+            } ],
+            "id" : "3ec20e85-8799-49d9-b20f-93e010bba8b5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9eb68b72-d02e-4bd7-aede-a95a4c18001d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e2266027-935d-4fde-a558-24ceea3b2ee7\",\"columns\":[{\"UUID\":\"9e790560-2d78-483a-b3e5-02f7e757c882\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"3bd0e2e8-285c-417a-b92f-273ad232f7b0\",\"columnName\":\"Column 2\",\"columnKey\":\"84722\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"06cf7e3d-54b5-4b67-8e8c-f248f2e3e6a1\",\"columnName\":\"Column 3\",\"columnKey\":\"27808\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/customer-success-manager-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 23
+              },
+              "definition" : "dxp_base:image",
+              "id" : "7e5eb492-0bd4-48c7-b20d-481b0eb04aec",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">Customer Success Manager</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a56ff59e-e55e-430f-9a1c-12e4d708e2ee",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">A designated CSM can be your regular point</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">of contact, and help you with resources and</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">product lifecycle.</span></p>"
+              },
+              "customCssClasses" : "CustomerSucessManager",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ecea9906-c2ca-4f70-ae07-8326d65e74b4",
+              "type" : "component"
+            } ],
+            "id" : "9e790560-2d78-483a-b3e5-02f7e757c882",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/customer-portal-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 23
+              },
+              "definition" : "dxp_base:image",
+              "id" : "03809b4e-4e67-4391-8ebe-5e5f44f0b6f7",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">Customer Portal</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4ed8dbf1-b0af-4499-9305-ca89134ba01f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "8px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Join our very own customer community and</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">find the best practices and solutions.</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Discover, learn, and help.</span></p>"
+              },
+              "customCssClasses" : "CustomerPortal",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6b9009d5-a763-4fcf-ae1c-59e99e366592",
+              "type" : "component"
+            } ],
+            "id" : "3bd0e2e8-285c-417a-b92f-273ad232f7b0",
+            "name" : "84722",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/product-support-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 23
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a4970a5c-ee72-4315-bc12-5c0541164ca0",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">Product Support</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b31d0863-e116-4fc9-a2c2-876c623dbd1c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Our product specialists create a smooth start </span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">with rapid deployment and help you maintain </span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>endurance.</span></p>"
+              },
+              "customCssClasses" : "ProductSupport",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b417714d-892c-44d9-8450-041be7900e39",
+              "type" : "component"
+            } ],
+            "id" : "06cf7e3d-54b5-4b67-8e8c-f248f2e3e6a1",
+            "name" : "27808",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e2266027-935d-4fde-a558-24ceea3b2ee7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"efbb642f-b4df-496c-af15-f78fb85c1a2b\",\"columns\":[{\"UUID\":\"0ca530c8-b177-4e2c-ab04-ead04e308bcc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"289981a9-f2a0-4c17-9ce3-6b013b0b4c9a\",\"columnName\":\"Column 2\",\"columnKey\":\"84722\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"11c05333-dbdc-4684-8ee0-cb4f846bf21f\",\"columnName\":\"Column 3\",\"columnKey\":\"27808\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/billing-renewal-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 23
+              },
+              "definition" : "dxp_base:image",
+              "id" : "dd7beeb9-9690-4913-9251-a17883890088",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">Billing &amp; Renewable</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "eb22df80-9a82-43bd-840b-2a4f22c8fd04",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "7rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p style=\"text-align: center;\">Whether you want to renew your subscription</p><p style=\"text-align: center;\">or have questions about your invoice, talk to</p><p style=\"text-align: center;\">us about how we can support you.</p>"
+              },
+              "customCssClasses" : "CustomerSucessManager",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b95f3ace-efc0-4d6f-9bc8-07efcce34ec0",
+              "type" : "component"
+            } ],
+            "id" : "0ca530c8-b177-4e2c-ab04-ead04e308bcc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/user-groups-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 23
+              },
+              "definition" : "dxp_base:image",
+              "id" : "9f9cd7f4-05d2-42e2-bb7a-69acc6b17cf9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">User Groups</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ff345a75-37ba-41ef-aa15-8951695a8d56",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "8px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Join other customers in a group setting</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">facilitated by ISW team members to</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\"> collaborate about ISW products.</span></p><p style=\"text-align: center;\"><br></p>"
+              },
+              "customCssClasses" : "CustomerPortal",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6a5287a0-0696-41aa-9768-8c17dd771ac7",
+              "type" : "component"
+            } ],
+            "id" : "289981a9-f2a0-4c17-9ce3-6b013b0b4c9a",
+            "name" : "84722",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/innovations-portal-icon.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 86
+              },
+              "definition" : "dxp_base:image",
+              "id" : "05a22a06-ef98-4498-be4b-0998aaa5ff32",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">Innovation Portal</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a3f01e00-7c02-46aa-aba4-0bdf38196ef7",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Influence the product roadmap by sharing </span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">ideas and voting on suggestions from other </span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span>customers, partners and employees.</span></p><p style=\"text-align: center;\"><br></p>"
+              },
+              "customCssClasses" : "ProductSupport",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "47e9c75f-2864-48c3-afa0-ed8a561054bc",
+              "type" : "component"
+            } ],
+            "id" : "11c05333-dbdc-4684-8ee0-cb4f846bf21f",
+            "name" : "27808",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "efbb642f-b4df-496c-af15-f78fb85c1a2b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"254c416f-c4b9-4d34-b2e7-1760408299a5\",\"columns\":[{\"UUID\":\"81eba4ac-9299-4e7e-a1e6-a7d883eec9d6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86); font-size: 16px;\">Not sure who to go to for help? That's okay, we are here to help.</span></p><p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86); font-size: 16px;\">Email: </span><a href=\"customersuccess@insightsoftware.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86); font-size: 16px;\">customersuccess@insightsoftware.com</a></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "97f480bb-58a2-487d-a048-93b5d98d94ef",
+              "type" : "component"
+            } ],
+            "id" : "81eba4ac-9299-4e7e-a1e6-a7d883eec9d6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "254c416f-c4b9-4d34-b2e7-1760408299a5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9e2b2940-6558-4464-8733-0303d37282c9\",\"columns\":[{\"UUID\":\"d73bcfe4-bf1e-43e4-a00e-d4c355484617\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 24px;\">EXPANDING YOUR KNOWLEDGE</strong></p><p><br></p>"
+              },
+              "customCssClasses" : "ExpandingYourknowlege",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5fe5bc9b-0663-446c-90ec-557a782d115e",
+              "type" : "component"
+            } ],
+            "id" : "d73bcfe4-bf1e-43e4-a00e-d4c355484617",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9e2b2940-6558-4464-8733-0303d37282c9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a25042e3-73e3-45c6-9c15-bc1b1d47edb1\",\"columns\":[{\"UUID\":\"09df4c70-68a3-4ebe-8b4d-67a116e1ea45\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Our sole mission is to stay abreast of technology, </strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">﻿know-how, and industry best practices.</strong></p>"
+              },
+              "customCssClasses" : "Solemission",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "dd0146a2-8868-4022-9542-bf7280fce557",
+              "type" : "component"
+            } ],
+            "id" : "09df4c70-68a3-4ebe-8b4d-67a116e1ea45",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a25042e3-73e3-45c6-9c15-bc1b1d47edb1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f91c087c-45da-4c57-9e38-11e6ff36c604\",\"columns\":[{\"UUID\":\"4ab8ec27-8cbc-467a-b8b3-411d554016d6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "2rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><span style=\"font-size: 16px;\">insightsoftware is constantly anticipating immediate and future needs of our customers and partners. We offer high quality, cost-effective training that </span></p><p><span style=\"font-size: 16px;\">emphasizes practical methods for using our software. We offer a variety of training options for individuals or small groups.</span></p>"
+              },
+              "customCssClasses" : "insight",
+              "definition" : "community_builder:richTextEditor",
+              "id" : "204161b1-2c4d-4fdf-89d9-d2e021cbf8fd",
+              "type" : "component"
+            } ],
+            "id" : "4ab8ec27-8cbc-467a-b8b3-411d554016d6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f91c087c-45da-4c57-9e38-11e6ff36c604",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"29f09ecd-35b1-42bb-b4a0-ffc23382a258\",\"columns\":[{\"UUID\":\"655cfe10-168b-444a-98e7-18201bbfcb64\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"017ba3cf-ba20-410e-bb91-4103f5968baa\",\"columnName\":\"Column 2\",\"columnKey\":\"44679\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/01/instructor-led-training-image.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "949fe808-7781-418a-b4ba-1341a1bd8685",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Instructor Led Training</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "28be2812-77b8-4415-b2a9-c61486144ab9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><span style=\"font-size: 16px;\">Conducted by an insightsoftware certified instructor in an interactive, </span></p><p><span style=\"font-size: 16px;\">virtual environment, each session provides hands-on practical skills in a </span></p><p><span style=\"font-size: 16px;\">lab setting. It is an affordable, flexible solution for companies and </span></p><p><span style=\"font-size: 16px;\">individuals interested in learning how to fully capitalize on our products to</span></p><p><span style=\"font-size: 16px;\"><span class=\"ql-cursor\">﻿</span> improve operations and simplify their day-to-day tasks.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a3ef94f0-920c-4d75-be45-2f62ee7089a5",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "customCssClasses" : "LearnMore",
+              "definition" : "dxp_base:button",
+              "id" : "abcb5864-8d4b-430f-80e5-e232d980c428",
+              "type" : "component"
+            } ],
+            "id" : "655cfe10-168b-444a-98e7-18201bbfcb64",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/01/self-service-training-image.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "4ca8901f-44b3-448d-9fbe-79a8db712d75",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Self - Service Training</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "20b295ea-d287-476a-a5fd-7e999816663f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p><span style=\"font-size: 16px;\">Our state-of-the-art training portal provides users with the opportunity to</span></p><p><span style=\"font-size: 16px;\">explore, expand, and strengthen their insightsoftware product skills at their</span></p><p><span style=\"font-size: 16px;\">own pace. Participants will follow learning paths based on the topic of their</span></p><p><span style=\"font-size: 16px;\">choice, with frequent knowledge checks along the way to ensure</span></p><p><span style=\"font-size: 16px;\">comprehension.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "08f79642-13b0-4a59-942d-70488ed0f426",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn More",
+                "type" : "primary"
+              },
+              "customCssClasses" : "LearnMore",
+              "definition" : "dxp_base:button",
+              "id" : "f8f25cd3-75c1-4862-a9f2-d62be43e75f9",
+              "type" : "component"
+            } ],
+            "id" : "017ba3cf-ba20-410e-bb91-4103f5968baa",
+            "name" : "44679",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "29f09ecd-35b1-42bb-b4a0-ffc23382a258",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8d6a84be-9525-4281-ae3f-cfe2e3503ae6\",\"columns\":[{\"UUID\":\"402625ba-5c80-42a5-83d2-8710b3ca3b0c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 40px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Webinars &amp; Resources</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5d051d84-39c3-4755-9dba-59a6992a6aca",
+              "type" : "component"
+            } ],
+            "id" : "402625ba-5c80-42a5-83d2-8710b3ca3b0c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8d6a84be-9525-4281-ae3f-cfe2e3503ae6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3px",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a1e54ae4-e67b-459a-b7bd-479d67ea91f3\",\"columns\":[{\"UUID\":\"3cc5aebd-ba5a-4764-83c1-037fe34c001b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Take a look at our upcoming and on-demand webinars packed with handy tips, best practices, and insights, brought to you by insightsoftware's product and </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span>solutions experts.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a4da23a0-92cd-49cc-8d96-cba1af150f37",
+              "type" : "component"
+            } ],
+            "id" : "3cc5aebd-ba5a-4764-83c1-037fe34c001b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a1e54ae4-e67b-459a-b7bd-479d67ea91f3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "3rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c746f08c-8cab-4f66-8442-72f0ddccbdc7\",\"columns\":[{\"UUID\":\"df32d8ab-8e26-4ea5-8675-cea30c9cf55d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6fa191a8-6d50-44e3-a0c0-d9f978f43942\",\"columnName\":\"Column 2\",\"columnKey\":\"04fb8\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"113504db-9079-45f6-8485-2dbe4c24cd93\",\"columnName\":\"Column 3\",\"columnKey\":\"c8865\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/03/23-05-GMLibrary-General-Option5-Website-3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b98c90fe-2169-4aa2-9b34-7a8175318d29",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p><strong>Upcoming Webinar:</strong> Sep 17, 2024</p><p><strong>insightsoftware Connect: Vizlib Partner Town</strong></p><p><strong>Hall</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b75b0a93-b2cb-4d92-8450-0c9407f60576",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Register Now",
+                "type" : "primary"
+              },
+              "customCssClasses" : "LearnMore",
+              "definition" : "dxp_base:button",
+              "id" : "13abe1d7-c306-4a34-b457-5f36ffeafd2a",
+              "type" : "component"
+            } ],
+            "id" : "df32d8ab-8e26-4ea5-8675-cea30c9cf55d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/03/24-08-WBN-LOGI-AccelerateYourProductLaunch-Website-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a4a403d2-eeb1-455f-87d6-58dff9af41a3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p><strong>Upcoming Webinar: </strong>Sep 18, 2024</p><p><strong>Unlocking the Power of AI in Logi Symphony</strong></p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b4d57029-1d5f-4ed8-abb9-be17a5ef05f4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Register Now",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "2f8ecbd2-c302-48d7-b0e3-6e0e4d5751cd",
+              "type" : "component"
+            } ],
+            "id" : "6fa191a8-6d50-44e3-a0c0-d9f978f43942",
+            "name" : "04fb8",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/03/23-05-GMLibrary-General-Option5-Website-3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a6b51efe-4411-4f12-b4b9-f71355974625",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p><strong>Upcoming Webinar:</strong> Sep 19, 2024</p><p><strong>insightsoftware Connect: Power on Partner</strong></p><p><strong>Town Hall</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "897a720e-45ab-4972-bab2-574c015cbc41",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Register Now",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "dfcd5d7d-65ec-465f-b92b-46bd17c1b8a2",
+              "type" : "component"
+            } ],
+            "id" : "113504db-9079-45f6-8485-2dbe4c24cd93",
+            "name" : "c8865",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "LearnMore",
+          "definition" : "community_layout:section",
+          "id" : "c746f08c-8cab-4f66-8442-72f0ddccbdc7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"681125e4-aa34-410c-a3a7-d4cd52f19ad0\",\"columns\":[{\"UUID\":\"de5cad11-ee19-4e1e-a4ab-0b5f5f79200b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"65c5132f-1556-42aa-89ce-829c00bbbfba\",\"columnName\":\"Column 2\",\"columnKey\":\"25442\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "right",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Explore Webinars",
+                "type" : "primary"
+              },
+              "customCssClasses" : "LearnMore",
+              "definition" : "dxp_base:button",
+              "id" : "6a468285-37a5-4b37-87ef-a3da7061f873",
+              "type" : "component"
+            } ],
+            "id" : "de5cad11-ee19-4e1e-a4ab-0b5f5f79200b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "More Resources",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "a6106a23-f42e-4625-9e77-6e441de2782b",
+              "type" : "component"
+            } ],
+            "id" : "65c5132f-1556-42aa-89ce-829c00bbbfba",
+            "name" : "25442",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "681125e4-aa34-410c-a3a7-d4cd52f19ad0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"117daa55-404e-4475-9d0d-4f057d2a6891\",\"columns\":[{\"UUID\":\"dc9b46fe-5b07-446d-bf69-b89a7f03bfef\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-family: Poppins, Helvetica, Arial, sans-serif; font-size: 2.5rem; color: rgb(30, 37, 86);\">Customer Stories</strong></p><p style=\"text-align: center;\"><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "d322f35b-ee81-43c2-9b5e-61bafc878c5a",
+              "type" : "component"
+            } ],
+            "id" : "dc9b46fe-5b07-446d-bf69-b89a7f03bfef",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "117daa55-404e-4475-9d0d-4f057d2a6891",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f58ad94c-dc1a-4993-8fae-90eee9913af5\",\"columns\":[{\"UUID\":\"8171aeac-bc3d-477c-a3fe-63a33e094e10\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7875cc3d-41bc-444d-8275-9e0e85a85be9\",\"columnName\":\"Column 2\",\"columnKey\":\"32a52\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d0c1ab5a-e2df-4a3c-8d47-98aeeb97597b\",\"columnName\":\"Column 3\",\"columnKey\":\"8cb0b\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/01/customer-success-story-bic.jpg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "cbde818b-d619-44d1-9061-ed239ba61a8e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "8rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p>Customer Story</p><p>Longview Tax Case Study: BiC</p><p>Inna Kostuk</p><p>Group Tax Director</p><p>BiC</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "53aefa12-4090-4c13-905d-75992532569f",
+              "type" : "component"
+            } ],
+            "id" : "8171aeac-bc3d-477c-a3fe-63a33e094e10",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/hella-case-study.jpg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "927e07a7-31e9-4290-8253-ddd27cf3a580",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "8rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<p>Customer Story</p><p>HELLA Angles for SAP Case Study</p><p>Alan Parry</p><p>International Senior Project Manager</p><h5>HELLA</h5>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "82e33b6d-7b8b-4313-be2f-3b7f44c54edc",
+              "type" : "component"
+            } ],
+            "id" : "7875cc3d-41bc-444d-8275-9e0e85a85be9",
+            "name" : "32a52",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/01/customer-success-story-worldwide-facilities.jpg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 51
+              },
+              "definition" : "dxp_base:image",
+              "id" : "4c27d208-63b0-49a6-8368-34b116f84da1",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<p>Customer Story</p><p>Discovery, Inc. Finds Clarity and Continuity in Financial Reporting Thanks to CXO</p><p><br></p><p>Gunnar Wiedenfels</p><p>Chief Financial Officer</p><p>Discovery, Inc.</p><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "2d9e0c09-7e76-49b7-98c9-6f339e35f29a",
+              "type" : "component"
+            } ],
+            "id" : "d0c1ab5a-e2df-4a3c-8d47-98aeeb97597b",
+            "name" : "8cb0b",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f58ad94c-dc1a-4993-8fae-90eee9913af5",
+          "type" : "component"
+        } ],
+        "id" : "f4f23bec-fe3a-4018-8c8c-3674a9ce42df",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Customer Success",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1c2ee720-1191-41cd-8f32-b3b94e9ea1fa",
+          "type" : "component"
+        } ],
+        "id" : "c1c1b3ff-7be6-4be4-9561-bae7f5bdbcf2",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "50fdeb26-95dd-4baa-ade1-c2aa09d35877",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-customer-success"
+  }
+}

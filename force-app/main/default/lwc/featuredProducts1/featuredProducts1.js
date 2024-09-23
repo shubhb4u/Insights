@@ -11,6 +11,8 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
     @track carouselIndicators = [];
     @track currentPage = 0;
     @track itemsPerPage = 4;
+    
+    @track productCounters = {}; // Store quantity for each product
 
     @wire(getProductDiscountList)
     wiredProductDiscountList({ error, data }) {
@@ -58,11 +60,6 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
         return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
-    handleBuy(event) {
-        const productId = event.target.dataset.id;
-        addItemToCart(productId, 1);
-        window.location.href = 'https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/cart';
-    }
 
     handleNavigate(event) {
         const productId = event.target.dataset.id;
@@ -90,7 +87,16 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
         const startIndex = this.currentPage * this.itemsPerPage;
         const endIndex = startIndex + this.itemsPerPage;
         this.displayedProducts = this.products.slice(startIndex, endIndex);
+
+        // Initialize counters for newly displayed products
+        this.displayedProducts.forEach(product => {
+            if (!this.productCounters[product.Id]) {
+                this.productCounters[product.Id] = 1; // Default quantity to 1
+            }
+        });
     }
+
+    
 
     handlePrevious() {
         if (this.currentPage > 0) {
@@ -121,5 +127,26 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
                 class: `splide__pagination__page ${indicator.index === this.currentPage ? 'is-active' : ''}`
             };
         });
+    }
+
+    handleQuantityChange(event) {
+        console.log('Quantity change event:', event);
+        const newQuantity = event.detail.quantity;
+        const productId = event.detail.id;
+    
+        this.productCounters[productId] = newQuantity;
+        console.log(`Product ID: ${productId}, New Quantity: ${newQuantity}`);
+    }
+
+    handleBuy(event) {
+        const productId = event.target.dataset.id; // Get the product ID
+        const quantity = this.productCounters[productId] || 1; // Get the quantity or default to 1
+
+        console.log('Product ID:', productId);
+        console.log('Quantity:', quantity);
+
+        addItemToCart(productId, quantity);
+        window.location.href = 'https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/cart';
+
     }
 }

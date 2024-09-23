@@ -380,7 +380,7 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px; font-family: arial;\">Streamline Accounting, Tax and Equity: Close Faster, Report Smarter</span></h2><p><br></p>"
+                "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-family: arial; font-size: 36px;\">Streamline Accounting, Tax and Equity: Close Faster, Report Smarter</span></h2>"
               },
               "definition" : "community_builder:richTextEditor",
               "id" : "7640f10c-6dfc-42ec-b244-379ba491f29d",

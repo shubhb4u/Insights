@@ -134,10 +134,12 @@
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
         <customTabListAdditionalFields>RelatedAsset</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductRelationshipType</customTabListAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>RelatedAsset</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProductRelationshipType</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

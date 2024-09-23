@@ -1,7 +1,7 @@
 <template>
     <div class="quantity-selector">
-        <button class="decrease" onclick={decreaseQuantity}>-</button>
-        <span>{quantity}</span>
-        <button class="increase" onclick={increaseQuantity}>+</button>
+        <button class="decrease" onclick={decreaseQuantity} aria-label="Decrease quantity">-</button>
+        <span class="quantity-display">{quantity}</span>
+        <button class="increase" onclick={increaseQuantity} aria-label="Increase quantity">+</button>
     </div>
 </template>

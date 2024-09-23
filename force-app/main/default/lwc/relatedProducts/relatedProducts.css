@@ -542,6 +542,12 @@ h3{
     /* font-size: 18px !important; */
 }
 
+.quantitySelector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .d-flex {
     display: flex;
     justify-content: center;

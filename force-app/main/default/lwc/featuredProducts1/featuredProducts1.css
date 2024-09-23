@@ -40,7 +40,7 @@ h2 {
     line-height: 1.36 !important;
     letter-spacing: -0.39px !important;
     text-align: left !important;
-    color: rgb(0, 0, 0);;
+    color: rgb(0, 0, 0);
     display: block !important;
     margin-block-start: 0.83em !important;
     margin-block-end: 0.83em !important;
@@ -457,7 +457,7 @@ h3{
 }
 
 .product-name {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #5462df;
     margin: 0 auto;
@@ -469,7 +469,7 @@ h3{
 }
 
 .product-name a{
-    color: rgb(0, 0, 0);
+    color: #5462df;
 }
 
 .product-model {
@@ -510,9 +510,9 @@ h3{
 
 .product-price-mobile {
     font-size: 1.75rem;
-    color: #000000;
+    color: rgba(80, 163, 90, 1);
     margin-bottom: 4px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .product-price-mobile span {
@@ -539,7 +539,13 @@ h3{
     text-decoration: line-through;
     color: #888; 
     margin: 1rem 1rem;
-    font-size: 18px !important;
+    /* font-size: 18px !important; */
+}
+
+.quantitySelector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .d-flex {

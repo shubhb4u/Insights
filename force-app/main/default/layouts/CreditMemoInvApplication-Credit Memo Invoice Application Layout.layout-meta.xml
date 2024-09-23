@@ -45,6 +45,10 @@
                 <behavior>Required</behavior>
                 <field>Amount</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreditMemoBalance</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

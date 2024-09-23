@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuantityIncreasePricingType</fullName>
+    <inlineHelpText>Specify the type of price to use when increasing the quantity of a subscription.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

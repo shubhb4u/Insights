@@ -7,6 +7,7 @@
     <enableChgTgtAssigneeUsrPermPref>false</enableChgTgtAssigneeUsrPermPref>
     <enableEngagementWaveAnalyticsPref>false</enableEngagementWaveAnalyticsPref>
     <enableHighVelocitySalesSetup>false</enableHighVelocitySalesSetup>
+    <enableInvoiceAttributionPref>false</enableInvoiceAttributionPref>
     <enableLogACallForCTIPref>false</enableLogACallForCTIPref>
     <enableLogTasksForLinkedInPref>false</enableLogTasksForLinkedInPref>
     <enableOpportunityAttributionPermPref>false</enableOpportunityAttributionPermPref>

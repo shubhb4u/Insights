@@ -56,7 +56,10 @@
                                     
 
                                     </div>
-                                    <c-quantity-selector-insights product-id={product.Product2.Id} onquantitychange={handleQuantityChange}></c-quantity-selector-insights>
+                                    <div class="quantitySelector">
+                                        <c-quantity-selector-insights product-id={product.Product2.Id} onquantitychange={handleQuantityChange}></c-quantity-selector-insights>
+
+                                    </div>
                     
                                     <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
                                     

@@ -2,24 +2,26 @@ import { LightningElement, api, track } from 'lwc';
 
 export default class BuilderProductPurchaseOptions extends LightningElement {
 
-    counter = 1; // Set the initial value of counter to 1
+   @api productId;
+  @api quantity = 1;
 
-    handleIncrement() {
-        this.counter += 1;
-        this.dispatchCounterChange();
+  handleDecrease() {
+    if (this.quantity > 1) {
+      this.quantity--;
+      this.dispatchEvent(new CustomEvent('quantitychange', { detail: { productId: this.productId, quantity: this.quantity } }));
     }
+  }
 
-    handleDecrement() {
-        if (this.counter > 1) {
-            this.counter -= 1;
-        }
-        this.dispatchCounterChange();
-    }
+  handleIncrease() {
+    this.quantity++;
+    this.dispatchEvent(new CustomEvent('quantitychange', { detail: { productId: this.productId, quantity: this.quantity } }));
+  }
 
-    dispatchCounterChange() {
-        // Ensure the counter is a valid number and dispatch the event
-        this.dispatchEvent(new CustomEvent('counterchange', {
-            detail: { counter: this.counter }
-        }));
+  handleInputChange(event) {
+    const newQuantity = parseInt(event.target.value, 10);
+    if (newQuantity >= 1) {
+      this.quantity = newQuantity;
+      this.dispatchEvent(new CustomEvent('quantitychange', { detail: { productId: this.productId, quantity: this.quantity } }));
     }
+  }
 }

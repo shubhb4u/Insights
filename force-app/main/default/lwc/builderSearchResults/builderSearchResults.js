@@ -7,7 +7,7 @@
  */
 import { LightningElement, api, wire } from 'lwc';
 import { navigate, NavigationContext } from 'lightning/navigation';
-import { createCartItemAddAction, createSearchFiltersUpdateAction, dispatchAction } from 'commerce/actionApi';
+import { createCartItemAddAction, createSearchFiltersUpdateAction,createCommonQuantityUpdateAction, dispatchAction } from 'commerce/actionApi';
 import CommonModal from 'c/commonModal';
 import { Labels } from './labels';
 
@@ -27,6 +27,18 @@ export default class BuilderSearchResults extends LightningElement {
 
     @wire(NavigationContext)
     navContext;
+    // Declare the properties that the child component needs
+    @api minimum;
+    @api maximum;
+    @api step;
+    @api hideLabel;
+    @api hideButtons;
+    @api label;
+    @api minimumValueGuideText;
+    @api maximumValueGuideText;
+    @api stepValueGuideText;
+    @api quantityMinimum;
+    @api quantityMaximum;
 
     /**
      * Results returned from the Search Data Provider
@@ -282,6 +294,19 @@ export default class BuilderSearchResults extends LightningElement {
                     recordName: event.detail.productName,
                 },
             });
+    }
+
+     /**
+     * Handles quantity change event from the child component.
+     * @param {CustomEvent<{ value: number }>} event
+     */
+     handleQuantityChanged(event) {
+        const { value } = event.detail;
+        const productId = event.target.dataset.productId;
+        if (typeof value === 'number') {
+            // Handle the quantity change logic here
+            dispatchAction(this, createCommonQuantityUpdateAction({ productId, quantity: value }));
+        }
     }
 
     /**

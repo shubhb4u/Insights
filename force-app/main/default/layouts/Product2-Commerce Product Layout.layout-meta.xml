@@ -99,6 +99,10 @@
                 <behavior>Readonly</behavior>
                 <field>isDiscountedAmount__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Final_Discount_Insights__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
