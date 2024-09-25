@@ -1,0 +1,66 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Get pricing and Promos",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0a7f343b-a354-4fe8-87e0-0d2b0f169da1\",\"columns\":[{\"UUID\":\"aa3352fd-da79-4234-a623-6ef1c684723e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:demoForm2",
+              "id" : "ae4e6d02-a61d-48e3-a6bf-df121b26f6c5",
+              "type" : "component"
+            } ],
+            "id" : "aa3352fd-da79-4234-a623-6ef1c684723e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0a7f343b-a354-4fe8-87e0-0d2b0f169da1",
+          "type" : "component"
+        } ],
+        "id" : "017b8ba6-ba4d-4964-980f-26a5b1ad9b99",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Get pricing and Promos",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "8a0646ec-0ed5-4c20-bef8-57d414f61771",
+          "type" : "component"
+        } ],
+        "id" : "02b152f3-1c01-41ef-8199-3ac0189cdd5e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "379c17b7-fd51-4a2b-87e5-b31a455985e9",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-get-pricing-and-promos"
+  }
+}

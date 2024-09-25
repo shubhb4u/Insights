@@ -1,0 +1,585 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contact us",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "100px"
+              }
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"375ab47f-6871-4f54-981d-1928e3518ae1\",\"columns\":[{\"UUID\":\"61ce66a4-f9b2-4499-8d18-a816005c64ff\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d436d5d5-5166-49d4-984f-ca734950a352\",\"columnName\":\"Column 2\",\"columnKey\":\"ce08d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "5px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "How can we help you?",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "52cfc33b-f6ab-4e9c-b250-823a61e1eba3",
+              "type" : "component"
+            } ],
+            "id" : "61ce66a4-f9b2-4499-8d18-a816005c64ff",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "100px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "So we can assist you as fast as possible, please select the appropriate area for your inquiry.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "76f8ea1c-ed87-4887-a46f-828accd2da04",
+              "type" : "component"
+            } ],
+            "id" : "d436d5d5-5166-49d4-984f-ca734950a352",
+            "name" : "ce08d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "375ab47f-6871-4f54-981d-1928e3518ae1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"564b37f7-374f-4e88-b788-e34d2e83256c\",\"columns\":[{\"UUID\":\"100c18d3-e9cf-4bcf-bfb7-7d54d8dc11d9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(255, 255, 255)",
+                "activeTabBorderHighlightWeight" : "0px",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "rgba(49, 171, 70, 0)",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightColor" : "rgba(40, 139, 57, 0)",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"4f66f753-e89c-4827-8210-9c7ba34c185f\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"e1e08ad0-d51a-40ed-b4dc-e9eface61a2a\",\"tabName\":\"Sales\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"04fd243e-188b-4073-9093-6293903cf8ba\",\"tabName\":\"Services\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"ef8a83dd-4898-402f-8b89-161fa119001b\",\"tabName\":\"Support\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "200px",
+                        "right" : "200px",
+                        "top" : "50px"
+                      }
+                    }
+                  },
+                  "definition" : "c:demoForm",
+                  "id" : "0d0abf13-4fd7-4fd8-9995-e4205d6e5567",
+                  "type" : "component"
+                } ],
+                "id" : "e1e08ad0-d51a-40ed-b4dc-e9eface61a2a",
+                "name" : "tab1",
+                "title" : "Sales",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "200px",
+                        "right" : "200px",
+                        "top" : "50px"
+                      }
+                    }
+                  },
+                  "definition" : "c:demoForm",
+                  "id" : "bac91fd6-2038-4bfe-8bfb-0c2f19554749",
+                  "type" : "component"
+                } ],
+                "id" : "04fd243e-188b-4073-9093-6293903cf8ba",
+                "name" : "tab2",
+                "title" : "Services",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "center",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "50px",
+                        "left" : "100px",
+                        "right" : "",
+                        "top" : "100px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"8996a2c9-e85c-40c8-affc-3fd83f7c00b2\",\"columns\":[{\"UUID\":\"ade236ac-7dc3-4edd-b000-78adae0aeb9c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"5\",\"seedComponents\":[]},{\"UUID\":\"c3dc2e2b-7247-4eaf-b93f-edbab8bf3a4f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"1\",\"seedComponents\":[]},{\"UUID\":\"df18f411-90cc-40aa-a4aa-b2ec6f7ee061\",\"columnName\":\"Column 3\",\"columnKey\":\"e0884\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "right",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Contact Product Support",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "59cfb93c-e1f9-4191-8180-871d3f579060",
+                      "type" : "component"
+                    } ],
+                    "id" : "ade236ac-7dc3-4edd-b000-78adae0aeb9c",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "OR",
+                        "textAlign" : "center",
+                        "textDecoration" : "{\"bold\":true,\"underline\":false}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "9c747a8b-d564-4537-a0cd-06f1ee507a58",
+                      "type" : "component"
+                    } ],
+                    "id" : "c3dc2e2b-7247-4eaf-b93f-edbab8bf3a4f",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Visit our User Community",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "64ecc7c2-03cd-496a-99cd-62c1b8eb8cef",
+                      "type" : "component"
+                    } ],
+                    "id" : "df18f411-90cc-40aa-a4aa-b2ec6f7ee061",
+                    "name" : "e0884",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "8996a2c9-e85c-40c8-affc-3fd83f7c00b2",
+                  "type" : "component"
+                } ],
+                "id" : "ef8a83dd-4898-402f-8b89-161fa119001b",
+                "name" : "tab3",
+                "title" : "Support",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "4f66f753-e89c-4827-8210-9c7ba34c185f",
+              "type" : "component"
+            } ],
+            "id" : "100c18d3-e9cf-4bcf-bfb7-7d54d8dc11d9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "564b37f7-374f-4e88-b788-e34d2e83256c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fc485d06-1504-4fdc-808c-f4ef2ef8532a\",\"columns\":[{\"UUID\":\"7273216a-5f0c-46b8-812f-79d5ed7b2cdb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 class =\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\"> A global company serving more than 150 countries,<br>insightsoftware is headquartered in North America. </h2>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "739c6499-bdb6-48b5-8d00-c8feac2600b0",
+              "type" : "component"
+            } ],
+            "id" : "7273216a-5f0c-46b8-812f-79d5ed7b2cdb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fc485d06-1504-4fdc-808c-f4ef2ef8532a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"21f3c7fb-a882-4307-a54c-fa50524e9c82\",\"columns\":[{\"UUID\":\"19f86bce-9bd9-4551-869a-00ec7c95fc8c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Regional Offices</strong></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "75276050-77f9-41a7-aa63-7fe06c863b82",
+              "type" : "component"
+            } ],
+            "id" : "19f86bce-9bd9-4551-869a-00ec7c95fc8c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "21f3c7fb-a882-4307-a54c-fa50524e9c82",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fae10dd7-15ca-4892-9078-f0efaed4aeb6\",\"columns\":[{\"UUID\":\"640d6a25-8588-4b15-9924-83fb8f4c88d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f51b7ed4-cec5-4297-a960-1fc04e1e28ab\",\"columnName\":\"Column 2\",\"columnKey\":\"fc4a6\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: right;\"><span style=\"font-size: 28px;\">Global HQ</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">8529 Six Forks Rd.</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Raleigh, NC 27615</span></p><p style=\"text-align: right;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">USA</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "0801ba28-699d-4411-92fd-38ce59942438",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "right",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Product Support",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "ffa63b47-15f8-4c75-8ddf-7ac74769fc00",
+              "type" : "component"
+            } ],
+            "id" : "640d6a25-8588-4b15-9924-83fb8f4c88d8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Americas",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "f47c8122-48c7-4bc9-986d-8df47c84bac7",
+                  "type" : "component"
+                } ],
+                "id" : "87a7e94c-507e-489c-8e60-ddfa65db2a28",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "eb533bd8-c88e-472b-b128-aa880b3a94d9",
+                  "type" : "component"
+                } ],
+                "id" : "ad6d2e86-70ac-401e-9287-33c5628c961e",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "2504f8cd-080c-4189-aebe-07d9d869f798",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Europe",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7e60e98b-5889-4c83-851b-fbc844518a82",
+                  "type" : "component"
+                } ],
+                "id" : "7a2bf1ea-d142-4346-89d5-be06707e793e",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "a5fa1a92-a260-4e28-8d88-34c66d1cca3e",
+                  "type" : "component"
+                } ],
+                "id" : "7ad3822c-a3ad-43d2-a17a-8b4ca69bf3f0",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "6cfb0f1a-2edc-4c95-8c0e-2468bfc7cfed",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Asia Pacific",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "fbdbbd7e-4ca0-43ae-ae08-0f0bd45cbb48",
+                  "type" : "component"
+                } ],
+                "id" : "c5ae6796-f26d-464c-ad16-031c60479e0c",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "5908ab85-4fcd-4a46-a1c1-61bd4e7f3eb4",
+                  "type" : "component"
+                } ],
+                "id" : "ac78a5cb-ac00-4f8e-a129-f62502b73e25",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "dcbbf79c-5c90-4dbb-8eb0-a18b9d672c95",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "expandByDefault" : true,
+                "icon" : "arrow",
+                "iconAlignment" : "right"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Middle East",
+                    "textAlign" : "center",
+                    "textDecoration" : "{\"bold\":false}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "6f54cf19-a331-457b-8245-e943015a371a",
+                  "type" : "component"
+                } ],
+                "id" : "f0651ea6-d084-491c-86f0-6b63a3dc4fc7",
+                "name" : "title",
+                "title" : "title",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong>insightsoftware Headquarters </strong></p><p style=\"text-align: center;\">8529 Six Forks Rd.</p><p style=\"text-align: center;\">Raleigh, NC 27615</p><p style=\"text-align: center;\">United States of America</p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "cb2c76e8-82e1-44ee-a7ff-4191a9ba86f8",
+                  "type" : "component"
+                } ],
+                "id" : "8b8781ab-459d-4a12-b468-1ab3af742f8c",
+                "name" : "content",
+                "title" : "content",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:expandableSection",
+              "id" : "0f0bca83-b105-4d01-b6da-62918c17f8f2",
+              "type" : "component"
+            } ],
+            "id" : "f51b7ed4-cec5-4297-a960-1fc04e1e28ab",
+            "name" : "fc4a6",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fae10dd7-15ca-4892-9078-f0efaed4aeb6",
+          "type" : "component"
+        } ],
+        "id" : "b0375ebe-b4e0-42e1-8551-ebfb9743aed8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Contact us",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1d19350b-7e65-43cb-b3f9-8766833f5608",
+          "type" : "component"
+        } ],
+        "id" : "a18b8ce4-bd17-4831-9db5-8282938ff528",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "af0657a4-d1a0-454d-b0c9-31fed2434697",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-contact-us"
+  }
+}

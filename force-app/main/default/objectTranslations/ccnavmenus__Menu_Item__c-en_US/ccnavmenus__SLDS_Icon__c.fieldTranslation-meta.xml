@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Optional: name of the SLDS icon to appear next to the menu label. --></help>
+    <label><!-- SLDS Icon --></label>
+    <name>ccnavmenus__SLDS_Icon__c</name>
+</CustomFieldTranslation>

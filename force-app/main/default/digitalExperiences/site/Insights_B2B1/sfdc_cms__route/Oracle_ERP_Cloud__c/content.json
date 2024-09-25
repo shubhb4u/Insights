@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Oracle ERP Cloud",
+  "contentBody" : {
+    "activeViewId" : "Oracle_ERP_Cloud",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-oracle-erp-cloud",
+    "urlPrefix" : "oracle-erp-cloud"
+  }
+}

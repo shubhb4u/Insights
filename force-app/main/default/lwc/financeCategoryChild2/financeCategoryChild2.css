@@ -1,0 +1,43 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to multiple lines */
+  }
+
+/* Card Styling */
+.card {
+    margin-bottom: 2rem;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  /* Title Styling */
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-title a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card-title a:hover {
+    color: #6c757d;
+  }
+  
+  /* Text Styling */
+  .financial-data-management,
+  .consolidation-close,
+  .reporting {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }

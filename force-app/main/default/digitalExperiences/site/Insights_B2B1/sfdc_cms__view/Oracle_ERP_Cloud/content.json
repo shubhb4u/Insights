@@ -1,0 +1,1437 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Oracle ERP Cloud",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              },
+              "padding" : {
+                "bottom" : "1px",
+                "left" : "1px",
+                "right" : "1px",
+                "top" : "1px"
+              }
+            },
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6cf6e57b-9785-4f2b-8c75-c28d9cea9b8e\",\"columns\":[{\"UUID\":\"de43758e-feb3-4fe3-8654-3dd27a202954\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"8559abc2-19f1-4be4-b552-229785e4bb10\",\"columnName\":\"Column 2\",\"columnKey\":\"2e1d9\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"dfc7c4ba-a7ce-47f4-b67d-e083d2158476\",\"columnName\":\"Column 3\",\"columnKey\":\"b5818\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"f6881b62-0a1a-4d16-872e-cee2c1dd638f\",\"columnName\":\"Column 4\",\"columnKey\":\"de971\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"43e1e425-2aaf-4d1f-9480-77879f3d2146\",\"columnName\":\"Column 5\",\"columnKey\":\"6979c\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"063de248-735c-49fc-b0a5-7d30dd7d2f92\",\"columnName\":\"Column 6\",\"columnKey\":\"10eaf\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"c49d6cd3-9048-4ee8-9f02-d651b5aaaaca\",\"columns\":[{\"UUID\":\"b5722852-ce57-47f7-9735-a24ed141ac8e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0c73cab0-8aa1-454c-9d5b-a1999840bd4a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"ea32b928-4092-42ee-ae11-27fa28fb2a17\",\"columns\":[{\"UUID\":\"087810a9-47f6-4d81-b8d6-c103160d972d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3e74f7a2-5086-4afd-b2b9-645c26e3027b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "2rem",
+                            "left" : "2rem",
+                            "right" : "2rem",
+                            "top" : "2rem"
+                          }
+                        },
+                        "richTextValue" : "<p><strong style=\"font-size: 1.125rem; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(0, 168, 232);\">ORACLE ERP CLOUD REPORTING SOLUTION</strong></p><h1><span style=\"font-size: 36px;\">Fast, Flexible Financial</span></h1><h1><span style=\"font-size: 36px;\">Reporting for Oracle ERP</span></h1><h1><span style=\"font-size: 36px;\">Cloud</span></h1>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "41e5ae45-0a48-4360-9085-11ce5ee48186",
+                      "type" : "component"
+                    } ],
+                    "id" : "087810a9-47f6-4d81-b8d6-c103160d972d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "2rem",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"216d2ac0-844a-408e-951c-1c01a51b2174\",\"columns\":[{\"UUID\":\"6f8477e7-48c4-4714-b6f1-e08d70313bdb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"c9fea5fc-90d7-4b4a-bc73-b3b367b91653\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Get a Demo",
+                            "type" : "primary",
+                            "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_Instant_Demo__c\"}}}}"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "7d04a60c-9810-4760-b0b1-9c9ed2d207d8",
+                          "type" : "component"
+                        } ],
+                        "id" : "6f8477e7-48c4-4714-b6f1-e08d70313bdb",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Download Brochure",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "6295be42-c17a-4834-b96c-aa292a8414d1",
+                          "type" : "component"
+                        } ],
+                        "id" : "c9fea5fc-90d7-4b4a-bc73-b3b367b91653",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "216d2ac0-844a-408e-951c-1c01a51b2174",
+                      "type" : "component"
+                    } ],
+                    "id" : "3e74f7a2-5086-4afd-b2b9-645c26e3027b",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "ea32b928-4092-42ee-ae11-27fa28fb2a17",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "35px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/06/oracle-gold-partner.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "b16c208f-f2ca-4ba8-94c6-2eb1e929ab67",
+                  "type" : "component"
+                } ],
+                "id" : "b5722852-ce57-47f7-9735-a24ed141ac8e",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "cover",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/oracle-hero-fast-flexible-reporting.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "b08876e5-c21a-4314-9042-b2a996a03cdd",
+                  "type" : "component"
+                } ],
+                "id" : "0c73cab0-8aa1-454c-9d5b-a1999840bd4a",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "c49d6cd3-9048-4ee8-9f02-d651b5aaaaca",
+              "type" : "component"
+            } ],
+            "id" : "de43758e-feb3-4fe3-8654-3dd27a202954",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "2rem",
+                    "left" : "2rem",
+                    "right" : "2rem",
+                    "top" : "2rem"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "large",
+                "text" : "Does Reporting Mean Struggling with Slow, Inflexible Tools and Processes?",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "d3983539-e5db-42c3-97b1-e87709624b89",
+              "type" : "component"
+            } ],
+            "id" : "8559abc2-19f1-4be4-b552-229785e4bb10",
+            "name" : "2e1d9",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"b187b169-3fe5-437c-99c5-af1f20946f82\",\"columns\":[{\"UUID\":\"7a327728-52c6-4a95-b714-339ba43bd7a3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"1a3710fb-d012-445c-8e12-4f8cf135e8f4\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"f8f19f20-0fd0-47d2-a160-0235edce7521\",\"columnName\":\"Column 3\",\"columnKey\":\"8eb0e\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"68849eff-870c-4813-a017-521e681ea5f1\",\"columns\":[{\"UUID\":\"83fd6c5b-ff14-47fb-807f-5cbb696a2e94\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"32abe412-b8b9-4d63-bb97-7efcee5693de\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 72,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/OracleEBS-Icon-NoIT-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "21985f95-b5a8-458f-bc5e-f8f776e354ac",
+                      "type" : "component"
+                    } ],
+                    "id" : "83fd6c5b-ff14-47fb-807f-5cbb696a2e94",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "1rem",
+                            "left" : "1rem",
+                            "right" : "1rem",
+                            "top" : "1rem"
+                          }
+                        },
+                        "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Preparing Ad Hoc Reports is Difficult </span></h3><h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">﻿and Relies on IT Skills</span></h3><p><br></p><p>Finance teams frequently need to query Oracle ERP Cloud data to answer ad hoc questions. Although the Oracle Fusion Cloud Applications suite offers several tools such as OTBI and Smart View for reporting, navigating this web of applications can be complex. Even once you find the tool you need, it’s likely you’ll still need significant expertise or technical knowledge to use them. This leaves finance teams dependent on scarce IT skills to create and modify reports.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "25de2d0b-0417-4d41-bf95-0cdcc31120bc",
+                      "type" : "component"
+                    } ],
+                    "id" : "32abe412-b8b9-4d63-bb97-7efcee5693de",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "68849eff-870c-4813-a017-521e681ea5f1",
+                  "type" : "component"
+                } ],
+                "id" : "7a327728-52c6-4a95-b714-339ba43bd7a3",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"9b9a07e8-d470-4683-b96d-0deec143e3b8\",\"columns\":[{\"UUID\":\"8f0480d8-709a-46ca-bc52-630a992fbd8d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c69f7238-09d4-48b5-9867-20880b4e7c41\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 72,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/OracleEBS-Icon-SingleSource-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "a0795b21-979e-4ddf-ae05-16c60b24d92a",
+                      "type" : "component"
+                    } ],
+                    "id" : "8f0480d8-709a-46ca-bc52-630a992fbd8d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "1rem",
+                            "left" : "1rem",
+                            "right" : "1rem",
+                            "top" : "1rem"
+                          }
+                        },
+                        "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Finance Needs Reporting Tools </span></h3><h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Designed for Finance Needs</span></h3><p><br></p><p>Financial processes such as month-end close require flexibility and access to up-to-date data. However, many tools that query directly against the Cloud Application database are slow, while others don’t offer real-time reporting at all. These limitations combined with a lack of a flexible drill-down capability into live transactional data result in delays and frustrations.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "ce575ac9-f205-4405-a72e-cff62da1f8c6",
+                      "type" : "component"
+                    } ],
+                    "id" : "c69f7238-09d4-48b5-9867-20880b4e7c41",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "9b9a07e8-d470-4683-b96d-0deec143e3b8",
+                  "type" : "component"
+                } ],
+                "id" : "1a3710fb-d012-445c-8e12-4f8cf135e8f4",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"a280fe7d-5ac7-4c20-8136-d4754df85ed0\",\"columns\":[{\"UUID\":\"aff4a944-4d31-4d26-b97a-d6b05807da3d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"90ffad09-0457-4e86-81de-99635aef7cfe\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 72,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/09/itreliance-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "72a5e63e-087b-4275-8a44-c87c852c2427",
+                      "type" : "component"
+                    } ],
+                    "id" : "aff4a944-4d31-4d26-b97a-d6b05807da3d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "1rem",
+                            "left" : "1rem",
+                            "right" : "1rem",
+                            "top" : "1rem"
+                          }
+                        },
+                        "richTextValue" : "<h3><span style=\"font-size: 22px;\">Reporting Doesn’t Reflect </span></h3><h3><span style=\"font-size: 22px;\">Your Current Data</span></h3><p><br></p><p>Your finance team manages many time-critical processes, both during the month and at period end close. To work effectively, it is essential that you provide them with access to the most current data from Oracle ERP Cloud. However, when they’re stuck with tools that can only update their data every few hours, finance is left feeling like they’re fighting a losing battle against the clock.</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "2229a7c8-d0c4-4727-b842-82b8e91af327",
+                      "type" : "component"
+                    } ],
+                    "id" : "90ffad09-0457-4e86-81de-99635aef7cfe",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "a280fe7d-5ac7-4c20-8136-d4754df85ed0",
+                  "type" : "component"
+                } ],
+                "id" : "f8f19f20-0fd0-47d2-a160-0235edce7521",
+                "name" : "8eb0e",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "b187b169-3fe5-437c-99c5-af1f20946f82",
+              "type" : "component"
+            } ],
+            "id" : "dfc7c4ba-a7ce-47f4-b67d-e083d2158476",
+            "name" : "b5818",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"cf9a281f-dd64-4368-aab6-41bccc84523a\",\"columns\":[{\"UUID\":\"f6392f9d-3386-4753-98e6-bd56bf1f5b42\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"07044384-c29b-40ec-b29e-369aaf467371\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ea1349d9-b7b8-4b3e-964b-1e84ee3d90be\",\"columnName\":\"Column 3\",\"columnKey\":\"45544\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ebe69c73-070b-40ef-8af6-0336bd42a33f\",\"columnName\":\"Column 4\",\"columnKey\":\"44b72\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "2rem"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Trusted By",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "f3051177-131f-48d5-a653-03e2c65bad4f",
+                  "type" : "component"
+                } ],
+                "id" : "f6392f9d-3386-4753-98e6-bd56bf1f5b42",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<ul class=\"logos list-unstyled d-flex flex-wrap justify-content-center align-items-center\">\n<li class=\"mx-3 bg-white px-2 shadow rounded-2\" style=\"margin-right: 10px;\">\n    <img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110.png\" \n         class=\"product-logo img-fluid entered lazyloaded\" alt=\"Starbucks 200x110\" \n         data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110.png 200w,\n                           https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110-125x69.png 125w\" \n         data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110.png\"\n         data-ll-status=\"loaded\" \n         srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110.png 200w,\n                 https://insightsoftware.com/wp-content/uploads/2022/04/starbucks_200x110-125x69.png 125w\">\n<li class=\"mx-3 bg-white px-2 shadow rounded-2\" style=\"margin-right: 10px;\"><img width=\"200\" height=\"110\" src=\"https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110.png\"\n                                                     class=\"product-logo img-fluid entered lazyloaded\"\n                                                     alt=\"Sobeys 200x110\" \n                                                     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110-125x69.png 125w\" \n                                                     data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" \n                                                     data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110.png\"\n                                                     data-ll-status=\"loaded\"\n                                                     srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/sobeys_200x110-125x69.png 125w\">\n<li class=\"mx-3 bg-white px-2 shadow rounded-2\" style=\"margin-right: 10px;\"><img width=\"200\" height=\"110\" \n                                                     src=\"https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110.png\" \n                                                     class=\"product-logo img-fluid entered lazyloaded\" \n                                                     alt=\"Otis Worldwide 200x110\" \n                                                     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110-125x69.png 125w\"\n                                                     data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\" \n                                                     data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110.png\"\n                                                     data-ll-status=\"loaded\" \n                                                     srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/otis-worldwide_200x110-125x69.png 125w\">\n<li class=\"mx-3 bg-white px-2 shadow rounded-2\" style=\"margin-right: 10px;\"><img width=\"200\" height=\"110\" \n                                                     src=\"https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110.png\"\n                                                     class=\"product-logo img-fluid entered lazyloaded\" \n                                                     alt=\"Carrier 200x110\" \n                                                     data-lazy-srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110-125x69.png 125w\" \n                                                     data-lazy-sizes=\"(max-width: 200px) 100vw, 200px\"\n                                                     data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110.png\"\n                                                     data-ll-status=\"loaded\" \n                                                     srcset=\"https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110.png 200w,\n    https://insightsoftware.com/wp-content/uploads/2022/04/carrier_200x110-125x69.png 125w\">\n</ul>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "100f67d9-1a23-4ddc-8d5f-2dcbb113b8ba",
+                  "type" : "component"
+                } ],
+                "id" : "07044384-c29b-40ec-b29e-369aaf467371",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "large",
+                    "text" : "Unlock the Power of Oracle ERP Cloud with Self-Service \nReporting",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "fea3672c-caea-47e7-a22f-4239f04582da",
+                  "type" : "component"
+                } ],
+                "id" : "ea1349d9-b7b8-4b3e-964b-1e84ee3d90be",
+                "name" : "45544",
+                "title" : "Column 3",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "2rem"
+                      }
+                    },
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get a Personalized Demo",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"comm__namedPage\",\"attributes\":{\"name\":\"Get_Instant_Demo__c\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "48205d62-2aef-498d-82bf-242e0bf0e00a",
+                  "type" : "component"
+                } ],
+                "id" : "ebe69c73-070b-40ef-8af6-0336bd42a33f",
+                "name" : "44b72",
+                "title" : "Column 4",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "cf9a281f-dd64-4368-aab6-41bccc84523a",
+              "type" : "component"
+            } ],
+            "id" : "f6881b62-0a1a-4d16-872e-cee2c1dd638f",
+            "name" : "de971",
+            "title" : "Column 4",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"d2516001-ef97-4c8e-9aea-5aa95c10d523\",\"columns\":[{\"UUID\":\"dfbbe308-12f3-4d9c-a8f4-648e4c99c65f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"1b9c4d36-774f-4f76-891f-6e45fb724f13\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"147e6f8e-2231-44a3-9036-08523a648891\",\"columnName\":\"Column 3\",\"columnKey\":\"009d1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"5abdee07-1d2a-48d4-b53e-ad5cf12a8db7\",\"columnName\":\"Column 4\",\"columnKey\":\"e128f\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"af52797f-dcf3-438e-8ce6-5397879025ab\",\"columns\":[{\"UUID\":\"961f87ac-5061-4fe9-b989-6fedfaae0177\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bd358eb8-5d07-423b-b9b9-97f83dd4d116\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"3fadd381-852f-41f7-8bec-5175f2ecb077\",\"columns\":[{\"UUID\":\"f0eca50f-c5c7-4e10-931a-11c80f1615b8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"4d7eb9a0-c2be-4a66-91d8-66c319beca69\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 26px;\">Shrink Reporting Cycles with Access to </span></h3><h3><span style=\"font-size: 26px;\">Current Data from Oracle ERP Cloud </span></h3><p><br></p><p>With the fastest updates on the market, you can be confident that your decisions are based on consistent, reliable, and accurate information. Eliminate time-consuming manual data exports to Excel pivot tables. Refresh reports and run ad hoc account inquiries at any time during the month for interim reporting or to investigate variances on an ongoing basis, not just at month end.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "9827ec3d-5021-400f-9bf8-d12e32e4e796",
+                          "type" : "component"
+                        } ],
+                        "id" : "f0eca50f-c5c7-4e10-931a-11c80f1615b8",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Learn More About Angles",
+                            "type" : "primary",
+                            "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/07/23-07-WEB-OracleERPCloud-A4O-Feat-1.png\"}}}}"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "30795b40-89bd-4581-958e-b00a13b97c98",
+                          "type" : "component"
+                        } ],
+                        "id" : "4d7eb9a0-c2be-4a66-91d8-66c319beca69",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "3fadd381-852f-41f7-8bec-5175f2ecb077",
+                      "type" : "component"
+                    } ],
+                    "id" : "961f87ac-5061-4fe9-b989-6fedfaae0177",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/07/23-07-WEB-OracleERPCloud-A4O-Feat-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "a112f244-cff1-4a58-b684-fd182ac71359",
+                      "type" : "component"
+                    } ],
+                    "id" : "bd358eb8-5d07-423b-b9b9-97f83dd4d116",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "af52797f-dcf3-438e-8ce6-5397879025ab",
+                  "type" : "component"
+                } ],
+                "id" : "dfbbe308-12f3-4d9c-a8f4-648e4c99c65f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"f87b2947-5115-4826-bb7f-342a0fe1b765\",\"columns\":[{\"UUID\":\"ac411956-7961-4a6a-b00c-2e258cd27b45\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"2a84da88-4943-4ed1-8ee4-8385c41d136f\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/Get-Up-and-Running-Fast.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "852c074b-7758-4f29-8581-55c467d56bf0",
+                      "type" : "component"
+                    } ],
+                    "id" : "ac411956-7961-4a6a-b00c-2e258cd27b45",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"13021169-f091-4da4-85ec-f646cd4226ac\",\"columns\":[{\"UUID\":\"f245896f-9a14-454e-9bbb-9fd1908cc7b3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"19ce5d4f-b111-437f-be3f-9017319198f8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 26px;\">Take Control of Your Oracle </span></h3><h3><span style=\"font-size: 26px;\">﻿ERP Cloud Reporting</span></h3><p><br></p><p>Remove your IT dependency with a self-service reporting solution that understands your Oracle data structures and delivers financial data to Excel or your BI tool of choice. Empower business users to create their own refreshable and drillable reports, with flexible layouts, against your Oracle ERP Cloud data, in minutes. Create accurate, timely, consolidated reports across multiple data sources—cloud and on-premise. Format income statements, balance sheets, and other reports exactly how you want them. Run up-to-date reports for previous periods and custom to-dates without relying on snapshotted data or stale data dumps.&nbsp;</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "68ffffab-96d7-453b-b960-7014fbc70229",
+                          "type" : "component"
+                        } ],
+                        "id" : "f245896f-9a14-454e-9bbb-9fd1908cc7b3",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "size" : "large",
+                            "stretch" : "standard",
+                            "text" : "Learn More About Spreadsheet Server",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "c2b47199-7c91-4e26-b940-da09f9569636",
+                          "type" : "component"
+                        } ],
+                        "id" : "19ce5d4f-b111-437f-be3f-9017319198f8",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "13021169-f091-4da4-85ec-f646cd4226ac",
+                      "type" : "component"
+                    } ],
+                    "id" : "2a84da88-4943-4ed1-8ee4-8385c41d136f",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "f87b2947-5115-4826-bb7f-342a0fe1b765",
+                  "type" : "component"
+                } ],
+                "id" : "1b9c4d36-774f-4f76-891f-6e45fb724f13",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"4f7d18a5-aebc-4d34-9cc8-b1dcad236b27\",\"columns\":[{\"UUID\":\"f6f40e08-a6c0-457b-a0e1-1207d4a21116\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"16719538-b349-48c2-bc3a-5d183607f496\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"bb4da84b-6489-4105-aec5-fb924ed0ce16\",\"columns\":[{\"UUID\":\"a347ee0b-7396-49c0-8997-c66b8dd5034b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "2rem"
+                              },
+                              "padding" : {
+                                "bottom" : "1rem",
+                                "left" : "1rem",
+                                "right" : "1rem",
+                                "top" : "1rem"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 26px;\">Get Fast Answers and Deeper</span></h3><h3><span style=\"font-size: 26px;\"> Analysis Capabilities</span></h3><p><br></p><p>Easily customize reports by adding in new columns, or filters, and then drilling into detail data to ensure you make the right decisions. Go beyond native Oracle ERP Cloud reporting with drilldown from summary data into balances, journals, and right down to subledger transactions, so you can find and fix reconciliation and data integrity issues fast.</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "c54e4182-ea88-49b9-9a37-74c63e408069",
+                          "type" : "component"
+                        } ],
+                        "id" : "a347ee0b-7396-49c0-8997-c66b8dd5034b",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "bb4da84b-6489-4105-aec5-fb924ed0ce16",
+                      "type" : "component"
+                    } ],
+                    "id" : "f6f40e08-a6c0-457b-a0e1-1207d4a21116",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/07/23-07-WEB-OracleERPCloud-A4O-Feat3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "13743f8c-94a7-4e47-9a2c-a7ff872433b4",
+                      "type" : "component"
+                    } ],
+                    "id" : "16719538-b349-48c2-bc3a-5d183607f496",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "4f7d18a5-aebc-4d34-9cc8-b1dcad236b27",
+                  "type" : "component"
+                } ],
+                "id" : "147e6f8e-2231-44a3-9036-08523a648891",
+                "name" : "009d1",
+                "title" : "Column 3",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"be38acdd-934f-4d98-9d18-1c219e3ebbf4\",\"columns\":[{\"UUID\":\"62efcfa4-31a9-41dc-b2f8-2a3e0b5ca585\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"69cfeaf0-2039-45c4-84e9-f483f98d2632\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "cover",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/oracle-see-results-fast.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "bedebe1a-6c2e-4cd4-9b93-cd5b99105f4f",
+                      "type" : "component"
+                    } ],
+                    "id" : "62efcfa4-31a9-41dc-b2f8-2a3e0b5ca585",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "1rem",
+                            "left" : "1rem",
+                            "right" : "1rem",
+                            "top" : "1rem"
+                          }
+                        },
+                        "richTextValue" : "<h3><span style=\"font-size: 26px;\">Rapid User Adoption</span></h3><p><br></p><p>Fast user adoption means a shorter time to value, thanks to an intuitive and familiar Excel-based user interface and self-service report creation that empower business users to get the answers they need quickly and easily. Realize the benefits of purpose-built Oracle ERP Cloud financial reporting within one reporting cycle.&nbsp;</p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "4225d1c9-c31a-458f-b000-bc147e1a5b00",
+                      "type" : "component"
+                    } ],
+                    "id" : "69cfeaf0-2039-45c4-84e9-f483f98d2632",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "be38acdd-934f-4d98-9d18-1c219e3ebbf4",
+                  "type" : "component"
+                } ],
+                "id" : "5abdee07-1d2a-48d4-b53e-ad5cf12a8db7",
+                "name" : "e128f",
+                "title" : "Column 4",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d2516001-ef97-4c8e-9aea-5aa95c10d523",
+              "type" : "component"
+            } ],
+            "id" : "43e1e425-2aaf-4d1f-9480-77879f3d2146",
+            "name" : "6979c",
+            "title" : "Column 5",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"578a2363-b4fa-4205-b119-858633b99dde\",\"columns\":[{\"UUID\":\"8fe0bf6b-aa94-4a18-9089-798e79c5c791\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"8434b76e-7d71-469f-80dc-531eba38aac6\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "x-large",
+                    "text" : "View Recommended Products",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "583116ce-2b08-4fbc-93e9-7dc57488c4c9",
+                  "type" : "component"
+                } ],
+                "id" : "8fe0bf6b-aa94-4a18-9089-798e79c5c791",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"40d7ef8e-3462-43d6-b15d-c33c5259dcf7\",\"columns\":[{\"UUID\":\"76c1ff96-4838-4eca-b20d-18493172f81f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "activeTabBorderHighlightWeight" : "2px",
+                        "activeTabTextEmphasis" : "{\"bold\":true}",
+                        "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                        "borderColor" : "",
+                        "borderRadius" : "0px",
+                        "borderWeight" : "0px",
+                        "enableOverflowMenu" : false,
+                        "imageFit" : "cover",
+                        "imagePosition" : "center center",
+                        "overflowIconColor" : "rgb(116,116,116)",
+                        "overflowIconStyle" : "down-arrow",
+                        "overflowMenuLabel" : "More",
+                        "tabAlignment" : "left",
+                        "tabBorderColor" : "",
+                        "tabBorderRadius" : "0px",
+                        "tabBorderWeight" : "0px",
+                        "tabHoverBorderHighlightWeight" : "1px",
+                        "tabLayout" : "vertical",
+                        "tabPadding" : "12px",
+                        "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                        "tabsetConfig" : "{\"UUID\":\"abb25c93-0e10-4c50-9686-4fb2f2def432\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"16f5888b-528a-45e5-a326-f2516140ac21\",\"tabName\":\"Operational Reporting\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"02f90cd9-4bef-4a4c-b284-b774d75a7bb6\",\"tabName\":\"Budgeting & Planning\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"a1a85554-d96c-4447-a51c-414b4f2036e7\",\"tabName\":\"Equity Management\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"757e7d61-6578-462b-b85c-41c5a463f4c1\",\"tabName\":\"Tax Reporting\",\"tabKey\":\"7db03\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"40ddb6d9-0c10-4eb0-9396-4501444868f8\",\"tabName\":\"Financial Reporting\",\"tabKey\":\"165fa\",\"locked\":false,\"allowGuestUser\":false}]}",
+                        "width" : "100%"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"cb6d5a6a-7923-486f-988c-6c49e4c771ad\",\"columns\":[{\"UUID\":\"717289da-bff7-4c1c-8248-7290c4a9a340\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a58e30e9-373d-47aa-a441-78104629a8c8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "columnGutterWidth" : "",
+                                "columnMinHeight" : "",
+                                "columnVerticalAlign" : "flex-start",
+                                "layoutDirectionDesktop" : "column",
+                                "layoutDirectionMobile" : "column",
+                                "layoutDirectionTablet" : "column",
+                                "sectionConfig" : "{\"UUID\":\"a521c642-64d0-42c7-972f-7dfbcc3cf4a0\",\"columns\":[{\"UUID\":\"f73a427d-3772-4971-a4b5-641ec71f10f5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                              },
+                              "children" : [ {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "columnGutterWidth" : "",
+                                    "columnMinHeight" : "",
+                                    "columnVerticalAlign" : "flex-start",
+                                    "layoutDirectionDesktop" : "row",
+                                    "layoutDirectionMobile" : "column",
+                                    "layoutDirectionTablet" : "column",
+                                    "sectionConfig" : "{\"UUID\":\"26e0c8fe-daf2-4440-a838-ddf26e06d37d\",\"columns\":[{\"UUID\":\"6248e019-0c24-4cda-97c3-6b8880d75146\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"8b19e12f-0df1-4ffa-87de-1f349a5a2ced\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                                  },
+                                  "children" : [ {
+                                    "children" : [ {
+                                      "attributes" : {
+                                        "alignment" : "center",
+                                        "fit" : "contain",
+                                        "height" : 350,
+                                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/06/angles-enterprise-for-oracle-macbook-screenshot.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                                        "overlayColor" : "",
+                                        "position" : "center center",
+                                        "width" : 100
+                                      },
+                                      "definition" : "dxp_base:image",
+                                      "id" : "696131a2-752e-4ea5-9806-2e74cbd0de15",
+                                      "type" : "component"
+                                    } ],
+                                    "id" : "6248e019-0c24-4cda-97c3-6b8880d75146",
+                                    "name" : "col1",
+                                    "title" : "Column 1",
+                                    "type" : "region"
+                                  }, {
+                                    "children" : [ {
+                                      "attributes" : {
+                                        "richTextValue" : "<div class=\"col-md-8 col-xs-8\">\n<h5 class=\"fw-medium\">\n<a href=\"https://insightsoftware.com/angles-for-oracle/\" class=\"text-decoration-none\">\nAngles Enterprise for<br> Oracle\n</a>\n</h5>\n<div class=\"product-description\">\n<p>Angles Enterprise for Oracle unlocks powerful insights in your chosen BI tool. 1,800 pre-built, no-code business reports deliver actionable insights.</p>\n</div>\n\n</div>"
+                                      },
+                                      "definition" : "community_builder:htmlEditor",
+                                      "id" : "d9a3e58b-ff5a-48cb-8e0c-2c5cbf391a9e",
+                                      "type" : "component"
+                                    } ],
+                                    "id" : "8b19e12f-0df1-4ffa-87de-1f349a5a2ced",
+                                    "name" : "col2",
+                                    "title" : "Column 2",
+                                    "type" : "region"
+                                  } ],
+                                  "definition" : "dxp_layout:columns",
+                                  "id" : "26e0c8fe-daf2-4440-a838-ddf26e06d37d",
+                                  "type" : "component"
+                                } ],
+                                "id" : "f73a427d-3772-4971-a4b5-641ec71f10f5",
+                                "name" : "col1",
+                                "title" : "Column 1",
+                                "type" : "region"
+                              } ],
+                              "definition" : "dxp_layout:columns",
+                              "id" : "a521c642-64d0-42c7-972f-7dfbcc3cf4a0",
+                              "type" : "component"
+                            } ],
+                            "id" : "717289da-bff7-4c1c-8248-7290c4a9a340",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "children" : [ {
+                              "attributes" : {
+                                "columnGutterWidth" : "",
+                                "columnMinHeight" : "",
+                                "columnVerticalAlign" : "flex-start",
+                                "layoutDirectionDesktop" : "row",
+                                "layoutDirectionMobile" : "column",
+                                "layoutDirectionTablet" : "column",
+                                "sectionConfig" : "{\"UUID\":\"efffa820-a721-432f-8212-021cbecdbb71\",\"columns\":[{\"UUID\":\"dd54a80a-907f-430c-8765-29d758c56688\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3b9c828a-5786-4d69-8705-1f37cd46df5c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                              },
+                              "children" : [ {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "alignment" : "center",
+                                    "fit" : "contain",
+                                    "height" : 350,
+                                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/06/angles-professional-macbook-screenshot.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                                    "overlayColor" : "",
+                                    "position" : "center center",
+                                    "width" : 100
+                                  },
+                                  "definition" : "dxp_base:image",
+                                  "id" : "da6d74d3-4784-4995-9118-da958214d277",
+                                  "type" : "component"
+                                } ],
+                                "id" : "dd54a80a-907f-430c-8765-29d758c56688",
+                                "name" : "col1",
+                                "title" : "Column 1",
+                                "type" : "region"
+                              }, {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "richTextValue" : "<div class=\"col-md-8 col-xs-8\">\n<h5 class=\"fw-medium\">\n<a href=\"https://insightsoftware.com/angles-professional/\" class=\"text-decoration-none\">\nAngles Professional\n</a>\n</h5>\n<div class=\"product-description\">\n<p>Angles Professional streamlines the creation and distribution of operational insights with pre-built content for Deltek, NetSuite, Oracle EBS/Fusion Cloud ERP.</p>\n</div>\n\n</div>"
+                                  },
+                                  "definition" : "community_builder:htmlEditor",
+                                  "id" : "aabfe55d-f65d-4681-950c-5501f163fa7f",
+                                  "type" : "component"
+                                } ],
+                                "id" : "3b9c828a-5786-4d69-8705-1f37cd46df5c",
+                                "name" : "col2",
+                                "title" : "Column 2",
+                                "type" : "region"
+                              } ],
+                              "definition" : "dxp_layout:columns",
+                              "id" : "efffa820-a721-432f-8212-021cbecdbb71",
+                              "type" : "component"
+                            } ],
+                            "id" : "a58e30e9-373d-47aa-a441-78104629a8c8",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "cb6d5a6a-7923-486f-988c-6c49e4c771ad",
+                          "type" : "component"
+                        } ],
+                        "id" : "16f5888b-528a-45e5-a326-f2516140ac21",
+                        "name" : "tab1",
+                        "title" : "Operational Reporting",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"75a02012-cb2d-4b5c-8580-c28cfc73931b\",\"columns\":[{\"UUID\":\"cb03d5ed-82c1-478e-987d-84d1d9b5682c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"2cf5fcf1-0cac-41f3-ad6a-2af51e44d485\",\"columnName\":\"Column 2\",\"columnKey\":\"5cbfd\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "columnGutterWidth" : "",
+                                "columnMinHeight" : "",
+                                "columnVerticalAlign" : "flex-start",
+                                "layoutDirectionDesktop" : "row",
+                                "layoutDirectionMobile" : "column",
+                                "layoutDirectionTablet" : "column",
+                                "sectionConfig" : "{\"UUID\":\"4cf193e2-0771-4aa3-9b48-397b6a1d701f\",\"columns\":[{\"UUID\":\"57e9ff78-a69f-4eb2-88e0-f389dc957f6b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a43042f5-fe5d-45e0-81f0-b1adee43218a\",\"columnName\":\"Column 2\",\"columnKey\":\"d1d3b\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                              },
+                              "children" : [ {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "alignment" : "center",
+                                    "fit" : "contain",
+                                    "height" : 350,
+                                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/07/bizview-screenshot.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                                    "overlayColor" : "",
+                                    "position" : "center center",
+                                    "width" : 100
+                                  },
+                                  "definition" : "dxp_base:image",
+                                  "id" : "77ceb87d-0875-469d-82f5-818abf4e1d66",
+                                  "type" : "component"
+                                } ],
+                                "id" : "57e9ff78-a69f-4eb2-88e0-f389dc957f6b",
+                                "name" : "col1",
+                                "title" : "Column 1",
+                                "type" : "region"
+                              }, {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "richTextValue" : "<div class=\"col-md-8 col-xs-8\">\n<h5 class=\"fw-medium\">\n<a href=\"https://insightsoftware.com/bizview/\" class=\"text-decoration-none\">\nBizview\n</a>\n</h5>\n<div class=\"product-description\">\n<p>Bizview is an integrated and scalable web-based budgeting, planning, and forecasting solution for mid-sized companies.</p>\n</div>\n\n</div>"
+                                  },
+                                  "definition" : "community_builder:htmlEditor",
+                                  "id" : "1eeb3876-edd9-4568-9443-38ccaaad96a8",
+                                  "type" : "component"
+                                } ],
+                                "id" : "a43042f5-fe5d-45e0-81f0-b1adee43218a",
+                                "name" : "d1d3b",
+                                "title" : "Column 2",
+                                "type" : "region"
+                              } ],
+                              "definition" : "dxp_layout:columns",
+                              "id" : "4cf193e2-0771-4aa3-9b48-397b6a1d701f",
+                              "type" : "component"
+                            } ],
+                            "id" : "cb03d5ed-82c1-478e-987d-84d1d9b5682c",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "id" : "2cf5fcf1-0cac-41f3-ad6a-2af51e44d485",
+                            "name" : "5cbfd",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "75a02012-cb2d-4b5c-8580-c28cfc73931b",
+                          "type" : "component"
+                        } ],
+                        "id" : "02f90cd9-4bef-4a4c-b284-b774d75a7bb6",
+                        "name" : "tab2",
+                        "title" : "Budgeting & Planning",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "columnGutterWidth" : "",
+                            "columnMinHeight" : "",
+                            "columnVerticalAlign" : "flex-start",
+                            "layoutDirectionDesktop" : "row",
+                            "layoutDirectionMobile" : "column",
+                            "layoutDirectionTablet" : "column",
+                            "sectionConfig" : "{\"UUID\":\"95d7fd47-fa7f-409b-956f-1511c1f351fc\",\"columns\":[{\"UUID\":\"964f06bf-5d8c-4826-9345-93bc00ca673c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"efba4471-ae27-4548-a776-bfcea16d9a70\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                          },
+                          "children" : [ {
+                            "children" : [ {
+                              "attributes" : {
+                                "columnGutterWidth" : "",
+                                "columnMinHeight" : "",
+                                "columnVerticalAlign" : "flex-start",
+                                "layoutDirectionDesktop" : "row",
+                                "layoutDirectionMobile" : "column",
+                                "layoutDirectionTablet" : "column",
+                                "sectionConfig" : "{\"UUID\":\"047b1a19-6ea1-4947-bff6-a4bcced41057\",\"columns\":[{\"UUID\":\"390acf05-16ae-4e03-bbe2-dd1899c3599d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"1c5a4b6c-0b9b-4cd9-9250-5bb261b66f6c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                              },
+                              "children" : [ {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "alignment" : "center",
+                                    "fit" : "contain",
+                                    "height" : 350,
+                                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/07/certent-equity-management-product.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                                    "overlayColor" : "",
+                                    "position" : "center center",
+                                    "width" : 100
+                                  },
+                                  "definition" : "dxp_base:image",
+                                  "id" : "afc5b727-cb11-4a13-8ab2-5d9cc800a86d",
+                                  "type" : "component"
+                                } ],
+                                "id" : "390acf05-16ae-4e03-bbe2-dd1899c3599d",
+                                "name" : "col1",
+                                "title" : "Column 1",
+                                "type" : "region"
+                              }, {
+                                "children" : [ {
+                                  "attributes" : {
+                                    "richTextValue" : "<div class=\"col-md-8 col-xs-8\">\n<h5 class=\"fw-medium\">\n<a href=\"https://insightsoftware.com/certent/equity-management-software/\" class=\"text-decoration-none\">\nCertent Equity Management\n</a>\n</h5>\n<div class=\"product-description\">\n<p>Certent Equity Management offers a simplified web platform for public and private companies with calculations and reporting for SEC, FASB, and IFRS.</p>\n</div>\n\n</div>"
+                                  },
+                                  "definition" : "community_builder:htmlEditor",
+                                  "id" : "78fa6c9c-33f5-4248-840a-df6866579c1b",
+                                  "type" : "component"
+                                } ],
+                                "id" : "1c5a4b6c-0b9b-4cd9-9250-5bb261b66f6c",
+                                "name" : "col2",
+                                "title" : "Column 2",
+                                "type" : "region"
+                              } ],
+                              "definition" : "dxp_layout:columns",
+                              "id" : "047b1a19-6ea1-4947-bff6-a4bcced41057",
+                              "type" : "component"
+                            } ],
+                            "id" : "964f06bf-5d8c-4826-9345-93bc00ca673c",
+                            "name" : "col1",
+                            "title" : "Column 1",
+                            "type" : "region"
+                          }, {
+                            "id" : "efba4471-ae27-4548-a776-bfcea16d9a70",
+                            "name" : "col2",
+                            "title" : "Column 2",
+                            "type" : "region"
+                          } ],
+                          "definition" : "dxp_layout:columns",
+                          "id" : "95d7fd47-fa7f-409b-956f-1511c1f351fc",
+                          "type" : "component"
+                        } ],
+                        "id" : "a1a85554-d96c-4447-a51c-414b4f2036e7",
+                        "name" : "tab3",
+                        "title" : "Equity Management",
+                        "type" : "region"
+                      }, {
+                        "id" : "757e7d61-6578-462b-b85c-41c5a463f4c1",
+                        "name" : "7db03",
+                        "title" : "Tax Reporting",
+                        "type" : "region"
+                      }, {
+                        "id" : "40ddb6d9-0c10-4eb0-9396-4501444868f8",
+                        "name" : "165fa",
+                        "title" : "Financial Reporting",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:tabs",
+                      "id" : "abb25c93-0e10-4c50-9686-4fb2f2def432",
+                      "type" : "component"
+                    } ],
+                    "id" : "76c1ff96-4838-4eca-b20d-18493172f81f",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "40d7ef8e-3462-43d6-b15d-c33c5259dcf7",
+                  "type" : "component"
+                } ],
+                "id" : "8434b76e-7d71-469f-80dc-531eba38aac6",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "578a2363-b4fa-4205-b119-858633b99dde",
+              "type" : "component"
+            } ],
+            "id" : "063de248-735c-49fc-b0a5-7d30dd7d2f92",
+            "name" : "10eaf",
+            "title" : "Column 6",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6cf6e57b-9785-4f2b-8c75-c28d9cea9b8e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d5a7c8cc-1662-4de5-a82b-6865d9023d63\",\"columns\":[{\"UUID\":\"a17e1111-a95b-40dc-86b5-14451e2604cf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"ac961869-7f0f-46c7-bfe9-95ac0f6956e6\",\"columnName\":\"Column 2\",\"columnKey\":\"51c6f\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"a66b4993-d429-4f8d-8975-e78dce60fcb7\",\"columnName\":\"Column 3\",\"columnKey\":\"3f600\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"bc00c56e-ce0d-44fa-9e27-7714671b738f\",\"columnName\":\"Column 4\",\"columnKey\":\"31b8d\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"ad1271a2-ff8c-4883-9eee-7c34a34ad4ee\",\"columns\":[{\"UUID\":\"0ab30127-d444-446c-a6d3-dc6156d2b6d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"9e147a7c-ecec-40ec-8fb4-5aedcb405eb8\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/02/22-06-WP-The-Complete-Guide-to-Reporting-and-Analytics-in-Oracle-ERP-Cloud-Resource_750x370-750x370.jpg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "ae8366a3-236b-483e-90c7-08fa748a604e",
+                  "type" : "component"
+                } ],
+                "id" : "0ab30127-d444-446c-a6d3-dc6156d2b6d8",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "Replace this text with content of your own."
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "c35ec5cd-19a5-46b2-a091-f8a4094cc3e7",
+                  "type" : "component"
+                } ],
+                "id" : "9e147a7c-ecec-40ec-8fb4-5aedcb405eb8",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "ad1271a2-ff8c-4883-9eee-7c34a34ad4ee",
+              "type" : "component"
+            } ],
+            "id" : "a17e1111-a95b-40dc-86b5-14451e2604cf",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "ac961869-7f0f-46c7-bfe9-95ac0f6956e6",
+            "name" : "51c6f",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "a66b4993-d429-4f8d-8975-e78dce60fcb7",
+            "name" : "3f600",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "id" : "bc00c56e-ce0d-44fa-9e27-7714671b738f",
+            "name" : "31b8d",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d5a7c8cc-1662-4de5-a82b-6865d9023d63",
+          "type" : "component"
+        } ],
+        "id" : "f4a67559-46bd-4bf2-bdc6-4f76b83eb0d5",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Oracle ERP Cloud",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e3886ff4-6fcd-4e02-ab40-ea722b35cea8",
+          "type" : "component"
+        } ],
+        "id" : "2ce5bc3e-f8d6-4dc8-8d65-8037956c9e8d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "109fbd81-36c7-416c-a278-ad89b4ba729a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-oracle-erp-cloud"
+  }
+}

@@ -1,0 +1,57 @@
+.quantity-selector {
+    display: flex;
+    width: auto;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Quantity input field */
+.quantity-input {
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #575555;
+    text-align: center;
+    width: auto;  /* Let it auto adjust based on text length */
+    min-width: 20px;  /* Minimum width for the input */
+    max-width: 80px;  /* Maximum width to prevent breaking layout */
+    padding: 0;
+    background-color: transparent; /* No background for a cleaner look */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Remove border when input is focused */
+.quantity-input:focus {
+    outline: none; /* Removes the blue focus border */
+    border: none;
+    box-shadow: none; /* Removes any focus shadow */
+}
+
+/* Ensure input resizes based on text length */
+.quantity-input:focus-visible {
+    outline: none;
+    border: none;
+}
+
+/* Ensure no border even when the input is active */
+input:active {
+    border: none;
+}

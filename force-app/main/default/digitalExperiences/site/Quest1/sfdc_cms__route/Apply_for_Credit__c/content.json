@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Apply for Credit",
+  "contentBody" : {
+    "activeViewId" : "Apply_for_Credit",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-apply-for-credit",
+    "urlPrefix" : "apply-for-credit"
+  }
+}

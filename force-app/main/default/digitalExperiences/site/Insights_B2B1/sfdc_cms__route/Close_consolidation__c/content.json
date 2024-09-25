@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Close consolidation",
+  "contentBody" : {
+    "activeViewId" : "Close_consolidation",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-close-consolidation",
+    "urlPrefix" : "close-consolidation"
+  }
+}

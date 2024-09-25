@@ -1,0 +1,672 @@
+<template>
+
+  <template lwc:if={isFinance}>
+    <div class="options">
+      <button class="button1" onclick={showFirstContent}>Improved Data Access</button>
+      <button class="button1" onclick={showSecondContent}>Live, Ad Hoc Reporting</button>
+      <button class="button1" onclick={showThirdContent}>Faster Finance Processes</button>
+    </div>
+    <template lwc:if={showFirst}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Improved Data Access</h4>
+            <p>The insightsoftware Platform connects your finance, operations, and data automation tools, creating a
+              seamless workflow with accurate, unified data. A unique data layer integrates with over 200 sources,
+              including major ERPs like SAP, Oracle, and Microsoft Dynamics, ensuring everyone in your team works from
+              the same single source of truth. Plan faster, generate insightful reports, and make data-driven decisions
+              with confidence.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                  tabindex="-1">Financial Planning &amp; Analysis</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500"
+              src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:elseif={showSecond}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Live, Ad Hoc Reporting</h4>
+            The modern CFO’s role is evolving and expanding. Today, you’re a strategic partner, providing insights
+            across operations, supply chain, data strategy, and IT. Delivering ad hoc reports to fuel cross-departmental
+            projects is crucial. That’s why insightsoftware’s financial reporting solutions empower you with real-time
+            data access and refreshable, drillable reports. Make data-driven decisions with confidence, knowing your
+            team has the information they need, right at their fingertips.
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Financial Reporting</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                  tabindex="-1">Real-time Reporting</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Self-service Reporting</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Financial dashboards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500"
+              src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 2 Lahr" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:elseif={showThird}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Faster Finance Processes</h4>
+            <p>Faced with skills shortages, modern finance teams need to be agile and eliminate time-consuming manual
+              processes. With insightsoftware, you can empower your finance team with solutions purpose-built for the
+              familiar Excel environment and eliminate the need for IT intervention. Automate tedious tasks like data
+              entry, simplify report creation and gain back valuable time. Focus on strategic initiatives, not manual
+              processes, and shrink your planning and reporting cycles by up to 50%.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                  tabindex="-1">Financial Planning &amp; Analysis</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500"
+              src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png" alt="Bu Fin Need 3 Ffp"
+              decoding="async" sizes="(max-width: 780px) 100vw, 780px" srcset="
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png     780w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-300x192.png 300w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-768x492.png 768w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-270x173.png 270w
+                " />
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:else>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Improved Data Access</h4>
+            <p>The insightsoftware Platform connects your finance, operations, and data automation tools, creating a
+              seamless workflow with accurate, unified data. A unique data layer integrates with over 200 sources,
+              including major ERPs like SAP, Oracle, and Microsoft Dynamics, ensuring everyone in your team works from
+              the same single source of truth. Plan faster, generate insightful reports, and make data-driven decisions
+              with confidence.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                  tabindex="-1">Financial Planning &amp; Analysis</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500"
+              src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+
+  </template>
+
+
+
+
+  <!--For Accounting section-->
+
+  <template lwc:elseif={isAccounting}>
+    <div class="options">
+      <button class="button1" onclick={showFirstContentAccounting}>Simplify Tax Management</button>
+      <button class="button1" onclick={showSecondContentAccounting}>See Clearly, Close Faster</button>
+      <button class="button1" onclick={showThirdContentAccounting}>Stress Free Disclosure</button>
+      <button class="button1" onclick={showFourthContentAccounting}>Equity Management made Easy</button>
+    </div>
+    <template lwc:if={showAccountingFirst}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Conquer Tax Challenges: Automate, Analyze, Achieve </h4>
+            <p>Tax management shouldn’t be a burden. insightsoftware offers a powerful suite of tax solutions designed
+              to streamline your processes, boost efficiency, and empower smarter decision-making. From automating
+              complex calculations and centralizing data to ensuring BEPS compliance and fostering collaboration,
+              Insightsoftware equips your team to navigate the ever-changing tax landscape. Close the books faster, gain
+              deeper insights, and achieve tax goals with confidence – all while freeing up valuable time to focus on
+              strategic initiatives.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/beps-pillar-2/" tabindex="0">BEPS Pillar 2</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/longview/longview-tax/" tabindex="0">Tax Provisioning</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/longview/longview-transfer-pricing/" tabindex="0">Transfer
+                  Pricing</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/country-by-country-reporting-software/"
+                  tabindex="0">Country by Country Reporting </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_acc_need_1.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:elseif={showAccountingSecond}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Automate & Accelerate Your Financial Close and Consolidation </h4>
+            <p>Overcome complex accounting challenges and gain a clear view of your financial health with
+              insightsoftware’s automated close &amp; consolidation solutions. With insightsoftware’s solutions, you can
+              eliminate manual tasks, errors, and bottlenecks that slow you down. Financial professionals can gain
+              real-time visibility into their financial performance and generate reports for various stakeholders.
+              Whether your business has simple or complex consolidation scenarios, insightsoftware’s solutions can
+              provide you with the tools you need to meet your accounting needs.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/esg-reporting-software/" tabindex="0">ESG Reporting </a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/accounting-rules/" tabindex="0">Accounting Rules</a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_acc_need_2.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 2 Lahr" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:elseif={showAccountingThird}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Equity Management Software & Services That Grow with Your Business </h4>
+            <p>insightsoftware equity management solutions are designed to streamline your entire process, from grant
+              administration to shareholder communication. insightsoftware’s all-in-one equity management solutions
+              simplify administration, boost transparency, and empower data-driven decisions. Attract and retain top
+              talent with effortless grants, facilitate ESPP administration, and gain real-time insights with advanced
+              cap table management. Scale seamlessly with your business and ensure smooth client onboarding for your
+              partners.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/commentary-narrative/" tabindex="0">Commentary &amp;
+                  Narrative </a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/esg-reporting-software/" tabindex="0">ESG Reporting </a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/esef-reporting-software/" tabindex="0">ESEF Reporting
+                </a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/sec-reporting-software/" tabindex="0">SEC Reporting </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_acc_need_3.png"
+              alt="Bu Fin Need 3 Ffp" decoding="async" sizes="(max-width: 780px) 100vw, 780px" srcset="
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png     780w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-300x192.png 300w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-768x492.png 768w,
+                  https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-270x173.png 270w
+                " />
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:elseif={showAccountingFourth}>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Equity Management Software & Services That Grow with Your Business </h4>
+            <p>insightsoftware equity management solutions are designed to streamline your entire process, from grant
+              administration to shareholder communication. insightsoftware’s all-in-one equity management solutions
+              simplify administration, boost transparency, and empower data-driven decisions. Attract and retain top
+              talent with effortless grants, facilitate ESPP administration, and gain real-time insights with advanced
+              cap table management. Scale seamlessly with your business and ensure smooth client onboarding for your
+              partners.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/cap-table-management-software/" tabindex="0">Cap Table
+                  Management </a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/profit-interest-units/" tabindex="0">Profit Interest
+                  Units </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_acc_need_4.png"
+              alt="Bu Fin Need 3 Ffp" decoding="async" sizes="(max-width: 780px) 100vw, 780px" srcset="
+                https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png     780w,
+                https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-300x192.png 300w,
+                https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-768x492.png 768w,
+                https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-270x173.png 270w
+              " />
+          </div>
+        </div>
+      </div>
+    </template>
+    <template lwc:else>
+      <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+        <div class="row align-items-center ps-3">
+          <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+            <h4 class="mb-3">Conquer Tax Challenges: Automate, Analyze, Achieve </h4>
+            <p>Tax management shouldn’t be a burden. insightsoftware offers a powerful suite of tax solutions designed
+              to streamline your processes, boost efficiency, and empower smarter decision-making. From automating
+              complex calculations and centralizing data to ensuring BEPS compliance and fostering collaboration,
+              Insightsoftware equips your team to navigate the ever-changing tax landscape. Close the books faster, gain
+              deeper insights, and achieve tax goals with confidence – all while freeing up valuable time to focus on
+              strategic initiatives.</p>
+            <ul class="bubbles list-unstyled list-inline my-4">
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/beps-pillar-2/" tabindex="0">BEPS Pillar 2</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/longview/longview-tax/" tabindex="0">Tax Provisioning</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/longview/longview-transfer-pricing/" tabindex="0">Transfer
+                  Pricing</a>
+              </li>
+              <li
+                class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                <a class="accounting-a" href="https://insightsoftware.com/solutions/country-by-country-reporting-software/"
+                  tabindex="0">Country by Country Reporting </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+            <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_acc_need_4.png"
+              class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+              data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+              data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+              data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+              data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+              srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+          </div>
+        </div>
+      </div>
+    </template>
+
+  </template>
+
+  <!--For Data & Analytics-->
+
+  <template lwc:elseif={isAnalytics}>
+    <div class="options">
+      <button class="button1" onclick={showFirstContentDataAnalytics}>Connect Your Disparate Data</button>
+      <button class="button1" onclick={showSecondContentDataAnalytics}>Budget and Plan in Power BI</button>
+      <button class="button1" onclick={showThirdContentDataAnalytics}>Do more in Your Qlik Environment</button>
+      <button class="button1" onclick={showFourthContentDataAnalytics}>Accelerate Your Product Roadmap</button>
+    </div>
+    <div class="analyticsPadding">
+      <template lwc:if={showDataAnalyticsFirst}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Simplify Data Access with Enterprise-Grade Drivers from Simba  </h4>
+              <p>Your ultimate solution for data connectivity, we enable software vendors and enterprise businesses to access and integrate data from any source with any application. Whether on-premises or in the Cloud, Simba provides solutions that deliver reliable, secure, and high-performance data access.</p>
+  
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png" class="d-block img-fluid entered lazyloaded" alt="Bu Da Need 1" decoding="async" data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-270x173.png 270w" data-lazy-sizes="(max-width: 780px) 100vw, 780px" data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png" data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px" srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-270x173.png 270w">
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:elseif={showDataAnalyticsSecond}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Power ON: Write-back, Plan, and Collaborate in Power BI  </h4>
+              <p>Power ON is more than just a business intelligence tool. It is a powerful toolkit that enhances Power BI with write-back, planning, and collaboration capabilities. With Power ON, you can use your data for dynamic and interactive analysis, forecasting, and decision making. Write-back changes, create what-if scenarios, and collaborate with your team, all from within Power BI. Power ON also provides a familiar Excel-like interface and input experience, making it easy and intuitive to use, enhancing adoption within your organization. Power ON is the ultimate solution for taking your data to the next level.</p>
+              
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2.png" class="d-block img-fluid entered lazyloaded" alt="Bu Da Need 2" decoding="async" data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-270x173.png 270w" data-lazy-sizes="(max-width: 780px) 100vw, 780px" data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2.png" data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px" srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_2-270x173.png 270w">
+  
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:elseif={showDataAnalyticsThird}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Vizlib: Unlock the True Power of Your Data in Qlik Sense  </h4>
+              <p>Vizlib is a suite of value-added products that enhance Qlik Sense with advanced data visualization, collaboration, and write-back features. With Vizlib, you can transform your basic Qlik Sense dashboards and reports into engaging and interactive data stories that drive better decisions and outcomes. You can also collaborate with your team, edit data directly, and explore data freely, all within Qlik Sense. Whether you deploy Qlik Sense on-premise or in Qlik Cloud, Vizlib helps you unlock the true power of your data and deliver data-driven insights across your organization. Vizlib is the ultimate solution for Qlik Sense users who want more from their analytics.</p>
+              
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3.png" class="d-block img-fluid entered lazyloaded" alt="Bu Da Need 3" decoding="async" data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-270x173.png 270w" data-lazy-sizes="(max-width: 780px) 100vw, 780px" data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3.png" data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px" srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_3-270x173.png 270w">
+  
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:elseif={showDataAnalyticsFourth}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Embed, Customize, and Monetize Data with Logi Symphony  </h4>
+              <p>Logi Symphony is the ultimate solution for embedded business intelligence and analytics. It allows ISVs and app teams to easily embed rich data visualizations and dashboards into their SaaS products, enhancing user experience and data-driven decision making.</p>
+              
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4.png" class="d-block img-fluid entered lazyloaded" alt="Bu Da Need 4" decoding="async" data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-270x173.png 270w" data-lazy-sizes="(max-width: 780px) 100vw, 780px" data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4.png" data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px" srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_4-270x173.png 270w">
+  
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:else>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Simplify Data Access with Enterprise-Grade Drivers from Simba  </h4>
+              <p>Your ultimate solution for data connectivity, we enable software vendors and enterprise businesses to access and integrate data from any source with any application. Whether on-premises or in the Cloud, Simba provides solutions that deliver reliable, secure, and high-performance data access.</p>
+  
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500" src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png" class="d-block img-fluid entered lazyloaded" alt="Bu Da Need 1" decoding="async" data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-270x173.png 270w" data-lazy-sizes="(max-width: 780px) 100vw, 780px" data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png" data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px" srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_da_need_1-270x173.png 270w">
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+    
+
+  </template>
+
+  <template lwc:else>
+    <template lwc:if={isFinance}>
+      <div class="options">
+        <button class="button1" onclick={showFirstContent}>Improved Data Access</button>
+        <button class="button1" onclick={showSecondContent}>Live, Ad Hoc Reporting</button>
+        <button class="button1" onclick={showThirdContent}>Faster Finance Processes</button>
+      </div>
+      <template lwc:if={showFirst}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Improved Data Access</h4>
+              <p>The insightsoftware Platform connects your finance, operations, and data automation tools, creating a
+                seamless workflow with accurate, unified data. A unique data layer integrates with over 200 sources,
+                including major ERPs like SAP, Oracle, and Microsoft Dynamics, ensuring everyone in your team works from
+                the same single source of truth. Plan faster, generate insightful reports, and make data-driven
+                decisions with confidence.</p>
+              <ul class="bubbles list-unstyled list-inline my-4">
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                    tabindex="-1">Financial Planning &amp; Analysis</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500"
+                src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+                class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+                data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+                data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+                data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+                data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+                srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:elseif={showSecond}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Live, Ad Hoc Reporting</h4>
+              The modern CFO’s role is evolving and expanding. Today, you’re a strategic partner, providing insights
+              across operations, supply chain, data strategy, and IT. Delivering ad hoc reports to fuel
+              cross-departmental projects is crucial. That’s why insightsoftware’s financial reporting solutions empower
+              you with real-time data access and refreshable, drillable reports. Make data-driven decisions with
+              confidence, knowing your team has the information they need, right at their fingertips.
+              <ul class="bubbles list-unstyled list-inline my-4">
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Financial Reporting</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                    tabindex="-1">Real-time Reporting</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Self-service Reporting</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Financial dashboards</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500"
+                src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png"
+                class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 2 Lahr" decoding="async"
+                data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w"
+                data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+                data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png"
+                data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+                srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_2_lahr-270x173.png 270w">
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:elseif={showThird}>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Faster Finance Processes</h4>
+              <p>Faced with skills shortages, modern finance teams need to be agile and eliminate time-consuming manual
+                processes. With insightsoftware, you can empower your finance team with solutions purpose-built for the
+                familiar Excel environment and eliminate the need for IT intervention. Automate tedious tasks like data
+                entry, simplify report creation and gain back valuable time. Focus on strategic initiatives, not manual
+                processes, and shrink your planning and reporting cycles by up to 50%.</p>
+              <ul class="bubbles list-unstyled list-inline my-4">
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                    tabindex="-1">Financial Planning &amp; Analysis</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500"
+                src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png"
+                alt="Bu Fin Need 3 Ffp" decoding="async" sizes="(max-width: 780px) 100vw, 780px" srcset="
+                    https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp.png     780w,
+                    https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-300x192.png 300w,
+                    https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-768x492.png 768w,
+                    https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_3_ffp-270x173.png 270w
+                  " />
+            </div>
+          </div>
+        </div>
+      </template>
+      <template lwc:else>
+        <div class="container rounded-2 mx-3 py-5 d-flex flex-md-nowrap flex-column">
+          <div class="row align-items-center ps-3">
+            <div class="content col-lg-6 col-md-7 col-12 mb-3 mb-md-0 ps-lg-5">
+              <h4 class="mb-3">Improved Data Access</h4>
+              <p>The insightsoftware Platform connects your finance, operations, and data automation tools, creating a
+                seamless workflow with accurate, unified data. A unique data layer integrates with over 200 sources,
+                including major ERPs like SAP, Oracle, and Microsoft Dynamics, ensuring everyone in your team works from
+                the same single source of truth. Plan faster, generate insightful reports, and make data-driven
+                decisions with confidence.</p>
+              <ul class="bubbles list-unstyled list-inline my-4">
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-automation/" tabindex="-1">Data Automation</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/financial-planning-analysis-software/"
+                    tabindex="-1">Financial Planning &amp; Analysis</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/scenario-planning/" tabindex="-1">Scenario Planning</a>
+                </li>
+                <li
+                  class="list-inline-item badge rounded-pill text-uppercase fw-semibold py-1 px-2 mb-3 small text-white bg-primary">
+                  <a href="https://insightsoftware.com/solutions/data-migration/" tabindex="-1">Data Migration</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12 img-container d-flex justify-content-center">
+              <img width="780" height="500"
+                src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+                class="d-block img-fluid entered lazyloaded" alt="Bu Fin Need 1 Ida" decoding="async"
+                data-lazy-srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w"
+                data-lazy-sizes="(max-width: 780px) 100vw, 780px"
+                data-lazy-src="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png"
+                data-ll-status="loaded" sizes="(max-width: 780px) 100vw, 780px"
+                srcset="https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida.png 780w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-300x192.png 300w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-768x492.png 768w, https://insightsoftware.com/wp-content/uploads/2024/03/bu_fin_need_1_ida-270x173.png 270w">
+            </div>
+          </div>
+        </div>
+      </template>
+
+    </template>
+  </template>
+</template>

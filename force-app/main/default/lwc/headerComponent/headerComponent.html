@@ -1,0 +1,32 @@
+<template>
+    <div class="search-container">
+        <div class="navbar">
+            <a class="category" href="#home">Events</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Partners
+                    <lightning-icon icon-name="utility:down" size="x-small" class="my-icon"></lightning-icon>
+                </button>
+                <div class="dropdown-content">
+                    <a class="category" href="/solarwinds/portal-login">Portal Login</a>
+                    <a class="category" href="#">Program Overview</a>
+                    <a class="category" href="#">Become a Partner</a>
+                    <a class="category" href="#">Find a Partner</a>
+                    <a class="category" href="#">Global Systems Integrators</a>
+                </div>
+            </div>
+            <a class="category" href="#news">Government</a>
+            <a class="category" href="#news">Customer Portal</a>
+            <a class="category" href="#news">Contact Us</a>
+            <a class="category" href="#news">Contact Sales</a>
+            
+        </div>
+        <div class={wrapperClass}>
+            <input type="text" class={inputClass} placeholder="Search..." onblur={handleBlur}>
+            <span class="search-icon" onclick={openSearchInput}>
+                <lightning-icon icon-name="utility:search" title="Search" class="my-icon"></lightning-icon>
+            </span>
+            <span class={cancelIconClass} onclick={closeSearchInput}>✖</span>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,95 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 07-23-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+
+    
+    <lightning-card>
+        <div class="card">
+            <template if:true={quote}>
+                <lightning-layout multiple-rows>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Quote Number:</p>
+                        <p class="value">{quote.QuoteNumber}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Name:</p>
+                        <p class="value">{quote.Name}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Expiration Date:</p>
+                        <p class="value">{quote.formattedExpirationDate}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Status:</p>
+                        <p class="value">{quote.Status}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Subtotal:</p>
+                        <p class="value">{currencyCode}{quote.formattedSubtotal}</p>
+                    </lightning-layout-item>
+                    <template lwc:if={isDiscounted}>
+                        <lightning-layout-item size="6" padding="around-small">
+                            <p class="label">Discount:</p>
+                            <p class="value">{quote.formattedDiscount}{percent}</p>
+                        </lightning-layout-item>
+                    </template>
+                    <template lwc:else>
+                        <lightning-layout-item size="6" padding="around-small">
+                            <p class="label">Discount:</p>
+                            <p class="value">0</p>
+                        </lightning-layout-item>
+                    </template>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <p class="label">Total Price:</p>
+                        <p class="value">{currencyCode}{quote.formattedTotalPrice}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="12" padding="around-small">
+                        <p class="label">Description:</p>
+                        <p class="value">{quote.Description}</p>
+                    </lightning-layout-item>
+                    <!-- Add more fields as needed -->
+                    <lightning-layout-item size="12" padding="around-small" class="centered-button">
+                        <button class="slds-button slds-button_brand acceptButton" onclick={acceptQuote} disabled={statusAccepted}>Accept Quote</button>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </div>
+    </lightning-card>
+    <template if:true={showSuccessMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_success">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:success" size="small"></lightning-icon>
+                    Quote accepted successfully!
+                    Thanks for accepting the quote, Please proceed to cart and complete checkout!!
+                </p>
+            </div>
+        </div>
+    </template>
+    <template if:true={showExpiredErrorMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_error">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:error" size="small"></lightning-icon>
+                    Sorry, the quote has expired and cannot be accepted. Please request a new quote.
+                </p>
+            </div>
+        </div>
+    </template>
+    <template if:true={ShowApprovedErrorMessage}>
+        <div class="slds-p-around_medium">
+            <div class="slds-box slds-theme_error">
+                <p class="slds-p-horizontal_small" style="color: white;">
+                    <lightning-icon icon-name="utility:error" size="small"></lightning-icon>
+                    Sorry, Only approved quotes can be accepted.
+                </p>
+            </div>
+        </div>
+    </template>
+    
+</template>

@@ -1,0 +1,18 @@
+.slds-tabs_default__item {
+    cursor: pointer;
+}
+.tabHeading{
+ padding-left: 200px;   
+}
+.container{
+    padding-top: 105px;
+    padding-left: 207px;
+    display: flex;
+}
+.containersec2{
+    display: flex;
+    padding-left: 207px;
+}
+.col2 , .col3{
+    padding-left: 12px;
+}

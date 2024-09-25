@@ -1,0 +1,977 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Hubble",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "6rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1300px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"31497921-7e65-4ec1-beaf-792ec2e952eb\",\"columns\":[{\"UUID\":\"5a1bcf78-28b8-4507-96c8-556e910fd6b1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"3812ba4f-8cea-4abb-9c66-333011680f22\",\"columnName\":\"Column 2\",\"columnKey\":\"40f07\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hubblecategory",
+              "id" : "e27c6fb4-601b-4bce-8286-73c2cc85c9ba",
+              "type" : "component"
+            } ],
+            "id" : "5a1bcf78-28b8-4507-96c8-556e910fd6b1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Hubble_hero.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "eb7ad81a-a3de-4f4f-867a-0039c314b7d0",
+              "type" : "component"
+            } ],
+            "id" : "3812ba4f-8cea-4abb-9c66-333011680f22",
+            "name" : "40f07",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "31497921-7e65-4ec1-beaf-792ec2e952eb",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7405d4d1-f7c0-434d-b882-bd516aba66d6\",\"columns\":[{\"UUID\":\"64ec35b3-1a3c-4659-b24f-e8d8aaf8aff5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style = \"font-size: 24px; text-align: center; color: #1e2556;\">See for yourself why over <span style = \"font-weight: bold; color: #31ab46;  \">500K+</span> users are using insightsoftware  to draw instant data <br>insights, react swiftly to market changes, and outpace their competition</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "0308185a-650d-4647-ae79-12a421ea55ea",
+              "type" : "component"
+            } ],
+            "id" : "64ec35b3-1a3c-4659-b24f-e8d8aaf8aff5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7405d4d1-f7c0-434d-b882-bd516aba66d6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "120px",
+                "right" : "120px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"30754cad-4f44-402c-9844-f758d63342bc\",\"columns\":[{\"UUID\":\"3454f3c7-7390-4e06-82a2-38a5b8d50ce3\",\"columnName\":\"Column 1\",\"columnKey\":\"b78a9\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"b952af0d-7822-4094-bee1-7a2a4761b3f9\",\"columnName\":\"Column 2\",\"columnKey\":\"d043c\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"bcd196f8-e653-49c8-a690-358ab26afebb\",\"columnName\":\"Column 3\",\"columnKey\":\"87f41\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"9a6a8b3d-92c5-4f79-941b-d154f83d3201\",\"columnName\":\"Column 4\",\"columnKey\":\"05657\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"3588f0da-1a20-4ee2-ac59-1fcfbf960a0f\",\"columnName\":\"Column 5\",\"columnKey\":\"07b18\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"ea8b0120-9a23-42b5-a31f-d3fa7fd653fc\",\"columnName\":\"Column 6\",\"columnKey\":\"dd149\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/04/chipotle_200x110.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "2bc61256-d8f3-4ac8-bb9f-d538648dc6f4",
+              "type" : "component"
+            } ],
+            "id" : "3454f3c7-7390-4e06-82a2-38a5b8d50ce3",
+            "name" : "b78a9",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/04/ladbrokes_200x110.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "12bc8d94-4a04-45dc-81ea-3b7666ac5c0e",
+              "type" : "component"
+            } ],
+            "id" : "b952af0d-7822-4094-bee1-7a2a4761b3f9",
+            "name" : "d043c",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"src=\\\"https://insightsoftware.com/wp-content/uploads/2022/04/fm-conway_200x110.png\\\"\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a3f13149-c859-4f9d-aeba-4f8e93aef93c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/04/recology_200x110.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 50
+              },
+              "definition" : "dxp_base:image",
+              "id" : "504fff2d-0bce-4b16-a6e9-0a6f1bb77a79",
+              "type" : "component"
+            } ],
+            "id" : "bcd196f8-e653-49c8-a690-358ab26afebb",
+            "name" : "87f41",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/04/bibby-distribution_200x110.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "rgba(255, 255, 255, 0)",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "132687d8-5fec-4589-81ef-81dee47563e0",
+              "type" : "component"
+            } ],
+            "id" : "9a6a8b3d-92c5-4f79-941b-d154f83d3201",
+            "name" : "05657",
+            "title" : "Column 4",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2022/04/fm-conway_200x110.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0d9e3bfe-44b3-4605-aed2-83bdc5b715a3",
+              "type" : "component"
+            } ],
+            "id" : "3588f0da-1a20-4ee2-ac59-1fcfbf960a0f",
+            "name" : "07b18",
+            "title" : "Column 5",
+            "type" : "region"
+          }, {
+            "id" : "ea8b0120-9a23-42b5-a31f-d3fa7fd653fc",
+            "name" : "dd149",
+            "title" : "Column 6",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "30754cad-4f44-402c-9844-f758d63342bc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "6rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"051c6a24-fc2c-49a2-b3e2-4a763cc16a30\",\"columns\":[{\"UUID\":\"f812cc10-d5b5-4cf3-bfa9-d801be8c74ce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"9f52699f-f795-4e1e-b67f-e3294a2ec0a4\",\"columns\":[{\"UUID\":\"820def8c-d085-47d4-aa4a-16a7dc77cce9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"2e238b3d-50cf-4e90-be09-8c3d98ecd77b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "right",
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Get Instant Demo",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "1998e9c2-92e2-44b1-a293-63ade5186227",
+                  "type" : "component"
+                } ],
+                "id" : "820def8c-d085-47d4-aa4a-16a7dc77cce9",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "size" : "large",
+                    "stretch" : "standard",
+                    "text" : "Buy Now",
+                    "type" : "primary",
+                    "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__recordPage\",\"attributes\":{\"actionName\":\"view\",\"objectApiName\":\"Product2\",\"recordId\":\"01tak000005QmkTAAS\"},\"state\":{\"recordName\":\"Hubble\"}}}}"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "53c9ca3c-f5c3-44ff-858c-09e877e58231",
+                  "type" : "component"
+                } ],
+                "id" : "2e238b3d-50cf-4e90-be09-8c3d98ecd77b",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "9f52699f-f795-4e1e-b67f-e3294a2ec0a4",
+              "type" : "component"
+            } ],
+            "id" : "f812cc10-d5b5-4cf3-bfa9-d801be8c74ce",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "shipping detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "051c6a24-fc2c-49a2-b3e2-4a763cc16a30",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"79d5d957-d077-483c-b653-4e7471723984\",\"columns\":[{\"UUID\":\"5058b070-513b-4dae-a879-bba7d54c3c6a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style = \"font-size: 24px; text-align: center; color: #1e2556;\">Close Books 50% Faster, Governed Reports in Days</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "13961414-c61e-4320-8ecb-f5f1bc901140",
+              "type" : "component"
+            } ],
+            "id" : "5058b070-513b-4dae-a879-bba7d54c3c6a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "79d5d957-d077-483c-b653-4e7471723984",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"65d0c531-645e-4cc0-b0e8-f9b66f0283b4\",\"columns\":[{\"UUID\":\"1007c989-b579-4ef2-ae82-3991f0f28246\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div>\n\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\"> Are Off the Shelf ERP Reporting Tools Wasting Your Finance <br> Team's Time?</h1>\n\n</div>\n\n<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264\">\n\n    <div class=\"container pt-4\">\n\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n\n            <div class=\"animated\">\n\n            </div>\n\n        </h2>\n\n        <div class=\"row\">\n\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Compliance_green.png\"\n\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n\n                            data-ll-status=\"loaded\"></div>\n\n                    <h3 class=\"h5 fw-semibold mb-4\">Lengthy Month-End Close<br> Process</h3>\n\n                    <p>Without drill down from summary to detail <br> efficiency of financial reporting, leading to<br> in your ERP, identifying and fixing <br>reconciliation issues becomes a manual<br>effort and slows down your closing <br> process. You’re spending more time<br> consolidating data than you are on<br>financial processes.</p>\n\n                </div>\n\n            </div>\n\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Operational-Reporting-Analytics_green.png\"\n\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n\n                            data-ll-status=\"loaded\"></div>\n\n                    <h3 class=\"h5 fw-semibold mb-4\">Making Decisions Without<br>Accurate Info </h3><br>\n\n                    <p>Manually exporting data from JDE and <br> Oracle EBS into Excel to create reports and <br> analyze data is not just inefficient, it’s also prone to errors. If you aren’t confident in <br> your numbers, those making critical <br> business decisions won’t be, either.</p>\n\n                </div>\n\n            </div>\n\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Automation_green.png\"\n\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n\n                            data-ll-status=\"loaded\"></div>\n\n                    <h3 class=\"h5 fw-semibold mb-4\">Lacking Essential Technical<br>Skills </h3>\n\n                    <p>Native reporting tools provided with JDE <br> and Oracle EBS tend to require heavy IT<br> involvement to manage. Waiting on IT<br> causes serious delays for your finance<br> team when it comes to modifying <br>recurring reports and creating ad hoc<br> requests.</p>\n\n                </div>\n\n            </div>\n\n    </div>\n\n        </div>\n\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "3ef16902-eda6-4d78-826f-d002428102b1",
+              "type" : "component"
+            } ],
+            "id" : "1007c989-b579-4ef2-ae82-3991f0f28246",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "65d0c531-645e-4cc0-b0e8-f9b66f0283b4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "5rem",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8d3a1d12-af50-43a4-96e9-f09239ccf9f3\",\"columns\":[{\"UUID\":\"c9d2e2b4-f994-4780-9eb0-8569c124be60\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12px",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"487ed99b-05ca-41e4-ae1f-01751506781b\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"d6ae65a0-3552-4774-80c5-0fc19b8e70df\",\"tabName\":\"Save Time\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"8f5b816b-e19a-486c-b1bb-8b1a574dabdd\",\"tabName\":\"Pre-Built Templates\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"4c98d35c-ca0c-4dca-99ef-a01b6604dd3d\",\"tabName\":\"Delve into Details\",\"tabKey\":\"tab3\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"c4d733c2-d788-4b7a-ba2d-208b29ab13ed\",\"tabName\":\"Reduce Risks\",\"tabKey\":\"c6e83\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "5px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"a3e4495f-5173-4260-b5bc-4b57489fc23b\",\"columns\":[{\"UUID\":\"f21d56ab-15a3-448a-a6b6-38ebd756a672\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"308c0f6a-f5a4-4dc4-accc-5f4df8754f53\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "50px"
+                          }
+                        },
+                        "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Close Your Books <span style = \"font-weight:bold; color: #31ab46\">  Faster</span> </h1>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "1b218300-d711-4f6f-a1fc-273cb1e455aa",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Shrink your month-end and year-end close processes by up to 50% with an all-in-one <br> reporting and dashboard tool for JDE and Oracle EBS. With real-time reporting, automated <br> report distribution, and drill-down into transactions, you can free up time and maximize your <br> investment.</p>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "89c531ea-f744-48f8-9b30-3ee895efc794",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "large",
+                        "stretch" : "standard",
+                        "text" : "Get Instant Demo >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "d4e71277-61d2-4afa-a65e-e0d4a06856a7",
+                      "type" : "component"
+                    } ],
+                    "id" : "f21d56ab-15a3-448a-a6b6-38ebd756a672",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Hubble_sq1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "063d7622-a76d-4344-a90f-d896e31f8f93",
+                      "type" : "component"
+                    } ],
+                    "id" : "308c0f6a-f5a4-4dc4-accc-5f4df8754f53",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "a3e4495f-5173-4260-b5bc-4b57489fc23b",
+                  "type" : "component"
+                } ],
+                "id" : "d6ae65a0-3552-4774-80c5-0fc19b8e70df",
+                "name" : "tab1",
+                "title" : "Save Time",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "5px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"97e378a5-042b-4e17-9092-df1594973c61\",\"columns\":[{\"UUID\":\"d2a6c05e-34a0-43f5-be80-221ee851dbe9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7c540e77-bcb6-4ab9-a725-3896a4210480\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "50px"
+                          }
+                        },
+                        "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\"><span style = \"font-weight:bold; color: #31ab46\">Deliver Immediate Value</span> From Your Data  </h1>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "ae98a02d-b908-45ff-8919-7472102e67e7",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">After a fast and easy install, Hubble provides a flexible library of 240 pre-built, out-of-the-box <br> report templates that are easy to build and customize. Your finance team can start creating <br>accurate reports and making decisions right away without requiring technical expertise.</p>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "414e7a7e-f60a-46b2-8042-d1a9d976d97d",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "large",
+                        "stretch" : "standard",
+                        "text" : "Get Instant Demo >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "8ebabfc8-35d6-43e1-b095-5ffd991baf20",
+                      "type" : "component"
+                    } ],
+                    "id" : "d2a6c05e-34a0-43f5-be80-221ee851dbe9",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Hubble_sq2.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "0679ebae-f9a3-49d7-9962-b55d7aa56d24",
+                      "type" : "component"
+                    } ],
+                    "id" : "7c540e77-bcb6-4ab9-a725-3896a4210480",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "97e378a5-042b-4e17-9092-df1594973c61",
+                  "type" : "component"
+                } ],
+                "id" : "8f5b816b-e19a-486c-b1bb-8b1a574dabdd",
+                "name" : "tab2",
+                "title" : "Pre-Built Templates",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "5px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"434a7c44-e611-49da-bb2f-b2afb982d361\",\"columns\":[{\"UUID\":\"108bd095-271e-4858-9d2a-7fef4f7793d8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bfd3c6bd-be33-4894-9b45-ca12b78caaf7\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "50px"
+                          }
+                        },
+                        "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Track<span style = \"font-weight:bold; color: #31ab46\"> Key</span> Metrics </h1>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "eee66f5a-9cc3-49c0-897d-cb73f880bed9",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Bring all your key metrics into focus with easy-to-consume, real-time web dashboards, and<br> analytics. With Hubble’s data visualization, users across your organization can monitor KPIs,<br> analyze trends, collaborate through discussions, and drill into underlying ERP transactions.</p>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "6845e4f6-9d26-4b4e-b93d-03718a2d9a88",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "large",
+                        "stretch" : "standard",
+                        "text" : "Get Instant Demo >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "269b7e7b-3b5f-4948-b690-ee84fe6017c4",
+                      "type" : "component"
+                    } ],
+                    "id" : "108bd095-271e-4858-9d2a-7fef4f7793d8",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Hubble_sq3.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 80
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "cd927564-0902-448e-a53d-6d5aebf07c77",
+                      "type" : "component"
+                    } ],
+                    "id" : "bfd3c6bd-be33-4894-9b45-ca12b78caaf7",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "434a7c44-e611-49da-bb2f-b2afb982d361",
+                  "type" : "component"
+                } ],
+                "id" : "4c98d35c-ca0c-4dca-99ef-a01b6604dd3d",
+                "name" : "tab3",
+                "title" : "Delve into Details",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "50px",
+                        "right" : "5px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"92dc9e9f-258a-4b84-a429-bde0b7eea3d7\",\"columns\":[{\"UUID\":\"988aefad-f786-4b2c-9617-42d231e7adef\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c0ebb95e-7025-4c90-8eb0-8c744b4cf7ab\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "2rem"
+                          }
+                        },
+                        "richTextValue" : "<div>\n    <h1 style = \"font-size: 36px; color: #1e2556;\">Introduce a Governed <span style = \"font-weight:bold; color: #31ab46\"> Reporting Process</span> </h1>\n</div>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "7ea317e5-e049-4a1f-874c-169db91af44c",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p style= \"font-size: 16px; color: #1E2556;\">Reduce risk and help with compliance in regulated industries or where required by <br> auditors. A host of controls—including full integration with EBS and JDE security, read-only <br>data in reports, workflows and approvals, and different user types—governs access to <br> functionality and provides a full audit trail.</p>"
+                      },
+                      "definition" : "community_builder:htmlEditor",
+                      "id" : "bdab8988-fac1-4287-b675-22507edbfb9a",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "large",
+                        "stretch" : "standard",
+                        "text" : "Get Instant Demo >",
+                        "type" : "primary"
+                      },
+                      "definition" : "dxp_base:button",
+                      "id" : "eb3c4a8d-9c61-4065-9c8c-b314e28a43ca",
+                      "type" : "component"
+                    } ],
+                    "id" : "988aefad-f786-4b2c-9617-42d231e7adef",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/img_Hubble_sq4.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 81
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "2adacdca-82c1-4afb-a957-e11c7ebb68c4",
+                      "type" : "component"
+                    } ],
+                    "id" : "c0ebb95e-7025-4c90-8eb0-8c744b4cf7ab",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "92dc9e9f-258a-4b84-a429-bde0b7eea3d7",
+                  "type" : "component"
+                } ],
+                "id" : "c4d733c2-d788-4b7a-ba2d-208b29ab13ed",
+                "name" : "c6e83",
+                "title" : "Reduce Risks",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "487ed99b-05ca-41e4-ae1f-01751506781b",
+              "type" : "component"
+            } ],
+            "id" : "c9d2e2b4-f994-4780-9eb0-8569c124be60",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "8d3a1d12-af50-43a4-96e9-f09239ccf9f3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a4786a9f-b115-4df7-bb45-d786b4f0d690\",\"columns\":[{\"UUID\":\"bbb9e5f5-aa16-45c6-bf75-3c5e2f24e6b6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div>\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\">Handle Big Data, Build Reports, Share Insights</h1>\n</div>\n<div data-block-id=\"block_columned_row\" id=\"block_columned_row\" class=\"py-5 unique-id-361637264\">\n    <div class=\"container pt-4\">\n        <h2 class=\"mx-2 px-0 mx-md-5 px-md-5 mb-5 text-center\">\n            \n            <div class=\"animated\">\n                \n            </div>\n            \n        </h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Reporting-Process_green-4.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Automated Workflows Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/automated_workflows_icon-1.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Large Data Volume<br> Handling </h3>\n                    <p>As your organization grows, the volume of<br> data in your ERP systems increases.<br> Reporting on large datasets can impact <br>performance, leading to slower query <br>response times and lags in real-time <br>reporting. Hubble’s reporting capabilities <br>solves for these issues.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"49\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Financial-Reporting_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Real Time Data Icon\" \n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/real-time_data_icon.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Reusable Reports Objects<br> Library  </h3><br>\n                    <p>Hubble allows you to create reusable<br> report inquiries that can be created once <br>and used in multiple inquiries. When you <br>update an object, that object is updated<br> for all inquiries subscribed to that object,<br> saving you time and frustration.</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 mb-5 px-4\">\n                <div class=\"bg-white rounded-2 p-4 pb-2 h-100\">\n                    <div style=\"max-width:60px;\"><img width=\"48\" height=\"48\"\n                            src=\"https://insightsoftware.com/wp-content/uploads/2024/05/Real-time-data_green.png\"\n                            class=\"w-10 mb-4 entered lazyloaded\" alt=\"Pre Built Templates Icon 2\"\n                            data-lazy-src=\"https://insightsoftware.com/wp-content/uploads/2024/05/pre-built_templates_icon_2.svg\"\n                            data-ll-status=\"loaded\"></div>\n                    <h3 class=\"h5 fw-semibold mb-4\">Row-level User <br> Commentary </h3>\n                    <p>To communicate more effectively with all <br>users, Hubble includes the ability to<br> capture commentary from all users.<br> Hubble captures these comments in all<br> rows of data and reporting for effective<br> and continual communication.</p>\n                </div>\n            </div>\n    </div>\n        </div>\n          \n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6fdceea7-4dfb-4a14-b6b8-6c51def1d124",
+              "type" : "component"
+            } ],
+            "id" : "bbb9e5f5-aa16-45c6-bf75-3c5e2f24e6b6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a4786a9f-b115-4df7-bb45-d786b4f0d690",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "column",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"74f616f8-7552-4fbc-94e6-f083cadd06b3\",\"columns\":[{\"UUID\":\"ea4e1905-986a-430e-94ca-a265da8fef09\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bcae482f-0a74-437f-a930-f8dd6022abc2\",\"columnName\":\"Column 2\",\"columnKey\":\"fab23\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div>\n    <h1 style = \"font-size: 40px; color: #1e2556; text-align: center;\"><span class=\"headinggreen\" style = \"font-weight: bold;\">Real-Time Reporting and Analytics</span> for JDE and Oracle EBS</h1>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9ee66844-bb41-4757-8c72-86bd7684da23",
+              "type" : "component"
+            } ],
+            "id" : "ea4e1905-986a-430e-94ca-a265da8fef09",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/05/Hubble-Screenshot.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "10e41d67-9a68-40d7-bc18-7421994fb331",
+              "type" : "component"
+            } ],
+            "id" : "bcae482f-0a74-437f-a930-f8dd6022abc2",
+            "name" : "fab23",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "74f616f8-7552-4fbc-94e6-f083cadd06b3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c5581aea-b356-4ea6-958b-af4ccddd28b3\",\"columns\":[{\"UUID\":\"72747146-7811-420c-a5ca-4d611fb24e4e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "large",
+                "stretch" : "standard",
+                "text" : "Get Prices & Promos >",
+                "type" : "primary"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "54c08164-dae4-46d9-a117-4f2887fd5685",
+              "type" : "component"
+            } ],
+            "id" : "72747146-7811-420c-a5ca-4d611fb24e4e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c5581aea-b356-4ea6-958b-af4ccddd28b3",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2158f20c-26fc-4c1a-8afb-1f1173e1a500\",\"columns\":[{\"UUID\":\"2a91f855-f25a-4d0a-a37e-b755e0b5eba1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div class = \"hubble-images\" style = \"display: flex; justify-content:center;\">\n<img width=\"216\" height=\"28\" src=\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/capterra-badge.svg\" data-lazy-src=\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/capterra-badge.svg\" data-ll-status=\"loaded\" class=\"entered lazyloaded\">\n<img width=\"232\" height=\"28\" src=\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/get-app-badge.svg\" class=\"mt-1 entered lazyloaded\" data-lazy-src=\"https://insightsoftware.com/wp-content/themes/insightsoftware/images/get-app-badge.svg\" data-ll-status=\"loaded\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9b275ac5-8930-458e-962d-e489bf3be675",
+              "type" : "component"
+            } ],
+            "id" : "2a91f855-f25a-4d0a-a37e-b755e0b5eba1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2158f20c-26fc-4c1a-8afb-1f1173e1a500",
+          "type" : "component"
+        } ],
+        "id" : "7556844f-32f1-4aa2-a741-b8096dd4b300",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Hubble",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "19b674af-3113-4162-b754-dda7a2be4288",
+          "type" : "component"
+        } ],
+        "id" : "06343d28-9db1-42d2-819f-b08a3e9ef325",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "2b177276-b554-4009-9594-419429dbe7e3",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-hubble"
+  }
+}

@@ -1,0 +1,303 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-07-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="container">
+        <h2 class="header">Get Instant Pricing & Promos</h2>
+        <form class="form" onsubmit={handleSubmit}>
+            <div class="form-group">
+                <label for="email">Business Email*</label>
+                <input type="text"  class="form-control" name="businessEmail" value={businessEmail} placeholder="Business Email" onchange={handleInputChange}>
+                <template if:true={businessEmailError}>
+                    <p class="error">Please enter a valid corporate email.</p>
+                </template>
+            </div>
+            <div class="form-group">
+                <label for="primary-system">Primary Financial System</label>
+                <select id="primary-system" class="form-control" name="primaryFinancialSystem" value={primaryFinancialSystem} onchange={handleInputChange}>
+                    <option value="" selected="" class="gf_placeholder">-- Select One --</option>
+                    <option value="1750">Deltek</option>
+                    <option value="1142">Epicor</option>
+                    <option value="1143">Infor</option>
+                    <option value="1688">JD Edwards</option>
+                    <option value="870">Microsoft</option>
+                    <option value="1437">MRI Software</option>
+                    <option value="1436">NetSuite</option>
+                    <option value="1435">Oracle</option>
+                    <option value="453">Other</option>
+                    <option value="1401">Sage</option>
+                    <option value="1393">SAP</option>
+                    <option value="1887">SYSPRO</option>
+                    <option value="1146">Viewpoint</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="financial-system-version">Financial System Version</label>
+                <select id="financial-system-version" class="form-control" name="financialSystemVersion" value={financialSystemVersion} onchange={handleInputChange}>
+                    <option value="" selected="" class="gf_placeholder">-- Select One --</option>
+                    <option value="7832">24SevenOffice</option>
+                    <option value="1696">A+</option>
+                    <option value="1697">AARO</option>
+                    <option value="1698">AccountEdge</option>
+                    <option value="1699">Accounting CS</option>
+                    <option value="1700">Accountmate</option>
+                    <option value="1703">Acumatica</option>
+                    <option value="1709">Alere</option>
+                    <option value="1958">Anaplan</option>
+                    <option value="1141">Aptean</option>
+                    <option value="1712">Assist</option>
+                    <option value="1713">ASW</option>
+                    <option value="1714">Aurora (Sys21)</option>
+                    <option value="1715">Axion</option>
+                    <option value="1716">Axis</option>
+                    <option value="1717">BAAN</option>
+                    <option value="1718">Banner</option>
+                    <option value="1720">Blackbaud</option>
+                    <option value="1721">BlueLink</option>
+                    <option value="1723">Book Works</option>
+                    <option value="1724">BPCS</option>
+                    <option value="1725">Cayenta</option>
+                    <option value="1726">CCH</option>
+                    <option value="1727">CDK Global</option>
+                    <option value="1728">CedAr e-financials</option>
+                    <option value="1729">CGI Advantage</option>
+                    <option value="1730">Clarus</option>
+                    <option value="1731">CMiC</option>
+                    <option value="1732">CMS (Solarsoft)</option>
+                    <option value="1733">Coda</option>
+                    <option value="1734">Coins</option>
+                    <option value="1735">Colleague</option>
+                    <option value="1738">CPSI</option>
+                    <option value="8768">CSC CorpTax</option>
+                    <option value="1740">Custom</option>
+                    <option value="1741">CYMA</option>
+                    <option value="1742">DAC</option>
+                    <option value="1746">Data Warehouse</option>
+                    <option value="1745">Datatel</option>
+                    <option value="10019">DATEV</option>
+                    <option value="1747">Davisware Global Edge</option>
+                    <option value="1748">Davisware S2K</option>
+                    <option value="1749">Deacom</option>
+                    <option value="1708">Deltek Ajera</option>
+                    <option value="1737">Deltek ComputerEase</option>
+                    <option value="3915">Deltek CostPoint</option>
+                    <option value="3918">Deltek Maconomy</option>
+                    <option value="3916">Deltek VantagePoint</option>
+                    <option value="2857">Deltek Vision</option>
+                    <option value="2858">Deltek Vision Cloud</option>
+                    <option value="1751">DPN</option>
+                    <option value="450">Dynamics 365 Business Central</option>
+                    <option value="451">Dynamics 365 Finance and Supply Chain Management</option>
+                    <option value="446">Dynamics AX</option>
+                    <option value="452">Dynamics CRM</option>
+                    <option value="448">Dynamics GP</option>
+                    <option value="447">Dynamics NAV</option>
+                    <option value="1148">Dynamics NAV C5</option>
+                    <option value="449">Dynamics SL</option>
+                    <option value="1752">e5</option>
+                    <option value="1753">eCMS</option>
+                    <option value="1754">Eden (Tyler Tech)</option>
+                    <option value="1755">Emphasys</option>
+                    <option value="1757">Entrata</option>
+                    <option value="9910">Epicor Avante</option>
+                    <option value="9911">Epicor BisTrack</option>
+                    <option value="1936">Epicor CMS</option>
+                    <option value="1937">Epicor Enterprise</option>
+                    <option value="9912">Epicor Epicor SLS</option>
+                    <option value="1940">Epicor iScala</option>
+                    <option value="9913">Epicor Kinetic</option>
+                    <option value="9914">Epicor LumberTrack</option>
+                    <option value="9915">Epicor Manage 2000</option>
+                    <option value="1942">Epicor Prophet 21</option>
+                    <option value="9916">Epicor Tropos</option>
+                    <option value="1759">Etail</option>
+                    <option value="1762">Expandable</option>
+                    <option value="1764">FAMIS</option>
+                    <option value="1765">Famous Software</option>
+                    <option value="1767">Fern</option>
+                    <option value="1769">FinancialForce</option>
+                    <option value="1770">FireStream</option>
+                    <option value="1771">FIS</option>
+                    <option value="1772">FiServ</option>
+                    <option value="1774">Flexi</option>
+                    <option value="7833">Fortnox</option>
+                    <option value="1775">Foundation</option>
+                    <option value="1776">Fourth Shift</option>
+                    <option value="1777">Friedman</option>
+                    <option value="1779">Full Circle</option>
+                    <option value="1781">GEMS</option>
+                    <option value="1784">Harris Data (AS/400)</option>
+                    <option value="1785">HCS</option>
+                    <option value="1786">HMS</option>
+                    <option value="1788">IBM Cognos TM1</option>
+                    <option value="1789">IBS</option>
+                    <option value="1790">IBS-DW</option>
+                    <option value="1797">In-House Developed</option>
+                    <option value="1794">Incode</option>
+                    <option value="1796">INFINIUM</option>
+                    <option value="1944">Infor CloudSuite Financials</option>
+                    <option value="1946">Infor Distribution SX.e</option>
+                    <option value="10700">Infor Financials &amp; Supply Management</option>
+                    <option value="1812">Infor Lawson</option>
+                    <option value="1948">Infor M3</option>
+                    <option value="1949">Infor System21</option>
+                    <option value="1945">Infor SyteLine</option>
+                    <option value="1801">IQMS</option>
+                    <option value="1802">iSuite</option>
+                    <option value="1804">Jack Henry</option>
+                    <option value="1807">Jenzabar</option>
+                    <option value="1808">JobBOSS</option>
+                    <option value="1809">Jonas Construction</option>
+                    <option value="1815">M1</option>
+                    <option value="1816">Macola</option>
+                    <option value="1817">MACPAC</option>
+                    <option value="1818">Made2Manage</option>
+                    <option value="1914">MAM</option>
+                    <option value="1819">MAM Autopart</option>
+                    <option value="1820">Manman</option>
+                    <option value="1821">Mapics</option>
+                    <option value="1825">McLeod</option>
+                    <option value="1827">MEDITECH</option>
+                    <option value="1828">MFG Pro</option>
+                    <option value="1829">MicrosOpera</option>
+                    <option value="1830">MIP</option>
+                    <option value="1831">Mitchell Humphrey</option>
+                    <option value="1833">Movex</option>
+                    <option value="1834">MRI</option>
+                    <option value="1950">MRI Commercial Management</option>
+                    <option value="1951">MRI Financials</option>
+                    <option value="1952">MRI Horizon</option>
+                    <option value="1953">MRI Horizon CRE</option>
+                    <option value="1955">MRI Qube Horizon</option>
+                    <option value="1954">MRI Residential Management</option>
+                    <option value="1835">MSGovern</option>
+                    <option value="1836">Munis (Tyler Tech)</option>
+                    <option value="1841">New World Systems</option>
+                    <option value="1843">Onesite</option>
+                    <option value="1844">Onestream XF</option>
+                    <option value="1845">Open Systems</option>
+                    <option value="1685">Oracle E-Business Suite (EBS)</option>
+                    <option value="1686">Oracle EPM Cloud</option>
+                    <option value="9868">Oracle ERP Cloud</option>
+                    <option value="1693">Oracle Essbase</option>
+                    <option value="1689">Oracle Financial Consolidation and Close (FCCS)</option>
+                    <option value="1690">Oracle Fusion</option>
+                    <option value="1692">Oracle Hyperion Enterprise</option>
+                    <option value="1687">Oracle Hyperion Financial Management (HFM)</option>
+                    <option value="1694">Oracle Hyperion Planning</option>
+                    <option value="1852">Oracle PeopleSoft</option>
+                    <option value="1695">Oracle Planning and Budgeting Cloud Service (PBCS)</option>
+                    <option value="8769">Oracle Tax Reporting</option>
+                    <option value="1848">PDI</option>
+                    <option value="1850">Penta</option>
+                    <option value="1854">Plexxis</option>
+                    <option value="7834">PowerOffice</option>
+                    <option value="1857">PRMS</option>
+                    <option value="1858">Pro Contractor</option>
+                    <option value="1859">ProLaw</option>
+                    <option value="1860">Q360</option>
+                    <option value="1861">QAD</option>
+                    <option value="1862">Quantum</option>
+                    <option value="1913">Qube Horizon</option>
+                    <option value="8927">QuickBooks Desktop Premier</option>
+                    <option value="8925">QuickBooks Desktop Pro</option>
+                    <option value="8924">Quickbooks Enterprise</option>
+                    <option value="8926">QuickBooks Online</option>
+                    <option value="1863">Quorum</option>
+                    <option value="1864">RealPage</option>
+                    <option value="8375">REST API</option>
+                    <option value="1867">Retalix</option>
+                    <option value="1915">Ross</option>
+                    <option value="1404">Sage 100</option>
+                    <option value="9849">Sage 100 Contractor</option>
+                    <option value="9848">Sage 200</option>
+                    <option value="9845">Sage 300</option>
+                    <option value="9843">Sage 300 CRE (Timberline)</option>
+                    <option value="9842">Sage 500</option>
+                    <option value="9850">Sage 50cloud Accounting</option>
+                    <option value="1701">Sage AccPac</option>
+                    <option value="9847">Sage Adonix Tolas</option>
+                    <option value="9846">Sage Estimating</option>
+                    <option value="9840">Sage Intacct</option>
+                    <option value="9841">Sage Intacct Budgeting &amp; Planning</option>
+                    <option value="1403">Sage MAS</option>
+                    <option value="9844">Sage X3</option>
+                    <option value="1399">SAP BPC (HANA, MS or Netweaver)</option>
+                    <option value="1394">SAP Business ByDesign</option>
+                    <option value="1395">SAP Business One (B1)</option>
+                    <option value="1400">SAP Business Warehouse (BW)</option>
+                    <option value="1396">SAP ERP</option>
+                    <option value="1684">SAP ERP Central Component (ECC)</option>
+                    <option value="1398">SAP S/4HANA</option>
+                    <option value="1875">SmartStream</option>
+                    <option value="1878">Spokane</option>
+                    <option value="1879">Springbrook</option>
+                    <option value="871">SQL Server Analysis Services (SSAS)</option>
+                    <option value="8374">Standalone DB with ODBC/DSN connection</option>
+                    <option value="8397">Standalone IBM DB</option>
+                    <option value="8396">Standalone Oracle DB</option>
+                    <option value="8376">Standalone SQL DB</option>
+                    <option value="1882">SUN</option>
+                    <option value="1883">Sunguard</option>
+                    <option value="1884">SunSystems</option>
+                    <option value="1886">Sys21</option>
+                    <option value="1888">SyteLine</option>
+                    <option value="1890">TAM (Applied Systems)</option>
+                    <option value="8770">Thomson Reuters Tax</option>
+                    <option value="1894">Timberline</option>
+                    <option value="1895">TIMELINE</option>
+                    <option value="1896">Traverse</option>
+                    <option value="7836">TripleTex</option>
+                    <option value="7842">Unit4</option>
+                    <option value="7840">Unit4 Agresso</option>
+                    <option value="7841">Unit4 Business World</option>
+                    <option value="7839">Unit4 Coda</option>
+                    <option value="1899">USL Financials</option>
+                    <option value="1900">Vadim</option>
+                    <option value="1901">VAI-System 2000</option>
+                    <option value="1902">Vantage</option>
+                    <option value="8771">Vertex</option>
+                    <option value="1877">Viewpoint Spectrum</option>
+                    <option value="1957">Viewpoint Vista</option>
+                    <option value="7278">Visma</option>
+                    <option value="1905">Winshuttle</option>
+                    <option value="1906">Wolters Kluwer CCH Tagetik</option>
+                    <option value="1907">WorkDay</option>
+                    <option value="7837">Xero</option>
+                    <option value="7838">xLedger</option>
+                    <option value="1909">Xperia</option>
+                    <option value="1910">Yardi</option>
+                    <option value="1911">Yardi-SaaS</option>
+
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="consent" class="form-checkbox">
+                <label for="consent">I agree to receive digital communications from insightsoftware and its partners
+                    (<a href="https://example.com" target="_blank">click here for full list of partners</a>)
+                    containing news, product information, promotions, or event invitations. I understand that I can
+                    withdraw my consent at any time.
+                    <a href="https://example.com" target="_blank">Privacy Policy</a>.
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">GET PRICING NOW</button>
+            </div>
+            <div class="form-group">
+                <a href="https://example.com" class="help-link">Having trouble?</a>
+            </div>
+            <template lwc:if={showSuccessMessage}>
+                <p class="success-message">Inquiry has been submitted.
+                    Our representative will get in touch with you soon!!</p>
+            </template>
+            <template lwc:if={showErrorMessage}>
+                <p class="error-message">Error submitting form. Please ensure all fields are filled and consent is given.</p>
+            </template>
+        </form>
+    </div>
+</template>

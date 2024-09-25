@@ -1,0 +1,11 @@
+<template>
+    <div class="quantity-selector">
+        <button class="decrease" onclick={decreaseQuantity} aria-label="Decrease quantity">-</button>
+        <input 
+            class="quantity-input" 
+            value={quantity} 
+            onchange={handleInputChange} 
+        />
+        <button class="increase" onclick={increaseQuantity} aria-label="Increase quantity">+</button>
+    </div>
+</template>

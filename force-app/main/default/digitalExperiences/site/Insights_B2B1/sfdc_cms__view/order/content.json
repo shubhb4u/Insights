@@ -1,0 +1,111 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Order",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5651b984-e4a0-4ff2-a1ba-5248ecd1ac2e\",\"columns\":[{\"UUID\":\"7b52f260-055d-4028-824e-36fd6bcdf4ee\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:breadcrumb",
+              "id" : "54ed0042-b946-40da-b204-2d0c41309e98",
+              "type" : "component"
+            } ],
+            "id" : "7b52f260-055d-4028-824e-36fd6bcdf4ee",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5651b984-e4a0-4ff2-a1ba-5248ecd1ac2e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "5rem",
+                "right" : "",
+                "top" : ""
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "maxContentWidth" : "1200px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e53d8a3a-1a2b-4c2b-8937-03db54639bcf\",\"columns\":[{\"UUID\":\"858b4ffb-22df-4d2c-a99d-4112d72305b7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "bodyText" : "We will send an email with your confirmation number and receipt shortly.",
+                "buttonText" : "Continue Shopping",
+                "confirmationNumberText" : "Confirmation Number",
+                "dxpStyle" : { },
+                "headerText" : "Thank you for your order!"
+              },
+              "customCssClasses" : "Order-Confirmation Order-Confirmation-Thankyou Order-Confirmation-Text",
+              "definition" : "commerce_unified_checkout:orderConfirmation",
+              "id" : "8be06cc1-71c8-469c-aa46-2f324622098e",
+              "type" : "component"
+            } ],
+            "id" : "858b4ffb-22df-4d2c-a99d-4112d72305b7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "detailBoxCart",
+          "definition" : "community_layout:section",
+          "id" : "e53d8a3a-1a2b-4c2b-8937-03db54639bcf",
+          "type" : "component"
+        } ],
+        "id" : "04b416a0-e097-41b5-8aa1-a9dfdef6c0a7",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "80799801-007d-49e1-820a-82e7e31530e8",
+          "type" : "component"
+        } ],
+        "id" : "c914e63b-cf00-453b-a4dc-24486cc0f87c",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8fb8ccca-f3df-4e6d-beff-109a8428ba10",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "order"
+  }
+}

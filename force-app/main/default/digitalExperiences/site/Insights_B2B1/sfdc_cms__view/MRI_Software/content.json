@@ -1,0 +1,1441 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "MRI Software",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCO4HLRXC5PJHLLGH7F3MEK4LBWU?lastModifiedDate=Mon Sep 16 05:21:30 GMT 2024&height=144&width=192\",\"contentKey\":\"MCO4HLRXC5PJHLLGH7F3MEK4LBWU\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat-x\"}",
+            "backgroundImageOverlay" : "rgba(255, 255, 255, 0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e6d213ee-6706-4985-b04d-54f2b9a9f309\",\"columns\":[{\"UUID\":\"1ff48494-a4d4-4024-9669-4e03b4ea719c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "50px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"c6458839-f353-4d32-968c-2235af73d58f\",\"columns\":[{\"UUID\":\"7844d9ca-af55-4e13-8ccc-8af9ab2a6b90\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c362dbe8-3201-4c25-96f2-82aa4a5dadb5\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 18px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(0, 168, 232);\">Reporting, BI, and Analytics Solutions for MRI Software</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "24d9e54c-8953-428d-97cc-287e8adad5fe",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "richTextValue" : "<h1><span style=\"font-size: 48px;\">Top-Performing Reporting, Business Intelligence and Analytics Solutions for MRI Software</span></h1><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "3f9f9771-c0ef-4b03-af2a-022f3953343b",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"ff0264c5-26a8-447e-9046-a8e230cf6c24\",\"columns\":[{\"UUID\":\"e2f58382-9637-4c88-a225-e23447af02ea\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"2e06f8a5-36b7-4ddb-85f7-e61f529e4084\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Get a Demo >",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "mri-banner-button1",
+                      "definition" : "dxp_base:button",
+                      "id" : "25b8479f-0e94-410b-a558-f82204e8a010",
+                      "type" : "component"
+                    } ],
+                    "id" : "e2f58382-9637-4c88-a225-e23447af02ea",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Watch Overview",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "mri-banner-button2",
+                      "definition" : "dxp_base:button",
+                      "id" : "58f1d90d-0e76-409b-89f1-5be9e38bbed6",
+                      "type" : "component"
+                    } ],
+                    "id" : "2e06f8a5-36b7-4ddb-85f7-e61f529e4084",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "ff0264c5-26a8-447e-9046-a8e230cf6c24",
+                  "type" : "component"
+                } ],
+                "id" : "7844d9ca-af55-4e13-8ccc-8af9ab2a6b90",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/12/MRI-Reporting-Software.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 80
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "0db6172a-6a63-4d59-94de-653bd51cfaff",
+                  "type" : "component"
+                } ],
+                "id" : "c362dbe8-3201-4c25-96f2-82aa4a5dadb5",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "c6458839-f353-4d32-968c-2235af73d58f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"420ae604-d3cb-4d3e-8938-06e8f83b1ed4\",\"columns\":[{\"UUID\":\"3f2e3594-2981-4a46-9574-05705bae922c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"e1be7e58-560e-48be-9c0f-2e265ec718ec\",\"columnName\":\"Column 2\",\"columnKey\":\"e62ed\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Are You Tired of Endlessly Exporting Your MRI Software Data to a </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Static Spreadsheet?</span></h2><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "d38b37ae-f247-416d-97e5-9a17bc433d31",
+                  "type" : "component"
+                } ],
+                "id" : "3f2e3594-2981-4a46-9574-05705bae922c",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "1.5rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "50px",
+                        "left" : "80px",
+                        "right" : "80px",
+                        "top" : ""
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"05a6e02c-b8cb-4f91-a510-01e93b4f3d72\",\"columns\":[{\"UUID\":\"b538c03a-bb91-49c6-ae6d-01eac00e62f7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"5ae70293-aa68-4930-a19e-3dacaddb3a2e\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6bc4ba61-8cd4-4b18-ba77-d4d8a6ee1deb\",\"columnName\":\"Column 3\",\"columnKey\":\"e250b\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"e9fcaece-6ca0-4e1c-b589-e7a505a510e9\",\"columns\":[{\"UUID\":\"f07afbf9-9baa-4379-92b8-5e8141714ac4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"94dac4c3-ba48-4543-a4e7-d05c3560e73a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"81bb3940-b109-425a-91c9-9833e8fdb46e\",\"columnName\":\"Column 3\",\"columnKey\":\"4d6d4\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/MRI-Icons-Automation-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 90
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "db73e3f4-f03f-45ad-82c7-108bc61c7c66",
+                          "type" : "component"
+                        } ],
+                        "id" : "f07afbf9-9baa-4379-92b8-5e8141714ac4",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 24px;\">Manual Reporting Processes are Tedious and Time Consuming</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "17dda301-18c7-4ca3-b551-e81a96a8027c",
+                          "type" : "component"
+                        } ],
+                        "id" : "94dac4c3-ba48-4543-a4e7-d05c3560e73a",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Export, format, repeat. Not just every month, but every time you find that a new journal entry has been added, or an adjustment made, during month-end. Dumping static data into Excel means you’re having to flip back and forth into MRI Software to investigate when there’s an unexpected number, or you’re reconciling accounts.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "d4abc2d2-a32c-4c4c-bb2e-684b051ba774",
+                          "type" : "component"
+                        } ],
+                        "id" : "81bb3940-b109-425a-91c9-9833e8fdb46e",
+                        "name" : "4d6d4",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "e9fcaece-6ca0-4e1c-b589-e7a505a510e9",
+                      "type" : "component"
+                    } ],
+                    "id" : "b538c03a-bb91-49c6-ae6d-01eac00e62f7",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"e6cd085a-3ba9-450f-8157-9cc47735d959\",\"columns\":[{\"UUID\":\"ac62e56b-a91d-4d05-a5f2-a3109f92b1c2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"00bcda34-96b9-4350-95a1-174ceb612b0c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"b5b14d6b-6c02-4a33-895d-03a5de2d55c9\",\"columnName\":\"Column 3\",\"columnKey\":\"55333\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/MRI-Icon-Visibility-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 90
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "8463c78c-12ff-4009-8918-3487aaa8c45e",
+                          "type" : "component"
+                        } ],
+                        "id" : "ac62e56b-a91d-4d05-a5f2-a3109f92b1c2",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 24px;\">You Struggle to Get Visibility on the Most Important Data</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "05103d54-4125-43b2-9351-5353361b8736",
+                          "type" : "component"
+                        } ],
+                        "id" : "00bcda34-96b9-4350-95a1-174ceb612b0c",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Rent roll reports, percent occupancy, bank reconciliations, tenant data, aged delinquency reports, and balance sheets that show you year-over-year comparison views—these reports and data need to be at your fingertips. But instead, you struggle to find the right parameters and codes for the right report.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "9cdc9c1f-748d-4c21-8435-a5ec09925873",
+                          "type" : "component"
+                        } ],
+                        "id" : "b5b14d6b-6c02-4a33-895d-03a5de2d55c9",
+                        "name" : "55333",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "e6cd085a-3ba9-450f-8157-9cc47735d959",
+                      "type" : "component"
+                    } ],
+                    "id" : "5ae70293-aa68-4930-a19e-3dacaddb3a2e",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "column",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"38715ece-e374-4b44-bc30-93ca4d6d5203\",\"columns\":[{\"UUID\":\"f8cd5b7d-6ee2-4e4c-ad4c-1975a5049267\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"78ea9874-f682-427b-9b48-1588ee8585cc\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d841d8f4-9a42-475b-afa2-88c847f14352\",\"columnName\":\"Column 3\",\"columnKey\":\"b3fe1\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/MRI-Icon-OneClick-85x85.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 90
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "fa1ee294-cdff-45c9-bb17-2ffa8b2e16c4",
+                          "type" : "component"
+                        } ],
+                        "id" : "f8cd5b7d-6ee2-4e4c-ad4c-1975a5049267",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 24px;\">You Feel Like You Have to Be a Power User to Do Your Job</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "203aa3b8-84aa-4ac8-8ca3-fa7334ce0488",
+                          "type" : "component"
+                        } ],
+                        "id" : "78ea9874-f682-427b-9b48-1588ee8585cc",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">MRI Software is purpose-built for property management, but you may feel that the native reporting requires technical skills and training that you simply don’t have. You want to access data easily and build and modify reports, but it’s not as self-service as you need.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "92916acb-68c0-4f9a-9810-3fe3dc9b0cf7",
+                          "type" : "component"
+                        } ],
+                        "id" : "d841d8f4-9a42-475b-afa2-88c847f14352",
+                        "name" : "b3fe1",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "38715ece-e374-4b44-bc30-93ca4d6d5203",
+                      "type" : "component"
+                    } ],
+                    "id" : "6bc4ba61-8cd4-4b18-ba77-d4d8a6ee1deb",
+                    "name" : "e250b",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "05a6e02c-b8cb-4f91-a510-01e93b4f3d72",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"d591baea-6224-4f28-9a4e-28957af10173\",\"columns\":[{\"UUID\":\"b1cd5a3e-2cf6-47ce-99c2-eeea6611dbd1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Unlock the Power of MRI’s Platform X with Flexible Self-</span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">﻿Service Reporting</span></h2><p style=\"text-align: center;\"><br></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "764d81f5-98b5-4f1a-a2bd-98d4c19be140",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Schedule a Demo >",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "mri-banner-button3",
+                      "definition" : "dxp_base:button",
+                      "id" : "51cc0e35-f820-40df-86ea-74052b512899",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "50px"
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"19e86309-347a-4057-9840-17241ea028ed\",\"columns\":[{\"UUID\":\"fda5db58-729b-4f56-b221-76824da03f42\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c63419e5-51b1-4156-8536-1780123a5aaa\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "50px"
+                              }
+                            },
+                            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Live, Drillable Data Inside Excel</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "35dbb269-b2f4-470d-a9c2-bc4c2e650b31",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "100px",
+                                "right" : "60px",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Start in Excel and stay in Excel without having to go back into MRI to view transactions or investigate balances unless you want to. insightsoftware offers pre-built drilldowns for MRI users to access data, all within Excel with Spreadsheet Server–MRI Edition. Use your existing Excel knowledge to build comprehensive reports and dashboards using live data that refresh at the click of a button.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "4fd91bb5-4f0d-4134-b1b5-46f94347f056",
+                          "type" : "component"
+                        } ],
+                        "id" : "fda5db58-729b-4f56-b221-76824da03f42",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/mri-live-drillable-data.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 85
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "001fb956-9f71-4a60-b7be-16f7254d696c",
+                          "type" : "component"
+                        } ],
+                        "id" : "c63419e5-51b1-4156-8536-1780123a5aaa",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "19e86309-347a-4057-9840-17241ea028ed",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"5dc9fe9a-95cd-4d9c-93b1-7ba1b0becdb8\",\"columns\":[{\"UUID\":\"80242f26-9c36-4c61-879e-00d989fe0725\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"67efe148-bbb4-4022-842f-dabbf052bbc2\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/mri-get-easy-access.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 85
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "4d6737ab-625c-4e5c-a0d3-c4de91864785",
+                          "type" : "component"
+                        } ],
+                        "id" : "80242f26-9c36-4c61-879e-00d989fe0725",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "50px"
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 36px;\">Get Easy Access to Mission </span></h3><h3><span style=\"font-size: 36px;\"><span class=\"ql-cursor\">﻿</span>Critical Reports</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "618e4b4b-0627-43b1-b320-df6aea57b953",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "100px",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">With MRI Software’s Partner Connect relationship with insightsoftware, we provide a library of pre-built reports and content that understands MRI’s hierarchies, codes, and parameters that help you create and modify your own customized reports easily. Our pre-built reports include the following: straight line rent, corporate AR, vendor history, bank reconciliation, tenant sales, lease and square foot history, cash receipts, and others.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "0757d7f6-928c-4ebe-8526-320fd47e431d",
+                          "type" : "component"
+                        } ],
+                        "id" : "67efe148-bbb4-4022-842f-dabbf052bbc2",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "5dc9fe9a-95cd-4d9c-93b1-7ba1b0becdb8",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"bb6261da-6d0a-4e67-a95a-940135df75c8\",\"columns\":[{\"UUID\":\"3ac67ec5-1dd3-4037-9f65-72048ebb1e0f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"ff65576c-b1d5-436f-a451-2901a93e18c3\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : "50px"
+                              }
+                            },
+                            "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Achieve Self-Service Reporting</span></h3><p><br></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "05fb296b-2ae6-4574-a48a-dc1b50893ff5",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "100px",
+                                "right" : "60px",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Using your existing Excel knowledge, you’ll be able to easily create and modify reports from your MRI Platform X data (and other MRI versions) that you can use every month simply by updating the period. As your rent rolls become more complex, you’ll be able to consolidate from multiple MRI reports to a single report with Spreadsheet Server that you can refresh at any time. Your reporting becomes much easier and more flexible, without having to seek support from your Admin, IT, or undergoing additional MRI training.</span></p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "1fb69614-263e-4265-a2c5-be14e9e3f2f8",
+                          "type" : "component"
+                        } ],
+                        "id" : "3ac67ec5-1dd3-4037-9f65-72048ebb1e0f",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2021/06/mir-achieve-elf-service-reporting.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 85
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "b972aef7-20a1-490b-80a2-bfccb075348d",
+                          "type" : "component"
+                        } ],
+                        "id" : "ff65576c-b1d5-436f-a451-2901a93e18c3",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "bb6261da-6d0a-4e67-a95a-940135df75c8",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/jetreports/assets/images/white-data-bg.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 100
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "3f2bcc90-9a07-4df4-8ba0-090a992f8c95",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "100px",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<h2><span style=\"font-size: 36px;\">Built for MRI Software</span></h2>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "760a1f9c-10a8-4406-9546-bbb8fdd92b7d",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "100px",
+                            "left" : "100px",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"e1adfef2-aed6-4a4b-979d-aa56ba4fb0ac\",\"columns\":[{\"UUID\":\"4587a739-d7fc-43c5-a952-7ea97c79531e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"7f92dd8b-4f05-40a4-9e5d-fff61d7d8a54\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<p>MRI Commercial Management</p><p>MRI Financials</p><p>MRI Horizon</p><p>MRI Horizon CRE</p><p>MRI Qube Horizon</p><p>MRI Residential Management</p>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "998da768-423d-40c5-8a8d-bb8ce18d70f1",
+                          "type" : "component"
+                        } ],
+                        "id" : "4587a739-d7fc-43c5-a952-7ea97c79531e",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "left",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2019/09/mri.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 60
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "443029fe-158e-41f1-8cbd-30f6fd5972e7",
+                          "type" : "component"
+                        } ],
+                        "id" : "7f92dd8b-4f05-40a4-9e5d-fff61d7d8a54",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "e1adfef2-aed6-4a4b-979d-aa56ba4fb0ac",
+                      "type" : "component"
+                    } ],
+                    "id" : "b1cd5a3e-2cf6-47ce-99c2-eeea6611dbd1",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "d591baea-6224-4f28-9a4e-28957af10173",
+                  "type" : "component"
+                } ],
+                "id" : "e1be7e58-560e-48be-9c0f-2e265ec718ec",
+                "name" : "e62ed",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "420ae604-d3cb-4d3e-8938-06e8f83b1ed4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "lineStyle" : "solid",
+                "size" : 2,
+                "width" : 100
+              },
+              "definition" : "dxp_base:horizontalLine",
+              "id" : "40dde2ba-e086-4d66-8ccd-21515a6f4082",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">View Recommended Products</span></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "a5037d8c-9829-4899-a01e-8aac57634474",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(49, 171, 70)",
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":false}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "rgb(255, 255, 255)",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "100px",
+                    "right" : "60px",
+                    "top" : ""
+                  }
+                },
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "left",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHeight" : "",
+                "tabHoverBackgroundColor" : "rgb(49, 171, 70)",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "vertical",
+                "tabPadding" : "12px",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabWidth" : "",
+                "tabsetConfig" : "{\"UUID\":\"0da83673-4c2b-4f87-ae76-54a46d35bbd4\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"0315020f-6230-44e2-868f-97ae5c3bf249\",\"tabName\":\"Budget & Planning\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"ace6114f-05cf-434d-9179-5c94750506c5\",\"tabName\":\"Financial Reporting\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"82510b77-43d6-4143-8639-87800c3510a0\",\"columns\":[{\"UUID\":\"34d7d721-f15f-4c6c-9ed9-a73fbeb2acfa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"9e627c25-5298-4717-9ca4-d0719ae46f98\",\"columnName\":\"Column 2\",\"columnKey\":\"eec8a\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/img_Bizview_card.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 50
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "594ef714-7ec7-466f-9913-a8c3f9d829cc",
+                      "type" : "component"
+                    } ],
+                    "id" : "34d7d721-f15f-4c6c-9ed9-a73fbeb2acfa",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-size: 26px;\">Bizview</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "59b31aeb-3419-4380-8209-559c36427fbe",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Bizview is an integrated and scalable </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">web-based budgeting, planning, and </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">forecasting solution for mid-sized </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span>companies.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "ff7c89fd-6d15-4792-a006-57c9ae0b5be3",
+                      "type" : "component"
+                    } ],
+                    "id" : "9e627c25-5298-4717-9ca4-d0719ae46f98",
+                    "name" : "eec8a",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "82510b77-43d6-4143-8639-87800c3510a0",
+                  "type" : "component"
+                } ],
+                "id" : "0315020f-6230-44e2-868f-97ae5c3bf249",
+                "name" : "tab1",
+                "title" : "Budget & Planning",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"c2144e8f-3119-45b2-b291-ec372d15ccb3\",\"columns\":[{\"UUID\":\"18ba7e98-04e7-4fda-bb00-a2b91cf54730\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"b18a0ca2-55b9-441b-86e7-ff00459cbadd\",\"columnName\":\"Column 2\",\"columnKey\":\"eec8a\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/img_Spreadsheet_Server_card.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 50
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "9789e6f7-e5ac-4046-ac0c-98ad8fa1404f",
+                      "type" : "component"
+                    } ],
+                    "id" : "18ba7e98-04e7-4fda-bb00-a2b91cf54730",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-size: 24px;\">Spreadsheet Server</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "c9d0134a-567d-4c4f-a83d-e2b227dedd6e",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Spreadsheet Server is easy to install </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">and delivers fast time to value. It </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">automates custom reports with drill-</span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span>down to transactional data.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "d4a0803a-dad6-4570-b0a2-8e1be7a2f49a",
+                      "type" : "component"
+                    } ],
+                    "id" : "b18a0ca2-55b9-441b-86e7-ff00459cbadd",
+                    "name" : "eec8a",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "c2144e8f-3119-45b2-b291-ec372d15ccb3",
+                  "type" : "component"
+                } ],
+                "id" : "ace6114f-05cf-434d-9179-5c94750506c5",
+                "name" : "tab2",
+                "title" : "Financial Reporting",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "mri-tabs",
+              "definition" : "dxp_layout:tabs",
+              "id" : "0da83673-4c2b-4f87-ae76-54a46d35bbd4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"2bc5c0d5-9ac9-4af9-8fd1-d4b1b997a4da\",\"columns\":[{\"UUID\":\"e1019b73-69fa-4f6f-8dc8-0c41efbf9425\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bd40cef2-c350-400f-b049-c48d620d024a\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "50px",
+                        "left" : "100px",
+                        "right" : "50px",
+                        "top" : "50px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/10/IS-Social-MRI-Ascend-Resource-1-1.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "6e7f007b-c8e1-4380-8faa-0f97a8dec1b8",
+                  "type" : "component"
+                } ],
+                "id" : "e1019b73-69fa-4f6f-8dc8-0c41efbf9425",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<h3><span style=\"font-size: 36px;\">How to Unleash Your Data into Impactful Analytics</span></h3><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">Data has never been more critical to successfully navigating uncertainty in </span></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">the real estate market. As we move into a new year, businesses must seek </span></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">ways to leverage their data to make better decisions about the road ahead. </span></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">In this webinar, we will discuss:</span></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">﻿</span></p><ul><li>The roles data collection, transformation, and distribution play in the </li></ul><p>            decision making process</p><ul><li>Leveraging dashboards and other visualizations to create impactful </li></ul><p>           analytics</p><ul><li>The necessity of agile reporting in today’s climate</li><li>How to provide data visibility across your organization to ensure the </li></ul><p>           right decisions are made at every level</p><p><a href=\"https://insightsoftware.com/resources/how-to-unleash-your-data-into-impactful-analytics/\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(255, 255, 255); font-family: var(--bs-btn-font-family); font-size: var(--bs-btn-font-size);\">&nbsp;Download Now</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "9e75c4f2-57b9-4e7f-b7d4-02eda6dbf858",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Download Now",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "mri-banner-button3",
+                  "definition" : "dxp_base:button",
+                  "id" : "80ebfd7f-9341-46a1-bf9c-9a1b3565d2e0",
+                  "type" : "component"
+                } ],
+                "id" : "bd40cef2-c350-400f-b049-c48d620d024a",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "2bc5c0d5-9ac9-4af9-8fd1-d4b1b997a4da",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Work with MRI Software’s 2019 Partner of the Year when you choose </span></h3><h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">insightsoftware</span></h3><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4f6208df-cc50-44ff-944a-454e423c91e9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"27cfd45d-a16a-41c7-8694-ad2bad4d3dbd\",\"columns\":[{\"UUID\":\"5d4fbc67-7ded-4490-a9b9-834d824399f7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"4c72c683-09de-447a-b1dd-36d64b81a18d\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "id" : "5d4fbc67-7ded-4490-a9b9-834d824399f7",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "230px",
+                        "top" : ""
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">In the COVID times, Spreadsheet Server really saved us and allowed us to move so quickly with things that changed every day. Even before COVID hit, Spreadsheet Server is just such a game changer for anybody who wants real-time data analysis in a concise and correct format.</span></p><p><br></p><p><strong style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Joseline Leroux</strong></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Property Analyst at Midwest Property Management</span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span></span></p><p><a href=\"https://insightsoftware.com/customer-stories/midwest-property-management/\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-family: Poppins, Helvetica, Arial, sans-serif;\">View Customer Story</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "3bddc893-1385-474e-91aa-2877d7918c15",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "100px",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "View Customer Stories",
+                    "type" : "primary"
+                  },
+                  "customCssClasses" : "mri-banner-button4",
+                  "definition" : "dxp_base:button",
+                  "id" : "34c1be6a-6fc0-49ce-bd73-b90a4b97a9bc",
+                  "type" : "component"
+                } ],
+                "id" : "4c72c683-09de-447a-b1dd-36d64b81a18d",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "27cfd45d-a16a-41c7-8694-ad2bad4d3dbd",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Related Resources</span></h3><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4897c076-5f4f-4567-b00e-5a041877c287",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "1.5rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "100px",
+                    "right" : "100px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"34117b4a-cb9f-429f-b144-efe370c22c30\",\"columns\":[{\"UUID\":\"84a8326d-b67f-4a08-bae0-bdb6933d560d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"c283b3bc-2dcb-4711-bbf1-ee7fb879d646\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a6a964d9-b50e-4e1f-92fc-eca85dad32c4\",\"columnName\":\"Column 3\",\"columnKey\":\"92ef3\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"e20c8d6c-3c75-471f-b55c-b9724b374d8c\",\"columns\":[{\"UUID\":\"016b65c8-cbb9-447f-933b-af5025cd813d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"eb5f4236-f3d6-4ba9-aa07-15f66f72f814\",\"columns\":[{\"UUID\":\"7e32c1d3-c009-46ac-8789-0555e0cc023c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/04/24-04-WBN-ProfitPioneersTransformRealEstateReporting-Website.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "5d08ba0f-d1e6-4942-817b-34293c2af08d",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Webinar",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "7eaf803b-3677-4664-b28f-6f18009b004a",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "44px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">Profit Pioneers: Transform Real Estate Reporting into Gold</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "9446202b-b24d-44d7-8d23-65e38156f0a0",
+                          "type" : "component"
+                        } ],
+                        "id" : "7e32c1d3-c009-46ac-8789-0555e0cc023c",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "eb5f4236-f3d6-4ba9-aa07-15f66f72f814",
+                      "type" : "component"
+                    } ],
+                    "id" : "016b65c8-cbb9-447f-933b-af5025cd813d",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "e20c8d6c-3c75-471f-b55c-b9724b374d8c",
+                  "type" : "component"
+                } ],
+                "id" : "84a8326d-b67f-4a08-bae0-bdb6933d560d",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"3cb2c2b3-f6f8-4365-877e-277a8cf98a65\",\"columns\":[{\"UUID\":\"73416c98-aafd-4958-b57a-018899d4c11c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"0ac13ddc-3890-49d2-beab-4847957d84f9\",\"columns\":[{\"UUID\":\"f895a089-b76c-48a1-904f-2df14683d32c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/04/23-04-BLOG-AutomationAgilityRealEstate-Website-750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "22e12834-fedb-4ef5-aac4-edc8c71b6262",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Article",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "217a3020-673b-4311-a5e7-e53b5a7782fd",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              },
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">Alleviate Growing Pains for Commercial Real Estate with Reliable Data</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "5bd43043-c50d-454b-a26f-3becf422304d",
+                          "type" : "component"
+                        } ],
+                        "id" : "f895a089-b76c-48a1-904f-2df14683d32c",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "0ac13ddc-3890-49d2-beab-4847957d84f9",
+                      "type" : "component"
+                    } ],
+                    "id" : "73416c98-aafd-4958-b57a-018899d4c11c",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "3cb2c2b3-f6f8-4365-877e-277a8cf98a65",
+                  "type" : "component"
+                } ],
+                "id" : "c283b3bc-2dcb-4711-bbf1-ee7fb879d646",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"557db1e9-6182-4226-b805-10f5803cb884\",\"columns\":[{\"UUID\":\"a07a2935-03bb-489f-b331-094a53b7c685\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"4a2a726f-1b77-48de-91ed-e2b7518ed5ae\",\"columns\":[{\"UUID\":\"097487e9-98ed-4b14-8bd4-4110dee686cb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/11/23-11-CS-AVRRealty-Website-1-750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "dabc8753-811e-45c7-ab5a-7faedff5523b",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Customer Story",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "316615c5-97f8-48d1-9ff8-5ae9afadc2c2",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">AVR Realty Co. Cuts Reporting Times in Half with Spreadsheet Server</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "233da7f8-8d61-4326-b8f3-db421a9d70be",
+                          "type" : "component"
+                        } ],
+                        "id" : "097487e9-98ed-4b14-8bd4-4110dee686cb",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "4a2a726f-1b77-48de-91ed-e2b7518ed5ae",
+                      "type" : "component"
+                    } ],
+                    "id" : "a07a2935-03bb-489f-b331-094a53b7c685",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "557db1e9-6182-4226-b805-10f5803cb884",
+                  "type" : "component"
+                } ],
+                "id" : "a6a964d9-b50e-4e1f-92fc-eca85dad32c4",
+                "name" : "92ef3",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "",
+              "definition" : "dxp_layout:columns",
+              "id" : "34117b4a-cb9f-429f-b144-efe370c22c30",
+              "type" : "component"
+            } ],
+            "id" : "1ff48494-a4d4-4024-9669-4e03b4ea719c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e6d213ee-6706-4985-b04d-54f2b9a9f309",
+          "type" : "component"
+        } ],
+        "id" : "00dbfb7c-94b5-4fb4-8e72-500195d2f519",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "MRI Software",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d6bd0f03-7c31-4014-a6d1-68b238729a86",
+          "type" : "component"
+        } ],
+        "id" : "803b1021-826d-4b3f-b596-1efd570180cc",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "769f41f4-74b0-4e04-b563-8c2f63e492ab",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-mri-software"
+  }
+}

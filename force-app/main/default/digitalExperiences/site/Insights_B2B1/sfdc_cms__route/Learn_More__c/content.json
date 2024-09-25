@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Learn More",
+  "contentBody" : {
+    "activeViewId" : "Learn_More",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-learn-more",
+    "urlPrefix" : "learn-more"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Address Form",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f4edd8e3-cf63-4ab1-9b25-ea3c87a63a67\",\"columns\":[{\"UUID\":\"542bb8bf-9e52-4026-bfab-9eaf75e922d3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "componentHeaderEditAddressLabel" : "Edit Address",
+                "componentHeaderNewAddressLabel" : "New Address",
+                "dxpStyle" : { },
+                "formWidth" : 50,
+                "makeDefaultAddressLabel" : "Make this my default address",
+                "showCompanyName" : true,
+                "showComponentHeader" : true,
+                "showDifferentAddressTypes" : true
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "buttonSpacing" : "medium",
+                    "dxpStyle" : { },
+                    "firstActionButtonText" : "Cancel",
+                    "firstActionButtonTextDecoration" : "{}",
+                    "firstButtonVariant" : "secondary",
+                    "secondActionButtonText" : "Save",
+                    "secondActionButtonTextDecoration" : "{}",
+                    "secondButtonVariant" : "primary",
+                    "size" : "standard"
+                  },
+                  "definition" : "commerce_builder:actionButtons",
+                  "id" : "904a0c60-161b-4cd5-80bb-466d9fa3a1f4",
+                  "type" : "component"
+                } ],
+                "id" : "38a1540e-0c20-48b1-8c8d-7a0772131513",
+                "name" : "actionButtons",
+                "title" : "actionButtons",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "detailBoxCart shipping",
+              "definition" : "commerce_my_account:myAccountInputAddress",
+              "id" : "43fb88e1-cadf-4e8e-b6ce-13ccd6cae045",
+              "type" : "component"
+            } ],
+            "id" : "542bb8bf-9e52-4026-bfab-9eaf75e922d3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f4edd8e3-cf63-4ab1-9b25-ea3c87a63a67",
+          "type" : "component"
+        } ],
+        "id" : "a4c79142-db3e-4b0b-9e6d-438e4f790316",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "9e803b8b-ce59-4fbe-8815-463e340a315d",
+          "type" : "component"
+        } ],
+        "id" : "fb831171-df8b-47af-8d9e-861461fca276",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "c13a91cd-ae0d-48a0-9a16-a7479d07e2d7",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "address-form"
+  }
+}

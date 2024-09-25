@@ -1,0 +1,33 @@
+.oppQuote{
+    display: flex;
+    align-items: center;
+}
+
+.quoteButton {
+    margin: 0 auto;
+    padding: 10px 20px; /* Adjusted to remove vertical padding */
+    font-size: 1rem;
+    font-weight: 600;
+    width: 15rem;
+    color: #fafbfc;
+    background-color: rgba(0, 168, 232, 1);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 2.5rem; /* Set the height to match the input field */
+    transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+}
+
+.quoteButton:hover {
+    background-color: #0694a7;
+    transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgb(5, 126, 173);
+}
+
+.quoteButton:active {
+    background-color: #0694a7;
+    transform: translateY(0);
+            box-shadow: 0 8px 15px rgba(9, 125, 226, 0.4);
+}

@@ -1,0 +1,70 @@
+.main {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 220.52px;
+    min-height: 56px;
+    font-family: calibri;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    fill: currentColor;
+    transition: all 0.5s linear;
+}
+
+.btn:hover .icon {
+    transform: rotate(-90deg);
+}
+
+div {
+    position: relative;
+}
+
+.yellow {
+    background: none;
+    color: black;
+}
+
+.yellow::before {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 100%;
+    background-color: #0ebac5;
+    position: absolute;
+    border-radius: 100px;
+    left: 1em;
+    z-index: -1;
+    transition: all 600ms ease;
+}
+
+.yellow:hover::before {
+    width: 100%;
+}
+
+.yellow:hover .icon {
+    transform: translateX(10px);
+}

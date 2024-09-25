@@ -1,0 +1,44 @@
+<!--
+  @description       : Display quote records of a particular user in their profile page
+  @author            : Shubham Mazumdar
+  @group             : 
+  @last modified on  : 07-23-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-box slds-theme_default">
+        <div class="slds-grid slds-wrap">
+            <template for:each={Quotes} for:item="quote">
+                <div key={quote.Id} class="slds-col slds-size_1-of-5 slds-m-around_large">
+                    <div class="slds-box slds-p-around_small singleQuote">
+                        <p><span class="label">Quote Number:</span> {quote.QuoteNumber}</p>
+                        <p><span class="label">Name:</span> {quote.Name}</p>
+                        <p><span class="label">Status:</span> {quote.Status}</p>
+                        <p><span class="label">Expiration Date:</span> {quote.ExpirationDate}</p>
+                        <p><span class="label">Total Price:</span> {quote.TotalPrice}</p>
+                        <button class="slds-button slds-button_brand viewButton" onclick={handleViewCode} data-quote-id={quote.Id}
+                        data-quote-name={quote.Name}>View Quote</button>
+
+                        <!-- Disable the button if Quote status is not "Approved" -->
+                       
+                        <!--<template if:true={quote.showButton}>
+                            <button class="slds-button slds-button_brand" 
+                                onclick={handleDownloadQuotePdf} 
+                                data-quote-downid={quote.Id}>Download Quote
+                            </button>
+                        </template>
+                        <template if:false={quote.showButton}>
+                            <button class="slds-button slds-button_brand" 
+                                disabled
+                                data-quote-downid={quote.Id}>Download Quote
+                            </button>
+                            <p class="slds-p-horizontal_small" style="color: red; font-size:small;">
+                                Only approved quotes can be downloaded.
+                            </p>
+                        </template>-->
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

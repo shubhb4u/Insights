@@ -1,0 +1,5 @@
+{
+  "apiName" : "B2b_Featured_products",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

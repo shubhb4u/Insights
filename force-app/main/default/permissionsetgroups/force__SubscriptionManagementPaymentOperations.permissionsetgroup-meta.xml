@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SubscriptionManagementPaymentOperations</label>
+    <permissionSets>force__SubscriptionManagementCalculateTaxesApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementPaymentScheduleAutomation</permissionSets>
+    <permissionSets>force__SubscriptionManagementPaymentsRuntimeApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementRefundAutomation</permissionSets>
+    <permissionSets>force__SubscriptionManagementScheduledBatchPaymentsApi</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

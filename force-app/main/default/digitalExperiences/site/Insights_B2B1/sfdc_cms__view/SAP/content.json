@@ -1,0 +1,1897 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "SAP",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ad8eb571-95ba-4cb1-83a3-46b963bde486\",\"columns\":[{\"UUID\":\"86a66e4a-f4e5-4057-a000-f0d337db01e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "50px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"bdf9dacc-7911-4ec7-9e48-37dc9a9a6b20\",\"columns\":[{\"UUID\":\"0651a53d-1c13-4831-bbb5-b6a41cb56f8f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c7c80f94-ccf1-4e61-90d6-644157a3e16b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 18px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(0, 168, 232);\">SAP Reporting, BI, and Analytics Software Solutions<span class=\"ql-cursor\">﻿</span></strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "cab1bea6-4e8c-4a04-9631-e54593b13156",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "richTextValue" : "<h1><span style=\"font-size: 48px;\">Protect Your Excel Reporting with a Direct Connection to Your SAP Data</span></h1><p><br></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "c5d89b03-48de-4cd0-8990-3ba15f187a8f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"2a8f345b-fee3-4ab7-bb58-263f36e2ccd7\",\"columns\":[{\"UUID\":\"14312062-2162-45f0-a45a-4fd8400682cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"6c286cfa-597a-46be-be52-323678daac37\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Get a Demo >",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "mri-banner-button1",
+                      "definition" : "dxp_base:button",
+                      "id" : "05bb3499-21b4-4bcc-9d9e-e0340363f78f",
+                      "type" : "component"
+                    } ],
+                    "id" : "14312062-2162-45f0-a45a-4fd8400682cc",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "left",
+                        "size" : "standard",
+                        "stretch" : "standard",
+                        "text" : "Watch Overview",
+                        "type" : "primary"
+                      },
+                      "customCssClasses" : "mri-banner-button2",
+                      "definition" : "dxp_base:button",
+                      "id" : "425545bf-939d-4df9-bc53-34913c890269",
+                      "type" : "component"
+                    } ],
+                    "id" : "6c286cfa-597a-46be-be52-323678daac37",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "2a8f345b-fee3-4ab7-bb58-263f36e2ccd7",
+                  "type" : "component"
+                } ],
+                "id" : "0651a53d-1c13-4831-bbb5-b6a41cb56f8f",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "id" : "c7c80f94-ccf1-4e61-90d6-644157a3e16b",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "bdf9dacc-7911-4ec7-9e48-37dc9a9a6b20",
+              "type" : "component"
+            } ],
+            "id" : "86a66e4a-f4e5-4057-a000-f0d337db01e1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ad8eb571-95ba-4cb1-83a3-46b963bde486",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"904e7118-c76e-4219-b654-edec04bb9ea8\",\"columns\":[{\"UUID\":\"b1a35f61-1fd3-4dee-add9-8088126291eb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Are You Struggling to Extract Meaningful Insights from Your SAP </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\"><span class=\"ql-cursor\">﻿</span>Data?</span></h2><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "cab3c731-91d4-43d8-8254-417ca812dc52",
+              "type" : "component"
+            } ],
+            "id" : "b1a35f61-1fd3-4dee-add9-8088126291eb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "904e7118-c76e-4219-b654-edec04bb9ea8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "60px",
+                "right" : "60px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"63eb2d5a-995b-4ab2-afcd-a63c4ce222a7\",\"columns\":[{\"UUID\":\"091fe3f0-3198-4a57-8ef0-d29ec5433251\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7801cdb7-f70e-4648-ba32-869f27db85a3\",\"columnName\":\"Column 2\",\"columnKey\":\"846a2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d0430e54-bc99-4644-83d9-b9f54539f72d\",\"columnName\":\"Column 3\",\"columnKey\":\"788dd\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/05/empower-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "8b1dc0ff-b224-4d36-9bab-1f4e6c5f82fa",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Preparing Ad Hoc Reports is Difficult and Relies on IT Skills</span></h3><p style=\"text-align: center;\"><br></p><p>Finance teams frequently need to query SAP data to answer ad hoc questions. However, SAP data are complex, understanding them requires significant expertise, and native tools including SAP BusinessObjects and SAP Business Warehouse (BW) require technical knowledge to use them. This leaves finance teams dependent on scarce IT skills to create and modify reports, resulting in delays and frustration</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "43d34d33-a9d4-432b-aca2-a4f1955281e5",
+              "type" : "component"
+            } ],
+            "id" : "091fe3f0-3198-4a57-8ef0-d29ec5433251",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/05/budget-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "d1377197-0159-4876-9818-2aedeef53440",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Out-of-the-Box Reports are Too Inflexible for Finance</span></h3><p><br></p><p>Finance and accounting teams need to report and drill across multiple dimensions. You want to see the full picture of your business performance and need to access data from multiple systems, whether it’s other SAP modules or separate business systems. Such data groupings are difficult to create with the native SAP reporting tools.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ccee6dbc-578f-42fd-83dc-313153f6bc3f",
+              "type" : "component"
+            } ],
+            "id" : "7801cdb7-f70e-4648-ba32-869f27db85a3",
+            "name" : "846a2",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <center><img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/itreliance-100x100.png\" alt=\"Image 2\"></center>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "c5d24faa-9c9a-4702-9834-b242e04e4b04",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 22px;\">Manual Reporting Processes are a Time Drain</span></h3><p><br></p><p>When you’re looking to spend more time on value-added analysis, you need to find new ways to increase your productivity, replacing manual processes like exporting to spreadsheets, flipping between Excel and SAP to validate data, and formatting reports.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "452d6dd8-6e76-41b9-89de-4507f8fb05e7",
+              "type" : "component"
+            } ],
+            "id" : "d0430e54-bc99-4644-83d9-b9f54539f72d",
+            "name" : "788dd",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "63eb2d5a-995b-4ab2-afcd-a63c4ce222a7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"bcb193e9-a38c-4d3a-a164-f08dfe692685\",\"columns\":[{\"UUID\":\"e0f8f017-acda-4174-87ab-fc4475bc3f72\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">See How Much Time You Can Save With Fast, Accurate </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\"><span class=\"ql-cursor\">﻿</span>SAP Reporting</span></h2>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "deaed8e0-d415-496b-b944-dbca8b980663",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Schedule a Personalized Demo >",
+                "type" : "primary"
+              },
+              "customCssClasses" : "sap-buttons1",
+              "definition" : "dxp_base:button",
+              "id" : "3492375c-7e45-4b56-9e26-eab7eba673fc",
+              "type" : "component"
+            } ],
+            "id" : "e0f8f017-acda-4174-87ab-fc4475bc3f72",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "bcb193e9-a38c-4d3a-a164-f08dfe692685",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7f4c8188-ba66-4e4d-a710-22c8939a66f7\",\"columns\":[{\"UUID\":\"1c3292c4-f425-4272-82f1-80de10643cb5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"35666b92-dc79-43e6-99e3-6362ac58f6b9\",\"columnName\":\"Column 2\",\"columnKey\":\"0f31d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "100px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 36px;\">Real-Time FICO Reporting and </span></h3><h3><span style=\"font-size: 36px;\">Analysis Solutions for SAP ECC </span></h3><h3><span style=\"font-size: 36px;\">﻿and S/4HANA</span></h3><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Access real-time data to support month-end closing needs and cost control. Create accurate, up-to-date, consolidated reports across multiple cost and profit centers. Refresh period-on-period analysis reports in seconds without relying on stale data exports. Format income statements, balance sheets, and other reports exactly how you want. Report against fields from different modules and drill into combined data for more insightful financial and cost center (FICO) reporting.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "e269a6fc-0797-4884-afe8-fd1fc06f4aad",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "5rem",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn about our SAP ECC and S/4HANA Solutions",
+                "type" : "primary"
+              },
+              "customCssClasses" : "sap-buttons2",
+              "definition" : "dxp_base:button",
+              "id" : "196e5ac0-fc94-4f70-94a9-ba654a4caeff",
+              "type" : "component"
+            } ],
+            "id" : "1c3292c4-f425-4272-82f1-80de10643cb5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/SAP-ECC_Datasource_TackleSAPReporting-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "19cc5d1d-7177-4954-8656-89e91fcd06d2",
+              "type" : "component"
+            } ],
+            "id" : "35666b92-dc79-43e6-99e3-6362ac58f6b9",
+            "name" : "0f31d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7f4c8188-ba66-4e4d-a710-22c8939a66f7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e59387c3-343b-4dc0-99ae-402e91bd112e\",\"columns\":[{\"UUID\":\"7ec7575f-2d3f-47a9-bd62-9e5f96797512\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"c0c5c939-06f1-416c-9b5b-e361e1445124\",\"columnName\":\"Column 2\",\"columnKey\":\"280e6\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "10rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/SAPB1_DataSource_TackleFinancial-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6909593f-801e-4494-8f6c-b9e9915c8509",
+              "type" : "component"
+            } ],
+            "id" : "7ec7575f-2d3f-47a9-bd62-9e5f96797512",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "5rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Reduce the Effort Required to Analyze and Report on SAP Business One Data</span></h3><p>Shrink reporting cycles by enabling business users to build refreshable reports using easy-to-configure, pre-built templates, or by creating a custom report in minutes. Speed up analysis with live drilldowns from summary data to transaction level to identify and resolve reconciliation and data integrity issues.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4ce678fc-aa93-4a97-a029-ac03b14d5787",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn about our SAP Business One Solutions",
+                "type" : "primary"
+              },
+              "customCssClasses" : "sap-buttons2",
+              "definition" : "dxp_base:button",
+              "id" : "b3da5eff-5383-4392-a897-ed82a42cfbf7",
+              "type" : "component"
+            } ],
+            "id" : "c0c5c939-06f1-416c-9b5b-e361e1445124",
+            "name" : "280e6",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e59387c3-343b-4dc0-99ae-402e91bd112e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "1rem",
+                "left" : "1rem",
+                "right" : "1rem",
+                "top" : "1rem"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3ba539d9-c558-49a9-96d2-29c575dbbcc0\",\"columns\":[{\"UUID\":\"a8d82210-6226-4b21-8c3d-ef4098e273b9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"9a7fa9a8-dfe1-4ac0-ba17-00c32d684620\",\"columnName\":\"Column 2\",\"columnKey\":\"b6f7d\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Communicate the Story Behind Your SAP Business Planning and Consolidation Data</span></h3><p>Give executive decision-makers the information they need in the form of rich, dynamic report packs that update automatically, eliminate manual effort, and enable report users to find the information they need fast. Stimulate collaboration and engagement with commentary and live chat functionality to capture the story behind your numbers. Consolidate report commentaries quickly and easily and track them with an audit trail to support your governance and compliance needs.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6c9ff7c6-0f79-4b5b-bf51-f7ef9c77614d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "1rem",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our SAP Business Planning and Consolidation Solutions",
+                "type" : "primary"
+              },
+              "customCssClasses" : "sap-buttons3",
+              "definition" : "dxp_base:button",
+              "id" : "ac4fe2a1-953d-41b4-b7b4-6b1a41232c49",
+              "type" : "component"
+            } ],
+            "id" : "a8d82210-6226-4b21-8c3d-ef4098e273b9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/CXO_DataSource_SAP-BPC_Communicate-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "d619cc33-663d-4cd9-ae51-ac612a19d3a9",
+              "type" : "component"
+            } ],
+            "id" : "9a7fa9a8-dfe1-4ac0-ba17-00c32d684620",
+            "name" : "b6f7d",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3ba539d9-c558-49a9-96d2-29c575dbbcc0",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"350ce1be-4c5e-499b-bcf2-c027bb773279\",\"columns\":[{\"UUID\":\"27e46da6-0d2f-4fbd-a9a5-c5758ef311c2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"bf36b362-3244-4ccd-833a-d44eecfbdc56\",\"columnName\":\"Column 2\",\"columnKey\":\"c9c66\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2020/09/CXO_DataSource_SAP-BW_EnableSelf-Service-1-1.png\" alt=\"Image 2\" width=\"500\" height=\"500\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5c2aeb1a-9e78-43b9-9d51-3ad48e0f8772",
+              "type" : "component"
+            } ],
+            "id" : "27e46da6-0d2f-4fbd-a9a5-c5758ef311c2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "4rem"
+                  }
+                },
+                "richTextValue" : "<h3><span style=\"font-size: 22px;\">Improve Your Financial Reporting in SAP Business Warehouse</span></h3><p>While the storage and structure of your SAP BW data is under control, you need a reporting tool that can understand your financial data and their hierarchies. Instead of depending on the technical skills of your IT team, or an error-prone manual process, enable finance team members to create and manage both single reports and report packs. With highly flexible, best practice reporting templates along with a free-format template, you can get up and running fast, and easily create the dashboards you need to meet all your reporting requirements.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9bf3d6bb-6025-4402-86e8-198a2d11f55c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Learn About Our SAP Business Warehouse Solutions",
+                "type" : "primary"
+              },
+              "customCssClasses" : "sap-buttons4",
+              "definition" : "dxp_base:button",
+              "id" : "8503ad31-51bb-431d-aae3-a0bff89f5fac",
+              "type" : "component"
+            } ],
+            "id" : "bf36b362-3244-4ccd-833a-d44eecfbdc56",
+            "name" : "c9c66",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "350ce1be-4c5e-499b-bcf2-c027bb773279",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dc92d877-4fc5-42f8-b15e-9b74ea9104fe\",\"columns\":[{\"UUID\":\"a0ea6b9b-cae9-48cd-8df3-b0e0775797b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/themes/jetreports/assets/images/white-data-bg.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0cbb1123-5c28-4594-8ae3-32968176d9ae",
+              "type" : "component"
+            } ],
+            "id" : "a0ea6b9b-cae9-48cd-8df3-b0e0775797b5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dc92d877-4fc5-42f8-b15e-9b74ea9104fe",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f3d4b5d4-f014-447e-bc1d-2622262f4a15\",\"columns\":[{\"UUID\":\"708ca927-178f-4ba8-a20d-765a37b1b41a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"21d0c725-26b1-4480-b023-9c456cca9122\",\"columnName\":\"Column 2\",\"columnKey\":\"be7e5\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6efe70d6-b3c6-4559-91ac-e948cd19bcf1\",\"columnName\":\"Column 3\",\"columnKey\":\"971f4\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "5rem",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "richTextValue" : "<h2><span style=\"font-size: 28px;\">Built for SAP</span></h2><ul><li>SAP BPC (HANA, MS or Netweaver)</li><li>SAP Business ByDesign</li><li>SAP Business One (B1)</li><li>SAP Business Warehouse (BW)</li><li>SAP ERP</li><li>SAP ERP Central Component (ECC)</li><li>SAP S/4HANA</li></ul>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "4b56adc2-1fc0-4322-8f59-21357ef3874f",
+              "type" : "component"
+            } ],
+            "id" : "708ca927-178f-4ba8-a20d-765a37b1b41a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "3rem",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2019/09/SAP.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "10561e74-03b6-4258-a597-d017821db0af",
+              "type" : "component"
+            } ],
+            "id" : "21d0c725-26b1-4480-b023-9c456cca9122",
+            "name" : "be7e5",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "6efe70d6-b3c6-4559-91ac-e948cd19bcf1",
+            "name" : "971f4",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f3d4b5d4-f014-447e-bc1d-2622262f4a15",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3ba4f9f0-f975-451f-b7bf-1f38b81d52d5\",\"columns\":[{\"UUID\":\"438edad4-3310-47f3-a41c-1ba402a62372\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "lineStyle" : "solid",
+                "size" : 2,
+                "width" : 100
+              },
+              "definition" : "dxp_base:horizontalLine",
+              "id" : "4019160a-c43a-439e-8b41-a9b879cfd11f",
+              "type" : "component"
+            } ],
+            "id" : "438edad4-3310-47f3-a41c-1ba402a62372",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3ba4f9f0-f975-451f-b7bf-1f38b81d52d5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0ec321af-a223-40e8-8de2-a4da2d77de07\",\"columns\":[{\"UUID\":\"7d51334c-0077-4fa9-810d-5c433a56fff4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(49, 171, 70)",
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":false}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "borderColor" : "rgb(255, 255, 255)",
+                "borderRadius" : "0px",
+                "borderWeight" : "0px",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "100px",
+                    "right" : "60px",
+                    "top" : ""
+                  }
+                },
+                "enableOverflowMenu" : false,
+                "imageFit" : "cover",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(116,116,116)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "left",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHeight" : "",
+                "tabHoverBackgroundColor" : "rgb(49, 171, 70)",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabLayout" : "vertical",
+                "tabPadding" : "12px",
+                "tabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "tabWidth" : "",
+                "tabsetConfig" : "{\"UUID\":\"7261f06b-0f19-4c6f-b003-46c45f53888e\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"a39ca13e-2b4e-4519-aa7a-03b522096107\",\"tabName\":\"Budget & Planning\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"125d515e-9535-4e4a-8e82-18c7c26f075c\",\"tabName\":\"Financial Reporting\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"9ecf295b-2845-42b7-a355-95efd9a59ce5\",\"columns\":[{\"UUID\":\"a34d105f-766c-45fb-a28a-efc3c0944d74\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"1885ec2f-cc80-4f5d-b28a-d1f28f52b8ce\",\"columnName\":\"Column 2\",\"columnKey\":\"eec8a\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/img_Bizview_card.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 50
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "40c1c485-d1be-4595-a692-59d0ddbda3c0",
+                      "type" : "component"
+                    } ],
+                    "id" : "a34d105f-766c-45fb-a28a-efc3c0944d74",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-size: 26px;\">Bizview</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "a4d41a44-9f37-459f-a75c-e6b3f8202dd5",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Bizview is an integrated and scalable </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">web-based budgeting, planning, and </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">forecasting solution for mid-sized </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span>companies.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "44cad81b-0dae-4b99-958e-a59c74a07e27",
+                      "type" : "component"
+                    } ],
+                    "id" : "1885ec2f-cc80-4f5d-b28a-d1f28f52b8ce",
+                    "name" : "eec8a",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "9ecf295b-2845-42b7-a355-95efd9a59ce5",
+                  "type" : "component"
+                } ],
+                "id" : "a39ca13e-2b4e-4519-aa7a-03b522096107",
+                "name" : "tab1",
+                "title" : "Budget & Planning",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "0rem",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"6093dc8e-0d6b-4505-87ed-2849d2eb117c\",\"columns\":[{\"UUID\":\"850dc357-099a-45d7-bdb2-a41dc017464b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"a1ad54f1-6ee6-42d3-9c59-fa16aaa2fb83\",\"columnName\":\"Column 2\",\"columnKey\":\"eec8a\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/img_Spreadsheet_Server_card.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 50
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "d5ef6dea-c27f-46ae-83cf-66f063bbae1b",
+                      "type" : "component"
+                    } ],
+                    "id" : "850dc357-099a-45d7-bdb2-a41dc017464b",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-size: 24px;\">Spreadsheet Server</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "23838bb7-a29a-42e9-a0ff-384163d59b47",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : ""
+                          }
+                        },
+                        "richTextValue" : "<p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Spreadsheet Server is easy to install </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">and delivers fast time to value. It </span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">automates custom reports with drill-</span></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\"><span class=\"ql-cursor\">﻿</span>down to transactional data.</span></p>"
+                      },
+                      "definition" : "community_builder:richTextEditor",
+                      "id" : "9c1a0700-7e5b-4ee9-ac0d-87b129c774b4",
+                      "type" : "component"
+                    } ],
+                    "id" : "a1ad54f1-6ee6-42d3-9c59-fa16aaa2fb83",
+                    "name" : "eec8a",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "6093dc8e-0d6b-4505-87ed-2849d2eb117c",
+                  "type" : "component"
+                } ],
+                "id" : "125d515e-9535-4e4a-8e82-18c7c26f075c",
+                "name" : "tab2",
+                "title" : "Financial Reporting",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "mri-tabs",
+              "definition" : "dxp_layout:tabs",
+              "id" : "7261f06b-0f19-4c6f-b003-46c45f53888e",
+              "type" : "component"
+            } ],
+            "id" : "7d51334c-0077-4fa9-810d-5c433a56fff4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0ec321af-a223-40e8-8de2-a4da2d77de07",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "50px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1323c38d-915c-48c9-8c8a-6aad6f8b57a4\",\"columns\":[{\"UUID\":\"c54a2cd9-ad40-4e43-aaaa-b312d1ce009c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"eca914f2-1125-4781-ac32-4913fe80e0df\",\"columnName\":\"Column 2\",\"columnKey\":\"fe627\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "1rem"
+                  }
+                },
+                "richTextValue" : "<div id=\"tab1\" class=\"tabcontent\">\n   \n    <img src=\"https://insightsoftware.com/wp-content/uploads/2019/10/how-to-compare-bi.png\" alt=\"Image 2\">\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "69ea16c3-0265-4ee8-a4c4-606090ff366f",
+              "type" : "component"
+            } ],
+            "id" : "c54a2cd9-ad40-4e43-aaaa-b312d1ce009c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h3><strong style=\"font-size: 36px;\">How to Compare Reporting and BI Solutions</strong></h3><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">Reporting and Business Intelligence (BI) solutions begin and end with data—not just how the data are collected, but also how they are stored, organized, and accessed. With a saturated market full of solutions to choose from, you need to have a clear understanding of your data needs before you start comparing your options.</span></p><p><br></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">In this white paper, you will learn:</span></p><p><br></p><ul><li><span style=\"color: rgb(0, 41, 102);\">What to look for in reporting and/or BI software</span></li><li><span style=\"color: rgb(0, 41, 102);\">The reasons why a reporting and BI solution is essential for growth</span></li><li><span style=\"color: rgb(0, 41, 102);\">How to avoid reporting and BI solution implementation failure</span></li></ul><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">To assist with your software selection process and help you find a solution that fits your current ERP system and IT infrastructure, we have also created a framework for evaluating third party solutions.</span></p><p><br></p><p><span style=\"color: rgb(0, 41, 102);\">You need to have a clear understanding of your data needs before you start comparing your options.</span></p><p><a href=\"https://insightsoftware.com/resources/how-to-compare-reporting-bi-solutions/\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(255, 255, 255); font-family: var(--bs-btn-font-family); font-size: var(--bs-btn-font-size);\">View White Paper Now</a></p><p><br></p><p><br></p><p><br></p><h3><br></h3>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f6330f86-4c32-42d4-89f2-5604f4061781",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "View White Paper Now",
+                "type" : "primary"
+              },
+              "customCssClasses" : "mri-banner-button4",
+              "definition" : "dxp_base:button",
+              "id" : "3120ffd6-60d8-4ce6-abfe-6ffeb78ffe8e",
+              "type" : "component"
+            } ],
+            "id" : "eca914f2-1125-4781-ac32-4913fe80e0df",
+            "name" : "fe627",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1323c38d-915c-48c9-8c8a-6aad6f8b57a4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "",
+                "left" : "100px",
+                "right" : "100px",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d04d0afa-7b79-4192-9e32-44bda87e85ef\",\"columns\":[{\"UUID\":\"a05bea7d-cf6d-4abf-a420-3d374f55074c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "50px"
+                  }
+                },
+                "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Work with Reporting Software Purpose-Built for Handling SAP Data</span></h3><p><br></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6e67df66-2dc1-40f9-8a60-11fb11bd2dac",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"3f81d5f9-33f0-40d7-af96-db91158aca64\",\"columns\":[{\"UUID\":\"74d138f0-07c0-4295-b79b-1c3418891cd0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"6a88afac-45b2-4a60-a356-8ca5c31d6593\",\"columnName\":\"Column 2\",\"columnKey\":\"784aa\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "150px",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/05/IS_CaseStudy_OsakaGasLogo.jpg\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "7814e18f-a4ca-4e00-bada-1454f27b8fda",
+                  "type" : "component"
+                } ],
+                "id" : "74d138f0-07c0-4295-b79b-1c3418891cd0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "25px",
+                        "left" : "10px",
+                        "right" : "200px",
+                        "top" : "25px"
+                      }
+                    },
+                    "richTextValue" : "<p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">We were able to have our reports run almost immediately. As soon as the end of month is finished, all we need to do is refresh the data. If we want to add in a new journal, we post the journal, refresh the data, and the report is available straight away. The time savings has been tangible.</span></p><p><br></p><p><strong style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">Tracy Lippiatt</strong></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">Independent Business Consultant with Osaka Gas Australia at Osaka Gas</span></p><p><br></p><p><a href=\"https://insightsoftware.com/customer-stories/osaka-gas/\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-family: Poppins, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);\">View Customer Story</a></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "6d02bd14-5418-491c-b578-76e5aa3a6308",
+                  "type" : "component"
+                } ],
+                "id" : "6a88afac-45b2-4a60-a356-8ca5c31d6593",
+                "name" : "784aa",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "sap-osaka",
+              "definition" : "dxp_layout:columns",
+              "id" : "3f81d5f9-33f0-40d7-af96-db91158aca64",
+              "type" : "component"
+            } ],
+            "id" : "a05bea7d-cf6d-4abf-a420-3d374f55074c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d04d0afa-7b79-4192-9e32-44bda87e85ef",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c3ee7a13-5c4c-4ea8-b171-5e0bdbd1bcb9\",\"columns\":[{\"UUID\":\"37d1b81f-f5d8-4593-944c-f181f4c6f903\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Related Resources",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "572e904b-9808-4e13-a467-2a08a476285c",
+              "type" : "component"
+            } ],
+            "id" : "37d1b81f-f5d8-4593-944c-f181f4c6f903",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c3ee7a13-5c4c-4ea8-b171-5e0bdbd1bcb9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1ffa2c6c-e819-4683-86a6-b779cd4fea8d\",\"columns\":[{\"UUID\":\"a16b5fcc-23fb-44e3-ab3a-e6f84b78a5cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "1.5rem",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "100px",
+                    "right" : "100px",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"bb7075ca-7990-4bae-bb8f-3d8f7400a74f\",\"columns\":[{\"UUID\":\"1ebeb37a-207a-46b1-a99f-71317164d1be\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"7be333de-45c8-4a63-9dd8-771a8455c8aa\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"ce131160-3905-488a-a54a-0cbea7150eae\",\"columnName\":\"Column 3\",\"columnKey\":\"92ef3\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"64b8fab7-281c-487b-af5f-9a4233791016\",\"columns\":[{\"UUID\":\"32a5cfd4-311e-45c6-8746-46211677a435\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"7c8aa5c2-24e0-452c-a8b6-7bc9b804afa2\",\"columns\":[{\"UUID\":\"d1ac481c-c3e6-4f12-9493-11dfbf156c7c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/08/24-07-WP_ActionableInsightsForDummies_Website-750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "93d1c73b-b3be-4d45-980f-a56e7af736bf",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "White Paper",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "76e19e79-467d-4304-b11d-04b1794fd163",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">From Chaos to Control: Navigating Your Supply Chain With Actionable Insights</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "c91384f9-b3ba-4f33-9ecd-7798952fd8a3",
+                          "type" : "component"
+                        } ],
+                        "id" : "d1ac481c-c3e6-4f12-9493-11dfbf156c7c",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "7c8aa5c2-24e0-452c-a8b6-7bc9b804afa2",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"8d617788-1f39-421d-8f35-c666846991dd\",\"columns\":[{\"UUID\":\"ee2b2c69-eda5-4598-8d0c-b5e28ac711ac\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/09/24-09-WBN-Finance-Data-Gov_Website_750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "0d1bb204-22d6-4811-8f33-9defc4f012da",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Webinar",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "179c3ad6-5d53-4204-825e-cb89679a30f8",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">Mastering Master Data: Finance Data Governance</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "8f9c002c-88d1-40ba-956c-d98f27059273",
+                          "type" : "component"
+                        } ],
+                        "id" : "ee2b2c69-eda5-4598-8d0c-b5e28ac711ac",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "8d617788-1f39-421d-8f35-c666846991dd",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"95d283ba-7bd3-4a6c-ac99-9c4b2ea5d1e9\",\"columns\":[{\"UUID\":\"10deb605-2ce1-4b28-a7cd-45a39f1cd1b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2023/11/23-11-CS-JUBGroup-Website-750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "077f8e62-d69d-48fc-847c-69b212971174",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Customer Story",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "ec0e77b2-0726-48a7-bad6-b9a0a2379f02",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">JUB Group Works With insightsoftware Partner Result</span></h3><h3><span style=\"font-size: 24px;\"><span class=\"ql-cursor\">﻿</span> to Elevate its Planning, Forecasting, and Reporting with Bizview</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "04f1b182-511f-4067-8d1e-7a341f29b127",
+                          "type" : "component"
+                        } ],
+                        "id" : "10deb605-2ce1-4b28-a7cd-45a39f1cd1b5",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "95d283ba-7bd3-4a6c-ac99-9c4b2ea5d1e9",
+                      "type" : "component"
+                    } ],
+                    "id" : "32a5cfd4-311e-45c6-8746-46211677a435",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "64b8fab7-281c-487b-af5f-9a4233791016",
+                  "type" : "component"
+                } ],
+                "id" : "1ebeb37a-207a-46b1-a99f-71317164d1be",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"c26086ff-04c9-4a27-8832-2b61006f464f\",\"columns\":[{\"UUID\":\"77937f83-35d4-49ac-affa-382acaae318b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"c3155820-d421-4799-814a-61ee319eee12\",\"columns\":[{\"UUID\":\"0fdb87aa-cef2-46ed-a450-5300e8a2eb96\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/07/24-07-BRO_DiscreteManufacturingIndustry_Website-750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "195d13cc-9102-43a2-af27-feae5218bd4e",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Brochure",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "fb105d86-f670-43d1-88ea-9e7364e6bf27",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              },
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">Streamline Production and Reduce Costs with Angles Enterprise for SAP</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "861867a5-726b-424d-a984-86b9812dcfcf",
+                          "type" : "component"
+                        } ],
+                        "id" : "0fdb87aa-cef2-46ed-a450-5300e8a2eb96",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "c3155820-d421-4799-814a-61ee319eee12",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"e200d1ea-0605-479a-8d24-d7b5615e4afc\",\"columns\":[{\"UUID\":\"f752793c-bbad-46c8-90a1-cc660c60e301\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/08/24-08-Blog_SAP-Data_Website_750x370.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "0bad0e65-91ef-44f5-9cb7-c893cd73a35c",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Article",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "b8be7a2c-f080-451d-ad06-10fa440ca34a",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              },
+                              "padding" : {
+                                "bottom" : "",
+                                "left" : "",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">How to Prepare Your SAP Data for AI</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "76c906c6-cf9f-4e08-9b64-ac49ae38d5c9",
+                          "type" : "component"
+                        } ],
+                        "id" : "f752793c-bbad-46c8-90a1-cc660c60e301",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "e200d1ea-0605-479a-8d24-d7b5615e4afc",
+                      "type" : "component"
+                    } ],
+                    "id" : "77937f83-35d4-49ac-affa-382acaae318b",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "c26086ff-04c9-4a27-8832-2b61006f464f",
+                  "type" : "component"
+                } ],
+                "id" : "7be333de-45c8-4a63-9dd8-771a8455c8aa",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"49f3d115-f713-425a-928d-cf1051c52557\",\"columns\":[{\"UUID\":\"5c7d7650-0a21-4633-9fb6-2b27dda86196\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"e71a1f8e-d606-4897-98b5-4f5885fbe412\",\"columns\":[{\"UUID\":\"841e0b03-0d3a-4394-bafc-58468ae143de\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2024/06/24-05-VID-FinancialOptimizationSAPFlyover-ResourceTile.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "d129ab9b-2987-49cd-af9c-d1f46e593f94",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Video",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "05e3901f-72eb-4684-904d-066552d55a35",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "20px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">How SAP-run Enterprises Can Optimize Financial Processes</span></h3><h3><br></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "7a2c2481-d339-4042-9a37-4abc483c6807",
+                          "type" : "component"
+                        } ],
+                        "id" : "841e0b03-0d3a-4394-bafc-58468ae143de",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "e71a1f8e-d606-4897-98b5-4f5885fbe412",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"d69c3677-e139-4538-930b-111bdf5a336f\",\"columns\":[{\"UUID\":\"cc051963-0138-4552-acce-6f356f28b89b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "fit" : "contain",
+                            "height" : 350,
+                            "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://insightsoftware.com/wp-content/uploads/2020/03/Header-SAP-Collections-GL-358x207.png\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                            "overlayColor" : "",
+                            "position" : "center center",
+                            "width" : 100
+                          },
+                          "definition" : "dxp_base:image",
+                          "id" : "f1fd484c-430f-448a-b83d-2d0d3a808589",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Sample Report",
+                            "textAlign" : "left",
+                            "textColor" : "rgb(30, 37, 86)",
+                            "textDecoration" : "{\"bold\":true}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "f1dec6d7-6e52-49b3-88e4-b1256adfce7b",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "dxpStyle" : {
+                              "padding" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "",
+                                "top" : ""
+                              }
+                            },
+                            "richTextValue" : "<h3><span style=\"font-size: 24px;\">GL Wand Report Wizard Quick Start</span></h3>"
+                          },
+                          "definition" : "community_builder:richTextEditor",
+                          "id" : "c77f2136-daa6-4d69-9e60-9169187e9c07",
+                          "type" : "component"
+                        } ],
+                        "id" : "cc051963-0138-4552-acce-6f356f28b89b",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      } ],
+                      "customCssClasses" : "mri-three-section-bg",
+                      "definition" : "dxp_layout:columns",
+                      "id" : "d69c3677-e139-4538-930b-111bdf5a336f",
+                      "type" : "component"
+                    } ],
+                    "id" : "5c7d7650-0a21-4633-9fb6-2b27dda86196",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "49f3d115-f713-425a-928d-cf1051c52557",
+                  "type" : "component"
+                } ],
+                "id" : "ce131160-3905-488a-a54a-0cbea7150eae",
+                "name" : "92ef3",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "",
+              "definition" : "dxp_layout:columns",
+              "id" : "bb7075ca-7990-4bae-bb8f-3d8f7400a74f",
+              "type" : "component"
+            } ],
+            "id" : "a16b5fcc-23fb-44e3-ab3a-e6f84b78a5cc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1ffa2c6c-e819-4683-86a6-b779cd4fea8d",
+          "type" : "component"
+        } ],
+        "id" : "ad629aa9-d0d2-4013-9f6e-0212a765c3e8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "SAP",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0efc3f79-121b-4f32-9f1e-ee8bf2b890b8",
+          "type" : "component"
+        } ],
+        "id" : "d2e73c54-56bb-44a5-8dd0-f48144dea28d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1ce15ea4-c6cd-405a-a198-eee23963da80",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-sap"
+  }
+}

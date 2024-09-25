@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Financial Reporting",
+  "contentBody" : {
+    "activeViewId" : "Financial_Reporting",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-financial-reporting",
+    "urlPrefix" : "financial-reporting"
+  }
+}

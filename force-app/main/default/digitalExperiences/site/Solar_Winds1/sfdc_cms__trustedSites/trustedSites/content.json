@@ -1,0 +1,27 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://images.contentstack.io/v3/assets/blt28ff6c4a2cf43126/blt22177f6b7b349cc6/654ccabb5bafdc040a004ddf/Platform.webp?auto=webp&disable=upscale&width=1920&quality=75",
+      "sourceName" : "Solar Platform Image"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.solarwinds.com/_next/static/media/accent-line-medium.e38eead1.svg",
+      "sourceName" : "Solarwinds AI"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.solarwinds.com/wp-content/uploads/2023/05/Unified-Visibility.png",
+      "sourceName" : "Platform Image"
+    }, {
+      "isActive" : true,
+      "source" : "https://etgdigital-my.sharepoint.com/:v:/g/personal/kunal_r_etg_digital/ETnn7bSCkqlCur6vtLEG8BABK2rzYlQJKvXN-bXaKGMLSQ?e=qoGu3G",
+      "sourceName" : "Image"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.youtube.com/watch?v=VCPGMjCW0is",
+      "sourceName" : "Video"
+    } ]
+  }
+}

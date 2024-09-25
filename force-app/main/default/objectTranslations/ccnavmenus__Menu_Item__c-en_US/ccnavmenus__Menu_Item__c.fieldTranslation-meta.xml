@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Parent Menu Item which the current menu item falls under in the hierarchy. --></help>
+    <label><!-- Menu Item --></label>
+    <lookupFilter>
+        <errorMessage><!-- Parent and Child Menu Item should belong to the same Menu. --></errorMessage>
+    </lookupFilter>
+    <name>ccnavmenus__Menu_Item__c</name>
+    <relationshipLabel><!-- Menu Items --></relationshipLabel>
+</CustomFieldTranslation>

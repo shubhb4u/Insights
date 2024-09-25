@@ -1,0 +1,26 @@
+<template>
+    
+    <template if:true={products.data}>
+        <div class="slds-grid slds-wrap productWrap">
+            <template for:each={products.data} for:item="product">
+                <div key={product.Id} class="slds-col slds-size_1-of-4 slds-p-around_medium productContainer">
+                    <div class="product-card">
+                        <div class="product-header">{product.Name}</div>
+                        <div class="product-description">{product.Description}</div>
+                        <div
+                            onclick={handleBuyClick} 
+                            data-id={product.Id}
+                            data-name={product.Name}
+                            class="slds-m-top_large buy-button">
+                            Buy Now
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </template>
+    <template if:true={products.error}>
+        <div class="slds-text-color_error">{products.error}</div>
+    </template>
+
+</template>

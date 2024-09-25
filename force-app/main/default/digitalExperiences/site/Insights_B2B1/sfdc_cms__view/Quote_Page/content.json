@@ -1,0 +1,106 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote Page",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0e563fa0-8300-44ed-ab82-60b3efba3e05\",\"columns\":[{\"UUID\":\"8d1e18dc-1e1e-4f4c-9970-8ae692af9ceb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Quote records</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7f35241c-324f-4bc1-ba19-5e0816e18ad2",
+              "type" : "component"
+            } ],
+            "id" : "8d1e18dc-1e1e-4f4c-9970-8ae692af9ceb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0e563fa0-8300-44ed-ab82-60b3efba3e05",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : ""
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0f625883-3c7e-45ca-afb0-1abee08e08ef\",\"columns\":[{\"UUID\":\"2784921c-dbd1-4a58-86ae-d23da2737404\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:displayQuotesNew",
+              "id" : "7e8fd062-7936-464a-834d-f0f31ea950a8",
+              "type" : "component"
+            } ],
+            "id" : "2784921c-dbd1-4a58-86ae-d23da2737404",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "0f625883-3c7e-45ca-afb0-1abee08e08ef",
+          "type" : "component"
+        } ],
+        "id" : "9af0d505-4c7a-442a-a3e6-8f867085fd01",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Quote Page",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "1dae0746-54bf-4f07-af4b-9c76f108fe87",
+          "type" : "component"
+        } ],
+        "id" : "e0e14378-ab6a-4040-ab0c-efe866ac0498",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d83162d6-adc8-444a-a78f-ec6eed6d0b92",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-quote-page"
+  }
+}

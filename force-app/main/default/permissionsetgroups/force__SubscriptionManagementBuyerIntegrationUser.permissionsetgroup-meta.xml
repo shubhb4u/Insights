@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SubscriptionManagementBuyerIntegrationUser</label>
+    <permissionSets>force__SubscriptionManagementCalculatePricesApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementCreateBillingScheduleFromOrderItemApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementOrderItemToAssetApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementOrderToAssetApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementPlaceOrderApi</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

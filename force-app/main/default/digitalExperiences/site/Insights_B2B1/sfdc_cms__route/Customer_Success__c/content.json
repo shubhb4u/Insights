@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Customer Success",
+  "contentBody" : {
+    "activeViewId" : "Customer_Success",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-customer-success",
+    "urlPrefix" : "customer-success"
+  }
+}

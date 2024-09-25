@@ -1,0 +1,35 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: flex-end;
+    padding-right: 65px;
+}
+
+.breadcrumb span {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.breadcrumb .separator {
+    margin: 0 5px;
+    color: #6b6b6b;
+}
+
+.breadcrumb .active {
+    font-weight: bold;
+    color: #0070d2;
+}
+
+.breadcrumb span:not(.active) {
+    color: #6b6b6b;
+}
+
+/* Highlight separator based on active stage */
+.breadcrumb .active + .separator {
+    color: #0070d2;
+}
+
+.breadcrumb .separator + .active + .separator {
+    color: #0070d2;
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Microsoft",
+  "contentBody" : {
+    "activeViewId" : "Microsoft",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-microsoft",
+    "urlPrefix" : "microsoft"
+  }
+}

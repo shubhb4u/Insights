@@ -1,0 +1,48 @@
+<template>
+    <template for:each={products} for:item="product">
+        <div class="product-block" key={product.Id}>
+            <div class="img-ctr">
+                <c-slds-carousel-cms-panel content-key={product.Product2.Content_Type__c}></c-slds-carousel-cms-panel>
+            </div>
+            <div class="pricingDetails">
+            <div class="product-name slds-m-bottom_xx-small">
+                <a data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleNavigate}>{product.Product2.Name}</a>
+            </div>
+            <div class="product-model slds-m-bottom_small">Product Code: <span>{product.Product2.ProductCode}</span></div>
+            <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
+            <!--<div class="product-name slds-m-bottom_xx-small">{product.Product2.Description}</div>-->
+            <div class="pricesAndDiscounts">
+                <div class="actualPrice">
+                    <div class="product-price-mobile"><span style="font-size: 1rem;">$</span>{product.formattedUnitPrice}  </div>
+                </div>
+                <div class="disPrice">
+                    <template lwc:if={product.Product2.isDiscounted__c}>
+                        <div class="product-discount"> <span class="discountVal">{product.Product2.AdjustmentPercent__c}%</span> OFF </div>
+                    </template>
+                    <template lwc:elseif={product.Product2.isDiscountedAmount__c}>
+                        <div class="product-discount"> <span class="discountVal">${product.Product2.Adjustment_Amount__c}</span> OFF</div>
+                    </template>
+                    <template lwc:else> 
+    
+                    </template>
+    
+                </div>
+                
+            </div>
+            <div class="msrpPrice">
+                <template lwc:if={product.isDiscounted}>
+                    <div>  <span class="msrp">MSRP: ${product.UnitPrice}</span></div>
+                </template>
+                <template lwc:else>
+                    <div>  <span class="msrp"></span></div>
+                </template>
+    
+            </div>
+            
+    
+            </div>
+    
+            <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+        </div>
+    </template>
+</template>

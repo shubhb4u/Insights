@@ -1,0 +1,53 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-11-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>Featured Products</h2>
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div class="product-block" key={product.Id}>
+                                    <div class="img-ctr"> 
+                                        <c-slds-carousel-cms-panel content-key={product.Product2.Content_Type__c}></c-slds-carousel-cms-panel>
+                                    </div>
+                                    <div class="product-name slds-m-bottom_xx-small">{product.Product2.Name}</div>
+                                    <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
+                                    <div class="pricesAndDiscounts">
+                                        <div class="actualPrice">
+                                            <div class="product-price-mobile"><span style="font-size: 1rem;">$</span>{product.formattedUnitPrice}  </div>
+                                        </div>
+                                        <div class="disPrice">
+                                            <!-- Display percentage discount if available -->
+                                            <template lwc:if={product.Product2.isDiscounted__c}>
+                                                <p> Discounted Amout</p>
+                                                <div class="product-discount"><span class="discountVal">{product.Product2.AdjustmentPercent__c}%</span> OFF</div>
+                                            </template>
+                                            <!-- Display amount discount if available -->
+                                            <template lwc:elseif={product.Product2.isDiscountedAmount__c}>
+                                                <div class="product-discount"><span class="discountVal">${product.Product2.Adjustment_Amount__c}</span> OFF</div>
+                                            </template>
+                                        </div>
+                                    </div>
+                                    <div class="msrpPrice">
+                                        <template lwc:if={product.isDiscounted}>
+                                            <div><span class="msrp">MSRP: ${product.UnitPrice}</span></div>
+                                        </template>
+                                    </div>
+                                    <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

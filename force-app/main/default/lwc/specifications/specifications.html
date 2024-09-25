@@ -1,0 +1,15 @@
+<template>
+    <div class="specifications">
+        <h2>Specifications</h2>
+        <div class="accordion">
+            <template for:each={sections} for:item="section">
+                <div key={section.id} class="accordion-item">
+                    <button class="accordion-button" onclick={handleToggle} data-id={section.id}>
+                        {section.label}
+                    </button>
+                        <p>{section.content}</p>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,217 @@
+.finance {
+    width: 100%;
+    max-width: 1200px; /* Increased max-width to allow for larger screens */
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+}
+
+.finance-h4 {
+    font-size: 1.5rem;
+    color: #22e642;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.close-h4 {
+    font-size: 1rem;
+    color: #08b4ca;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.accounting-h4{
+    font-size: 1.2rem;
+    color: hsl(194, 77%, 59%);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.dataanalytics-h4{
+    font-size: 1.2rem;
+    color: #46217c;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.dataanalytics-h1{
+
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #46217c;
+}
+
+
+.finance-h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the input-wrapper uses the full width */
+    border: none; /* Add border to the wrapper */
+    padding: 1rem; /* Maintain padding inside the wrapper */
+    line-height: 40px; /* Set line-height to match button height */
+  }
+
+  .input-wrapper-atlas{
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure the input-wrapper uses the full width */
+    border: none; /* Add border to the wrapper */
+    padding: 1rem; /* Maintain padding inside the wrapper */
+    line-height: 40px; /* Set line-height to match button height */
+  }
+
+  .input-wrapper-atlas input{
+    flex: 1;
+  font-size: 1rem;
+  width: 80%; /* Ensure the input field takes up 80% of the width */
+  height: 2.5rem;
+  border: 1px solid rgb(226, 222, 222);
+  }
+
+
+.input-wrapper input {
+  flex: 1;
+  font-size: 1rem;
+  width: 80%; /* Ensure the input field takes up 80% of the width */
+  height: 2.5rem;
+  border: 1px solid rgb(226, 222, 222);
+}
+
+.input-wrapper-atlas div{
+    padding: 0.75rem;
+}
+
+.input-wrapper-atlas div .close-button{
+    margin: 0.5rem;
+    /* padding: 0.75rem; */
+}
+
+.finance-button {
+    margin: 0.5rem;
+    padding: 0 20px; /* Adjusted to remove vertical padding */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 2.5rem; /* Set the height to match the input field */
+    transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+}
+
+.finance-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.finance-button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.close-button {
+    padding: 0 20px; /* Adjusted to remove vertical padding */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fafbfc;
+    background-color: #05b3ca;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 2.5rem; /* Set the height to match the input field */
+    transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+}
+
+.close-button:hover {
+    background-color: #0694a7;
+    transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.close-button:active {
+    background-color: #0694a7;
+    transform: translateY(0);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.accounting-button{
+    padding: 0 20px; /* Adjusted to remove vertical padding */
+    font-size: 1rem;
+    color: #fff;
+    background-color:  #75bcff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 2.5rem; /* Set the height to match the input field */
+    transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+}
+
+.accounting-button:hover {
+    background-color: rgb(14, 129, 144);
+    transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.accounting-button:active {
+    background-color: #0d7a89;
+    transform: translateY(0);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.dataanalytics-button{
+
+    padding: 0 20px; /* Adjusted to remove vertical padding */
+    font-size: 1rem;
+    color: #fff;
+    background-color:  #46217c;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 2.5rem; /* Set the height to match the input field */
+    transition: background-color 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+}
+
+.dataanalytics-button:hover {
+    background-color: #3b196f;
+    transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+.dataanalytics-button:active {
+    background-color: #3b196f;
+    transform: translateY(0);
+            box-shadow: 0 8px 15px rgba(0, 112, 210, 0.4);
+}
+
+
+
+.error-message{
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: small;
+}

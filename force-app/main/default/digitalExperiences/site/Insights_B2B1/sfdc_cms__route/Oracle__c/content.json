@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Oracle",
+  "contentBody" : {
+    "activeViewId" : "Oracle",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-oracle",
+    "urlPrefix" : "oracle"
+  }
+}

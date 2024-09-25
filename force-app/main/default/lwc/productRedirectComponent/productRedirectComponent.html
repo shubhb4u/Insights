@@ -1,0 +1,18 @@
+<template>
+    <!-- Display the product if available -->
+    <template if:true={product}>
+        <div class="product-card">
+            <h1 class="product-name">{product.Name}</h1>
+            <h1 class="product-sku">SKU: {product.ProductCode}</h1>
+            <p class="product-description">{product.Description}</p>
+            <button class="Buy-Now-Button" onclick={handleRedirect}>
+                Buy Now
+            </button>
+        </div>
+    </template>
+    
+    <!-- Display error message if there is an error -->
+    <template if:true={error}>
+        <p class="error">{error}</p>
+    </template>
+</template>

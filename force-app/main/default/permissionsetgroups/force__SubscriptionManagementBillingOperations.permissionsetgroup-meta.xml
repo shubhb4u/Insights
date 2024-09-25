@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SubscriptionManagementBillingOperations</label>
+    <permissionSets>force__SubscriptionManagementCreateInvoiceFromBillingScheduleApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementCreateInvoiceFromOrderApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementInvoiceErrorRecoveryApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementScheduledBatchInvoicingApi</permissionSets>
+    <permissionSets>force__SubscriptionManagementVoidPostedInvoiceApi</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,12 @@
+.THIS {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.THIS div {
+    text-align: center;
+}
+
+.THIS .slds-button {
+    margin-top: 10px;
+}

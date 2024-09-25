@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>SKU_not_null</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SKU not null</label>
+        <sharedTo>
+            <guestUser>Insights_B2B</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>StockKeepingUnit</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <fullName>Sharing_Rule_Quote_SolarWinds</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Rule Quote SolarWinds</label>
+        <sharedTo>
+            <guestUser>Solar_Winds</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>StockKeepingUnit</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>
