@@ -1,20 +1,15 @@
 public without sharing class orderItemsHandler_Insights {
     
-    // Static variable to prevent recursive execution
-    // public static Boolean isAlreadyExecuted = false;
 
     public static void createQuotefromOrder(List<OrderItem> orderItemList) {
-        // Check if the method has already been executed during the current transaction
-        // if (isAlreadyExecuted) {
-        //     System.debug('Preventing recursive execution.');
-        //     return;
-        // }
-
-        // // Mark as executed
-        // isAlreadyExecuted = true;
+        
 
         try {
             Set<Id> orderIds = new Set<Id>();
+            List<SBQQ__Quote__c> newQuoteList = new List<SBQQ__Quote__c>();
+            List<SBQQ__QuoteLine__c> newQuoteLineList = new List<SBQQ__QuoteLine__c>();
+            Map<Id, Id> orderToQuoteMap = new Map<Id, Id>();
+            
 
             if (!orderItemList.isEmpty()) {
                 for (OrderItem ord : orderItemList) {
@@ -38,9 +33,7 @@ public without sharing class orderItemsHandler_Insights {
 
                 System.debug('Order Map items are -->> ' + orderMap);
 
-                List<SBQQ__Quote__c> newQuoteList = new List<SBQQ__Quote__c>();
-                List<SBQQ__QuoteLine__c> newQuoteLineList = new List<SBQQ__QuoteLine__c>();
-                Map<Id, Id> orderToQuoteMap = new Map<Id, Id>();
+                
 
                 if (!orderMap.isEmpty()) {
                     // Create Quotes from Orders
@@ -51,13 +44,13 @@ public without sharing class orderItemsHandler_Insights {
 
                             SBQQ__Quote__c newQuote = new SBQQ__Quote__c();
                             newQuote.SBQQ__Account__c = ord.AccountId;
-                            newQuote.SBQQ__PriceBook__c = '01sak000004KKRhAAO'; // Fetch dynamically if needed
-                            newQuote.SBQQ__PricebookId__c = '01sak000004KKRhAAO'; 
+                            newQuote.SBQQ__PriceBook__c = getPricebookId(); // Fetch dynamically if needed
+                            newQuote.SBQQ__PricebookId__c = getPricebookId(); 
                             newQuote.SBQQ__Primary__c = true;
                             newQuote.SBQQ__StartDate__c = ord.EffectiveDate;
                             newQuote.SBQQ__Status__c = 'Draft';
                             newQuote.SBQQ__Type__c = 'Quote';
-                            newQuote.SBQQ__LastCalculatedOn__c = System.now().addSeconds(2);
+                            // newQuote.SBQQ__LastCalculatedOn__c = System.now().addSeconds(2);
                             newQuote.Order_from_B2B_store_Insights__c = true;
                             newQuote.Order_Number_Insights__c = ord.OrderNumber;
 
@@ -111,12 +104,31 @@ public without sharing class orderItemsHandler_Insights {
                         if (!newQuoteLineList.isEmpty()) {
                             insert newQuoteLineList;
                             System.debug('newQuoteLineList is -->> ' + newQuoteLineList);
+
+                            // After inserting the Quotes and populating the orderToQuoteMap
+                            if (!orderToQuoteMap.isEmpty()) {
+                                System.debug('Enqueuing job to update orders with quote IDs');
+                                
+                                // Enqueue the queueable class to update orders with the parent quote ID
+                                // System.enqueueJob(new UpdateOrderWithQuoteId_Insights(orderToQuoteMap));
+                            }
                         }
                     }
                 }
             }
         } catch (Exception e) {
             System.debug('Error creating Quote -->>> ' + e.getMessage());
+        }
+    }
+
+    public static Id getPricebookId() {
+        try {
+            
+            List<PriceBook2> priceBookList = [select id, name from Pricebook2 where name = 'Insights B2B Price Book'];
+            return priceBookList.isEmpty() ? null : priceBookList[0].Id;
+        } catch (Exception e) {
+            System.debug('Error getting priceBookList: ' + e.getMessage());
+            return null;
         }
     }
 

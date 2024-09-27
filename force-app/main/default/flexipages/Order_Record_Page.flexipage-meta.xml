@@ -104,6 +104,12 @@
                 <identifier>RecordTypeField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Order_created_from_Store_Insights__c</fieldItem>
+                <identifier>RecordOrder_created_from_Store_Insights__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-3749aeac-2081-4839-a46d-0048db79c852</name>
         <type>Facet</type>
     </flexiPageRegions>

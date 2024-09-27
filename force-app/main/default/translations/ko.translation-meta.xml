@@ -4798,6 +4798,37 @@
         <name>SendEmail</name>
     </quickActions>
     <reportTypes>
+        <description><!-- Analytics Orders, from Summaries --></description>
+        <label><!-- Analytics Orders, from Summaries --></label>
+        <name>Analytics_Orders_Summaries</name>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Order Conversion Rate, from Summaries --></description>
+        <label><!-- Order Conversion Rate, from Summaries --></label>
+        <name>Cart_and_Order_Summaries</name>
+        <sections>
+            <label><!-- Carts --></label>
+            <name>Carts</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Commerce Cart --></description>
+        <label><!-- Commerce Cart --></label>
+        <name>Commerce_cart</name>
+        <sections>
+            <label><!-- Carts --></label>
+            <name>Carts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Partner Fund Requests and Partner Fund Claims --></description>
         <label><!-- Partner Fund Requests and Partner Fund Claims --></label>
         <name>MDF_Claim_Request_Crt</name>
@@ -4808,6 +4839,49 @@
         <sections>
             <label><!-- Partner Fund Requests --></label>
             <name>Partner Fund Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Order with Product Categories, from Summaries --></description>
+        <label><!-- Order with Product Categories, from Summaries --></label>
+        <name>Order_with_Product_Categories_Summaries</name>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Product Category Products --></label>
+            <name>Product Category Products</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orders with Products, from Summaries --></description>
+        <label><!-- Orders with Products, from Summaries --></label>
+        <name>Order_with_Products_Summaries</name>
+        <sections>
+            <label><!-- Order Product Summaries --></label>
+            <name>Order Product Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Order with Products and Promotions, from Summaries --></description>
+        <label><!-- Order with Products and Promotions, from Summaries --></label>
+        <name>Order_with_Products_and_Promotions_Summaries</name>
+        <sections>
+            <label><!-- Order Product Adjustment Line Item Summaries --></label>
+            <name>Order Product Adjustment Line Item Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Product Summaries --></label>
+            <name>Order Product Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -5132,6 +5206,70 @@
             </columns>
             <label><!-- Enablement Program Task Progresses --></label>
             <name>Enablement Program Task Progresses</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorization by Store --></description>
+        <label><!-- Payment Authorization by Store --></label>
+        <name>Payment_Authorization_by_Store</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Capture by Store --></description>
+        <label><!-- Payment Capture by Store --></label>
+        <name>Payment_Capture_by_Store</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Refund by Store --></description>
+        <label><!-- Payment Refund by Store --></label>
+        <name>Payment_Refund_by_Store</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Refunds --></label>
+            <name>Refunds</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Summary by Store --></description>
+        <label><!-- Payment Summary by Store --></label>
+        <name>Payment_Summary_by_Store</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
         </sections>
     </reportTypes>
     <reportTypes>

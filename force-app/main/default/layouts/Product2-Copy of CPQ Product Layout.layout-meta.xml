@@ -76,6 +76,10 @@
                 <behavior>Readonly</behavior>
                 <field>Final_Discount_Insights__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Final_price_Insights__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

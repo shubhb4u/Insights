@@ -21,32 +21,64 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         if (data) {
             this.productDiscountList = data;
             console.log('Product discount list received:', this.productDiscountList);
+
+            // After discount products are received, fetch the main product list
+            this.fetchProducts(); 
         } else if (error) {
             console.error('Error retrieving product discount list:', error);
         }
     }
 
-    connectedCallback() {
-        this.fetchProducts();
-    }
     
     fetchProducts() {
         getProductRecs()
             .then((data) => {
                 this.products = data.map(product => {
+                    // Ensure we have the correct discount price
                     let discountedPrice = this.getFinalPrice(product);
                     return {
                         ...product,
                         formattedUnitPrice: this.formatPrice(discountedPrice),
-                        isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2.Id)
+                        isDiscounted: this.isProductDiscounted(product.Product2.Id),
+                        showMSRP: this.isProductDiscounted(product.Product2.Id) // Track if MSRP should be shown
                     };
                 });
+                
                 this.setupCarousel();
-                this.initializeProductCounters(); // Call to initialize counters
+                this.initializeProductCounters(); // Initialize counters after carousel setup
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
             });
+    }
+
+    // Check if the product is discounted based on the productDiscountList
+    isProductDiscounted(productId) {
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            return this.productDiscountList.some(discountProduct => discountProduct.Id === productId);
+        }
+        return false;
+    }
+
+    // Get the final price of the product after applying discounts
+    getFinalPrice(product) {
+        let finalPrice = product.Product2.Final_price_Insights__c || product.UnitPrice;
+
+        // Ensure productDiscountList is defined and not empty
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
+
+            if (matchingDiscountProduct) {
+                if (matchingDiscountProduct.isDiscounted__c || matchingDiscountProduct.isDiscountedAmount__c) {
+                    // Apply any specific logic to calculate final price based on discounts here
+                    finalPrice = matchingDiscountProduct.Final_price_Insights__c || finalPrice;
+                }
+            }
+        } else {
+            console.warn('productDiscountList is undefined or empty. Returning original price.');
+        }
+
+        return finalPrice;
     }
     
     initializeProductCounters() {
@@ -57,32 +89,7 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         });
     }
 
-    getFinalPrice(product) {
-        this.showMSRP = false;
-        let finalPrice = product.UnitPrice;
-
-        // Ensure productDiscountList is defined and not empty
-        if (this.productDiscountList && this.productDiscountList.length > 0) {
-            const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
-
-            if (matchingDiscountProduct) {
-                if (matchingDiscountProduct.isDiscounted__c) {
-                    this.showMSRP = true;
-                    finalPrice -= parseFloat((matchingDiscountProduct.AdjustmentPercent__c / 100) * finalPrice);
-                    console.log('Discount applied. Final price:', finalPrice);
-                } else if (matchingDiscountProduct.isDiscountedAmount__c) {
-                    this.showMSRP = true;
-                    finalPrice -= matchingDiscountProduct.Adjustment_Amount__c;
-                    console.log('Discount applied. Final price:', finalPrice);
-                }
-            }
-        } else {
-            console.warn('productDiscountList is undefined or empty. Returning original price.');
-        }
-
-        return finalPrice;
-    }
-
+    
     formatPrice(price) {
         return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }

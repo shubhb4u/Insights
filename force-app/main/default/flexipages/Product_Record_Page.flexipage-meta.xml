@@ -161,6 +161,12 @@
                 <identifier>RecordFinal_Discount_Insights__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Final_price_Insights__c</fieldItem>
+                <identifier>RecordFinal_price_Insights__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-af0be2d6-88fc-471f-b639-e0996bc34497</name>
         <type>Facet</type>
     </flexiPageRegions>
