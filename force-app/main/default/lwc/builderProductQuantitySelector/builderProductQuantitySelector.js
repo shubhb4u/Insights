@@ -7,12 +7,12 @@
  */
 import { api, LightningElement } from 'lwc';
 import { createCommonQuantityUpdateAction, dispatchAction } from 'commerce/actionApi';
- 
+
 /**
  * The QuantitySelector component is a common component that can be used on all pages to show a number input field
  * optionally with quantity rules and +/- buttons.
  *
- * Parameters:
+ * Parameters:`
  *  minimum - The minimal allowed value
  *  maximum - The maximum allowed value
  *  step - The allowed increments
@@ -27,34 +27,34 @@ import { createCommonQuantityUpdateAction, dispatchAction } from 'commerce/actio
  */
 export default class BuilderProductQuantitySelector extends LightningElement {
     static renderMode = 'light';
- 
+
     @api
     minimum;
- 
+
     @api
     maximum;
- 
+
     @api
     step;
- 
+
     @api
     hideLabel = false;
- 
+
     @api
     hideButtons = false;
- 
+
     @api
     label;
- 
+
     @api
     minimumValueGuideText;
- 
+
     @api
     maximumValueGuideText;
- 
+
     @api
     stepValueGuideText;
- 
+
     handleQuantityChanged({ detail }) {
         if (detail && typeof detail.value === 'number') {
             const valueChangedEvent = new CustomEvent('valuechanged', {

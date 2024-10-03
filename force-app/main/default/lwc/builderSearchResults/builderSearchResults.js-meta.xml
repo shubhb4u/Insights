@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>58.0</apiVersion>
+    <apiVersion>58.0</apiVersion>    
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
@@ -30,14 +30,14 @@
             <property name="negotiatedPriceTextSize" type="String" default="medium" datasource="small,medium,large" />
             <property name="originalPriceTextColor" type="Color" />
             <property name="originalPriceTextSize" type="String" default="medium" datasource="small,medium,large" />
-
+ 
             <!-- Card Content Mapping-->
             <property
                 name="cardContentMapping"
                 type="String"
                 default='[{"name": "Name", "showLabel": false, "label": "Product Name", "fontSize": "medium"}]'
             />
-
+ 
             <!-- Call to Action Section -->
             <property name="showCallToActionButton" type="Boolean" default="false" />
             <property
@@ -47,9 +47,21 @@
                 datasource=",primary,secondary,tertiary"
             />
             <property name="addToCartButtonText" type="String" default="Add to cart" />
-            <property name="addToCartButtonProcessingText" type="String"  default="Adding..." />
+            <property name="addToCartButtonProcessingText" type="String" default="Adding..." />
             <property name="viewOptionsButtonText" type="String" default="View options" />
+             <!-- Quantity Selector Properties -->
+             <property name="quantitySelectorMinimum" type="Integer" default="1" />
+             <property name="quantitySelectorMaximum" type="Integer" default="99" />
+             <property name="quantitySelectorStep" type="Integer" default="1" />
+             <property name="quantitySelectorLabel" type="String" default="Quantity" />
+             <property name="quantitySelectorHideButtons" type="Boolean" default="false" />
+             <property name="quantitySelectorHideLabel" type="Boolean" default="false" />
+             <property name="quantitySelectorMinimumValueGuideText" type="String" default="Minimum quantity is {minimum}" />
+             <property name="quantitySelectorMaximumValueGuideText" type="String" default="Maximum quantity is {maximum}" />
+             <property name="quantitySelectorStepValueGuideText" type="String" default="Quantity must be in increments of {step}" />
+             <property name="minimum" type="Integer" default="1" />
+             <property name="maximum" type="Integer" default="99" />
+
         </targetConfig>
     </targetConfigs>
-
 </LightningComponentBundle>

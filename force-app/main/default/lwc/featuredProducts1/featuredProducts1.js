@@ -12,14 +12,17 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
     @track carouselIndicators = [];
     @track currentPage = 0;
     @track itemsPerPage = 4;
-    
+    @track product2;
     @track productCounters = {}; // Store quantity for each product
 
     @wire(getProductDiscountList)
     wiredProductDiscountList({ error, data }) {
         if (data) {
             this.productDiscountList = data;
-            this.fetchProducts(); // Fetch products only after discount list is available
+            console.log('Product discount list received:', this.productDiscountList);
+
+            // Fetch products only after discount list is available
+            this.fetchProducts(); 
         } else if (error) {
             console.error('Error retrieving product discount list:', error);
         }
@@ -33,28 +36,53 @@ export default class FeaturedProducts1 extends NavigationMixin(LightningElement)
                     return {
                         ...product,
                         formattedUnitPrice: this.formatPrice(discountedPrice),
-                        isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2Id)
+                        isDiscounted: this.productDiscountList.some(discountProduct => discountProduct.Id === product.Product2Id),
+                        showMSRP: this.isProductDiscounted(product.Product2.Id) // Track if MSRP should be shown
                     };
                 });
                 this.setupCarousel();
+                this.initializeProductCounters(); // Initialize counters after carousel setup
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
             });
     }
 
-    getFinalPrice(product) {
-        let finalPrice = product.UnitPrice;
-        const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2Id);
-
-        if (matchingDiscountProduct) {
-            if (matchingDiscountProduct.isDiscounted__c) {
-                finalPrice -= parseFloat((matchingDiscountProduct.AdjustmentPercent__c / 100) * finalPrice);
-            } else if (matchingDiscountProduct.isDiscountedAmount__c) {
-                finalPrice -= matchingDiscountProduct.Adjustment_Amount__c;
-            }
+    // Check if the product is discounted based on the productDiscountList
+    isProductDiscounted(productId) {
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            return this.productDiscountList.some(discountProduct => discountProduct.Id === productId);
         }
+        return false;
+    }
+
+    // Get the final price of the product after applying discounts
+    getFinalPrice(product) {
+        let finalPrice = product.Product2.Final_price_Insights__c || product.UnitPrice;
+
+        // Ensure productDiscountList is defined and not empty
+        if (this.productDiscountList && this.productDiscountList.length > 0) {
+            const matchingDiscountProduct = this.productDiscountList.find(discountProduct => discountProduct.Id === product.Product2.Id);
+
+            if (matchingDiscountProduct) {
+                if (matchingDiscountProduct.isDiscounted__c || matchingDiscountProduct.isDiscountedAmount__c) {
+                    // Apply any specific logic to calculate final price based on discounts here
+                    finalPrice = matchingDiscountProduct.Final_price_Insights__c || finalPrice;
+                }
+            }
+        } else {
+            console.warn('productDiscountList is undefined or empty. Returning original price.');
+        }
+
         return finalPrice;
+    }
+
+    initializeProductCounters() {
+        this.displayedProducts.forEach(product => {
+            if (!this.productCounters[product.Id]) {
+                this.productCounters[product.Id] = 1; // Default quantity to 1
+            }
+        });
     }
 
     formatPrice(price) {

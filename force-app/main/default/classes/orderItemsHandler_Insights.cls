@@ -110,7 +110,7 @@ public without sharing class orderItemsHandler_Insights {
                                 System.debug('Enqueuing job to update orders with quote IDs');
                                 
                                 // Enqueue the queueable class to update orders with the parent quote ID
-                                // System.enqueueJob(new UpdateOrderWithQuoteId_Insights(orderToQuoteMap));
+                                System.enqueueJob(new UpdateOrderWithQuoteId_Insights(orderToQuoteMap, newQuoteList));
                             }
                         }
                     }

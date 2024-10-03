@@ -7,5 +7,5 @@
     <enableOrderWithMultiplePriceBooks>true</enableOrderWithMultiplePriceBooks>
     <enableOrders>true</enableOrders>
     <enableReductionOrders>false</enableReductionOrders>
-    <enableZeroQuantity>true</enableZeroQuantity>
+    <enableZeroQuantity>false</enableZeroQuantity>
 </OrderSettings>

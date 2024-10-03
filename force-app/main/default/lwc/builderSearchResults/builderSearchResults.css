@@ -1,0 +1,15 @@
+.product-tile {
+    border: 1px solid #ccc; /* Example border */
+    padding: 16px; /* Padding around the product tile */
+    margin: 10px; /* Space between tiles */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align children horizontally */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

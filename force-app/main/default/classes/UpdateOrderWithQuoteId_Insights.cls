@@ -1,12 +1,12 @@
 public class UpdateOrderWithQuoteId_Insights implements Queueable {
 
     private Map<Id, Id> orderToQuoteMap;
-    // private List<SBQQ__Quote__c> quoteList;
+    private List<SBQQ__Quote__c> quoteList;
 
     // Constructor to pass in the order and quote mappings
-    public UpdateOrderWithQuoteId_Insights(Map<Id, Id> orderToQuoteMap) {
+    public UpdateOrderWithQuoteId_Insights(Map<Id, Id> orderToQuoteMap, List<SBQQ__Quote__c> quoList) {
         this.orderToQuoteMap = orderToQuoteMap;
-        // this.quoteList = quoList;
+        this.quoteList = quoList;
     }
 
     // Execute method for Queueable interface
@@ -23,20 +23,20 @@ public class UpdateOrderWithQuoteId_Insights implements Queueable {
         }
 
         //Generate new order and link it to quote from CPQ automation - this will create duplicate records.
-        // for(SBQQ__Quote__c quo: quoteList){
-        //     try {
-        //         if(quo.SBQQ__Ordered__c == false){
-        //             quo.SBQQ__Ordered__c = true;
-        //             quotesToUpdate.add(quo);
-        //         }
-        //     } catch (Exception e) {
-        //         System.debug('Error updating quotes: ' + e.getMessage());
-        //     }
-        // }
-
-        if (!ordersToUpdate.isEmpty()) {
+        for(SBQQ__Quote__c quo: quoteList){
             try {
-                update ordersToUpdate;
+                if(quo.SBQQ__Ordered__c == false){
+                    quo.SBQQ__Ordered__c = true;
+                    quotesToUpdate.add(quo);
+                }
+            } catch (Exception e) {
+                System.debug('Error updating quotes: ' + e.getMessage());
+            }
+        }
+
+        if (!ordersToUpdate.isEmpty() || !quotesToUpdate.isEmpty()) {
+            try {
+                // update ordersToUpdate;
                 // update quotesToUpdate;
                 System.debug('Orders successfully updated with Quote ID');
             } catch (Exception e) {

@@ -12,6 +12,9 @@ public class TaxCartCalculatorSamples extends CartExtension.TaxCartCalculator {
     private static Boolean useExternalService = false;
 
     public virtual override void calculate(CartExtension.CartCalculateCalculatorRequest request) {
+
+        System.debug('Entered cart tax calculator ---->>>>>>>>>>>>>>>>>>>>>');
+
         CartExtension.Cart cart = request.getCart();
         CartExtension.CartValidationOutputList cartValidationOutputCollection = cart.getCartValidationOutputs();
         try{

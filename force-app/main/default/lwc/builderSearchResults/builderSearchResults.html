@@ -27,8 +27,50 @@
         current-page={currentPage}
         onaddproducttocart={handleAddToCart}
         onshowproduct={handleNavigateToProductPage}
-        onupdatecurrentpage={handleUpdateCurrentPage}>
-       
-      
+        onupdatecurrentpage={handleUpdateCurrentPage}
+        quantity-selector-config={quantitySelectorConfig}
+    >
     </c-search-results>
+
+    <template if:true={searchResults.cardCollection}>
+        <template for:each={searchResults.cardCollection} for:item="product">
+            <div key={product.id} class="product-tile">
+                <img src="https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/sfsites/c/cms/delivery/media/MC3FNYP7YPFNANRETVTABP3EMEEU?version=1.1&channelId=0apak000000JZTW&oid=00Dak000008AQzJ&width=330&height=330" 
+                class="product-image" loading="lazy" />
+                <h2 class="product-name">{product.name}</h2>
+                <div class="product-price">
+                    <template if:true={showOriginalPrice}>
+                        <span class="original-price" style="color: red;font-weight: bold;">{product.originalPrice}</span>
+                    </template>
+                    <template if:true={showNegotiatedPrice}>
+                        <span class="negotiated-price" style="color: red;font-weight: bold;">{product.negotiatedPrice}</span>
+                    </template>
+                </div>
+            </div>
+
+            <c-builder-product-quantity-selector
+                key={product.id}
+                data-product-id={product.id}
+                minimum={minimum}
+                maximum={maximum}
+                step={quantitySelectorStep}
+                label={quantitySelectorLabel}
+                hide-buttons={quantitySelectorHideButtons}
+                hide-label={quantitySelectorHideLabel}
+                minimum-value-guide-text={quantitySelectorMinimumValueGuideText}
+                maximum-value-guide-text={quantitySelectorMaximumValueGuideText}
+                step-value-guide-text={quantitySelectorStepValueGuideText}
+                onvaluechanged={handleQuantityChanged}
+            >
+            </c-builder-product-quantity-selector>
+
+            <button 
+                key={product.id}
+                class="add-to-cart-button" 
+                data-id={product.id} 
+                onclick={handleAddToCart}>
+                {addToCartButtonText}
+            </button>
+        </template>
+    </template>
 </template>

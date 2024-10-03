@@ -47,30 +47,7 @@
             "layoutDirectionTablet" : "column",
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"da121688-e715-46ed-baf0-b3d1ec834f0f\",\"columns\":[{\"UUID\":\"c5bca3f1-e579-4054-98f7-3c7f120ce245\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
-            "sectionMinHeight" : "",
-            "sectionVerticalAlign" : "flex-start"
-          },
-          "children" : [ {
-            "id" : "c5bca3f1-e579-4054-98f7-3c7f120ce245",
-            "name" : "col1",
-            "title" : "Column 1",
-            "type" : "region"
-          } ],
-          "definition" : "community_layout:section",
-          "id" : "da121688-e715-46ed-baf0-b3d1ec834f0f",
-          "type" : "component"
-        }, {
-          "attributes" : {
-            "backgroundImageConfig" : "",
-            "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "componentSpacerSize" : "",
-            "layoutDirectionDesktop" : "row",
-            "layoutDirectionMobile" : "column",
-            "layoutDirectionTablet" : "column",
-            "maxContentWidth" : "",
-            "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"43d2fa9d-c2a5-49e0-88eb-818c3125dac4\",\"columns\":[{\"UUID\":\"066cb0d9-70f3-47b5-be11-21690d42f879\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionConfig" : "{\"UUID\":\"beb6d0db-4a06-4e95-aa88-81ebf709fac4\",\"columns\":[{\"UUID\":\"976d9cd0-00fc-4dc8-95ee-c11a046a33dc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
             "sectionVerticalAlign" : "flex-start"
           },
@@ -88,8 +65,19 @@
                 "gridMaxColumnsDisplayed" : "3",
                 "gridRowSpacing" : "small",
                 "listRowSpacing" : "small",
+                "maximum" : 99,
+                "minimum" : 1,
                 "negotiatedPriceTextSize" : "medium",
                 "originalPriceTextSize" : "medium",
+                "quantitySelectorHideButtons" : false,
+                "quantitySelectorHideLabel" : false,
+                "quantitySelectorLabel" : "Quantity",
+                "quantitySelectorMaximum" : 99,
+                "quantitySelectorMaximumValueGuideText" : "Maximum quantity is {maximum}",
+                "quantitySelectorMinimum" : 1,
+                "quantitySelectorMinimumValueGuideText" : "Minimum quantity is {minimum}",
+                "quantitySelectorStep" : 1,
+                "quantitySelectorStepValueGuideText" : "Quantity must be in increments of {step}",
                 "resultsLayout" : "grid",
                 "searchResults" : "{!Search.Results}",
                 "searchResultsFields" : "{!Search.Name}",
@@ -100,16 +88,16 @@
                 "viewOptionsButtonText" : "View options"
               },
               "definition" : "c:builderSearchResults",
-              "id" : "1390da27-4622-48c8-9e81-fb4f467ee108",
+              "id" : "bccfc56b-847d-4f91-9bf5-b288863e4e51",
               "type" : "component"
             } ],
-            "id" : "066cb0d9-70f3-47b5-be11-21690d42f879",
+            "id" : "976d9cd0-00fc-4dc8-95ee-c11a046a33dc",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "43d2fa9d-c2a5-49e0-88eb-818c3125dac4",
+          "id" : "beb6d0db-4a06-4e95-aa88-81ebf709fac4",
           "type" : "component"
         }, {
           "attributes" : {
@@ -347,15 +335,6 @@
                 "title" : "resultsLayout",
                 "type" : "region"
               }, {
-                "children" : [ {
-                  "attributes" : {
-                    "dxpStyle" : { },
-                    "richTextValue" : "<div style=\"display: flex; flex-direction: column; align-items: center; text-align: center; height: 50vh; justify-content: center;\">\n\t<h1 class=\"slds-text-heading_large\" style=\"margin-bottom: 20px; font-weight: bold;\">We're Sorry</h1>\n\t<p class=\"slds-text-heading_small\" style=\"margin-bottom: 5px;\">We can’t seem to find any products that match your search.</p>\n\t<p class=\"slds-text-heading_small\">Try a new search using fewer words</p>\n\t<div style=\"background: url({!Site.basePath}/assets/images/empty-search.svg) center no-repeat; background-size: contain; margin-top:25px; height: 200px; width: 50%;\"></div>\n</div>"
-                  },
-                  "definition" : "community_builder:htmlEditor",
-                  "id" : "e2f5ff70-9168-4f20-85ea-249299e70214",
-                  "type" : "component"
-                } ],
                 "id" : "9aa243e9-6ec8-460f-9a30-f3c632961e28",
                 "name" : "noResults",
                 "title" : "noResults",

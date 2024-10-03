@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://www.youtube.com/watch?v=Xnr0HhFvgHE",
+      "sourceName" : "Pdp-video"
+    } ]
+  }
+}
