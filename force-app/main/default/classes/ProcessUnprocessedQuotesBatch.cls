@@ -11,8 +11,8 @@ global class ProcessUnprocessedQuotesBatch implements Database.Batchable<SObject
 
     // Constructor to fire the class explicitly from backend with a list of Quote IDs
     public ProcessUnprocessedQuotesBatch(List<Id> quoteIdList) {
-        this.quoteIdsExplicit = quoteIdList; 
-        System.debug('Quote IDs passed to the constructor are -->>>> ' + this.quoteIdsExplicit);
+        quoteIdsExplicit = quoteIdList; 
+        System.debug('Quote IDs passed to the constructor are -->>>> ' + quoteIdsExplicit);
     }
 
     // Start method to query SBQQ__Quote__c records where Is_Processed_Insights__c is not checked
@@ -59,23 +59,27 @@ global class ProcessUnprocessedQuotesBatch implements Database.Batchable<SObject
 
     // Finish method to handle post-processing and call another batch class
     global void finish(Database.BatchableContext bc) {
-        // Get the ID of the AsyncApexJob representing this batch job
-        AsyncApexJob a = [SELECT Id, Status, NumberOfErrors, JobItemsProcessed,
-                           TotalJobItems, CreatedBy.Email
-                           FROM AsyncApexJob WHERE Id = :bc.getJobId()];
-
-        // Send an email to the Apex job's submitter notifying of job completion
-        Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-        String[] toAddresses = new String[] {a.CreatedBy.Email};
-        mail.setToAddresses(toAddresses);
-        mail.setSubject('ProcessUnprocessedQuotesBatch ' + a.Status);
-        mail.setPlainTextBody('The batch Apex job processed ' + a.TotalJobItems + ' batches with ' + a.NumberOfErrors + ' failures.');
-        Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
+        
 
         // Call another batch class and pass the successfully processed quote IDs
         if (!successfullyProcessedQuoteIds.isEmpty()) {
-            System.debug('Passing successfully processed Quote IDs to the next batch: ' + successfullyProcessedQuoteIds);
-            Database.executeBatch(new generateContract_Insights(successfullyProcessedQuoteIds), 1); 
+
+            // Get the ID of the AsyncApexJob representing this batch job
+                AsyncApexJob a = [SELECT Id, Status, NumberOfErrors, JobItemsProcessed,
+                TotalJobItems, CreatedBy.Email
+                FROM AsyncApexJob WHERE Id = :bc.getJobId()];
+
+                // Send an email to the Apex job's submitter notifying of job completion
+                Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+                String[] toAddresses = new String[] {a.CreatedBy.Email};
+                mail.setToAddresses(toAddresses);
+                mail.setSubject('ProcessUnprocessedQuotesBatch ' + a.Status);
+                mail.setPlainTextBody('The batch Apex job processed ' + a.TotalJobItems + ' batches with ' + a.NumberOfErrors + ' failures.');
+                Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
+
+                
+                System.debug('Passing successfully processed Quote IDs to the next batch: ' + successfullyProcessedQuoteIds);
+                Database.executeBatch(new generateContract_Insights(successfullyProcessedQuoteIds), 1); 
         }
     }
 

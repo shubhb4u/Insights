@@ -93,6 +93,14 @@ public without sharing class orderItemsHandler_Insights {
                                     newQuoteLine.SBQQ__NetPrice__c = item.UnitPrice;
                                     newQuoteLine.SBQQ__PricingMethod__c = 'List';
                                     newQuoteLine.SBQQ__Number__c = count;
+                                    //Harcoding fro subscription product, modify the code later from product selling models
+                                    if(item.Product2Id == '01tak000005Vu9hAAC'){
+                                        newQuoteLine.SBQQ__DefaultSubscriptionTerm__c = 12;
+                                        newQuoteLine.SBQQ__ProductSubscriptionType__c = 'Renewable';
+                                        newQuoteLine.SBQQ__SubscriptionBase__c = 'List';
+                                        newQuoteLine.SBQQ__SubscriptionPricing__c = 'Fixed Price';
+                                        newQuoteLine.SBQQ__SubscriptionType__c = 'Renewable';
+                                    }
 
                                     newQuoteLineList.add(newQuoteLine);
                                     count += 1;

@@ -6,8 +6,8 @@ global class generateContract_Insights implements Database.Batchable<SObject>, D
     //Constructor to fire the class explicitly from backend
     public generateContract_Insights(List<Id> quoIds){
 
-            this.quoteIds = quoIds; 
-            System.debug('quoIds for contracting class are -->>>> '+ this.quoteIds);
+            quoteIds = quoIds; 
+            System.debug('quoIds for contracting class are -->>>> '+ quoteIds);
     }
 
     // Start method to query SBQQ__Quote__c records where Is_Processed_Insights__c is not checked
@@ -60,6 +60,6 @@ global class generateContract_Insights implements Database.Batchable<SObject>, D
 
     // Execute method for the Schedulable interface
     global void execute(SchedulableContext sc) {
-        Database.executeBatch(new ProcessUnprocessedQuotesBatch(), 200);
+        Database.executeBatch(new ProcessUnprocessedQuotesBatch(), 1);
     }
 }
