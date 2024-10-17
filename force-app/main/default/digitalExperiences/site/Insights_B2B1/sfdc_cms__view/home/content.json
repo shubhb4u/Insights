@@ -20,7 +20,7 @@
                 "bottom" : "3rem",
                 "left" : "3rem",
                 "right" : "",
-                "top" : "5rem"
+                "top" : ""
               }
             },
             "layoutDirectionDesktop" : "row",
@@ -45,11 +45,11 @@
                   "padding" : {
                     "bottom" : "",
                     "left" : "45px",
-                    "right" : "",
+                    "right" : "5px",
                     "top" : ""
                   }
                 },
-                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"color: rgb(30, 37, 86); font-family: Poppins, Helvetica, Arial, sans-serif;\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
+                "richTextValue" : "<h1><span style=\"font-size: 48px;\">Connected Solutions for the&nbsp;</span><strong style=\"font-size: 48px; color: rgb(49, 171, 70);\">Office of the CFO</strong></h1><p><br></p><p><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">insightsoftware is the most comprehensive provider of solutions for finance, accounting, and operations. We turn information into insights, empowering business leaders to strategically drive their organization.</span></p>"
               },
               "customCssClasses" : "home-banner-heading",
               "definition" : "community_builder:richTextEditor",
@@ -140,7 +140,7 @@
           }, {
             "children" : [ {
               "attributes" : {
-                "alignment" : "center",
+                "alignment" : "right",
                 "dxpStyle" : {
                   "margin" : {
                     "bottom" : "",
@@ -156,6 +156,7 @@
                 "position" : "center center",
                 "width" : 82
               },
+              "customCssClasses" : "homepagebanner",
               "definition" : "dxp_base:image",
               "id" : "0a089942-5ea3-43e9-a057-1b4dea8d90b8",
               "type" : "component"
@@ -171,62 +172,32 @@
           "type" : "component"
         }, {
           "attributes" : {
-            "backgroundImageConfig" : "{\"url\":\"/sfsites/c/cms/delivery/media/MCJ3H4YCCNO5EVFLER6FHAUPKVJA?lastModifiedDate=Thu Jun 20 18:15:14 GMT 2024&height=144&width=192\",\"contentKey\":\"MCJ3H4YCCNO5EVFLER6FHAUPKVJA\",\"altText\":\"\",\"contentType\":\"sfdc_cms__image\",\"bgPosition\":\"center center\",\"bgSizeOrRepeat\":\"repeat\"}",
+            "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
-            "dxpStyle" : {
-              "margin" : {
-                "bottom" : "",
-                "left" : "5rem",
-                "right" : "",
-                "top" : ""
-              }
-            },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"2994124d-68ea-406f-8a1b-c4d15d350bfe\",\"columns\":[{\"UUID\":\"ff7c9596-7109-4e98-aebf-6893e4c14336\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionConfig" : "{\"UUID\":\"da69dc48-5534-46f5-a6fe-5e053d799be2\",\"columns\":[{\"UUID\":\"8b0ce9b3-6521-4d1b-b14e-278f478b85cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "browseStep" : 1,
-                "categoryId" : "0ZGak0000001JgXGAU",
-                "dxpStyle" : {
-                  "isVisible" : false,
-                  "margin" : {
-                    "bottom" : "",
-                    "left" : "",
-                    "right" : "",
-                    "top" : ""
-                  },
-                  "padding" : {
-                    "bottom" : "",
-                    "left" : "",
-                    "right" : "",
-                    "top" : "50px"
-                  }
-                },
-                "headerText" : "Featured Products",
-                "pageSize" : 4
-              },
-              "customCssClasses" : "toSellers",
-              "definition" : "b2c_lite_commerce:topSellers",
-              "id" : "9ad5c2b0-d313-44d0-8f17-5e205d9d06c7",
+              "attributes" : { },
+              "definition" : "c:cB",
+              "id" : "2f1e4349-576e-42e9-9a1c-a46f478b9bcd",
               "type" : "component"
             } ],
-            "id" : "ff7c9596-7109-4e98-aebf-6893e4c14336",
+            "id" : "8b0ce9b3-6521-4d1b-b14e-278f478b85cc",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
           } ],
-          "customCssClasses" : "",
           "definition" : "community_layout:section",
-          "id" : "2994124d-68ea-406f-8a1b-c4d15d350bfe",
+          "id" : "da69dc48-5534-46f5-a6fe-5e053d799be2",
           "type" : "component"
         }, {
           "attributes" : {
@@ -249,7 +220,7 @@
                   "padding" : {
                     "bottom" : "",
                     "left" : "3rem",
-                    "right" : "3rem",
+                    "right" : "5rem",
                     "top" : ""
                   }
                 }
@@ -296,6 +267,7 @@
                 },
                 "richTextValue" : "<h3 style=\"text-align: center;\"><span style=\"font-size: 36px;\">The insightsoftware&nbsp;</span><strong style=\"color: rgb(49, 171, 70); font-size: 36px;\">Platform</strong></h3><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">Your data, connected. When and where you need it. From every major ERP, data warehouse, modern data stack, and </span></p><p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">cloud vendor, we connect to 200+ environments with pre-built content and logic for your business. Our platform is an AI-</span></p><p style=\"text-align: center;\"><span style=\"font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">enabled integrated solution for the Office of the CFO built on an advanced data virtualization layer.</span></p><p><br></p>"
               },
+              "customCssClasses" : "home-banner-heading",
               "definition" : "community_builder:richTextEditor",
               "id" : "9db4de14-c3eb-49db-a72b-16c28c87ae58",
               "type" : "component"
@@ -2507,6 +2479,7 @@
                 },
                 "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\"> Actionable Business Strategy Begins &amp; Ends With</span></h2><p style=\"text-align: center;\"><br></p><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Accessible&nbsp;</span><strong style=\"font-size: 36px; color: rgb(49, 171, 70);\">Financial</strong><span style=\"font-size: 36px; color: rgb(49, 171, 70);\"> </span><span style=\"font-size: 36px;\">Data</span></h2>"
               },
+              "customCssClasses" : "home-banner-heading",
               "definition" : "community_builder:richTextEditor",
               "id" : "01857e46-9328-43a5-94ee-63ffeca48b64",
               "type" : "component"
@@ -2878,6 +2851,7 @@
               "attributes" : {
                 "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 24px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">See for yourself why&nbsp;</span><strong style=\"font-size: 24px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(49, 171, 70);\">500K+</strong><span style=\"font-size: 24px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">&nbsp;are using insightsoftware to draw instant data insights, react </span></p><p style=\"text-align: center;\"><span style=\"font-size: 24px; font-family: Poppins, Helvetica, Arial, sans-serif; color: rgb(30, 37, 86);\">swiftly to market changes, and outpace their competition</span></p>"
               },
+              "customCssClasses" : "home-banner-heading",
               "definition" : "community_builder:richTextEditor",
               "id" : "749cbc16-ef10-46c7-8006-70e4c7ce7fe8",
               "type" : "component"
@@ -3154,7 +3128,7 @@
                     "bottom" : "",
                     "left" : "",
                     "right" : "",
-                    "top" : "100px"
+                    "top" : "50px"
                   }
                 },
                 "richTextValue" : "<h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Resources To Help You Drive an Actionable </span></h2><h2 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Business Strategy</span></h2>"
@@ -3592,6 +3566,7 @@
                 "title" : "Data & Analytics",
                 "type" : "region"
               } ],
+              "customCssClasses" : "homepage-tabs-section",
               "definition" : "dxp_layout:tabs",
               "id" : "3d00935c-4137-49f7-9371-f29ce98521ac",
               "type" : "component"
@@ -3634,5 +3609,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "home"
-  }
+  },
+  "urlName" : "home"
 }

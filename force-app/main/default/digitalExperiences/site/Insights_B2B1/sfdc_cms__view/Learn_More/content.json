@@ -717,5 +717,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-learn-more"
-  }
+  },
+  "urlName" : "learn-more"
 }

@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-contact-us",
     "urlPrefix" : "contact-us"
-  }
+  },
+  "urlName" : "contact-us"
 }

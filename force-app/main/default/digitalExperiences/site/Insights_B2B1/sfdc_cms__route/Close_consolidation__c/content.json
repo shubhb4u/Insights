@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-close-consolidation",
     "urlPrefix" : "close-consolidation"
-  }
+  },
+  "urlName" : "close-consolidation"
 }

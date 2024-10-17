@@ -58,7 +58,7 @@
             "children" : [ {
               "attributes" : {
                 "allLabel" : "Go to",
-                "brandNavigationBackgroundColor" : "rgb(245, 249, 251)",
+                "brandNavigationBackgroundColor" : "rgb(255, 255, 255)",
                 "brandNavigationBarBackgroundColor" : "rgb(255, 255, 255)",
                 "brandNavigationColorText" : "rgb(95, 95, 95)",
                 "debugMode" : false,
@@ -1091,7 +1091,7 @@
                     "dxpStyle" : {
                       "padding" : {
                         "bottom" : "",
-                        "left" : "80px",
+                        "left" : "60px",
                         "right" : "",
                         "top" : "20px"
                       }
@@ -1330,5 +1330,6 @@
       "id" : "29640527-d588-49d1-9775-825743e1c477",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "commerce-layout"
 }

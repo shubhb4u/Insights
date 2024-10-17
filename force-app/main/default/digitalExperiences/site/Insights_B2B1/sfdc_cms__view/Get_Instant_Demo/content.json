@@ -99,5 +99,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-get-instant-demo"
-  }
+  },
+  "urlName" : "get-instant-demo"
 }

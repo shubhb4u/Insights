@@ -1437,5 +1437,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-mri-software"
-  }
+  },
+  "urlName" : "mri-software"
 }

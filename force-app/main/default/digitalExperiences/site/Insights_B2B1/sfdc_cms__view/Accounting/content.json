@@ -1390,5 +1390,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-accounting"
-  }
+  },
+  "urlName" : "accounting"
 }

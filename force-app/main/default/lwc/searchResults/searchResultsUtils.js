@@ -164,7 +164,7 @@ export function transformDataWithConfiguration(results, cardConfiguration = {}) 
         ...results,
         cardCollection,
     };
-}
+}         
 
 /**
  * Compute the layout configuration from the given set of UI properties.

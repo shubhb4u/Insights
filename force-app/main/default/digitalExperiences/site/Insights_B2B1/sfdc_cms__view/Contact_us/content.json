@@ -581,5 +581,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-contact-us"
-  }
+  },
+  "urlName" : "contact-us"
 }

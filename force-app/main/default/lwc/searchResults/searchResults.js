@@ -8,6 +8,7 @@
 import { api, LightningElement } from 'lwc';
 import { generateStyleProperties, generateThemeTextSizeProperty } from 'experience/styling';
 import { computeConfiguration, transformDataWithConfiguration } from './searchResultsUtils';
+
 import { EVENT, DEFAULTS } from './constants';
 /**
  * Gets the associated dxp CSS font size property for the given text size.
@@ -605,6 +606,8 @@ export default class SearchResults extends LightningElement {
      * @private
      */
     get normalizedSearchResults() {
+        console.log('normalize this.searchResults:', this.searchResults);
+        console.log('normalize this.cardConfiguration: ', this.cardConfiguration);
         return transformDataWithConfiguration(this.searchResults, this.cardConfiguration);
     }
 
@@ -635,6 +638,7 @@ export default class SearchResults extends LightningElement {
             viewOptionsButtonText: this.viewOptionsButtonText,
             cardContentMapping: this._cardContentMapping,
         };
+        
     }
 
     /**
@@ -733,6 +737,7 @@ export default class SearchResults extends LightningElement {
      * @fires SearchResults#addproducttocart
      */
     handleAddToCart(event) {
+        console.log('5555555');
         event.stopPropagation();
         this.dispatchEvent(
             new CustomEvent(EVENT.ADD_PRODUCT_TO_CART_EVT, {

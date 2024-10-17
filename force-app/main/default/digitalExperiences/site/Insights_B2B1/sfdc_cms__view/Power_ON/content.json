@@ -874,5 +874,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-power-on"
-  }
+  },
+  "urlName" : "power-on"
 }

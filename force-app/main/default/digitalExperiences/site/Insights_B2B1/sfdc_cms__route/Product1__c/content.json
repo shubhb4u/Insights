@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-product1",
     "urlPrefix" : "product1"
-  }
+  },
+  "urlName" : "product1"
 }

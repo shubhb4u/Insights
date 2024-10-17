@@ -3,5 +3,6 @@
   "title" : "Solar Winds",
   "contentBody" : {
     "authenticationType" : "AUTHENTICATED"
-  }
+  },
+  "urlName" : "solar-winds"
 }

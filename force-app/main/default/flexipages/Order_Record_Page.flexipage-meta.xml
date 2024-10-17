@@ -110,6 +110,12 @@
                 <identifier>RecordOrder_created_from_Store_Insights__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Contracted_From_Batch_class_Insights__c</fieldItem>
+                <identifier>RecordContracted_From_Batch_class_Insights__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-3749aeac-2081-4839-a46d-0048db79c852</name>
         <type>Facet</type>
     </flexiPageRegions>

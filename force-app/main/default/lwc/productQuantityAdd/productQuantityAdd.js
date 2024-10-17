@@ -284,6 +284,7 @@ export default class ProductQuantityAdd extends LightningElement {
      * @private
      */
     handleAddToCart(event) {
+        console.log('11111111');
         event.stopPropagation();
         this.dispatchEvent(
             new CustomEvent(ADD_PRODUCT_TO_CART_EVT, {

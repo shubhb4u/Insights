@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-corporate-overviw",
     "urlPrefix" : "corporate-overviw"
-  }
+  },
+  "urlName" : "corporate-overviw"
 }

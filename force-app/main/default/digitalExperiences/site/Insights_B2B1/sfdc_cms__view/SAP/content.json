@@ -1893,5 +1893,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-sap"
-  }
+  },
+  "urlName" : "sap"
 }

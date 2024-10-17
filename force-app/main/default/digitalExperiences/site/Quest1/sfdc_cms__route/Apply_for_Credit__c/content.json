@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-apply-for-credit",
     "urlPrefix" : "apply-for-credit"
-  }
+  },
+  "urlName" : "apply-for-credit"
 }

@@ -67,5 +67,6 @@
       "id" : "7a21d30f-008c-46cc-bc4b-2b8a1edc65d7",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "scoped-header-and-footer"
 }

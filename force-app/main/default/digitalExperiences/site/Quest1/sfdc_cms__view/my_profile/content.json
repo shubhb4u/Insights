@@ -116,5 +116,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "MyAccount",
     "viewType" : "my-profile"
-  }
+  },
+  "urlName" : "my-profile"
 }

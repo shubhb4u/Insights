@@ -21,6 +21,7 @@
           "children" : [ {
             "children" : [ {
               "attributes" : { },
+              "customCssClasses" : "cartpage-breadcrumb",
               "definition" : "c:breadcrumb",
               "id" : "54ed0042-b946-40da-b204-2d0c41309e98",
               "type" : "component"
@@ -107,5 +108,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "order"
-  }
+  },
+  "urlName" : "order"
 }

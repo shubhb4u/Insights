@@ -53,5 +53,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "relatedlist-0Q0"
-  }
+  },
+  "urlName" : "quote-related-list"
 }

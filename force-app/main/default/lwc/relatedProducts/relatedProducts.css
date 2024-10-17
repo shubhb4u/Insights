@@ -461,7 +461,7 @@ h3{
 
 
 .product-name {
-    font-size: 1.5rem;
+    font-size: 19px;
     font-weight: 400;
     color: #5462df;
     margin: 0 auto;
@@ -477,7 +477,7 @@ h3{
 }
 
 .product-model {
-    font-size: 0.9rem; /* Slightly increase for better readability */
+    font-size: 14px; /* Slightly increase for better readability */
     color: #555;
     margin-bottom: 1rem;
     margin-left: auto;

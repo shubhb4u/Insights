@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-learn-more",
     "urlPrefix" : "learn-more"
-  }
+  },
+  "urlName" : "learn-more"
 }

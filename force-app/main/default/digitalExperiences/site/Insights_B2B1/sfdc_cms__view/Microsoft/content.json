@@ -1333,5 +1333,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-microsoft"
-  }
+  },
+  "urlName" : "microsoft"
 }

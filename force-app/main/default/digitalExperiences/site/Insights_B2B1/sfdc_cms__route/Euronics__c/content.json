@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-euronics",
     "urlPrefix" : "euronics"
-  }
+  },
+  "urlName" : "euronics"
 }

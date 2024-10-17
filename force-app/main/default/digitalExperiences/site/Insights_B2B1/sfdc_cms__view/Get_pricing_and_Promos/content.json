@@ -62,5 +62,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-get-pricing-and-promos"
-  }
+  },
+  "urlName" : "get-pricing-and-promos"
 }

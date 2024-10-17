@@ -64,5 +64,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "error"
-  }
+  },
+  "urlName" : "error"
 }

@@ -206,6 +206,8 @@ export default class BuilderSearchResults extends LightningElement {
      */
     @api
     showCallToActionButton = false;
+
+    @api showInlineQuantitySelector = false;
  
     /**
      * The text for the add to cart button
@@ -305,20 +307,14 @@ export default class BuilderSearchResults extends LightningElement {
             },
         });
     } */
+
         handleAddToCart(event) {
-            console.log('Product added:', event.target.dataset.id);
+            
+        console.log('777777');
             event.stopPropagation();
-            
-            // Get the product ID from the dataset
-            const productId = event.target.dataset.id;
-            
-            // Retrieve the quantity for the product, fallback to 1 if not defined
-            const quantity = this.productQuantities[productId] || 1;
-            
-            // Call dispatchAction to add the product to the cart
+            const { productId, quantity } = event.detail;
             dispatchAction(this, createCartItemAddAction(productId, quantity), {
                 onSuccess: () => {
-                    // Show success modal with options to continue shopping or view the cart
                     CommonModal.open({
                         label: Labels.messageSuccessfullyAddedToCart,
                         size: 'small',
@@ -329,6 +325,30 @@ export default class BuilderSearchResults extends LightningElement {
                 },
             });
         }
+        // handleAddToCart(event) {
+        //     console.log('Product added:', event.target.dataset.id);
+        //     event.stopPropagation();
+            
+        //     // Get the product ID from the dataset
+        //     const productId = event.target.dataset.id;
+            
+        //     // Retrieve the quantity for the product, fallback to 1 if not defined
+        //     const quantity = this.productQuantities[productId] || 1;
+            
+        //     // Call dispatchAction to add the product to the cart
+        //     dispatchAction(this, createCartItemAddAction(productId, quantity), {
+        //         onSuccess: () => {
+        //             // Show success modal with options to continue shopping or view the cart
+        //             CommonModal.open({
+        //                 label: Labels.messageSuccessfullyAddedToCart,
+        //                 size: 'small',
+        //                 secondaryActionLabel: Labels.actionContinueShopping,
+        //                 primaryActionLabel: Labels.actionViewCart,
+        //                 onprimaryactionclick: () => this.navigateToCart(),
+        //             });
+        //         },
+        //     });
+        // }
         
  
     /**

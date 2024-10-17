@@ -1483,5 +1483,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-data-analytics"
-  }
+  },
+  "urlName" : "data-analytics"
 }

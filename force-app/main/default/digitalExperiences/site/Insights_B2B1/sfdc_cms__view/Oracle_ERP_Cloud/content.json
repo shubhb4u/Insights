@@ -1433,5 +1433,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-oracle-erp-cloud"
-  }
+  },
+  "urlName" : "oracle-erp-cloud"
 }

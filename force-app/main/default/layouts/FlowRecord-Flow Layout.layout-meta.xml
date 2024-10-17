@@ -70,6 +70,10 @@
         <fields>Exits</fields>
         <fields>Errors</fields>
         <fields>Name</fields>
+        <fields>CreatedDate</fields>
+        <fields>RunInMode</fields>
+        <fields>ApiVersion</fields>
+        <fields>CapacityCategory</fields>
         <relatedList>FlowRecordVersions</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

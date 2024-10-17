@@ -56,5 +56,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-euronics"
-  }
+  },
+  "urlName" : "euronics"
 }

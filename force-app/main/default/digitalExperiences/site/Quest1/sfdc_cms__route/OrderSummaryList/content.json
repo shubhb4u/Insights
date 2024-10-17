@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "list-1Os",
     "urlPrefix" : "OrderSummary"
-  }
+  },
+  "urlName" : "order-summary-list"
 }

@@ -10,7 +10,7 @@
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
             "dxpStyle" : { },
-            "maxContentWidth" : "",
+            "maxContentWidth" : "1328px",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"3cab7a44-355b-4b67-a854-da8a2c0cec4c\",\"columns\":[{\"UUID\":\"52b19bb2-eeb8-4806-994c-2153dc81075e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
           },
@@ -303,5 +303,6 @@
     } ],
     "themeLayoutType" : "Inner",
     "viewType" : "wishlist"
-  }
+  },
+  "urlName" : "wishlist"
 }

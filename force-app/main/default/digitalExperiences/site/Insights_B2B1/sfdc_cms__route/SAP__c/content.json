@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-sap",
     "urlPrefix" : "sap"
-  }
+  },
+  "urlName" : "sap"
 }

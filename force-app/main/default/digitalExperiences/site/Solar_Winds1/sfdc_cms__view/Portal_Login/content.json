@@ -357,5 +357,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "External",
     "viewType" : "custom-portal-login"
-  }
+  },
+  "urlName" : "portal-login"
 }

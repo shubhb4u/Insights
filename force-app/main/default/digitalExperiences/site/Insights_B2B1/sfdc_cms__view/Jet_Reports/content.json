@@ -1741,5 +1741,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-jet-reports"
-  }
+  },
+  "urlName" : "jet-reports"
 }

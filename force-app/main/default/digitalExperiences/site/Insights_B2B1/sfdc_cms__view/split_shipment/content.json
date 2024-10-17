@@ -121,5 +121,6 @@
     } ],
     "themeLayoutType" : "Checkout",
     "viewType" : "split-shipment"
-  }
+  },
+  "urlName" : "split-shipment"
 }

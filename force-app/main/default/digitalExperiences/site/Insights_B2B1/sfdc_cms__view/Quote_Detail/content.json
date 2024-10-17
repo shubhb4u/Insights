@@ -62,5 +62,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "detail-0Q0"
-  }
+  },
+  "urlName" : "quote-detail"
 }

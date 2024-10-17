@@ -79,7 +79,7 @@ global class ProcessUnprocessedQuotesBatch implements Database.Batchable<SObject
 
                 
                 System.debug('Passing successfully processed Quote IDs to the next batch: ' + successfullyProcessedQuoteIds);
-                Database.executeBatch(new generateContract_Insights(successfullyProcessedQuoteIds), 1); 
+                // Database.executeBatch(new generateContract_Insights(successfullyProcessedQuoteIds), 1); 
         }
     }
 

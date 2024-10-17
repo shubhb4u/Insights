@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-customer-success",
     "urlPrefix" : "customer-success"
-  }
+  },
+  "urlName" : "customer-success"
 }

@@ -3,5 +3,6 @@
   "title" : "Insights B2B",
   "contentBody" : {
     "authenticationType" : "AUTHENTICATED_WITH_PUBLIC_ACCESS_ENABLED"
-  }
+  },
+  "urlName" : "insights-b2b"
 }

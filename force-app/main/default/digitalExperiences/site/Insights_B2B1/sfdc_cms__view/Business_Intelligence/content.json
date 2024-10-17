@@ -1209,5 +1209,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-business-intelligence"
-  }
+  },
+  "urlName" : "business-intelligence"
 }

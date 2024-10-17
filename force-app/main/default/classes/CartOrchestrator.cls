@@ -82,7 +82,7 @@ global class CartOrchestrator extends CartExtension.CartCalculate {
             }
         }
 
-        if (runTaxes) {
+       if (runTaxes) {
              taxes(calculatorRequest);
         }
     }

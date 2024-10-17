@@ -224,5 +224,6 @@
       "id" : "490e7a75-5738-49f2-98e3-5dec888e93d3",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "checkout-layout"
 }

@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "address-form",
     "urlPrefix" : "addressForm"
-  }
+  },
+  "urlName" : "address-form"
 }

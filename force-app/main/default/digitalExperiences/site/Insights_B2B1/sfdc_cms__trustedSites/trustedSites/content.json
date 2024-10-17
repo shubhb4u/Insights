@@ -6,6 +6,23 @@
       "isActive" : true,
       "source" : "https://www.youtube.com/watch?v=Xnr0HhFvgHE",
       "sourceName" : "Pdp-video"
+    }, {
+      "isActive" : true,
+      "source" : "https://example.com/placeholder-image.jpg",
+      "sourceName" : "Sample URL"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.shutterstock.com/image-vector/swot-analysis-concept-half-circle-shape-2288069645",
+      "sourceName" : "I1"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.example.com/img_snow_wide.jpg",
+      "sourceName" : "Imagee1"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.example.com/img_mountains_wide.jpg",
+      "sourceName" : "mountain"
     } ]
-  }
+  },
+  "urlName" : "trustedsites"
 }

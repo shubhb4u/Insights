@@ -102,5 +102,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-quote-page"
-  }
+  },
+  "urlName" : "quote-page"
 }

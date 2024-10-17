@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "detail-0Q0",
     "urlPrefix" : "quote"
-  }
+  },
+  "urlName" : "quote-detail"
 }

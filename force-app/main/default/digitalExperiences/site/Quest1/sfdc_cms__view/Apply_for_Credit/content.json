@@ -123,5 +123,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-apply-for-credit"
-  }
+  },
+  "urlName" : "apply-for-credit"
 }

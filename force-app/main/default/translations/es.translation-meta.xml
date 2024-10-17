@@ -4745,6 +4745,14 @@
         <flows/>
         <fullName>Create_Invoice_and_Ensure_Funds</fullName>
     </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Enable_Contracted</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Enable_Contracted_checkbox_after_1_min</fullName>
+    </flowDefinitions>
     <quickActions>
         <label><!-- Guest Community Case --></label>
         <name>GuestCommunityCase</name>

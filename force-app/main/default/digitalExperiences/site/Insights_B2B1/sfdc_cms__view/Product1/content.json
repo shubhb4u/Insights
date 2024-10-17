@@ -212,5 +212,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-product1"
-  }
+  },
+  "urlName" : "product1"
 }

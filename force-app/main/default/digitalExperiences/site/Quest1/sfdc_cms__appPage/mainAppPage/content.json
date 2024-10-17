@@ -7,5 +7,6 @@
     "isLockerServiceEnabled" : true,
     "isRelaxedCSPLevel" : true,
     "templateName" : "b2b-storefront"
-  }
+  },
+  "urlName" : "main"
 }

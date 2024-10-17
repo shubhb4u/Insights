@@ -177,5 +177,6 @@
     } ],
     "themeLayoutType" : "Inner",
     "viewType" : "detail-1Os"
-  }
+  },
+  "urlName" : "order-summary-details"
 }

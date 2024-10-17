@@ -76,5 +76,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "check-password"
-  }
+  },
+  "urlName" : "check-password"
 }

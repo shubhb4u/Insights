@@ -1,0 +1,16 @@
+<template>
+    <div class="slideshow-container">
+        <template for:each={slides} for:item="slide">
+            <div key={slide.id} class="mySlides fade" style={slide.display}>
+                <div class="numbertext">{slide.numberText}</div>
+                <img src={slide.image} alt={slide.alt} style="width:100%">
+                <div class="text">{slide.caption}</div>
+            </div>
+        </template>
+
+        <a class="prev" onclick={handlePrev}>❮</a>
+        <a class="next" onclick={handleNext}>❯</a>
+    </div>
+
+    <br>
+</template>

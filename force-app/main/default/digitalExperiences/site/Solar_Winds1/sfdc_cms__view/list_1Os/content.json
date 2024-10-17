@@ -285,5 +285,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "list-1Os"
-  }
+  },
+  "urlName" : "order-summary-list"
 }

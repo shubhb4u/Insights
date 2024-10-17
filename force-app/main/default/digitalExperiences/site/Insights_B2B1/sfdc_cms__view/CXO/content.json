@@ -1584,5 +1584,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-cxo"
-  }
+  },
+  "urlName" : "cxo"
 }

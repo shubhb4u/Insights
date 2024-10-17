@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-get-pricing-and-promos",
     "urlPrefix" : "get-pricing-and-promos"
-  }
+  },
+  "urlName" : "get-pricing-and-promos"
 }

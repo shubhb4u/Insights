@@ -222,6 +222,7 @@ export default class BuilderProductPurchaseOptions extends LightningElement {
     }
 
     handleAddToCart({ detail }) {
+        console.log('99999');
         const productId = this.product?.id;
         productId &&
             dispatchAction(this, createCartItemAddAction(productId, detail.quantity), {

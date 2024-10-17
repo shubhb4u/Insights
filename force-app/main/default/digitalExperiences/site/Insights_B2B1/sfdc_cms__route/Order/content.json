@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "order",
     "urlPrefix" : "order"
-  }
+  },
+  "urlName" : "order-confirmation"
 }

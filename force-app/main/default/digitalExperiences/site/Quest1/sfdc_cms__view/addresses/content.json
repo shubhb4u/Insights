@@ -133,5 +133,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "MyAccount",
     "viewType" : "addresses"
-  }
+  },
+  "urlName" : "address-list"
 }

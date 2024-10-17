@@ -282,5 +282,6 @@
     } ],
     "themeLayoutType" : "Inner",
     "viewType" : "global-search"
-  }
+  },
+  "urlName" : "search"
 }

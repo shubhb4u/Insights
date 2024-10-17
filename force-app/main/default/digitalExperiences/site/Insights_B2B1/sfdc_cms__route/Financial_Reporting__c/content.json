@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-financial-reporting",
     "urlPrefix" : "financial-reporting"
-  }
+  },
+  "urlName" : "financial-reporting"
 }

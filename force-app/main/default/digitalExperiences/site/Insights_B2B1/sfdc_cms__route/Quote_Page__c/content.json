@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-quote-page",
     "urlPrefix" : "quote-page"
-  }
+  },
+  "urlName" : "quote-page"
 }

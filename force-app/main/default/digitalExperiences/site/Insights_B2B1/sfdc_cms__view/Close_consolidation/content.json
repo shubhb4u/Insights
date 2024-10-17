@@ -1127,5 +1127,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-close-consolidation"
-  }
+  },
+  "urlName" : "close-consolidation"
 }

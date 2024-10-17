@@ -440,5 +440,6 @@
       "id" : "49f3e9e0-2c3a-446a-a7f5-0c99e2c26168",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "my-account-layout"
 }

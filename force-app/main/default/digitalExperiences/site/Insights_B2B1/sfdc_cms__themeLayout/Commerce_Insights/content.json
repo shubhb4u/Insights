@@ -280,5 +280,6 @@
       "id" : "e0af2cbb-f9f5-4c22-821c-cc4bb549e3d1",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "commerce-insights"
 }

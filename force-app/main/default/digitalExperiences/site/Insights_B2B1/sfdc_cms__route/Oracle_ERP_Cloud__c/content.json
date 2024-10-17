@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-oracle-erp-cloud",
     "urlPrefix" : "oracle-erp-cloud"
-  }
+  },
+  "urlName" : "oracle-erp-cloud"
 }

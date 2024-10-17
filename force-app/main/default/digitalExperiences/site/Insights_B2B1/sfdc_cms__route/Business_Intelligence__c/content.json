@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-business-intelligence",
     "urlPrefix" : "business-intelligence"
-  }
+  },
+  "urlName" : "business-intelligence"
 }

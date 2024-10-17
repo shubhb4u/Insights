@@ -986,6 +986,4 @@ public class TaxCalculatorSampleSupport extends CartExtension.TaxCartCalculator 
     
      } 
     
-    } 
-    
-     
+    }

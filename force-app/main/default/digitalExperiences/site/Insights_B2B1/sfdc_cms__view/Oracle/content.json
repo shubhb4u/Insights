@@ -1801,5 +1801,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-oracle"
-  }
+  },
+  "urlName" : "oracle"
 }

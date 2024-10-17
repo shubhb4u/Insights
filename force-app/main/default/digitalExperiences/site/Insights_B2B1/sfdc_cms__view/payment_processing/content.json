@@ -50,5 +50,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "External",
     "viewType" : "payment-processing"
-  }
+  },
+  "urlName" : "payment-processing"
 }

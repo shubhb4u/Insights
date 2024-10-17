@@ -367,5 +367,6 @@
       "id" : "fc5d79cf-b543-4920-9d28-ad229aa1850a",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "commerce-layout"
 }

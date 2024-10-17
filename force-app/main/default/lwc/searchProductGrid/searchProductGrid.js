@@ -188,6 +188,7 @@ export default class SearchProductGrid extends LightningElement {
      * @fires SearchProductGrid#addproducttocart
      */
     handleAddToCart(event) {
+        console.log('333333');
         event.stopPropagation();
         this.dispatchEvent(
             new CustomEvent(EVENT.ADD_PRODUCT_TO_CART_EVT, {

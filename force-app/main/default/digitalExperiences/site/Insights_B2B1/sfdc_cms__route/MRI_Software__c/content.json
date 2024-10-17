@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-mri-software",
     "urlPrefix" : "mri-software"
-  }
+  },
+  "urlName" : "mri-software"
 }

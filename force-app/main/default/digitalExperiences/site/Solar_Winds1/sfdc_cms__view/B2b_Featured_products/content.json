@@ -56,5 +56,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-b2b-featured-products"
-  }
+  },
+  "urlName" : "b2b-featured-products"
 }

@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "payment-processing",
     "urlPrefix" : "payment-processing"
-  }
+  },
+  "urlName" : "payment-processing"
 }

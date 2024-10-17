@@ -5,6 +5,7 @@ import getProductDiscountList from '@salesforce/apex/DisplayProductRecords.getPr
 import { addItemToCart } from 'commerce/cartApi';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
+
 export default class DisplayProductRecords extends NavigationMixin(LightningElement) {
     @track products;
     @track productDiscountList;
@@ -221,4 +222,5 @@ export default class DisplayProductRecords extends NavigationMixin(LightningElem
         });
         this.dispatchEvent(event);
     }
+
 }

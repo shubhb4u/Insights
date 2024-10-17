@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "managed-content-sfdc_cms__image",
     "urlPrefix" : "FinanceContent"
-  }
+  },
+  "urlName" : "image-detail"
 }

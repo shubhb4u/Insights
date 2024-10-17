@@ -20,5 +20,6 @@
       "layoutId" : "commerceLayout",
       "layoutType" : "Inner"
     } ]
-  }
+  },
+  "urlName" : "b2b-commerce"
 }

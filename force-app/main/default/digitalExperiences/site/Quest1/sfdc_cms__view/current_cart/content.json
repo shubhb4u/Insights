@@ -680,5 +680,6 @@
     } ],
     "themeLayoutType" : "Inner",
     "viewType" : "current-cart"
-  }
+  },
+  "urlName" : "cart"
 }

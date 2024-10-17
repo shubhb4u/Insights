@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-finance",
     "urlPrefix" : "finance"
-  }
+  },
+  "urlName" : "finance"
 }

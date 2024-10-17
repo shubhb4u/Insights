@@ -180,5 +180,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-explore-the-platform"
-  }
+  },
+  "urlName" : "explore-the-platform"
 }

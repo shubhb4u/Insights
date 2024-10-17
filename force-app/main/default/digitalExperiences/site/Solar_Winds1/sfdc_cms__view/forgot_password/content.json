@@ -79,5 +79,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "External",
     "viewType" : "forgot-password"
-  }
+  },
+  "urlName" : "forgot-password"
 }

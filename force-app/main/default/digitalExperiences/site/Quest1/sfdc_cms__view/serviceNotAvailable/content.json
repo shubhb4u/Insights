@@ -48,5 +48,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "ServiceNotAvailable",
     "viewType" : "service-not-available"
-  }
+  },
+  "urlName" : "service-not-available"
 }

@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-oracle",
     "urlPrefix" : "oracle"
-  }
+  },
+  "urlName" : "oracle"
 }

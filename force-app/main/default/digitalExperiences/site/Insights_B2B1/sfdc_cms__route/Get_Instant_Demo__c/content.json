@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-get-instant-demo",
     "urlPrefix" : "get-instant-demo"
-  }
+  },
+  "urlName" : "get-instant-demo"
 }

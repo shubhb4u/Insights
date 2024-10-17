@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Contracted_Checkbox</fullName>
+        <field>SBQQ__Contracted__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Contracted Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Enable Contracted Checkbox</fullName>
+        <actions>
+            <name>Update_Contracted_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+      ISPICKVAL(Status , &apos;Activated&apos;), 
+    NOT(SBQQ__Contracted__c),
+    NOT(ISNULL(SBQQ__Quote__c )) 
+    
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

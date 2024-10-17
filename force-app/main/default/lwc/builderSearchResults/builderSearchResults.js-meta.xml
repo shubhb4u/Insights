@@ -48,7 +48,7 @@
             />
             <property name="addToCartButtonText" type="String" default="Add to cart" />
             <property name="addToCartButtonProcessingText" type="String" default="Adding..." />
-            <property name="viewOptionsButtonText" type="String" default="View options" />
+            <property name="viewOptionsButtonText" type="String" default=" " />
              <!-- Quantity Selector Properties -->
              <property name="quantitySelectorMinimum" type="Integer" default="1" />
              <property name="quantitySelectorMaximum" type="Integer" default="99" />

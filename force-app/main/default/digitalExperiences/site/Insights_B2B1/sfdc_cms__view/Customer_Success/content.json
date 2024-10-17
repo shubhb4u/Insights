@@ -1072,5 +1072,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-customer-success"
-  }
+  },
+  "urlName" : "customer-success"
 }

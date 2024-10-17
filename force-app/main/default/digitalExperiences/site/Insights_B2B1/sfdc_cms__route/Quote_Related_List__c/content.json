@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "relatedlist-0Q0",
     "urlPrefix" : "quote"
-  }
+  },
+  "urlName" : "quote-related-list"
 }

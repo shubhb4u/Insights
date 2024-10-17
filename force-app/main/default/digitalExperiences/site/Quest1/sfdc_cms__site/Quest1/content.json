@@ -3,5 +3,6 @@
   "title" : "Quest",
   "contentBody" : {
     "authenticationType" : "AUTHENTICATED"
-  }
+  },
+  "urlName" : "quest"
 }

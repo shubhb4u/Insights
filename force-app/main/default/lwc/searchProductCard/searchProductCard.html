@@ -15,6 +15,11 @@
         </div>
 
         <div class="fieldsArea">
+            <!--Note: All fields are navigable to PDP, but only one field will have
+                the tab stop in the keyboard navigation to keep the accessibility
+                smooth. The logic of which field will have the tab stop is defined
+                and explained in the resultsTiles/fieldNormalizer utility's
+                generateContentMappedFields() -->
             <a
                 class="slds-var-p-top_x-small slds-text-link_reset"
                 onkeydown={handleKeydown}
@@ -23,11 +28,6 @@
                     for:each={fields}
                     for:item="field">
                     <div key={field.displayData.name}>
-                        <c-search-product-field
-                            configuration={field.configuration}
-                            display-data={field.displayData}></c-search-product-field>
-                    </div>
-                    <div key={field.displayData.description}>
                         <c-search-product-field
                             configuration={field.configuration}
                             display-data={field.displayData}></c-search-product-field>
@@ -67,12 +67,12 @@
             class="callToActionArea">
             <template if:false={isCTAButtonViewOptions}>
                 <div class={quantitySelectorClassList}>
-                    <c-product-quantity-selector
-                        if:true={showInlineQuantitySelector}
+                    <c-product-quantity-selector   
                         onvaluechanged={handleValueChanged}
                         disabled={disabled}
-                        minimum={quantityRuleMinimum}
+                        minimum={quantityRuleManimum}
                         maximum={quantityRuleMaximum}
+                        increment = {quantityRuleIncrement}
                         step={quantityRuleIncrement}
                         label={quantitySelectorLabelText}
                         step-value-guide-text={incrementText}
@@ -81,7 +81,6 @@
                     <c-common-button
                         if:true={isCTAButtonAddToCart}
                         assistive-text={addToCartButtonAriaLabel}
-                        disabled={addToCartButtonDisabled}
                         data-product-id={displayData.id}
                         class="callToActionButton"
                         variant={actionButtonVariant}
@@ -90,6 +89,7 @@
                     </c-common-button>
                 </div>
             </template>
+            <!-- View Options for a Product -->
             <c-common-link
                 if:true={isCTAButtonViewOptions}
                 href={_productUrl}

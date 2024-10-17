@@ -99,5 +99,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-blog"
-  }
+  },
+  "urlName" : "blog"
 }

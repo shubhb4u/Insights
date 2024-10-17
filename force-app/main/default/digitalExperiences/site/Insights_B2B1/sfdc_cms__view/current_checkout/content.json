@@ -14,24 +14,41 @@
             "layoutDirectionTablet" : "column",
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
-            "sectionConfig" : "{\"UUID\":\"f067f886-b5d9-46fb-b73b-41d4aa5aa862\",\"columns\":[{\"UUID\":\"c637c780-395f-4c4c-89fe-9ba9ad0f0d2a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionConfig" : "{\"UUID\":\"fb68c665-956f-4d36-84e2-742999887bcf\",\"columns\":[{\"UUID\":\"0f77dae6-02c0-4a4f-abdc-7adc487ae5a0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
             "sectionMinHeight" : "",
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "0px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
+              "customCssClasses" : "cartpage-breadcrumb",
               "definition" : "c:breadcrumb",
               "id" : "7cb45829-ddb6-4369-881b-438b2341aa00",
               "type" : "component"
             } ],
-            "id" : "c637c780-395f-4c4c-89fe-9ba9ad0f0d2a",
+            "id" : "0f77dae6-02c0-4a4f-abdc-7adc487ae5a0",
             "name" : "col1",
             "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
-          "id" : "f067f886-b5d9-46fb-b73b-41d4aa5aa862",
+          "id" : "fb68c665-956f-4d36-84e2-742999887bcf",
+          "scopedBrandingSetId" : "Breadcrumb",
           "type" : "component"
         }, {
           "attributes" : {
@@ -40,13 +57,19 @@
             "componentSpacerSize" : "",
             "dxpStyle" : {
               "margin" : {
-                "bottom" : "0%",
+                "bottom" : "0rem",
                 "left" : "",
                 "right" : "",
-                "top" : "0%"
+                "top" : "0rem"
+              },
+              "padding" : {
+                "bottom" : "",
+                "left" : "",
+                "right" : "",
+                "top" : "0px"
               }
             },
-            "maxContentWidth" : "",
+            "maxContentWidth" : "1340px",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"7026f779-4bdf-41a9-848e-07cf351c0969\",\"columns\":[{\"UUID\":\"16334764-2a45-49a0-8ee4-6d906f179bbf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"7\",\"seedComponents\":[]},{\"UUID\":\"ed8c1409-c8d2-4357-9e11-10accd8120e6\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"5\",\"seedComponents\":[]}]}"
           },
@@ -58,7 +81,14 @@
                 "checkoutPaymentLink" : "{!Checkout.PaymentLink}",
                 "checkoutSessionError" : "{!Checkout.SessionError}",
                 "clientErrors" : true,
-                "dxpStyle" : { },
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
                 "integrationErrors" : true,
                 "sessionErrors" : true,
                 "typeCheckoutFailure" : true,
@@ -72,7 +102,22 @@
               "id" : "1d2d126f-27bf-4ace-93d0-aad7977b32b3",
               "type" : "component"
             }, {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "0.5px"
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
+              },
               "children" : [ {
                 "children" : [ {
                   "attributes" : {
@@ -89,9 +134,10 @@
                         "text" : "Contact Information",
                         "textAlign" : "left",
                         "textColor" : "rgb(23, 171, 62)",
-                        "textDecoration" : "{\"bold\": true}",
+                        "textDecoration" : "{\"bold\":true}",
                         "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-medium\"}"
                       },
+                      "customCssClasses" : "checkout-heading",
                       "definition" : "dxp_base:textBlock",
                       "id" : "6983ac04-7a9e-4b5d-8a25-dd6d33af1ac6",
                       "type" : "component"
@@ -172,6 +218,7 @@
                         "textDecoration" : "{\"bold\": true}",
                         "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-medium\"}"
                       },
+                      "customCssClasses" : "checkout-heading",
                       "definition" : "dxp_base:textBlock",
                       "id" : "a0d807ed-41f0-4242-b16b-b5ae647ecbef",
                       "type" : "component"
@@ -261,6 +308,7 @@
                         "textDecoration" : "{\"bold\": true}",
                         "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-medium\"}"
                       },
+                      "customCssClasses" : "checkout-heading",
                       "definition" : "dxp_base:textBlock",
                       "id" : "96a1ce95-ac17-4fd5-986e-3c0d527fed9c",
                       "type" : "component"
@@ -337,6 +385,7 @@
                         "textDecoration" : "{\"bold\": true}",
                         "textDisplayInfo" : "{\"headingTag\": \"h2\", \"textStyle\": \"heading-medium\"}"
                       },
+                      "customCssClasses" : "checkout-heading",
                       "definition" : "dxp_base:textBlock",
                       "id" : "ed1dc84d-3485-40a0-8873-eaf84b3dff36",
                       "type" : "component"
@@ -414,7 +463,20 @@
             "children" : [ {
               "attributes" : {
                 "discountAmountTextSize" : "small",
-                "dxpStyle" : { },
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "0px"
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
                 "originalTextSize" : "small",
                 "shippingTextSize" : "small",
                 "showDiscountAmount" : true,
@@ -452,7 +514,7 @@
                         "textDecoration" : "{\"bold\": true}",
                         "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h2\"}"
                       },
-                      "customCssClasses" : "Order-details-checkout",
+                      "customCssClasses" : "Order-details-checkout checkout-heading",
                       "definition" : "dxp_base:textBlock",
                       "id" : "95a20059-0e9d-465b-a68c-a4b3a99bcfe6",
                       "type" : "component"
@@ -711,8 +773,8 @@
                     "dxpStyle" : {
                       "margin" : {
                         "bottom" : "",
-                        "left" : "2rem",
-                        "right" : "4rem",
+                        "left" : "1.5rem",
+                        "right" : "1.5rem",
                         "top" : ""
                       },
                       "padding" : {
@@ -725,7 +787,7 @@
                     "size" : "large",
                     "text" : "Place Order",
                     "variant" : "primary",
-                    "width" : "standard"
+                    "width" : "stretch"
                   },
                   "customCssClasses" : "place-order-button",
                   "definition" : "commerce_builder:checkoutPlaceOrder",
@@ -812,5 +874,6 @@
     } ],
     "themeLayoutType" : "Inner",
     "viewType" : "current-checkout"
-  }
+  },
+  "urlName" : "checkout"
 }

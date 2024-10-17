@@ -1533,5 +1533,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-atlas"
-  }
+  },
+  "urlName" : "atlas"
 }

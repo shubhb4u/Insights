@@ -124,5 +124,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "my-profile"
-  }
+  },
+  "urlName" : "my-profile"
 }

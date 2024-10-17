@@ -81,5 +81,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "External",
     "viewType" : "login-main"
-  }
+  },
+  "urlName" : "login"
 }

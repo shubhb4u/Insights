@@ -723,5 +723,6 @@
     } ],
     "themeLayoutType" : "Checkout",
     "viewType" : "current-checkout"
-  }
+  },
+  "urlName" : "checkout"
 }

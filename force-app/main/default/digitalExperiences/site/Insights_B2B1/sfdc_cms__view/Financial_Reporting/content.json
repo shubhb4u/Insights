@@ -1671,5 +1671,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-financial-reporting"
-  }
+  },
+  "urlName" : "financial-reporting"
 }

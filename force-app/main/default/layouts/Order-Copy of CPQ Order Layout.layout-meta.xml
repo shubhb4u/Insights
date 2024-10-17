@@ -49,6 +49,10 @@
                 <behavior>Readonly</behavior>
                 <field>Order_created_from_Store_Insights__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Contracted_From_Batch_class_Insights__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

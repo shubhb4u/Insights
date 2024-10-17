@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-data-analytics",
     "urlPrefix" : "data-analytics"
-  }
+  },
+  "urlName" : "data-analytics"
 }

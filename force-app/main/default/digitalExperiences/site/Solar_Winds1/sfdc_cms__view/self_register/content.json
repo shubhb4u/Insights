@@ -85,5 +85,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "External",
     "viewType" : "self-register"
-  }
+  },
+  "urlName" : "register"
 }

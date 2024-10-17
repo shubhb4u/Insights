@@ -3,5 +3,6 @@
   "title" : "Test",
   "contentBody" : {
     "authenticationType" : "AUTHENTICATED"
-  }
+  },
+  "urlName" : "test"
 }

@@ -1208,5 +1208,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "custom-finance"
-  }
+  },
+  "urlName" : "finance"
 }

@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-b2b-featured-products",
     "urlPrefix" : "b2b-featured-products"
-  }
+  },
+  "urlName" : "b2b-featured-products"
 }

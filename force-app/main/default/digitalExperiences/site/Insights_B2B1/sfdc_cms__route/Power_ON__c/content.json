@@ -7,5 +7,6 @@
     "pageAccess" : "UseParent",
     "routeType" : "custom-power-on",
     "urlPrefix" : "power-on"
-  }
+  },
+  "urlName" : "power-on"
 }
