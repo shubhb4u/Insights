@@ -1,4 +1,15 @@
-global class generateContract_Insights implements Database.Batchable<SObject>, Database.Stateful, Schedulable  {
+/*********************************************************************************
+ * Created By:          Shubham Mazumdar
+ * Created Date:        10/18/2024
+ * Purpose:             generateContract_Insights -->> to make the status of the order activated
+             
+ * Modified by:         10/18/2024
+ * Modified Date:
+ * Modification purpose:
+ * Modified changes:
+ ********************************************************************************/
+
+ global class generateContract_Insights implements Database.Batchable<SObject>, Database.Stateful, Schedulable  {
 
     public final List<Id>  quoteIds;
     global Integer recordsProcessed = 0;
@@ -19,11 +30,11 @@ global class generateContract_Insights implements Database.Batchable<SObject>, D
 
         if (!quoteIds.isEmpty()) {
             // Query for the specific Quote records based on the passed IDs
-            String query = 'select id, SBQQ__Contracted__c, SBQQ__Quote__c, Contracted_From_Batch_class_Insights__c, Status from Order where SBQQ__Quote__c in : quoteIds and SBQQ__Contracted__c = false order by createdDate Desc limit 2';
+            String query = 'select id, SBQQ__Contracted__c, SBQQ__Quote__c, Contracted_From_Batch_class_Insights__c, Status from Order where SBQQ__Quote__c in : quoteIds and SBQQ__Contracted__c = false and ActivatedDate = today';
             return Database.getQueryLocator(query);
         } else {
             // If no Quote IDs are passed, run the predefined query
-            String query = 'select id, SBQQ__Contracted__c, SBQQ__Quote__c, Contracted_From_Batch_class_Insights__c, Status from Order where SBQQ__Contracted__c = false and SBQQ__Quote__c != null order by createdDate Desc limit 2';
+            String query = 'select id, SBQQ__Contracted__c, SBQQ__Quote__c, Contracted_From_Batch_class_Insights__c, Status from Order where SBQQ__Contracted__c = false and SBQQ__Quote__c != null and ActivatedDate = today';
             return Database.getQueryLocator(query);
         }
 
@@ -54,10 +65,16 @@ global class generateContract_Insights implements Database.Batchable<SObject>, D
                         System.debug('Successfully updated Order ID: ' + scope[i].Id);
                     }
                 }
-                System.debug('Successfully contracted ' + scope.size() + ' orders.');
+                System.debug('Successfully Ordered --->>>>>>>>>> ' + scope.size() + ' orders.');
+
+                //Delete this class it did not work with even Without sharing parameter !!!!!!!!!!!!!
+                // System.enqueueJob(new enableContractedQueueable_Insights(scope));
+
             } else {
                 System.debug('No orders to process in this batch.');
             }
+
+
         } catch (DmlException e) {
             // Handle DML errors and log them
             System.debug('Error creating orders:-->>>> ' + e.getMessage());

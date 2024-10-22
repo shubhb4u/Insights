@@ -1,3 +1,16 @@
+/*********************************************************************************
+ * Created By:          Shubham Mazumdar
+ * Created Date:        10/18/2024
+ * Purpose:             UpdateOrderItemsWithQuoteLine_Insights ->> To link the order items with corresponding parent quote line
+ *                      generateContract_Insights -->> to make the status of the order activated
+             
+ * Modified by:         10/18/2024
+ * Modified Date:
+ * Modification purpose:
+ * Modified changes:
+ ********************************************************************************/
+
+
 public class UpdateOrderItemsWithQuoteLine_Insights implements Queueable {
 
     private Map<Id, Order> orderMap;
@@ -48,9 +61,10 @@ public class UpdateOrderItemsWithQuoteLine_Insights implements Queueable {
                     if (relatedQuoteLines != null) {
                         for (OrderItem item : ord.OrderItems) {
                             for (SBQQ__QuoteLine__c quoteLine : relatedQuoteLines) {
-                                if (quoteLine.SBQQ__Product__c == item.Product2Id && item.ProductSellingModelId != null) {
+                                if (quoteLine.SBQQ__Product__c == item.Product2Id ) {
                                     // Update the OrderItem with the corresponding QuoteLine ID
                                     item.SBQQ__QuoteLine__c = quoteLine.Id;
+                                    item.SBQQ__ContractAction__c = 'New';
                                     orderItemsToUpdate.add(item);
                                 }
                             }

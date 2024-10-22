@@ -1,4 +1,17 @@
-public without sharing class orderItemsHandler_Insights {
+/*********************************************************************************
+ * Created By:          Shubham Mazumdar
+ * Created Date:        10/18/2024
+ * Purpose:             createQuotefromOrder (After Trigger)  -->> To create Quote and quote lines from the order created by B2B store.
+                        updateSubscriptionProductsInBeforeTrigger (Before Trigger) -->> To update the subscription fields in order Items for contract generation
+                        UpdateOrderWithQuoteId_Insights ->> Calling queueable apex to update the order with the Quote created in this class
+ * Modified by:         Shubham Mazumdar
+ * Modified Date:       10/18/2024
+ * Modification purpose:
+ * Modified changes:
+ ********************************************************************************/
+
+
+public with sharing class orderItemsHandler_Insights {
     public static void createQuotefromOrder(List<OrderItem> orderItemList) {
         try {
             Set<Id> orderIds = new Set<Id>();
@@ -123,7 +136,7 @@ public without sharing class orderItemsHandler_Insights {
                                 System.debug('Enqueuing job to update orders with quote IDs');
                                 
                                 // Enqueue the queueable class to update orders with the parent quote ID
-                                System.enqueueJob(new UpdateOrderWithQuoteId_Insights(orderToQuoteMap, newQuoteList, orderMap));
+                                System.enqueueJob(new UpdateOrderWithQuoteId_Insights(orderToQuoteMap, orderMap));
                                 
                                 
                             }
@@ -169,20 +182,34 @@ public without sharing class orderItemsHandler_Insights {
         if(!orderItList.isEmpty()){
             
             for(orderItem ordit: orderItList){
-                
-                if(ordit.PeriodBoundary != null || ordIt.ProductSellingModelId != null || ordit.BillingFrequency2 != null || ordit.PricingTermCount != null){
-                    system.debug('ordit.Product2Id' +ordit.Product2Id);
 
-                    //Remove AOQL inside for loop !!!  Not recommended
-                    Product2 pd = [Select id,SBQQ__SubscriptionType__c,SBQQ__SubscriptionTerm__c,SBQQ__SubscriptionPricing__c
-                                   from product2 where id =: ordit.Product2Id];
-                    ordit.SBQQ__SubscriptionTerm__c = ordit.PricingTermCount;
-                    ordit.SBQQ__SubscriptionType__c = pd.SBQQ__SubscriptionType__c;
-                    ordit.SBQQ__ProductSubscriptionType__c = pd.SBQQ__SubscriptionType__c;
-                    ordit.SBQQ__SubscriptionPricing__c = pd.SBQQ__SubscriptionPricing__c;
-                    ordit.SBQQ__Status__c = 'Activated';
+                System.debug('orderIt is ---->>>>>>>>' + ordit);
+
+                if(ordit.Type != 'Delivery Charge' || ordit.Description != 'Ground Shipping'){
+
+                    if(ordit.PeriodBoundary != null || ordIt.ProductSellingModelId != null || ordit.BillingFrequency2 != null || ordit.PricingTermCount != null){
+                        system.debug('ordit.Product2Id' +ordit.Product2Id);
+    
+                        //Remove AOQL inside for loop !!!  Not recommended
+                        Product2 pd = [Select id,SBQQ__SubscriptionType__c,SBQQ__SubscriptionTerm__c,SBQQ__SubscriptionPricing__c
+                                       from product2 where id =: ordit.Product2Id];
+                        ordit.SBQQ__SubscriptionTerm__c = ordit.PricingTermCount;
+                        ordit.SBQQ__SubscriptionType__c = pd.SBQQ__SubscriptionType__c;
+                        ordit.SBQQ__ProductSubscriptionType__c = pd.SBQQ__SubscriptionType__c;
+                        ordit.SBQQ__SubscriptionPricing__c = pd.SBQQ__SubscriptionPricing__c;
+                        ordit.SBQQ__Status__c = 'Activated';
+                    }
+                        
+                    else {
+                        ordit.PricebookEntryId = getPricebookEntryId(ordit.Product2Id, getPricebookId() );
+                        ordit.SBQQ__Status__c = 'Activated';
+                        ordit.SBQQ__QuotedQuantity__c =  ordit.Quantity;
+                        ordit.SBQQ__OrderedQuantity__c = ordit.Quantity;
+                        ordit.SBQQ__ContractAction__c = 'New';
+                    }
+
                 }
-                
+
             }
         }
     }

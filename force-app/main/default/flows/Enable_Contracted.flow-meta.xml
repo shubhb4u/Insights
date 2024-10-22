@@ -79,11 +79,11 @@
         </filters>
         <object>Order</object>
         <schedule>
-            <frequency>Once</frequency>
+            <frequency>Daily</frequency>
             <startDate>2024-10-16</startDate>
             <startTime>11:54:00.000Z</startTime>
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>

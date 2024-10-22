@@ -167,11 +167,6 @@
         <isRequired>false</isRequired>
     </availableFields>
     <availableFields>
-        <field>SBQQ__SubscriptionType__c</field>
-        <isFieldManaged>false</isFieldManaged>
-        <isRequired>false</isRequired>
-    </availableFields>
-    <availableFields>
         <field>SBQQ__TaxCode__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
@@ -199,6 +194,11 @@
     </displayedFields>
     <displayedFields>
         <field>SBQQ__ProductName__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__SubscriptionType__c</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
     </displayedFields>

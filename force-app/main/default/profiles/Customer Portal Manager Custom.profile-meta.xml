@@ -416,6 +416,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>enableContractedQueueable_Insights</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>generateContract_Insights</apexClass>
         <enabled>false</enabled>
     </classAccesses>

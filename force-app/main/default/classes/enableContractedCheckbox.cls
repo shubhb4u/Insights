@@ -1,3 +1,13 @@
+/*********************************************************************************
+ * Created By:          Shubham Mazumdar
+ * Created Date:        10/18/2024
+ * Purpose:             enableContractedCheckbox -->> Scheduled this batch job to run every 5 mins to enable the Contracted checkbox on on order to generate contracts
+ * Modified by:         Shubham Mazumdar
+ * Modified Date:       10/18/2024
+ * Modification purpose:
+ * Modified changes:
+ ********************************************************************************/
+
 global class enableContractedCheckbox implements Database.Batchable<SObject>, Database.Stateful, Schedulable  {
 
     public final List<Id>  quoteIds;
@@ -5,6 +15,7 @@ global class enableContractedCheckbox implements Database.Batchable<SObject>, Da
 
 
     public enableContractedCheckbox(){
+        this.quoteIds = new List<Id>();
         System.debug('Default constructor for contracting class executed -->>>> ');
     }
 
@@ -53,7 +64,7 @@ global class enableContractedCheckbox implements Database.Batchable<SObject>, Da
                         System.debug('Successfully updated Order ID: ' + scope[i].Id);
                     }
                 }
-                System.debug('Successfully contracted ' + scope.size() + ' orders.');
+                System.debug('Successfully contracted ---->>>>>>>>>>>>>>>>>>>>>>>  ' + scope.size() + ' orders.');
             } else {
                 System.debug('No orders to process in this batch.');
             }
@@ -66,17 +77,17 @@ global class enableContractedCheckbox implements Database.Batchable<SObject>, Da
     // Finish method to handle post-processing and call another batch class
     global void finish(Database.BatchableContext bc) {
         // Get the ID of the AsyncApexJob representing this batch job
-        AsyncApexJob a = [SELECT Id, Status, NumberOfErrors, JobItemsProcessed,
-                           TotalJobItems, CreatedBy.Email
-                           FROM AsyncApexJob WHERE Id = :BC.getJobId()];
+        // AsyncApexJob a = [SELECT Id, Status, NumberOfErrors, JobItemsProcessed,
+        //                    TotalJobItems, CreatedBy.Email
+        //                    FROM AsyncApexJob WHERE Id = :BC.getJobId()];
 
-        // Send an email to the Apex job's submitter notifying of job completion
-        Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-        String[] toAddresses = new String[] {a.CreatedBy.Email};
-        mail.setToAddresses(toAddresses);
-        mail.setSubject('enableContractedCheckbox ' + a.Status);
-        mail.setPlainTextBody('The batch Apex job processed ' + a.TotalJobItems + ' batches with ' + a.NumberOfErrors + ' failures.');
-        Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
+        // // Send an email to the Apex job's submitter notifying of job completion
+        // Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+        // String[] toAddresses = new String[] {a.CreatedBy.Email};
+        // mail.setToAddresses(toAddresses);
+        // mail.setSubject('enableContractedCheckbox ' + a.Status);
+        // mail.setPlainTextBody('The batch Apex job processed ' + a.TotalJobItems + ' batches with ' + a.NumberOfErrors + ' failures.');
+        // Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
 
     }
 
